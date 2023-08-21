@@ -153,11 +153,20 @@ function read_jsonfile(path, defval) {
 	return rv;
 }
 
-function read_cachefile(file, reader) {
+function read_cachefile(file, reader, refresh) {
 	let euid = getuid(),
+	    now = time(),
 	    fstat = stat(file),
+	    mtime = fstat?.mtime,
 	    fuid = fstat?.uid,
 	    perm = fstat?.perm;
+
+	let outdate = 60;
+	if (refresh)
+		outdate = 5;
+
+	if (mtime == null || mtime > now || mtime + outdate < now)
+	    return null;
 
 	if (euid != fuid ||
 	    perm?.group_read || perm?.group_write || perm?.group_exec ||
@@ -342,7 +351,7 @@ function hash_filelist(files) {
 	return hashval;
 }
 
-function build_pagetree() {
+function build_pagetree(refresh) {
 	let tree = { action: { type: 'firstchild' } };
 
 	let schema = {
@@ -364,7 +373,7 @@ function build_pagetree() {
 	if (indexcache) {
 		cachefile = sprintf('%s.%08x.json', indexcache, hash_filelist(files));
 
-		let res = read_cachefile(cachefile, read_jsonfile);
+		let res = read_cachefile(cachefile, read_jsonfile, refresh);
 
 		if (res)
 			return res;
@@ -435,8 +444,8 @@ function apply_tree_acls(node, acl) {
 	}
 }
 
-function menu_json(acl) {
-	tree ??= build_pagetree();
+function menu_json(acl, refresh) {
+	tree ??= build_pagetree(refresh);
 
 	if (acl)
 		apply_tree_acls(tree, acl);
@@ -895,9 +904,14 @@ dispatch = function(_http, path) {
 	});
 
 	try {
-		let menu = menu_json();
+		let refresh = false;
 
 		path ??= map(match(http.getenv('PATH_INFO'), /[^\/]+/g), m => urldecode(m[0]));
+
+		if (path && length(path) == 2 && path[0] == 'admin' && path[1] == 'menu')
+			refresh = true;
+
+		let menu = menu_json(false, refresh);
 
 		let resolved = resolve_page(menu, path);
 
