@@ -791,7 +791,7 @@ local function resolve_firstchild(node, sacl, login_allowed, ctx)
 			local cacl = (type(child.depends) == "table") and child.depends.acl or nil
 			local login = login_allowed or (type(child.auth) == "table" and child.auth.login)
 			if login or check_acl_depends(cacl, sacl and sacl["access-group"]) ~= nil then
-				if child.title and type(child.action) == "table" then
+				if (child.title or child.order == 0) and type(child.action) == "table" then
 					local child_ctx = ctx_append(util.clone(ctx, true), name, child)
 					if child.action.type == "firstchild" then
 						if not candidate or node_weight(candidate) > node_weight(child) then
