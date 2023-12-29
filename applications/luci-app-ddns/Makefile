@@ -8,6 +8,8 @@
 
 include $(TOPDIR)/rules.mk
 
+PKG_FLAGS:=hold
+
 PKG_LICENSE:=Apache-2.0
 PKG_MAINTAINER:=Ansuel Smith <ansuelsmth@gmail.com>
 
