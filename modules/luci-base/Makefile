@@ -4,6 +4,8 @@
 # This is free software, licensed under the Apache License, Version 2.0 .
 #
 
+# DUMMY_VERSION=20231229 (force refresh browser cache)
+
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-base
