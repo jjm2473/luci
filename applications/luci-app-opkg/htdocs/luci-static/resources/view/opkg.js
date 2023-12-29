@@ -261,6 +261,7 @@ function display(pattern)
 			btn = E('div', {
 				'class': 'btn cbi-button-positive',
 				'data-package': name,
+				'data-upgrade': 'true',
 				'click': handleInstall
 			}, _('Upgrade…'));
 		}
@@ -290,6 +291,7 @@ function display(pattern)
 				btn = E('div', {
 					'class': 'btn cbi-button-positive',
 					'data-package': name,
+					'data-upgrade': 'true',
 					'click': handleInstall
 				}, _('Upgrade…'));
 			else
@@ -660,6 +662,7 @@ function handleReset(ev)
 function handleInstall(ev)
 {
 	var name = ev.target.getAttribute('data-package'),
+		upgrade = ev.target.hasAttribute('data-upgrade'),
 	    pkg = packages.available.pkgs[name],
 	    depcache = {},
 	    size;
@@ -799,7 +802,7 @@ function handleInstall(ev)
 			}, _('Cancel')),
 			' ',
 			E('div', {
-				'data-command': 'install',
+				'data-command': upgrade ? 'upgrade' : 'install',
 				'data-package': name,
 				'class': 'btn cbi-button-action',
 				'click': handleOpkg,

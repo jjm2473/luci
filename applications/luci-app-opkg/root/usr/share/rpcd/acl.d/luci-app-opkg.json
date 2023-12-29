@@ -18,6 +18,7 @@
 		"write": {
 			"file": {
 				"/usr/libexec/opkg-call install *": [ "exec" ],
+				"/usr/libexec/opkg-call upgrade *": [ "exec" ],
 				"/usr/libexec/opkg-call remove *": [ "exec" ],
 				"/usr/libexec/opkg-call update *": [ "exec" ],
 				"/etc/opkg.conf": [ "write" ],

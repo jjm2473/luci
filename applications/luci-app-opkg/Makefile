@@ -6,6 +6,8 @@
 
 include $(TOPDIR)/rules.mk
 
+PKG_FLAGS:=hold
+
 LUCI_TITLE:=OPKG package management application
 LUCI_DEPENDS:=+opkg
 
