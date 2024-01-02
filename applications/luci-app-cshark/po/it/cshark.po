@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-26 08:48+0000\n"
-"Last-Translator: Daniele Luisetto <daniele.luisetto1@gmail.com>\n"
+"PO-Revision-Date: 2023-09-10 12:33+0000\n"
+"Last-Translator: Random <random-r@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationscshark/it/>\n"
 "Language: it\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: applications/luci-app-cshark/luasrc/view/cshark.htm:24
 msgid "Actions"
@@ -28,20 +28,20 @@ msgstr "Tempo di cattura"
 
 #: applications/luci-app-cshark/luasrc/view/cshark.htm:284
 msgid "Clear list"
-msgstr ""
+msgstr "Pulisci lista"
 
 #: applications/luci-app-cshark/luasrc/controller/cshark.lua:19
 #: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua:17
 msgid "CloudShark"
-msgstr ""
+msgstr "CloudShark"
 
 #: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua:27
 msgid "CloudShark API token"
-msgstr ""
+msgstr "Token API CloudShark"
 
 #: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua:26
 msgid "CloudShark URL"
-msgstr ""
+msgstr "URL CloudShark"
 
 #: applications/luci-app-cshark/luasrc/view/cshark.htm:23
 #: applications/luci-app-cshark/luasrc/view/cshark.htm:51
