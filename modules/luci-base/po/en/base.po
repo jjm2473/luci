@@ -9162,6 +9162,10 @@ msgstr ""
 msgid "Use as root filesystem (/)"
 msgstr ""
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:294
+msgid "Use as sandbox (/overlay)"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:34
 msgid "Use broadcast flag"
 msgstr ""
