@@ -8514,3 +8514,15 @@ msgstr ""
 
 msgid "Target hostname"
 msgstr ""
+
+msgid "Essential mount point"
+msgstr ""
+
+msgid "Wait for this mount point ready before running other applications (set timeout in \"Global Settings\")"
+msgstr ""
+
+msgid "Essential mount point timeout"
+msgstr ""
+
+msgid "Timeout for all \"Essential mount point\" (in seconds, default 5s)"
+msgstr ""

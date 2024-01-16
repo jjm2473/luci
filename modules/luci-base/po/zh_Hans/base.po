@@ -8775,6 +8775,18 @@ msgstr "\"<code>3,192.168.2.1</code>\"表示通告不同的网关给客户端。
 msgid "Note: Do not use \"odhcpd\" or network interface (such as \"lan\", \"wan\", \"wan6\", etc.) as name when adding tags, conflicts will occur. It is recommended to prefix the name with \"t_\" to avoid such conflicts."
 msgstr "注意：添加标签时请勿将“odhcpd”或网络接口（例如“lan”，“wan”，“wan6”等）作为名称，将产生冲突。建议在名称前面加上前缀“t_”以杜绝此类冲突。"
 
+msgid "Essential mount point"
+msgstr "关键挂载点"
+
+msgid "Wait for this mount point ready before running other applications (set timeout in \"Global Settings\")"
+msgstr "在运行其他应用程序前等待此挂载点就绪（在“全局设置”里设置超时）"
+
+msgid "Essential mount point timeout"
+msgstr "关键挂载点超时"
+
+msgid "Timeout for all \"Essential mount point\" (in seconds, default 5s)"
+msgstr "所有“关键挂载点”的超时时间（单位秒，默认5秒）"
+
 #~ msgid "Enable promiscious mode"
 #~ msgstr "启用混杂模式"
 
