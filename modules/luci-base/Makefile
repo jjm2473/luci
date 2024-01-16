@@ -4,7 +4,7 @@
 # This is free software, licensed under the Apache License, Version 2.0 .
 #
 
-# DUMMY_VERSION=20240109 (force refresh browser cache)
+# DUMMY_VERSION=20240116 (force refresh browser cache)
 
 include $(TOPDIR)/rules.mk
 
