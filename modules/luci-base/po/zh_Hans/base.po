@@ -10517,6 +10517,18 @@ msgstr "是"
 msgid "« Back"
 msgstr "« 后退"
 
+msgid "Essential mount point"
+msgstr "关键挂载点"
+
+msgid "Wait for this mount point ready before running other applications (set timeout in \"Global Settings\")"
+msgstr "在运行其他应用程序前等待此挂载点就绪（在“全局设置”里设置超时）"
+
+msgid "Essential mount point timeout"
+msgstr "关键挂载点超时"
+
+msgid "Timeout for all \"Essential mount point\" (in seconds, default 5s)"
+msgstr "所有“关键挂载点”的超时时间（单位秒，默认5秒）"
+
 #~ msgid "List of IP sets to populate with the specified domain IPs."
 #~ msgstr "要用指定域 IP 填充的 IP 集列表。"
 

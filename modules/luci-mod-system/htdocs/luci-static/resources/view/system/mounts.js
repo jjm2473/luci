@@ -179,6 +179,11 @@ return view.extend({
 		o.default = o.disabled;
 		o.rmempty = false;
 
+		o = s.option(form.Value, 'essential_timeout', _('Essential mount point timeout'), _('Timeout for all "Essential mount point" (in seconds, default 5s)'));
+        o.datatype = 'and(uinteger,max(60))';
+		o.value("5");
+		o.value("10");
+		o.value("30");
 
 		// Mount status table
 		o = s.option(form.DummyValue, '_mtab');
@@ -339,6 +344,7 @@ return view.extend({
 
 		s.taboption('advanced', form.Flag, 'enabled_fsck', _('Run filesystem check'), _('Run a filesystem check before mounting the device')).modalonly = true;;
 
+		s.taboption('advanced', form.Flag, 'essential', _('Essential mount point'), _('Wait for this mount point ready before running other applications (set timeout in "Global Settings")'));
 
 		// Swaps
 		s = m.section(form.GridSection, 'swap', _('SWAP'), _('If your physical memory is insufficient unused data can be temporarily swapped to a swap-device resulting in a higher amount of usable <abbr title="Random Access Memory">RAM</abbr>. Be aware that swapping data is a very slow process as the swap-device cannot be accessed with the high datarates of the <abbr title="Random Access Memory">RAM</abbr>.'));
