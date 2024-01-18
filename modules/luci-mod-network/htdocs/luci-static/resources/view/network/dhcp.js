@@ -877,7 +877,7 @@ return view.extend({
 
 		so = ss.option(form.DynamicList, 'tag',
 			_('Tag'),
-			_('Assign new, freeform tags to this entry.'));
+			_('Assign tags to this entry.'));
 
 		Object.values(L.uci.sections('dhcp', 'tag')).forEach(function(val) {
 			so.value(val['.name']);
