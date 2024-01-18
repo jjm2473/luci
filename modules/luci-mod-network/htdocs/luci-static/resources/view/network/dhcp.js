@@ -637,6 +637,10 @@ return view.extend({
 			_('Tag'),
 			_('Assign new, freeform tags to this entry.'));
 
+		Object.values(L.uci.sections('dhcp', 'tag')).forEach(function(val) {
+			so.value(val['.name']);
+		});
+
 		o = s.taboption('leases', CBILeaseStatus, '__status__');
 
 		if (has_dhcpv6)
