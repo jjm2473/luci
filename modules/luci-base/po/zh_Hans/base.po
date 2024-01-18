@@ -10537,6 +10537,15 @@ msgstr "关键挂载点超时"
 msgid "Timeout for all \"Essential mount point\" (in seconds, default 5s)"
 msgstr "所有“关键挂载点”的超时时间（单位秒，默认5秒）"
 
+msgid "Use tags to advertise different gateway and/or DNS to different hosts. Hosts can be associated with tags in \"%s\" tab"
+msgstr "使用标签对不同主机通告不同的网关和/或DNS，在“%s”选项卡中可将主机关联到标签"
+
+msgid "\"<code>3,192.168.2.1</code>\" which advertises different gateway to clients."
+msgstr "\"<code>3,192.168.2.1</code>\"表示通告不同的网关给客户端。"
+
+msgid "Note: Do not use \"odhcpd\" or network interface (such as \"lan\", \"wan\", \"wan6\", etc.) as name when adding tags, conflicts will occur. It is recommended to prefix the name with \"t_\" to avoid such conflicts."
+msgstr "注意：添加标签时请勿将“odhcpd”或网络接口（例如“lan”，“wan”，“wan6”等）作为名称，将产生冲突。建议在名称前面加上前缀“t_”以杜绝此类冲突。"
+
 #~ msgid "List of IP sets to populate with the specified domain IPs."
 #~ msgstr "要用指定域 IP 填充的 IP 集列表。"
 
