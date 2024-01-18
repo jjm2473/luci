@@ -874,6 +874,10 @@ return view.extend({
 
 		so = ss.option(form.Value, 'hostid', _('IPv6 suffix (hex)'));
 
+		so = ss.option(form.DynamicList, 'tag',
+			_('Tag'),
+			_('Assign new, freeform tags to this entry.'));
+
 		o = s.taboption('leases', CBILeaseStatus, '__status__');
 
 		if (has_dhcpv6)
