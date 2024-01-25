@@ -649,7 +649,7 @@ return view.extend({
 
 		o = s.taboption('tags', form.SectionValue, '__tags__', form.GridSection, 'tag', null,
 			_('Use tags to advertise different gateway and/or DNS to different hosts. Hosts can be associated with tags in "%s" tab').format(_('Static Leases')) + '<br />' +
-			_('DHCP Options') + ': ' + _('Define additional DHCP options,  for example "<code>6,192.168.2.1,192.168.2.2</code>" which advertises different DNS servers to clients.') +
+			_('DHCP-Options') + ': ' + _('Define additional DHCP options,  for example "<code>6,192.168.2.1,192.168.2.2</code>" which advertises different DNS servers to clients.') +
 			_('"<code>3,192.168.2.1</code>" which advertises different gateway to clients.') + '<br />' +
 			_('Note: Do not use "odhcpd" or network interface (such as "lan", "wan", "wan6", etc.) as name when adding tags, conflicts will occur. It is recommended to prefix the name with "t_" to avoid such conflicts.'));
 
@@ -659,7 +659,7 @@ return view.extend({
 		ss.anonymous = false;
 		ss.sortable = true;
 
-		so = ss.option(form.DynamicList, 'dhcp_option', _('DHCP Options'));
+		so = ss.option(form.DynamicList, 'dhcp_option', _('DHCP-Options'));
 
 		return m.render().then(function(mapEl) {
 			poll.add(function() {
