@@ -9,6 +9,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-base
+PKG_FLAGS:=hold
 
 LUCI_TYPE:=mod
 LUCI_BASENAME:=base

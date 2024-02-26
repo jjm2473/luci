@@ -6,6 +6,8 @@
 
 include $(TOPDIR)/rules.mk
 
+PKG_FLAGS:=hold
+
 LUCI_TITLE:=Universal Plug & Play configuration module
 LUCI_DEPENDS:=+miniupnpd
 
