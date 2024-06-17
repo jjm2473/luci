@@ -1,16 +1,28 @@
 'use strict';
 'require view';
+'require fs';
 'require form';
 'require network';
 'require tools.widgets as widgets';
 
 return view.extend({
 	load: function() {
-		return network.getDevices();
+		return Promise.all([
+			network.getDevices(),
+			fs.lines('/etc/iproute2/rt_tables')
+		]);
 	},
 
-	render: function(netdevs) {
-		var m, s, o;
+	render: function(data) {
+		var netdevs = data[0],
+		    m, s, o;
+
+		var rtTables = data[1].map(function(l) {
+			var m = l.trim().match(/^(\d+)\s+(\S+)$/);
+			return m ? [ +m[1], m[2] ] : null;
+		}).filter(function(e) {
+			return e && e[0] > 0;
+		});
 
 		m = new form.Map('network', _('Routes'), _('Routes specify over which interface and gateway a certain host or network can be reached.'));
 		m.tabbed = true;
@@ -76,14 +88,11 @@ return view.extend({
 			o.modalonly = true;
 
 			o = s.taboption('advanced', form.Value, 'table', _('Route table'));
-			o.value('local', 'local (255)');
-			o.value('main', 'main (254)');
-			o.value('default', 'default (253)');
-			o.rmempty = true;
-			o.modalonly = true;
-			o.cfgvalue = function(section_id) {
-				var cfgvalue = this.map.data.get('network', section_id, 'table');
-				return cfgvalue || 'main';
+			o.datatype = 'or(uinteger, string)';
+			for (var j = 0; j < rtTables.length; j++)
+				o.value(rtTables[j][1], '%s (%d)'.format(rtTables[j][1], rtTables[j][0]));
+			o.textvalue = function(section_id) {
+				return this.cfgvalue(section_id) || 'main';
 			};
 
 			o = s.taboption('advanced', form.Value, 'source', _('Source Address'));
@@ -101,6 +110,84 @@ return view.extend({
 			o = s.taboption('advanced', form.Flag, 'onlink', _('On-Link route'));
 			o.default = o.disabled;
 			o.rmempty = true;
+		}
+
+		for (var family = 4; family <= 6; family += 2) {
+			s = m.section(form.GridSection, (family == 6) ? 'rule6' : 'rule', (family == 6) ? _('IPv6 Rules') : _('IPv4 Rules'));
+			s.anonymous = true;
+			s.addremove = true;
+			s.sortable = true;
+			s.nodescriptions = true;
+
+			s.tab('general', _('General Settings'));
+			s.tab('advanced', _('Advanced Settings'));
+
+			o = s.taboption('general', form.Value, 'priority', _('Priority'), _('Specifies the ordering of the IP rules'));
+			o.datatype = 'uinteger';
+			o.placeholder = 30000;
+			o.textvalue = function(section_id) {
+				return this.cfgvalue(section_id) || E('em', _('auto'));
+			};
+
+			o = s.taboption('general', form.ListValue, 'action', _('Rule type'), _('Specifies the rule target routing action'));
+			o.modalonly = true;
+			o.value('', 'unicast');
+			o.value('unreachable');
+			o.value('prohibit');
+			o.value('blackhole');
+			o.value('throw');
+
+			o = s.taboption('general', widgets.NetworkSelect, 'in', _('Incoming interface'), _('Specifies the incoming logical interface name'));
+			o.loopback = true;
+			o.nocreate = true;
+
+			o = s.taboption('general', form.Value, 'src', _('Source'), _('Specifies the source subnet to match (CIDR notation)'));
+			o.datatype = (family == 6) ? 'cidr6' : 'cidr4';
+			o.placeholder = (family == 6) ? '::/0' : '0.0.0.0/0';
+			o.textvalue = function(section_id) {
+				return this.cfgvalue(section_id) || E('em', _('any'));
+			};
+
+			o = s.taboption('general', widgets.NetworkSelect, 'out', _('Outgoing interface'), _('Specifies the outgoing logical interface name'));
+			o.loopback = true;
+			o.nocreate = true;
+
+			o = s.taboption('general', form.Value, 'dest', _('Destination'), _('Specifies the destination subnet to match (CIDR notation)'));
+			o.datatype = (family == 6) ? 'cidr6' : 'cidr4';
+			o.placeholder = (family == 6) ? '::/0' : '0.0.0.0/0';
+			o.textvalue = function(section_id) {
+				return this.cfgvalue(section_id) || E('em', _('any'));
+			};
+
+			o = s.taboption('general', form.Value, 'lookup', _('Table'), _('The rule target is a table lookup ID: a numeric table index ranging from 0 to 65535 or symbol alias declared in /etc/iproute2/rt_tables. Special aliases local (255), main (254) and default (253) are also valid'));
+			o.datatype = 'or(uinteger, string)';
+			for (var i = 0; i < rtTables.length; i++)
+				o.value(rtTables[i][1], '%s (%d)'.format(rtTables[i][1], rtTables[i][0]));
+
+			o = s.taboption('advanced', form.Value, 'goto', _('Jump to rule'), _('The rule target is a jump to another rule specified by its priority value'));
+			o.modalonly = true;
+			o.datatype = 'uinteger';
+			o.placeholder = 80000;
+
+			o = s.taboption('advanced', form.Value, 'mark', _('Firewall mark'), _('Specifies the fwmark and optionally its mask to match, e.g. 0xFF to match mark 255 or 0x0/0x1 to match any even mark value'));
+			o.modalonly = true;
+			o.datatype = 'string';
+			o.placeholder = '0x1/0xf';
+
+			o = s.taboption('advanced', form.Value, 'tos', _('Type of service'), _('Specifies the TOS value to match in IP headers'));
+			o.modalonly = true;
+			o.datatype = 'uinteger';
+			o.placeholder = 10;
+
+			o = s.taboption('advanced', form.Value, 'suppress_prefixlength', _('Prefix suppressor'), _('Reject routing decisions that have a prefix length less than or equal to the specified value'));
+			o.modalonly = true;
+			o.datatype = (family == 6) ? 'ip6prefix' : 'ip4prefix';
+			o.placeholder = (family == 6) ? 64 : 24;
+
+			o = s.taboption('advanced', form.Flag, 'invert', _('Invert match'), _('If set, the meaning of the match options is inverted'));
+			o.modalonly = true;
+			o.default = o.disabled;
+
 		}
 
 		return m.render();
