@@ -815,7 +815,7 @@ msgstr "允许系统功能探测"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:31
 msgid "Allow the <em>root</em> user to login with password"
-msgstr ""
+msgstr "允许 <em>root</em> 用户凭密码登录"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:620
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:788
@@ -4956,6 +4956,10 @@ msgid ""
 "R0KH. This is also the list of authorized R1KHs in the MD that can request "
 "PMK-R1 keys."
 msgstr ""
+"同一移动域中的 R1KH 列表。<br />格式：MAC 地址，R1KH-ID（包含冒号的 6 个八位"
+"字节），128 位密钥（十六进制字符串）。<br />当从 R0KH 发送 PMK-R1 键时，此列"
+"表用于将 R1KH-ID 映射到目标 MAC 地址。这也是可以请求 PMK-R1 键的 MD 中授权的 "
+"R1KH 的列表。"
 
 #: protocols/luci-proto-pppossh/htdocs/luci-static/resources/protocol/pppossh.js:82
 msgid "List of SSH key files for auth"
@@ -5146,11 +5150,11 @@ msgstr "隧道将要被添加（桥接）到的逻辑网络（可选）。"
 #: modules/luci-base/luasrc/view/sysauth.htm:38
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/sysauth.htm:41
 msgid "Login"
-msgstr ""
+msgstr "登录"
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:81
 msgid "Logout"
-msgstr ""
+msgstr "退出"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:682
 msgid "Loose filtering"
@@ -7959,7 +7963,7 @@ msgstr "协助无线客户端在多个 AP 之间漫游的设置：802.11r、 802
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:959
 msgid "Setup routes for proxied IPv6 neighbours."
-msgstr ""
+msgstr "设置已代理 IPv6 邻居的路由。"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/50_dsl.js:31
 msgid "Severely Errored Seconds (SES)"
@@ -9407,7 +9411,7 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2674
 msgid "To login…"
-msgstr ""
+msgstr "去登录…"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:400
 msgid ""
