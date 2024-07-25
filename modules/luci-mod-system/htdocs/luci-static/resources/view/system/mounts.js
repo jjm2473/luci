@@ -342,8 +342,6 @@ return view.extend({
 		o.textvalue = function(section_id) { return this.cfgvalue(section_id) || 'defaults' };
 		o.placeholder = 'defaults';
 
-		s.taboption('advanced', form.Flag, 'enabled_fsck', _('Run filesystem check'), _('Run a filesystem check before mounting the device')).modalonly = true;;
-
 		s.taboption('advanced', form.Flag, 'essential', _('Essential mount point'), _('Wait for this mount point ready before running other applications (set timeout in "Global Settings")'));
 
 		// Swaps

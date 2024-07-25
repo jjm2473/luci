@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-14 20:08+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2024-05-08 06:32+0000\n"
+"Last-Translator: David <dawin@users.noreply.hosted.weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsdockerman/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.5.4-rc\n"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:604
 msgid "A list of kernel capabilities to add to the container"
@@ -44,7 +44,7 @@ msgstr ""
 "Hier wird ein Überblick der relevanten Daten angezeigt mit denen der LuCI "
 "Docker Client verbunden ist."
 
-#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:27
+#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:29
 msgid "Api Version"
 msgstr "API-Version"
 
@@ -52,7 +52,7 @@ msgstr "API-Version"
 msgid "Auto create macvlan interface in Openwrt"
 msgstr "Automatische Erstellung einer macvlan-Schnittstelle in Openwrt"
 
-#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:64
+#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:66
 msgid "Available"
 msgstr "Verfügbar"
 
@@ -134,7 +134,7 @@ msgstr ""
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:565
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:611
-#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:28
+#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:30
 msgid "CPUs"
 msgstr "CPUs"
 
@@ -241,7 +241,7 @@ msgstr "DNS"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:56
 msgid "Debug"
-msgstr "Debuggen"
+msgstr "Debug"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:41
 msgid "Default bridge"
@@ -302,11 +302,11 @@ msgid "Docker Image"
 msgstr "Docker Abbild"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:36
-#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:30
+#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:32
 msgid "Docker Root Dir"
 msgstr "Docker-Stammverzeichnis"
 
-#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:26
+#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:28
 msgid "Docker Version"
 msgstr "Docker-Version"
 
@@ -469,13 +469,13 @@ msgstr "Importieren"
 msgid "Import Image"
 msgstr "Abbild importieren"
 
-#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:31
+#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:33
 msgid "Index Server Address"
 msgstr "Adresse des Indexservers"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:57
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:406
-#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:35
+#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:37
 #: applications/luci-app-dockerman/luasrc/view/dockerman/container.htm:3
 msgid "Info"
 msgstr "Info"
@@ -542,7 +542,7 @@ msgstr "Last"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:54
 msgid "Log Level"
-msgstr "Protokollebene"
+msgstr "Protokollierungslevel"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:646
 msgid "Log driver options"
@@ -728,7 +728,7 @@ msgid "Pull Image"
 msgstr "Abbild ziehen"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:48
-#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:32
+#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:34
 msgid "Registry Mirrors"
 msgstr "Registry-Spiegel"
 
@@ -918,7 +918,7 @@ msgstr "Tmpfs"
 msgid "Tmpfs(--tmpfs)"
 msgstr "Tmpfs(--tmpfs)"
 
-#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:29
+#: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:31
 msgid "Total Memory"
 msgstr "Gesamtspeicher"
 
@@ -929,7 +929,7 @@ msgstr "UID"
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:289
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:328
 msgid "Update"
-msgstr "Aktualisieren"
+msgstr "Aktualisierung"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:254
 msgid "Upgrade"

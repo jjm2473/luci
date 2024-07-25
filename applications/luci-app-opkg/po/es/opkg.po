@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:41+0200\n"
-"PO-Revision-Date: 2022-08-28 23:17+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2024-07-17 00:19+0000\n"
+"Last-Translator: brodrigueznu <brodrigueznu@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsopkg/es/>\n"
 "Language: es\n"
@@ -12,7 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1094
+msgid "%s used (%1024mB used of %1024mB, %1024mB free)"
+msgstr "%s usados (%1024mB usados de %1024mB, %1024mB libres)"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1154
 msgid "Actions"
@@ -73,6 +77,10 @@ msgstr "Descripción"
 msgid "Details for package <em>%h</em>"
 msgstr "Detalles para el paquete <em>%h</em>"
 
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1133
+msgid "Disk space"
+msgstr "Espacio en disco"
+
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1029
 msgid "Dismiss"
 msgstr "Descartar"
@@ -111,11 +119,7 @@ msgstr "Ejecutando el gestor de paquetes"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1138
 msgid "Filter"
-msgstr "Filtrar"
-
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1133
-msgid "Free space"
-msgstr "Espacio libre"
+msgstr "Filtro"
 
 #: applications/luci-app-opkg/root/usr/share/rpcd/acl.d/luci-app-opkg.json:3
 msgid "Grant access to opkg management"

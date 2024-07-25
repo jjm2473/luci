@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2020-07-02 17:20-0300\n"
-"PO-Revision-Date: 2023-09-10 09:28+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2024-07-17 00:19+0000\n"
+"Last-Translator: brodrigueznu <brodrigueznu@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationssmartdns/es/>\n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:426
 msgid "Additional Args for upstream dns servers"
@@ -50,7 +50,7 @@ msgstr "Tamaño del caché"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:119
 msgid "Collecting data ..."
-msgstr "Recolectando datos..."
+msgstr "Recopilando los datos..."
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:458
 msgid ""
@@ -139,7 +139,7 @@ msgstr "Selección de IP de doble pila"
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:225
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:326
 msgid "Enable"
-msgstr "Activar"
+msgstr "Habilitar"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:161
 msgid "Enable IP selection between IPV4 and IPV6"
@@ -194,7 +194,7 @@ msgstr "Forzar HTTPS SOA."
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:127
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:322
 msgid "General Settings"
-msgstr "Configuración general"
+msgstr "Ajustes generales"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:311
 msgid "Generate Coredump"
@@ -247,7 +247,7 @@ msgstr "TTL mínimo para todos los resultados de dominio."
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:66
 msgid "NOT RUNNING"
-msgstr "NO SE ESTÁ EJECUTANDO"
+msgstr "NO EN EJECUCIÓN"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:386
 msgid "No check certificate"
@@ -261,7 +261,7 @@ msgstr ""
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:64
 msgid "RUNNING"
-msgstr "EJECUTANDO"
+msgstr "EN EJECUCIÓN"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:219
 msgid "Reply Domain TTL Max"
@@ -332,7 +332,7 @@ msgstr "Establece la indicación del nombre del servidor para la consulta."
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:124
 msgid "Settings"
-msgstr "Configuraciones"
+msgstr "Ajustes"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:256
 msgid "Skip Address Rules"
@@ -485,17 +485,9 @@ msgstr ""
 msgid "https"
 msgstr "https"
 
-#: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:335
-msgid "ip"
-msgstr "ip"
-
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:479
 msgid "open website"
 msgstr "abrir sitio web"
-
-#: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:340
-msgid "port"
-msgstr "puerto"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:296
 msgid "smartdns custom settings"
@@ -508,10 +500,6 @@ msgstr "tcp"
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:353
 msgid "tls"
 msgstr "tls"
-
-#: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:349
-msgid "type"
-msgstr "tipo"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:351
 msgid "udp"

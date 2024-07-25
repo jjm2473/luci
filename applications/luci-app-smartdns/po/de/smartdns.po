@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-25 17:27+0000\n"
-"Last-Translator: \"Jörg S.\" <joerg.schwerdtfeger@gmail.com>\n"
+"PO-Revision-Date: 2024-07-17 22:44+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationssmartdns/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:426
 msgid "Additional Args for upstream dns servers"
@@ -45,7 +45,7 @@ msgstr "Zwischenspeichergröße"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:119
 msgid "Collecting data ..."
-msgstr "Sammle Daten ..."
+msgstr "Sammeln von Daten ..."
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:458
 msgid ""
@@ -133,7 +133,7 @@ msgstr "Dual-Stack-IP-Auswahl"
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:225
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:326
 msgid "Enable"
-msgstr "aktivieren"
+msgstr "Aktivieren"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:161
 msgid "Enable IP selection between IPV4 and IPV6"
@@ -480,17 +480,9 @@ msgstr ""
 msgid "https"
 msgstr "https"
 
-#: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:335
-msgid "ip"
-msgstr "IP"
-
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:479
 msgid "open website"
 msgstr "Webseite öffnen"
-
-#: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:340
-msgid "port"
-msgstr "Port"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:296
 msgid "smartdns custom settings"
@@ -503,10 +495,6 @@ msgstr "tcp"
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:353
 msgid "tls"
 msgstr "tls"
-
-#: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:349
-msgid "type"
-msgstr "Typ"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:351
 msgid "udp"

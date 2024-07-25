@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-25 17:27+0000\n"
-"Last-Translator: \"Jörg S.\" <joerg.schwerdtfeger@gmail.com>\n"
+"PO-Revision-Date: 2024-07-17 22:44+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationspbr/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:179
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:221
@@ -123,11 +123,11 @@ msgstr "Deaktivieren"
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:118
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:171
 msgid "Disabled"
-msgstr "deaktiviert"
+msgstr "Deaktiviert"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:309
 msgid "Disabling %s service"
-msgstr "Deaktiviere Service %s"
+msgstr "Deaktiviere Dienst %s"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:177
 msgid "Display these protocols in protocol column in Web UI."
@@ -152,7 +152,7 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:302
 msgid "Enable"
-msgstr "aktivieren"
+msgstr "Aktivieren"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:119
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:172
@@ -163,7 +163,7 @@ msgstr "Aktiviert"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:298
 msgid "Enabling %s service"
-msgstr "Aktiviere Service %s"
+msgstr "Aktiviere Dienst %s"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:226
 msgid "Error running custom user file '%s'"
@@ -412,7 +412,7 @@ msgstr "Läuft (Version: %s)"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:75
 msgid "See the %sREADME%s for details."
-msgstr "Siehe %sREADME%s für Details."
+msgstr "Siehe die %sREADME%s für Details."
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:132
 msgid "Select Add for -A/add and Insert for -I/Insert."
@@ -463,7 +463,7 @@ msgstr "Start"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:265
 msgid "Starting %s service"
-msgstr "Dienst %s wird gestartet"
+msgstr "Start des Dienstes %s"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:154
 msgid ""
@@ -493,7 +493,7 @@ msgstr "Angehalten (Version: %s)"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:287
 msgid "Stopping %s service"
-msgstr "Dienst %s wird angehalten"
+msgstr "Beenden des Dienstes %s"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:74
 msgid "Strict enforcement"

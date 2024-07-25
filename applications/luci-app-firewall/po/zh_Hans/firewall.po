@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2023-09-02 17:29+0000\n"
-"Last-Translator: MkQtS <MkQtS@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2024-07-03 10:09+0000\n"
+"Last-Translator: try496 <pinghejk@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsfirewall/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:48
 msgid ""
@@ -41,11 +41,11 @@ msgstr ""
 "tooltip=\"匹配除 &quot;%{helper.name}&quot; 以外的任意助手。\">%{helper.val}"
 "</var>:<var data-tooltip=\"%{helper.name}\">%{helper.val}</var>}}"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:461
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:463
 msgid "-- add IP --"
 msgstr "-- 添加 IP --"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:519
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:521
 msgid "-- add MAC --"
 msgstr "-- 添加 MAC --"
 
@@ -187,7 +187,7 @@ msgstr "允许来自<em>源区域</em>的转发："
 msgid "Allow forward to <em>destination zones</em>:"
 msgstr "允许转发到<em>目标区域</em>："
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:549
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:551
 msgid "Any"
 msgstr "任何"
 
@@ -198,7 +198,7 @@ msgstr "任何"
 msgid "Any day"
 msgstr "每天"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:317
 msgid ""
 "Apply a bitwise XOR of the given value and the existing mark value on "
 "established connections. Format is value[/mask]. If a mask is specified then "
@@ -207,7 +207,7 @@ msgstr ""
 "在已建立的连接上对给定值和现有标记值进行按位异或。格式为 值[/掩码]。如果指定"
 "了掩码，则掩码中设置的位将归零。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:264
 msgid "Apply the given DSCP class or value to established connections."
 msgstr "将给定的 DSCP 类或值应用于已建立的连接。"
 
@@ -222,7 +222,7 @@ msgstr "自动助手分配"
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:280
 msgid ""
 "Automatically assign conntrack helpers based on traffic protocol and port"
-msgstr "根据流量协议和端口自动分配 conntrack 助手"
+msgstr "根据流量协议和端口自动分配连接跟踪助手"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:54
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:55
@@ -241,7 +241,7 @@ msgstr "连接跟踪助手"
 msgid "Contents have been saved."
 msgstr "内容已保存。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:698
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:700
 msgid "Continue"
 msgstr "继续"
 
@@ -278,11 +278,11 @@ msgstr ""
 msgid "DSCP classification"
 msgstr "DSCP 类别"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:262
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
 msgid "DSCP mark"
 msgstr "DSCP 标记"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:296
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:297
 msgid "DSCP mark required"
 msgstr "需要 DSCP 标记"
 
@@ -363,13 +363,13 @@ msgstr "为此区域出站流量开启网络地址和端口转换 IPv6 （NAT6 �
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:204
 msgid "Enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:198
 msgid "Enables packet and byte count tracking for the set."
 msgstr "为该集合开启数据包和字节计数追踪。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:338
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:339
 msgid "Expecting: %s"
 msgstr "请输入：%s"
 
@@ -439,7 +439,7 @@ msgstr "防火墙 - 通信规则"
 msgid "Firewall - Zone Settings"
 msgstr "防火墙 - 区域设置"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:691
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:693
 msgid "Firewall configuration migration"
 msgstr "防火墙配置迁移"
 
@@ -545,7 +545,7 @@ msgstr "IP (范围)"
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:32
 #: applications/luci-app-firewall/root/usr/share/luci/menu.d/luci-app-firewall.json:53
 msgid "IP Sets"
-msgstr "IP 集合"
+msgstr "IP 集"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:145
 msgid "IPs/Networks"
@@ -639,15 +639,15 @@ msgstr "内部端口"
 msgid "Internal zone"
 msgstr "内部区域"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:304
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:305
 msgid "Invalid DSCP mark"
 msgstr "无效的 DSCP 标记"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:372
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:373
 msgid "Invalid limit value"
 msgstr "无效的限制值"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:382
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:383
 msgid "Limit burst"
 msgstr "限制突发"
 
@@ -655,7 +655,7 @@ msgstr "限制突发"
 msgid "Limit log messages"
 msgstr "限制日志信息"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:348
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:349
 msgid "Limit matching"
 msgstr "限制匹配"
 
@@ -674,7 +674,7 @@ msgstr ""
 msgid "Limited masquerading enabled"
 msgstr "已启用有限伪装"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:349
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:350
 msgid "Limits traffic matching to the specified rate."
 msgstr "将流量匹配限制为指定的速率。"
 
@@ -700,7 +700,7 @@ msgstr "IP 动态伪装"
 msgid "Match"
 msgstr "匹配规则"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:262
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
 msgid "Match DSCP"
 msgstr "匹配 DSCP"
 
@@ -741,7 +741,7 @@ msgid ""
 "on this host"
 msgstr "匹配指向此主机上指定目标端口或目标端口范围的入站流量"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:315
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
 msgid "Match mark"
 msgstr "匹配标记"
 
@@ -750,7 +750,7 @@ msgstr "匹配标记"
 msgid "Match traffic using the specified connection tracking helper."
 msgstr "使用指定的连接跟踪助手匹配流量。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:318
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:319
 msgid "Matches a specific firewall mark or a range of different marks."
 msgstr "匹配特定的防火墙标记或防火墙标记范围。"
 
@@ -758,9 +758,9 @@ msgstr "匹配特定的防火墙标记或防火墙标记范围。"
 msgid "Matches forwarded traffic using the specified outbound network device."
 msgstr "匹配使用指定的出站网络设备转发的流量。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:263
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:264
 msgid "Matches traffic carrying the specified DSCP marking."
-msgstr "匹配承载指定 DSCP 标记的流量。"
+msgstr "匹配带有指定 DSCP 标记的流量。"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:106
 msgid "Max Entries"
@@ -770,7 +770,7 @@ msgstr "最大条目数"
 msgid "Max Length"
 msgstr "最大长度"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:383
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:384
 msgid ""
 "Maximum initial number of packets to match: this number gets recharged by "
 "one every time the limit specified above is not reached, up to this number."
@@ -962,11 +962,11 @@ msgstr "SNAT - 重写为特定的源 IP 或端口"
 msgid "Saturday"
 msgstr "星期六"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:315
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
 msgid "Set mark"
 msgstr "设置标记"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:317
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:318
 msgid ""
 "Set the given mark value on established connections. Format is value[/mask]. "
 "If a mask is specified then only those bits set in the mask are modified."
@@ -1048,7 +1048,7 @@ msgstr "存储方式"
 msgid "Sunday"
 msgstr "星期日"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:692
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:694
 msgid ""
 "The existing firewall configuration needs to be changed for LuCI to function "
 "properly."
@@ -1213,11 +1213,11 @@ msgstr "未命名的集合"
 msgid "Unnamed zone"
 msgstr "未命名区域"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:595
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:597
 msgid "Unrecognized protocol"
 msgstr "无法识别的协议"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:693
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:695
 msgid ""
 "Upon pressing \"Continue\", \"redirect\" sections with target \"SNAT\" will "
 "be converted to \"nat\" sections and the firewall will be restarted to apply "
@@ -1252,7 +1252,7 @@ msgid ""
 "instead of networks or devices."
 msgstr "此选项可对源或目标子网而非网络或设备进行区域流量分类。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:330
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:331
 msgid "Valid firewall mark required"
 msgstr "需要有效的防火墙标记"
 
@@ -1270,7 +1270,7 @@ msgstr "星期"
 msgid "XOR firewall mark"
 msgstr "异或防火墙标记"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:315
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:316
 msgid "XOR mark"
 msgstr "异或标记"
 
@@ -1296,9 +1296,9 @@ msgstr "区域"
 msgid "accept"
 msgstr "接受"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:267
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:461
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:484
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:268
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:463
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:486
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:266
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:297
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js:318
@@ -1392,7 +1392,7 @@ msgid ""
 "Port ranges in ipsets are unsupported by firewall4.<br />"
 msgstr ""
 "firewall4 支持引用和创建 IP 集合，这样就无需为每个条目创建一条规则进行匹配，"
-"达到简化大型地址列表匹配的目的。firewall4 不支持 ip 集合中的 端口范围。<br />"
+"达到简化大型地址列表匹配的目的。firewall4 不支持 IP 集合中的 端口范围。<br />"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:152
 msgid "fromport-toport"
@@ -1501,7 +1501,7 @@ msgstr "此设备"
 msgid "this new zone"
 msgstr "此新区域"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:353
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:354
 msgid "unlimited"
 msgstr "无限制"
 
@@ -1514,6 +1514,6 @@ msgstr "未指定"
 msgid "up to 65536 entries."
 msgstr "最多 65536 个条目。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:338
+#: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:339
 msgid "valid firewall mark"
 msgstr "有效的防火墙标记"

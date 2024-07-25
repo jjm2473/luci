@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-26 19:03+0200\n"
-"PO-Revision-Date: 2021-03-06 14:44+0000\n"
+"PO-Revision-Date: 2024-07-09 23:09+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationspolipo/pt/>\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: applications/luci-app-polipo/luasrc/model/cbi/polipo.lua:121
 msgid "Advanced Settings"
-msgstr "Definições Avançadas"
+msgstr "Configurações avançadas"
 
 #: applications/luci-app-polipo/luasrc/model/cbi/polipo.lua:35
 msgid "Allowed clients"
@@ -89,7 +89,7 @@ msgstr "Endereço de escuta"
 
 #: applications/luci-app-polipo/luasrc/model/cbi/polipo.lua:26
 msgid "Listen port"
-msgstr "Porta de escuta"
+msgstr "Porto de escuta"
 
 #: applications/luci-app-polipo/luasrc/model/cbi/polipo.lua:126
 msgid ""

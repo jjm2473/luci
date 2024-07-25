@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-09-25 14:22+0000\n"
-"Last-Translator: semih <semiht@gmail.com>\n"
+"PO-Revision-Date: 2024-03-24 13:06+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsopkg/tr/>\n"
 "Language: tr\n"
@@ -11,7 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1094
+msgid "%s used (%1024mB used of %1024mB, %1024mB free)"
+msgstr "%s kullanılıyor (%1024mB / %1024mB kullanılıyor, %1024mB boş)"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1154
 msgid "Actions"
@@ -72,6 +76,10 @@ msgstr "Açıklama"
 msgid "Details for package <em>%h</em>"
 msgstr "Paket detayları <em>%h</em>"
 
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1133
+msgid "Disk space"
+msgstr "Disk alanı"
+
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1029
 msgid "Dismiss"
 msgstr "Kapat"
@@ -111,10 +119,6 @@ msgstr "Paket yöneticisi çalıştırılıyor"
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1138
 msgid "Filter"
 msgstr "Filtre"
-
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1133
-msgid "Free space"
-msgstr "Boş alan"
 
 #: applications/luci-app-opkg/root/usr/share/rpcd/acl.d/luci-app-opkg.json:3
 msgid "Grant access to opkg management"

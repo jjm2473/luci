@@ -1,14 +1,15 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-10 09:28+0000\n"
-"Last-Translator: Eric <hamburger2048@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2024-04-25 08:35+0000\n"
+"Last-Translator: 大王叫我来巡山 <hamburger2048@users.noreply.hosted.weblate."
+"org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationspbr/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.5.1-dev\n"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:179
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:221
@@ -151,7 +152,7 @@ msgstr "启用"
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:189
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:267
 msgid "Enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:298
 msgid "Enabling %s service"

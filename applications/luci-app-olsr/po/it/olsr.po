@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-19 19:36+0200\n"
-"PO-Revision-Date: 2023-08-08 18:51+0000\n"
-"Last-Translator: random r <epsilin@yopmail.com>\n"
+"PO-Revision-Date: 2024-07-17 22:44+0000\n"
+"Last-Translator: Random <random-r@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsolsr/it/>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/mid.htm:13
 msgid "Active MID announcements"
@@ -121,7 +121,7 @@ msgstr "ETX"
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdplugins.lua:15
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdplugins6.lua:15
 msgid "Enable"
-msgstr "Attiva"
+msgstr "Abilitare"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:140
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:134
@@ -140,7 +140,7 @@ msgstr "Attiva questa interfaccia."
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdplugins.lua:249
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdplugins6.lua:249
 msgid "Enabled"
-msgstr "Attivato"
+msgstr "Abilita"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/legend.htm:5
 msgid "Expected retransmission count"
@@ -179,7 +179,7 @@ msgstr "Gateway"
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface.lua:31
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdiface6.lua:31
 msgid "General Settings"
-msgstr "Impostazioni generali"
+msgstr "Impostazioni Generali"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:39
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:39
@@ -681,7 +681,7 @@ msgstr ""
 
 #: applications/luci-app-olsr/luasrc/controller/olsr.lua:38
 msgid "Neighbours"
-msgstr ""
+msgstr "Vicini"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdhna.lua:21
 #: applications/luci-app-olsr/luasrc/view/status-olsr/interfaces.htm:29
@@ -851,7 +851,7 @@ msgstr ""
 
 #: applications/luci-app-olsr/luasrc/controller/olsr.lua:44
 msgid "Routes"
-msgstr ""
+msgstr "Rotte"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/mid.htm:21
 msgid "Secondary OLSR interfaces"

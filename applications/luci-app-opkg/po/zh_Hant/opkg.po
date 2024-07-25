@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2022-08-06 13:14+0000\n"
-"Last-Translator: 王攀 <41330784@qq.com>\n"
+"PO-Revision-Date: 2024-05-04 07:42+0000\n"
+"Last-Translator: Yuan Lau <traverslombard@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsopkg/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -10,7 +10,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 5.5.3\n"
+
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1094
+msgid "%s used (%1024mB used of %1024mB, %1024mB free)"
+msgstr "%s 已使用 （%1024mB已使用，總共 %1024mB，剩餘%1024mB）"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1154
 msgid "Actions"
@@ -69,6 +73,10 @@ msgstr "描述"
 msgid "Details for package <em>%h</em>"
 msgstr "套件 <em>%h</em> 的詳細資訊"
 
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1133
+msgid "Disk space"
+msgstr "磁碟空間"
+
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1029
 msgid "Dismiss"
 msgstr "關閉"
@@ -106,10 +114,6 @@ msgstr "正在執行套件包管理員"
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1138
 msgid "Filter"
 msgstr "過濾"
-
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1133
-msgid "Free space"
-msgstr "剩餘空間"
 
 #: applications/luci-app-opkg/root/usr/share/rpcd/acl.d/luci-app-opkg.json:3
 msgid "Grant access to opkg management"
@@ -269,7 +273,7 @@ msgstr "正在儲存設定值…"
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:945
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1044
 msgid "Size"
-msgstr "容量"
+msgstr "大小"
 
 #: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:1226
 msgid "Size (.ipk)"

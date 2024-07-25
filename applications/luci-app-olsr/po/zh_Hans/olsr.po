@@ -4,8 +4,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2023-07-27 06:17+0000\n"
-"Last-Translator: Eric <hamburger2048@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2024-07-17 09:21+0000\n"
+"Last-Translator: 大王叫我来巡山 <hamburger2048@users.noreply.hosted.weblate."
+"org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsolsr/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -13,19 +14,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/mid.htm:13
 msgid "Active MID announcements"
-msgstr "活动的 MID 通告"
+msgstr "活跃的 MID 通告"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/topology.htm:14
 msgid "Active OLSR nodes"
-msgstr "活动的 OLSR 节点"
+msgstr "活跃的 OLSR 节点"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/hna.htm:82
 msgid "Active host net announcements"
-msgstr "活动的主机网络通告"
+msgstr "活跃的主机网络通告"
 
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd.lua:45
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrd6.lua:45
@@ -142,7 +143,7 @@ msgstr "启用这个接口。"
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdplugins.lua:249
 #: applications/luci-app-olsr/luasrc/model/cbi/olsr/olsrdplugins6.lua:249
 msgid "Enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/legend.htm:5
 msgid "Expected retransmission count"
@@ -786,7 +787,7 @@ msgstr "概览"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/hna.htm:87
 msgid "Overview of currently active OLSR host net announcements"
-msgstr "当前活动的 OLSR 主机网络通告概览"
+msgstr "当前活跃的 OLSR 主机网络通告概览"
 
 #: applications/luci-app-olsr/luasrc/view/status-olsr/neighbors.htm:122
 msgid "Overview of currently established OLSR connections"
