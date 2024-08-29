@@ -213,7 +213,7 @@ endef
 ifndef Package/$(PKG_NAME)/postinst
 define Package/$(PKG_NAME)/postinst
 [ -n "$${IPKG_INSTROOT}" ] || {$(foreach script,$(LUCI_DEFAULTS),
-	(. /etc/uci-defaults/$(script)) && rm -f /etc/uci-defaults/$(script))
+	[ -f /etc/uci-defaults/$(script) ] && (. /etc/uci-defaults/$(script)) && rm -f /etc/uci-defaults/$(script))
 	rm -f /tmp/luci-indexcache
 	rm -rf /tmp/luci-modulecache/
 	killall -HUP rpcd 2>/dev/null
