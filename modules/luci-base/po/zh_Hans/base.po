@@ -1026,10 +1026,6 @@ msgstr "将每个公共 IPv6 前缀的给定长度部分分配给此接口"
 msgid "Assign new, freeform tags to this entry."
 msgstr "给此条目分配新的、自由形态的标签。"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:992
-msgid "Assign tags to this entry."
-msgstr "给此条目分配标签。"
-
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1021
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:27
 msgid ""
