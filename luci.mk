@@ -328,7 +328,7 @@ define LuciTranslation
 
   define Package/luci-i18n-$(LUCI_BASENAME)-$(1)/postinst
 	[ -n "$$$${IPKG_INSTROOT}" ] || {
-		(. /etc/uci-defaults/luci-i18n-$(LUCI_BASENAME)-$(1)) && rm -f /etc/uci-defaults/luci-i18n-$(LUCI_BASENAME)-$(1)
+		[ -f /etc/uci-defaults/luci-i18n-$(LUCI_BASENAME)-$(1) ] && (. /etc/uci-defaults/luci-i18n-$(LUCI_BASENAME)-$(1)) && rm -f /etc/uci-defaults/luci-i18n-$(LUCI_BASENAME)-$(1)
 		exit 0
 	}
   endef
