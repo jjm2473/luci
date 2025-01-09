@@ -585,7 +585,7 @@ function resolve_firstchild(node, session, login_allowed, ctx) {
 		let login = !session && (login_allowed || child.auth?.login);
 
 		if (login || check_acl_depends(cacl, session?.acls?.["access-group"]) != null) {
-			if (child.title && type(child.action) == "object") {
+			if ((child.title || child.order == 0) && type(child.action) == "object") {
 				let child_ctx = ctx_append(clone(ctx), name, child);
 				if (child.action.type == "firstchild") {
 					if (!candidate || node_weight(candidate) > node_weight(child)) {
