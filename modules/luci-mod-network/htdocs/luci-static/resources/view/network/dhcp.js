@@ -392,6 +392,10 @@ return view.extend({
 		s.tab('tagsparent', _('Tags'));
 
 		// Begin general
+		s.taboption('general', form.Flag, 'dns_redirect',
+			_('DNS Redirect'),
+			_('Redirect client DNS to dnsmasq'));
+
 		s.taboption('general', form.Flag, 'authoritative',
 			_('Authoritative'),
 			_('This is the only DHCP server in the local network.'));
