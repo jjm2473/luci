@@ -274,7 +274,7 @@ return view.extend({
 					body.push(E('p', { 'class': 'alert-message danger' }, E('label', {}, [
 						_('Image check failed:'),
 						E('br'), E('br'),
-						res[2].stderr
+						E('pre', {}, res[2].stderr)
 					])));
 				};
 
