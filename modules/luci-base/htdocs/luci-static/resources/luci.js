@@ -2455,7 +2455,7 @@
 		 * @returns {Promise<LuCI.baseclass>}
 		 * Returns the instantiated class.
 		 */
-		require(name, from = []) {
+		require(name, from = [], version) {
 			const L = this;
 			let url = null;
 
@@ -2470,7 +2470,9 @@
 				return Promise.resolve(classes[name]);
 			}
 
-			url = '%s/%s.js%s'.format(env.base_url, name.replace(/\./g, '/'), (env.resource_version ? `?v=${env.resource_version}` : ''));
+			version = version || env.resource_version;
+
+			url = '%s/%s.js%s'.format(env.base_url, name.replace(/\./g, '/'), (version ? '?v=' + version : ''));
 			from = [ name ].concat(from);
 
 			const compileClass = res => {
