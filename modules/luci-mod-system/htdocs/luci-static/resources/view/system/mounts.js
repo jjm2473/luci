@@ -295,10 +295,10 @@ return view.extend({
 		}
 
 		o = s.taboption('general', form.Value, 'target', _('Mount point'), _('Specifies the directory the device is attached to'));
-		o.value('/', _('Use as root filesystem (/)'));
-		o.value('/overlay', _('Use as external overlay (/overlay)'));
+		// o.value('/', _('Use as root filesystem (/)'));
+		o.value('/overlay', _('Use as sandbox (/overlay)'));
 		o.rmempty = false;
-
+		/*
 		o = s.taboption('general', form.DummyValue, '__notice', _('Root preparation'));
 		o.depends('target', '/');
 		o.modalonly = true;
@@ -315,7 +315,7 @@ return view.extend({
 				'umount /tmp/extroot\n' +
 			'</pre>'
 		;
-
+		*/
 		o = s.taboption('advanced', form.ListValue, 'fstype', _('Filesystem'));
 
 		o.textvalue = function(section_id) {
