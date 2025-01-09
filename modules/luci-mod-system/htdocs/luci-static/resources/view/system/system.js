@@ -205,10 +205,15 @@ return view.extend({
 		if (L.hasSystemFeature('zram')) {
 			s.tab('zram', _('ZRam Settings'));
 
+			o = s.taboption('zram', form.Flag, 'zram_enabled', _('Enabled'));
+			o.default = 0;
+
 			o = s.taboption('zram', form.Value, 'zram_size_mb', _('ZRam Size'), _('Size of the ZRam device in megabytes'));
 			o.optional    = true;
 			o.placeholder = 16;
 			o.datatype    = 'uinteger';
+			o.depends('zram_enabled', '1');
+			o.retain      = true;
 
 			o = s.taboption('zram', form.ListValue, 'zram_comp_algo', _('ZRam Compression Algorithm'));
 			o.optional    = true;
@@ -216,6 +221,8 @@ return view.extend({
 			o.value('lzo', 'lzo');
 			o.value('lz4', 'lz4');
 			o.value('zstd', 'zstd');
+			o.depends('zram_enabled', '1');
+			o.retain      = true;
 		}
 
 		/*
