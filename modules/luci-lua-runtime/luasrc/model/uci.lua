@@ -126,7 +126,7 @@ function apply(self, rollback)
 		local timeout = tonumber(conf and conf.apply and conf.apply.rollback or 90) or 0
 
 		_, err = call("apply", {
-			timeout = (timeout > 90) and timeout or 90,
+			timeout = (timeout > 30) and timeout or 30,
 			rollback = true
 		})
 
