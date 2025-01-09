@@ -426,6 +426,9 @@ function cbi_init() {
 		tasks.push(Promise.resolve(markup).then(function(markup) {
 			markup.addEventListener('widget-change', cbi_d_update);
 			node.parentNode.replaceChild(markup, node);
+			if (markup.parentNode.parentNode.classList.contains("cbi-value-error")) {
+				widget.triggerValidation();
+			}
 		}));
 	});
 
