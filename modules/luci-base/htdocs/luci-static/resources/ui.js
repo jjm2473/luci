@@ -4848,8 +4848,12 @@ const UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 
 			tick();
 
+			let apply_holdoff = L.env.apply_holdoff;
+			if (UI.prototype.changes.changes && UI.prototype.changes.changes.network) {
+				apply_holdoff = Math.max(apply_holdoff, 6)
+			}
 			/* wait a few seconds for the settings to become effective */
-			window.setTimeout(call.bind(null, { status: 0 }), L.env.apply_holdoff * 1000);
+			window.setTimeout(call.bind(null, { status: 0 }), apply_holdoff * 1000);
 		},
 
 		/**
