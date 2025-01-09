@@ -1116,8 +1116,8 @@ function updateLists(data)
 
 	return (data ? Promise.resolve(data) : downloadLists()).then(function(data) {
 		var pg = document.querySelector('.cbi-progressbar'),
-			mount = L.toArray(data[0].filter(function(m) { return m.mount == '/' || m.mount == '/overlay' }))
-				.sort(function(a, b) { return a.mount > b.mount })[0] || { size: 0, free: 0 };
+			mount = data[0].find(function(m) { return m.mount == '/' })
+				|| { size: 0, free: 0 };
 
 		pg.firstElementChild.style.width = Math.floor(mount.size ? (100 / mount.size) * (mount.size - mount.free) : 100) + '%';
 		pg.setAttribute('title', _('%s used (%1024mB used of %1024mB, %1024mB free)').format(pg.firstElementChild.style.width, mount.size - mount.free, mount.size, mount.free));
