@@ -4506,7 +4506,14 @@ const UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 	 * default.
 	 */
 	awaitReconnect(...hosts) {
-		const ipaddrs = hosts.length ? hosts : [ window.location.host ];
+		let ipaddrs = hosts.length ? Array.prototype.slice.call(hosts) : [ window.location.host ];
+		let deduplicated = [];
+		ipaddrs.forEach(function(e){
+			if (deduplicated.indexOf(e) == -1) {
+				deduplicated.push(e);
+			}
+		});
+		ipaddrs = deduplicated;
 
 		window.setTimeout(L.bind(() => {
 			poll.add(L.bind(() => {
