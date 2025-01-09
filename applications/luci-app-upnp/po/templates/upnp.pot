@@ -237,3 +237,9 @@ msgstr ""
 msgctxt "Use %s (%s = STUN)"
 msgid "Use %s"
 msgstr ""
+
+msgid "Force Forwarding"
+msgstr ""
+
+msgid "Force forwarding even there is no public IP (please try STUN first)"
+msgstr ""

@@ -11249,6 +11249,10 @@ msgstr "使用當作外部 overlay (/overlay)"
 msgid "Use as root filesystem (/)"
 msgstr "當作根 檔案系統(/)"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:294
+msgid "Use as sandbox (/overlay)"
+msgstr "作為沙箱使用（/overlay）"
+
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:34
 msgid "Use broadcast flag"
 msgstr "當作廣播旗標"

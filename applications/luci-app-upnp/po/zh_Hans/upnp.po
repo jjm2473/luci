@@ -134,6 +134,12 @@ msgstr "启用安全模式"
 msgid "External Port"
 msgstr "外部端口"
 
+msgid "Force Forwarding"
+msgstr "强制转发"
+
+msgid "Force forwarding even there is no public IP (please try STUN first)"
+msgstr "就算没有公网IP也进行转发（请先尝试STUN）"
+
 #: applications/luci-app-upnp/root/usr/share/rpcd/acl.d/luci-app-upnp.json:3
 msgid "Grant access to UPnP IGD & PCP/NAT-PMP"
 msgstr "授予访问 UPnP IGD 及 PCP/NAT-PMP 的权限"

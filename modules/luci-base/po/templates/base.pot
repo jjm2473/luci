@@ -6232,6 +6232,10 @@ msgstr ""
 msgid "Mount filesystems not specifically configured"
 msgstr ""
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:158
+msgid "Mount filesystems not specifically configured, mount point based on connected port"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:332
 msgid "Mount options"
 msgstr ""
@@ -7675,6 +7679,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:278
 msgid "Port status:"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:158
+msgid "Port-based Anonymous Mount"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:546
@@ -9762,6 +9770,10 @@ msgstr ""
 msgid "Target Platform"
 msgstr ""
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:745
+msgid "Target hostname"
+msgstr ""
+
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:103
 msgid "Target network"
 msgstr ""
@@ -10955,6 +10967,10 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:294
 msgid "Use as root filesystem (/)"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:294
+msgid "Use as sandbox (/overlay)"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:34
@@ -12269,4 +12285,16 @@ msgstr ""
 
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:20
 msgid "« Back"
+msgstr ""
+
+msgid "Essential mount point"
+msgstr ""
+
+msgid "Wait for this mount point ready before running other applications (set timeout in \"Global Settings\")"
+msgstr ""
+
+msgid "Essential mount point timeout"
+msgstr ""
+
+msgid "Timeout for all \"Essential mount point\" (in seconds, default 5s)"
 msgstr ""
