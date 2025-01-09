@@ -49,7 +49,7 @@ function uci_apply(rollback) {
 		const timeout = +(config?.apply?.rollback ?? 90) || 0;
 		const success = ubus_call('uci', 'apply', {
 			ubus_rpc_session: ctx.authsession,
-			timeout: max(timeout, 90),
+			timeout: max(timeout, 30),
 			rollback: true
 		});
 
