@@ -47,14 +47,11 @@
 		<li<%= attr("data-value", net:name()) .. ifattr(checked[net:name()], "selected", "selected") %>>
 			<span class="ifacebadge"><%=net:name()%>:
 				<%
-					local empty = true
-					for _, iface in ipairs(net:is_bridge() and net:get_interfaces() or { net:get_interface() }) do
-						if not iface:is_bridge() then
-							empty = false
-				-%>
+					iface = net:get_interface()
+					if iface ~= nil then
+				%>
 					<img<%=attr("title", iface:get_i18n())%> style="width:16px; height:16px; vertical-align:middle" src="<%=resource%>/icons/<%=iface:type()%><%=iface:is_up() and "" or "_disabled"%>.png" />
-				<%- end end %>
-				<% if empty then %>
+				<% else %>
 					<em class="hide-close"><%:(no interfaces attached)%></em>
 					<em class="hide-open">-</em>
 				<% end %>
