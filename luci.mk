@@ -58,6 +58,8 @@ LUCI_LANG.vi=Tiếng Việt (Vietnamese)
 LUCI_LANG.yua=Yucateco (Yucatec Maya)
 LUCI_LANG.zh_Hans=简体中文 (Simplified Chinese)
 LUCI_LANG.zh_Hant=正體中文 (Traditional Chinese)
+LUCI_LANG.zh-cn=$(LUCI_LANG.zh_Hans)
+LUCI_LANG.zh-tw=$(LUCI_LANG.zh_Hant)
 #LUCI_LANG_END
 
 # Submenu titles
@@ -345,6 +347,13 @@ define LuciTranslation
 	$(foreach po,$(wildcard ${CURDIR}/po/$(2)/*.po), \
 		po2lmo $(po) \
 			$$(1)$(LUCI_LIBRARYDIR)/i18n/$(basename $(notdir $(po))).$(1).lmo;)
+  endef
+
+  define Package/luci-i18n-$(LUCI_BASENAME)-$(1)/postinst
+	[ -n "$$$${IPKG_INSTROOT}" ] || {
+		[ -f /etc/uci-defaults/luci-i18n-$(LUCI_BASENAME)-$(1) ] && (. /etc/uci-defaults/luci-i18n-$(LUCI_BASENAME)-$(1)) && rm -f /etc/uci-defaults/luci-i18n-$(LUCI_BASENAME)-$(1)
+		exit 0
+	}
   endef
 
   LUCI_BUILD_PACKAGES += luci-i18n-$(LUCI_BASENAME)-$(1)
