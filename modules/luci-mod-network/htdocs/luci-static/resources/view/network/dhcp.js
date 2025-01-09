@@ -415,6 +415,11 @@ return view.extend({
 			_('Never forward DNS queries which lack dots or domain parts.') + '<br />' +
 			customi18n(_('Names not in {etc_hosts} are answered {not_found}.') )
 		);
+
+		s.taboption('general', form.Flag, 'dns_redirect',
+			_('DNS Redirect'),
+			_('Redirect client DNS to dnsmasq'));
+
 		s.taboption('general', form.Flag, 'authoritative',
 			_('Authoritative'),
 			_('This is the only DHCP server in the local network.'));
