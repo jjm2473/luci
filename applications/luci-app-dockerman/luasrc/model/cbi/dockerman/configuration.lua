@@ -48,6 +48,13 @@ if nixio.fs.access("/usr/bin/dockerd") then
 		translate("Registry Mirrors"),
 		translate("It replaces the daemon registry mirrors with a new set of registry mirrors"))
 	o.placeholder = translate("Example: https://hub-mirror.c.163.com")
+	o:value("https://hub-mirror.c.163.com", "https://hub-mirror.c.163.com")
+	o:value("https://ustc-edu-cn.mirror.aliyuncs.com/", "https://ustc-edu-cn.mirror.aliyuncs.com/")
+	o:depends("remote_endpoint", 0)
+
+	o = s:option(Value, "max_concurrent_downloads", translate("Max Concurrent Downloads"), translate("Set threads for docker pull, 0 means default"))
+	o.placeholder = 0
+	o.datatype = "uinteger"
 	o:depends("remote_endpoint", 0)
 
 	o = s:option(ListValue, "log_level",
