@@ -6,6 +6,8 @@
 
 include $(TOPDIR)/rules.mk
 
+PKG_FLAGS:=hold
+
 LUCI_TITLE:=LuCI Network Administration
 LUCI_DEPENDS:=+luci-base +rpcd-mod-iwinfo
 
