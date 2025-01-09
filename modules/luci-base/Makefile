@@ -7,6 +7,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-base
+PKG_FLAGS:=hold
 PKG_BUILD_FLAGS:=no-lto
 
 # Hardcode 'openwrt-24.10' release branch as the branch name
