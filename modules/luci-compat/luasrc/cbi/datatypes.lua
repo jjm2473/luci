@@ -230,6 +230,7 @@ function hostname(val, strict)
 end
 
 function host(val, ipv4only)
+	if ipv4only == "1" then ipv4only = 1 end
 	return hostname(val) or ((ipv4only == 1) and ip4addr(val)) or ((not (ipv4only == 1)) and ipaddr(val))
 end
 
@@ -253,6 +254,7 @@ function ip4addrport(val)
 end
 
 function ipaddrport(val, bracket)
+	if bracket == "1" then bracket = 1 end
 	local h, p = val:match("^([^%[%]:]+):([^:]+)$")
 	if (h and p and ip4addr(h) and port(p)) then
 		return true
