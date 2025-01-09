@@ -2905,6 +2905,14 @@ msgstr "下载 mtdblock"
 msgid "Downstream SNR offset"
 msgstr "下游 SNR 偏移"
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:268
+msgid "DNS Redirect"
+msgstr "DNS 重定向"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:269
+msgid "Redirect client DNS to dnsmasq"
+msgstr "重定向客户端DNS到dnsmasq"
+
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:422
 msgid ""
 "Drag or paste a valid <em>*.conf</em> file below to configure the local "
@@ -5967,6 +5975,15 @@ msgstr ""
 msgid "Logical network to which the tunnel will be added (bridged) (optional)."
 msgstr "隧道将要被添加 (桥接) 到的逻辑网络 (可选)。"
 
+#: modules/luci-base/luasrc/view/sysauth.htm:38
+#: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/sysauth.htm:41
+msgid "Login"
+msgstr "登录"
+
+#: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:81
+msgid "Logout"
+msgstr "退出"
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1135
 msgid "Loose filtering"
 msgstr "宽松过滤"
@@ -6464,6 +6481,10 @@ msgstr "挂载已连接的设备"
 msgid "Mount filesystems not specifically configured"
 msgstr "自动挂载未专门配置挂载点的分区"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:158
+msgid "Mount filesystems not specifically configured, mount point based on connected port"
+msgstr "自动挂载未专门配置的分区，以连接的端口生成挂载点"
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:332
 msgid "Mount options"
 msgstr "挂载选项"
@@ -6523,6 +6544,10 @@ msgstr "必须使用 %s 格式。"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:197
 msgid "My Peer"
 msgstr "我的对等节点"
+
+#: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:45
+msgid "NAS"
+msgstr "网络存储"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1668
 msgid "NAS ID"
@@ -7927,6 +7952,10 @@ msgstr "端口状态"
 msgid "Port status:"
 msgstr "端口状态："
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:158
+msgid "Port-based Anonymous Mount"
+msgstr "基于端口的自动挂载"
+
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:547
 msgid "Potential negation of: %s"
 msgstr "可能存在的冲突：%s"
@@ -9322,7 +9351,7 @@ msgstr "DNS 查询缓存的大小"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:208
 msgid "Size of the ZRam device in megabytes"
-msgstr "ZRam 设备的大小（以兆字节为单位）"
+msgstr "ZRam 设备的大小（以兆字节为单位，留空则按总内存的一半设置）"
 
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:18
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:57
@@ -9937,6 +9966,10 @@ msgstr "目标"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js:58
 msgid "Target Platform"
 msgstr "目标平台"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:745
+msgid "Target hostname"
+msgstr "目标主机名"
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:103
 msgid "Target network"
@@ -11189,6 +11222,10 @@ msgstr "作为外部 overlay 使用（/overlay）"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:294
 msgid "Use as root filesystem (/)"
 msgstr "作为根文件系统使用（/）"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:294
+msgid "Use as sandbox (/overlay)"
+msgstr "作为沙箱使用（/overlay）"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:34
 msgid "Use broadcast flag"
@@ -12502,3 +12539,25 @@ msgstr "{example_nx} 返回 {nxdomain}。"
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:20
 msgid "« Back"
 msgstr "« 后退"
+
+
+msgid "Essential mount point"
+msgstr "关键挂载点"
+
+msgid "Wait for this mount point ready before running other applications (set timeout in \"Global Settings\")"
+msgstr "在运行其他应用程序前等待此挂载点就绪（在“全局设置”里设置超时）"
+
+msgid "Essential mount point timeout"
+msgstr "关键挂载点超时"
+
+msgid "Timeout for all \"Essential mount point\" (in seconds, default 5s)"
+msgstr "所有“关键挂载点”的超时时间（单位秒，默认5秒）"
+
+msgid "Use tags to advertise different gateway and/or DNS to different hosts. Hosts can be associated with tags in \"%s\" tab"
+msgstr "使用标签对不同主机通告不同的网关和/或DNS，在“%s”选项卡中可将主机关联到标签"
+
+msgid "\"<code>3,192.168.2.1</code>\" which advertises different gateway to clients."
+msgstr "\"<code>3,192.168.2.1</code>\"表示通告不同的网关给客户端。"
+
+msgid "Note: Do not use \"odhcpd\" or network interface (such as \"lan\", \"wan\", \"wan6\", etc.) as name when adding tags, conflicts will occur. It is recommended to prefix the name with \"t_\" to avoid such conflicts."
+msgstr "注意：添加标签时请勿将“odhcpd”或网络接口（例如“lan”，“wan”，“wan6”等）作为名称，将产生冲突。建议在名称前面加上前缀“t_”以杜绝此类冲突。"
