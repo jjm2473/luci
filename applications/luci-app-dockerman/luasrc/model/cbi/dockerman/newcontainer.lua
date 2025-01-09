@@ -627,7 +627,7 @@ o.default = default_config.cpu_shares or nil
 
 o = s:option(Value, "memory",
 	translate("Memory"),
-	translate("Memory limit (format: <number>[<unit>]). Number is a positive integer. Unit can be one of b, k, m, or g. Minimum is 4M"))
+	translate("Memory limit (format: &lt;number&gt;[&lt;unit&gt;]). Number is a positive integer. Unit can be one of b, k, m, or g. Minimum is 4M"))
 o.placeholder = "128m"
 o.rmempty = true
 o:depends("advance", 1)
@@ -818,6 +818,9 @@ m.handle = function(self, state, data)
 	create_body.HostConfig.Privileged = privileged and true or false
 	create_body.HostConfig.PortBindings = portbindings
 	create_body.HostConfig.Memory = tonumber(memory)
+	if create_body.HostConfig.Memory and create_body.HostConfig.Memory > 0 then
+		create_body.HostConfig.MemorySwap = -1
+	end
 	create_body.HostConfig.CpuShares = tonumber(cpu_shares)
 	create_body.HostConfig.NanoCPUs = tonumber(cpus) * 10 ^ 9
 	create_body.HostConfig.BlkioWeight = tonumber(blkio_weight)

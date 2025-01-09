@@ -8,7 +8,7 @@ local fs = require "nixio.fs"
 local uci = (require "luci.model.uci").cursor()
 
 local _docker = {}
-_docker.options = {}
+local status_path = uci:get("dockerd", "globals", "status_path") or "/tmp/.docker_status"
 
 --pull image and return iamge id
 local update_image = function(self, image_name)
@@ -288,15 +288,12 @@ _docker.new = function()
 		debug_path = uci:get("dockerd", "globals", "debug_path") or "/tmp/.docker_debug"
 	end
 
-	local status_path = uci:get("dockerd", "globals", "status_path") or "/tmp/.docker_status"
-
 	_docker.options = {
 		host = host,
 		port = port,
 		socket_path = socket_path,
 		debug = debug,
-		debug_path = debug_path,
-		status_path = status_path
+		debug_path = debug_path
 	}
 
 	local _new = docker.new(_docker.options)
@@ -310,7 +307,7 @@ _docker.append_status=function(self,val)
 	if not val then
 		return
 	end
-	local file_docker_action_status=io.open(self.options.status_path, "a+")
+	local file_docker_action_status=io.open(status_path, "a+")
 	file_docker_action_status:write(val)
 	file_docker_action_status:close()
 end
@@ -319,17 +316,17 @@ _docker.write_status=function(self,val)
 	if not val then
 		return
 	end
-	local file_docker_action_status=io.open(self.options.status_path, "w+")
+	local file_docker_action_status=io.open(status_path, "w+")
 	file_docker_action_status:write(val)
 	file_docker_action_status:close()
 end
 
 _docker.read_status=function(self)
-	return fs.readfile(self.options.status_path)
+	return fs.readfile(status_path)
 end
 
 _docker.clear_status=function(self)
-	fs.remove(self.options.status_path)
+	fs.remove(status_path)
 end
 
 local status_cb = function(res, source, handler)

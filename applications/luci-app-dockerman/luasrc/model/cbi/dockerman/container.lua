@@ -577,9 +577,16 @@ elseif action == "resources" then
 	o.datatype="uinteger"
 	o.default = container_info.HostConfig.CpuShares
 
+	o = s:option(Value, "memoryswap",
+		translate("Total Memory"),
+		translate("Memory + Swap limit (format: &lt;number&gt;[&lt;unit&gt;]). Number is a positive integer. Unit can be one of b, k, m, or g. Minimum is 4M. -1 means unlimited."))
+	o.placeholder = "-1"
+	o.rmempty = true
+	o.default = container_info.HostConfig.MemorySwap > 0 and ((container_info.HostConfig.MemorySwap / 1024 /1024) .. "M") or "-1"
+
 	o = s:option(Value, "memory",
 		translate("Memory"),
-		translate("Memory limit (format: <number>[<unit>]). Number is a positive integer. Unit can be one of b, k, m, or g. Minimum is 4M."))
+		translate("Memory limit (format: &lt;number&gt;[&lt;unit&gt;]). Number is a positive integer. Unit can be one of b, k, m, or g. Minimum is 4M. Must less than Total Memory"))
 	o.placeholder = "128m"
 	o.rmempty = true
 	o.default = container_info.HostConfig.Memory ~=0 and ((container_info.HostConfig.Memory / 1024 /1024) .. "M") or 0
@@ -610,10 +617,29 @@ elseif action == "resources" then
 					end
 				end
 			end
+			local memoryswap = data.memoryswap
+			if memoryswap and memoryswap ~= 0 and memoryswap ~= "-1" then
+				_,_,n,unit = memoryswap:find("([%d%.]+)([%l%u]+)")
+				if n then
+					unit = unit and unit:sub(1,1):upper() or "B"
+					if  unit == "M" then
+						memoryswap = tonumber(n) * 1024 * 1024
+					elseif unit == "G" then
+						memoryswap = tonumber(n) * 1024 * 1024 * 1024
+					elseif unit == "K" then
+						memoryswap = tonumber(n) * 1024
+					else
+						memoryswap = tonumber(n)
+					end
+				end
+			else
+				memoryswap = -1
+			end
 
 			request_body = {
 				BlkioWeight = tonumber(data.blkioweight),
 				NanoCPUs = tonumber(data.cpus)*10^9,
+				MemorySwap = tonumber(memoryswap),
 				Memory = tonumber(memory),
 				CpuShares = tonumber(data.cpushares)
 			}
