@@ -6,6 +6,7 @@
 
 include $(TOPDIR)/rules.mk
 
+PKG_FLAGS:=hold
 LUCI_TITLE:=UPnP IGD & PCP/NAT-PMP configuration module | Universal Plug and Play
 LUCI_DEPENDS:=+luci-base +miniupnpd +rpcd-mod-ucode
 

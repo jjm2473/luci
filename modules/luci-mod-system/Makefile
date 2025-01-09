@@ -6,6 +6,8 @@
 
 include $(TOPDIR)/rules.mk
 
+PKG_FLAGS:=hold
+
 LUCI_TITLE:=LuCI Administration - Global System Settings
 LUCI_DEPENDS:=+luci-base
 

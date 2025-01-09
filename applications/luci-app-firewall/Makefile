@@ -6,6 +6,7 @@
 
 include $(TOPDIR)/rules.mk
 
+PKG_FLAGS:=hold
 LUCI_TITLE:=Firewall and port forwarding application
 LUCI_DEPENDS:=+luci-base +uci-firewall
 
