@@ -202,7 +202,7 @@ const methods = {
 				br2684ctl:  access('/usr/sbin/br2684ctl') == true,
 				swconfig:   access('/sbin/swconfig') == true,
 				odhcpd:     access('/usr/sbin/odhcpd') == true,
-				zram:       access('/sys/class/zram-control') == true,
+				zram:       access('/sys/class/zram-control') == true && access("/etc/init.d/zram") == true,
 				sysntpd:    readlink('/usr/sbin/ntpd') != null,
 				ipv6:       access('/proc/net/ipv6_route') == true,
 				dropbear:   access('/usr/sbin/dropbear') == true,
