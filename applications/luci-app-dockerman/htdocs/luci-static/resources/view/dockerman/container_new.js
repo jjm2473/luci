@@ -884,6 +884,7 @@ return dm2.dv.extend({
 						} },
 					}
 				};
+				if (createBody.HostConfig.Memory) createBody.HostConfig.MemorySwap = -1;
 
 				// Parse volume entries and populate Mounts
 				const volumeEntries = get('volume') || [];

@@ -66,6 +66,12 @@ return L.view.extend({
 		o.value('https://docker.io');
 		o.value('https://ghcr.io');
 		o.value('https://hub-mirror.c.163.com');
+		o.value('https://ustc-edu-cn.mirror.aliyuncs.com');
+
+		o = s.taboption('globals', form.Value, 'max_concurrent_downloads', 
+			_('Max Concurrent Downloads'), _('Set threads for docker pull, 0 means default'));
+		o.placeholder = 0;
+		o.datatype = 'uinteger';
 
 		o = s.taboption('globals', form.ListValue, 'log_level',
 			_('Log Level'),
