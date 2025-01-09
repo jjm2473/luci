@@ -155,6 +155,10 @@ return view.extend({
 		o.onclick = this.handleMountAll.bind(this, m);
 		o.inputstyle = 'reload';
 
+		o = s.option(form.Flag, 'port_mount', _('Port-based Anonymous Mount'), _('Mount filesystems not specifically configured, mount point based on connected port'));
+		o.default = o.enabled;
+		o.rmempty = false;
+
 		o = s.option(form.Flag, 'anon_swap', _('Anonymous Swap'), _('Mount swap not specifically configured'));
 		o.default = o.disabled;
 		o.rmempty = false;
