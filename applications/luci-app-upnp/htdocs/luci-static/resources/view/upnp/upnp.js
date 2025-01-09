@@ -171,6 +171,9 @@ return view.extend({
 		o.datatype = 'port';
 		o.placeholder = '3478';
 
+		s.taboption('advanced', form.Flag, 'force_forwarding', _('Force Forwarding'),
+			_('Force forwarding even there is no public IP (please try STUN first)'))
+
 		o = s.taboption('advanced', form.Flag, 'secure_mode', _('Enable secure mode'),
 			_('Allow adding port maps for requesting IP addresses only'));
 		o.default = '1';
