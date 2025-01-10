@@ -492,7 +492,8 @@ return view.extend({
 
 		case 'masquerade':
 			return E('span', { 'class': 'ifacebadge' }, [
-				E('span', action_translations.masquerade),
+				E('span', action_translations.masquerade +
+					((expr.masquerade && expr.masquerade.fullcone || false) ? ' (FullCone)' : '')),
 				this.renderNatFlags(spec)
 			]);
 
