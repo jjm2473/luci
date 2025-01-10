@@ -72,7 +72,7 @@ return view.extend({
 		
 		o = s.option(form.ListValue, 'fullcone', _('Enable FullCone-NAT'));
 		o.value('0', _('Disable'));
-		o.value('1', _('Compatible Mode'));
+		// o.value('1', _('Compatible Mode'));
 		o.value('2', _('High Performing Mode'));
 
 		/* Netfilter flow offload support */
