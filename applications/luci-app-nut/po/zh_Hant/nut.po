@@ -5,16 +5,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-12-19 17:00+0000\n"
-"Last-Translator: Hulen <shift0106@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
-"openwrt/luciapplicationsnut/zh_Hant/>\n"
+"PO-Revision-Date: 2025-03-28 12:16+0000\n"
+"Last-Translator: 翻譯得真好下次別翻了 <x86_64-pc-linux-gnu@proton.me>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/openwrt/luciapplicationsnut/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:16
 msgid "%s is mutually exclusive to other choices"
@@ -48,11 +48,11 @@ msgstr "從中斷管道讀取的位元組數"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:142
 msgid "CA Certificate path"
-msgstr "CA 證書路徑"
+msgstr "CA憑證路徑"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:101
 msgid "Certificate file (SSL)"
-msgstr "證書檔案（SSL）"
+msgstr "憑證檔案 (SSL)"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:93
 msgid "Communications lost message"
@@ -76,7 +76,7 @@ msgstr "沒有此欄位的 UPS 的預設值。"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:207
 msgid "Delay for kill power command"
-msgstr "斷電後執行命令的延時"
+msgstr "斷電後執行指令的延遲"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:216
 msgid "Delay to power on UPS if power returns after kill power"
@@ -96,7 +96,7 @@ msgstr "啟動驅動程式時不要鎖定埠"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:160
 msgid "Driver"
-msgstr "磁碟機"
+msgstr "驅動程式"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:144
 msgid "Driver Configuration"
@@ -136,7 +136,7 @@ msgstr ""
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:9
 msgid "Execute notify command"
-msgstr "執行 notify 命令"
+msgstr "執行notify指令"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:52
 msgid "Forced Shutdown"
@@ -156,7 +156,7 @@ msgstr "前往 NUT CGI"
 
 #: applications/luci-app-nut/root/usr/share/rpcd/acl.d/luci-app-nut.json:3
 msgid "Grant UCI access for luci-app-nut"
-msgstr "授予 luci-app-nut 擁有 UCI 存取的權限"
+msgstr "授予luci-app-nut存取UCI的權限"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_cgi.js:17
 msgid "Host"
@@ -177,7 +177,7 @@ msgstr "熱同步"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:68
 msgid "IP Address"
-msgstr "IP 位址"
+msgstr "IP位址"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:161
 msgid "If this list is empty you need to %s"
@@ -186,7 +186,7 @@ msgstr ""
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:11
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:16
 msgid "Ignore"
-msgstr "忽視"
+msgstr "忽略"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:172
 msgid "Ignore Low Battery"
@@ -194,7 +194,7 @@ msgstr "忽略低電量"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:55
 msgid "Instant commands"
-msgstr "即時命令"
+msgstr "即時指令"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:176
 msgid "Interrupt Only"
@@ -311,7 +311,7 @@ msgstr "通知預設值"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:56
 msgid "Notify command"
-msgstr "通知命令"
+msgstr "通知指令"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:111
 msgid "Notify when back online"
@@ -339,7 +339,7 @@ msgstr "低電量時通知"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:135
 msgid "Notify when no communications"
-msgstr "無通信時進行通知"
+msgstr "無通訊時通知"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:138
 msgid "Notify when no parent process"
@@ -377,7 +377,7 @@ msgstr "密碼"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:142
 msgid "Path containing ca certificates to match against host certificate"
-msgstr "匹配主機證書的 ca 證書路徑"
+msgstr "匹配主機憑證的ca憑證路徑"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:112
 msgid "Path to drivers (instead of default)"
@@ -496,7 +496,7 @@ msgstr "設定變數"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:52
 msgid "Shutdown command"
-msgstr "關機命令"
+msgstr "關機指令"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:96
 msgid "Shutdown message"
@@ -555,7 +555,7 @@ msgstr ""
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:55
 msgid ""
 "Use %s to see full list of commands your UPS supports (requires %s package)"
-msgstr "使用 %s 檢視 UPS 支援的命令的完整列表（需要 %s包）"
+msgstr "使用%s查看UPS支援的完整指令列表 (需要 %s包)"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:139
 msgid ""
@@ -567,7 +567,7 @@ msgstr "執行驅動程式的使用者；要求驅動程式訪問的裝置檔案
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_monitor.js:202
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:42
 msgid "Username"
-msgstr "用戶名稱"
+msgstr "使用者名稱"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:266
 msgid "Vendor (regex)"
@@ -587,7 +587,7 @@ msgstr "寫入 syslog"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:109
 msgid "chroot"
-msgstr "chroot命令"
+msgstr "chroot"
 
 #: applications/luci-app-nut/htdocs/luci-static/resources/view/nut/nut_server.js:161
 msgid "install drivers"

@@ -168,13 +168,19 @@ function handleEdit(ev) {
 
 return view.extend({
 	load: function () {
-		return L.resolveDefault(fs.read_direct('/etc/banip/banip.custom.feeds', 'json'), "");
+		return L.resolveDefault(fs.stat('/etc/banip/banip.custom.feeds'), "")
+			.then(function (stat) {
+			if (!stat) {
+				return fs.write('/etc/banip/banip.custom.feeds', "");
+			}
+			return L.resolveDefault(fs.read_direct('/etc/banip/banip.custom.feeds', 'json'), "");
+		})
 	},
 
 	render: function (data) {
 		let m, s, o, feed, url_4, url_6, rule_4, rule_6, chain, descr, flag;
 
-		m = new form.JSONMap(data, _('Custom Feed Editor'), _('With this editor you can upload your local custom feed file or fill up an initial one (a 1:1 copy of the version shipped with the package). \
+		m = new form.JSONMap(data, null, _('With this editor you can upload your local custom feed file or fill up an initial one (a 1:1 copy of the version shipped with the package). \
 			The file is located at \'/etc/banip/banip.custom.feeds\'. \
 			Then you can edit this file, delete entries, add new ones or make a local backup. To go back to the maintainers version just clear the custom feed file.'));
 		for (let i = 0; i < Object.keys(m.data.data).length; i++) {
@@ -243,6 +249,7 @@ return view.extend({
 			o = s.option(form.ListValue, 'rule_6', _('Rulev6'));
 			o.value('/^(([0-9A-f]{0,4}:){1,7}[0-9A-f]{0,4}:?(\\/(1?[0-2][0-8]|[0-9][0-9]))?)[[:space:]]/{printf \"%s,\\n\",$1}', _('<IPv6><SPACE>'));
 			o.value('/^(([0-9A-f]{0,4}:){1,7}[0-9A-f]{0,4}:?(\\/(1?[0-2][0-8]|[0-9][0-9]))?)$/{printf \"%s,\\n\",$1}', _('<IPv6><END>'));
+			o.value('BEGIN{FS=\",\"}/^(([0-9A-f]{0,4}:){1,7}[0-9A-f]{0,4}:?(\\/(1?[0-2][0-8]|[0-9][0-9]))?)/{printf \"%s,\\n\",$1}', _('<IPv6>, csv'));
 			o.optional = true;
 			o.rmempty = true;
 
@@ -275,52 +282,52 @@ return view.extend({
 
 		s = m.section(form.NamedSection, 'global');
 		s.render = L.bind(function () {
-			return E('div', { class: 'right' }, [
+			return E('div', { 'class': 'cbi-page-actions' }, [
 				E('button', {
-					'class': 'btn cbi-button cbi-button-action',
+					'class': 'btn cbi-button cbi-button-action important',
+					'style': 'float:none;margin-right:.4em;',
 					'id': 'btnDownload',
 					'disabled': 'disabled',
 					'click': ui.createHandlerFn(this, function () {
 						return handleEdit('download');
 					})
-				}, [_('Download Custom Feeds')]),
-				'\xa0',
+				}, [_('Download')]),
 				E('button', {
-					'class': 'btn cbi-button cbi-button-action',
+					'class': 'btn cbi-button cbi-button-action important',
+					'style': 'float:none;margin-right:.4em;',
 					'id': 'btnUpload',
 					'disabled': 'disabled',
 					'click': ui.createHandlerFn(this, function () {
 						return handleEdit('upload');
 					})
-				}, [_('Upload Custom Feeds')]),
-				'\xa0',
+				}, [_('Upload')]),
 				E('button', {
 					'class': 'btn cbi-button cbi-button-action important',
+					'style': 'float:none;margin-right:.4em;',
 					'id': 'btnCreate',
 					'disabled': 'disabled',
 					'click': ui.createHandlerFn(this, function () {
 						return handleEdit('create');
 					})
-				}, [_('Fill Custom Feeds')]),
-				'\xa0',
+				}, [_('Fill')]),
 				E('button', {
 					'class': 'btn cbi-button cbi-button-negative important',
+					'style': 'float:none;margin-right:.4em;',
 					'id': 'btnClear',
 					'disabled': 'disabled',
 					'click': ui.createHandlerFn(this, function () {
 						return handleEdit('clear');
 					})
-				}, [_('Clear Custom Feeds')]),
-				'\xa0',
+				}, [_('Clear')]),
 				E('button', {
 					'class': 'btn cbi-button cbi-button-positive important',
+					'style': 'float:none',
 					'id': 'btnSave',
 					'disabled': 'disabled',
 					'click': ui.createHandlerFn(this, function () {
 						return handleEdit('save');
 					})
-				}, [_('Save Custom Feeds')]),
-				'\xa0'
+				}, [_('Save')]),
 			])
 		});
 		return m.render();

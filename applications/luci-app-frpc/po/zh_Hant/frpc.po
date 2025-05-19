@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-01-21 14:03+0000\n"
-"Last-Translator: x86_64-pc-linux-gnu <x86_64-pc-linux-gnu@proton.me>\n"
+"PO-Revision-Date: 2025-03-28 04:36+0000\n"
+"Last-Translator: 翻譯得真好下次別翻了 <x86_64-pc-linux-gnu@proton.me>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsfrpc/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:214
 msgid "Add new proxy..."
@@ -20,7 +20,7 @@ msgstr "額外設定"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:40
 msgid "Additional settings"
-msgstr "附加設定"
+msgstr "進階設定"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:28
 msgid "Admin address"
@@ -57,14 +57,14 @@ msgstr ""
 msgid ""
 "AdminPwd specifies the password that the admin server will use for login."
 "<br />By default, this value is \"admin\"."
-msgstr "AdminPwd指定管理伺服器用於登錄的密碼. <br />預設情況下, 此值為“admin”."
+msgstr "AdminPwd指定管理伺服器用於登入的密碼. <br />預設情況下, 此值為“admin”."
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:30
 msgid ""
 "AdminUser specifies the username that the admin server will use for login."
 "<br />By default, this value is \"admin\"."
 msgstr ""
-"AdminUser指定管理伺服器用於登錄的用戶名稱. <br />預設情況下, 此值為“admin”."
+"AdminUser指定管理伺服器用於登入的用戶名稱. <br />預設情況下, 此值為“admin”."
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:32
 msgid "Assets dir"
@@ -76,12 +76,12 @@ msgid ""
 "resources from. If this value is \"\", assets will be loaded from the "
 "bundled executable using statik.<br />By default, this value is \"\"."
 msgstr ""
-"AssetsDir指定管理伺服器將從中加載資源的本地目錄. 如果此值為“”, 將使用statik從"
-"捆綁的可執行文件中加載資產. <br />預設情況下, 此值為“”."
+"AssetsDir指定管理伺服器將從中載入資源的本地目錄. 如果此值為“”, 將使用statik從"
+"捆綁的執行檔中載入資產. <br />預設情況下, 此值為“”."
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:190
 msgid "Collecting data ..."
-msgstr "資料採集中..."
+msgstr "收集資料中..."
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:198
 msgid "Common Settings"
@@ -97,7 +97,7 @@ msgstr "設定檔包含在臨時設定檔案中"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:57
 msgid "Custom domains"
-msgstr "自定義網域"
+msgstr "自訂網域"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:26
 msgid "Disable log color"
@@ -111,7 +111,7 @@ msgstr "當LogWay ==“ console”設置為true時, DisableLogColor禁用日誌�
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:46
 msgid "Encryption"
-msgstr "加密(Encryption)"
+msgstr "加密"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:15
 msgid "Environment variable"
@@ -119,7 +119,7 @@ msgstr "環境變數"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:35
 msgid "Exit when login fail"
-msgstr "登錄失敗時退出"
+msgstr "登入失敗時退出"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:218
 msgid "General Settings"
@@ -127,7 +127,7 @@ msgstr "一般設定"
 
 #: applications/luci-app-frpc/root/usr/share/rpcd/acl.d/luci-app-frpc.json:3
 msgid "Grant access to LuCI app frpc"
-msgstr "授予 luci-app-frpc 擁有存取的權限"
+msgstr "授予存取LuCI app frpc的權限"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:219
 msgid "HTTP Settings"
@@ -162,7 +162,7 @@ msgid ""
 "before the connection is terminated, in seconds. It is not recommended to "
 "change this value.<br />By default, this value is 90."
 msgstr ""
-"HeartBeatTimeout指定終止連接之前允許的最大心跳響應延遲, 以秒為單位. 不建議更"
+"HeartBeatTimeout指定終止連接之前允許的最大心跳回應延遲, 以秒為單位. 不建議更"
 "改此值. <br />預設情況下, 此值為90."
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:38
@@ -183,8 +183,8 @@ msgid ""
 "this value is \"\", the server will be connected to directly.<br />By "
 "default, this value is read from the \"http_proxy\" environment variable."
 msgstr ""
-"HttpProxy指定通過其連接到伺服器的代理位址. 如果此值為“”, 則伺服器將直接連接. "
-"<br />預設情況下, 將從環境變量“http_proxy”中讀取此值."
+"HttpProxy指定通過其連線至伺服器的代理位址。如果此值為空， 則伺服器將直接連"
+"線。<br />預設將從環境變數「http_proxy」中讀取此值。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:53
 msgid "If remote_port is 0, frps will assign a random port for you"
@@ -218,7 +218,7 @@ msgstr "日誌檔案"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:24
 msgid "Log level"
-msgstr "紀錄級別"
+msgstr "日誌等級"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:25
 msgid "Log max days"
@@ -265,8 +265,8 @@ msgid ""
 "login attempt. If false, the client will retry until a login attempt "
 "succeeds.<br />By default, this value is true."
 msgstr ""
-"LoginFailExit控制在嘗試登錄失敗後客戶端是否應退出。如果為false，則客戶端將重"
-"試，直到成功登錄為止。<br />預設情況下，此值為true。"
+"LoginFailExit控制在嘗試登入失敗後用戶端是否應該退出。如果為false，則用戶端將"
+"重試，直到成功登入為止。<br />預設情況下，此值為true。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:165
 msgid "NOT RUNNING"
@@ -277,7 +277,7 @@ msgid ""
 "OS environments pass to frp for config file template, see <a href=\"https://"
 "github.com/fatedier/frp#configuration-file-template\">frp README</a>"
 msgstr ""
-"傳遞到 frp 設定檔模板的作業系統環境變數，請參閱 <a href=\"https://github.com/"
+"傳遞至frp設定檔範本的作業系統環境變數，請參閱 <a href=\"https://github.com/"
 "fatedier/frp#configuration-file-template\">frp README</a>"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:76
@@ -298,7 +298,7 @@ msgid ""
 "Valid values are \"tcp\", \"kcp\", and \"websocket\".<br />By default, this "
 "value is \"tcp\"."
 msgstr ""
-"Protocol指定與伺服器交互時要使用的協定。有效值為“ tcp”，“ kcp”和“ "
+"Protocol指定與伺服器互動時要使用的協定。有效值為“ tcp”，“ kcp”和“ "
 "websocket”。<br />預設情況下，此值為“ tcp”。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:210
@@ -407,7 +407,7 @@ msgstr "TLS"
 msgid ""
 "TLSEnable specifies whether or not TLS should be used when communicating "
 "with the server."
-msgstr "TLSEnable指定與伺服器通信時是否應使用TLS。"
+msgstr "TLSEnable指定與伺服器通訊時是否應使用TLS。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:33
 msgid ""
@@ -416,7 +416,7 @@ msgid ""
 "must have TCP multiplexing enabled as well.<br />By default, this value is "
 "true."
 msgstr ""
-"TcpMux切換TCP串流多路複用。這允許來自客戶端的多個請求共享一個TCP連接。如果此"
+"TcpMux切換TCP串流多路複用。這允許來自用戶端的多個請求共享一個TCP連線。如果此"
 "值為true，則伺服器也必須啟用TCP複用。<br />預設情況下，此值為true。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:40
@@ -435,7 +435,7 @@ msgid ""
 "the server. The server must have a matching token for authorization to "
 "succeed. <br />By default, this value is \"\"."
 msgstr ""
-"Token權杖指定用於創建要發送到伺服器的密鑰的授權金鑰。服務器必須具有匹配的權杖"
+"Token權杖指定用於創建要發送到伺服器的密鑰的授權金鑰。伺服器必須具有匹配的權杖"
 "才能授權成功。 <br />預設情況下，此值為“”。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:81
@@ -447,7 +447,7 @@ msgid ""
 "UseCompression controls whether or not communication with the server will be "
 "compressed.<br />By default, this value is false."
 msgstr ""
-"UseCompression控制是否壓縮與伺服器的通信。<br />預設情況下，此值為false。"
+"UseCompression控制是否壓縮與伺服器的通訊。<br />預設情況下，此值為false。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:46
 msgid ""
@@ -455,7 +455,7 @@ msgid ""
 "encrypted. Encryption is done using the tokens supplied in the server and "
 "client configuration.<br />By default, this value is false."
 msgstr ""
-"UseEncryption控制是否加密與伺服器的通信。使用伺服器和客戶端配置中提供的權杖來"
+"UseEncryption控制是否加密與伺服器的通訊。使用伺服器和用戶端配置中提供的權杖來"
 "完成加密。<br />預設情況下，此值為false。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:34
@@ -468,7 +468,7 @@ msgid ""
 "clients. If this value is not \"\", proxy names will automatically be "
 "changed to \"{user}.{proxy_name}\".<br />By default, this value is \"\"."
 msgstr ""
-"用戶為代理名稱指定前綴，以將其與其他客戶端區分開。如果此值不是“”，則代理名稱"
+"用戶為代理名稱指定前綴，以將其與其他用戶端區分開。如果此值不是“”，則代理名稱"
 "將自動更改為“ {user}。{proxy_name}”。<br />預設情況下，此值為“”。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:163
@@ -476,4 +476,4 @@ msgstr ""
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:175
 #: applications/luci-app-frpc/root/usr/share/luci/menu.d/luci-app-frpc.json:3
 msgid "frp Client"
-msgstr "frp客戶端"
+msgstr "frp用戶端"
