@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-09 14:31+0000\n"
+"PO-Revision-Date: 2025-05-05 18:17+0000\n"
 "Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstravelmate/ga/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :"
 "(n>6 && n<11) ? 3 : 4;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:76
 msgid "-- AP Selection --"
@@ -64,9 +64,9 @@ msgid ""
 "Automatically (re-)enable the uplink after <em>n</em> minutes, e.g. after "
 "failed login attempts.<br /> The default of '0' disables this feature."
 msgstr ""
-"Cumasaigh (ath)an nasc suas go huathoibríoch tar éis <em>n</em> nóiméad, m."
-"sh. tar éis iarrachtaí logáil isteach teipthe.<br /> Díchumasaítear an ghné "
-"seo le réamhshocrú '0'."
+"Cumasaigh (ath)an nasc suas go huathoibríoch tar éis <em>n</em> nóiméad, "
+"m.sh. tar éis iarrachtaí logáil isteach teipthe.<br /> Díchumasaítear an "
+"ghné seo le réamhshocrú '0'."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:352
 msgid ""
@@ -418,18 +418,18 @@ msgstr "Forbhreathnú"
 msgid ""
 "Overview of all configured uplinks for travelmate. You can edit, remove or "
 "prioritize existing uplinks by drag &#38; drop and scan for new ones.<br /> "
-"The currently used uplink connection is emphasized in <span style=\"color:"
-"rgb(51, 119, 204);font-weight:bold\">blue</span>, an encrypted VPN uplink "
-"connection is emphasized in <span style=\"color:rgb(68, 170, 68);font-weight:"
-"bold\">green</span>."
+"The currently used uplink connection is emphasized in <span "
+"style=\"color:rgb(51, 119, 204);font-weight:bold\">blue</span>, an encrypted "
+"VPN uplink connection is emphasized in <span style=\"color:rgb(68, 170, "
+"68);font-weight:bold\">green</span>."
 msgstr ""
 "Forbhreathnú ar gach nasc suas cumraithe le haghaidh travelmate. Is féidir "
 "leat naisc atá ann cheana féin a chur in eagar, a bhaint nó a chur in ord "
 "tosaíochta trí &#38; scaoil agus scanadh le haghaidh cinn nua.<br /> Leagtar "
-"béim ar an nasc uplink a úsáidtear faoi láthair i <span style=\"color:"
-"rgb(51, 119, 204); font-weight:bold\">gorm</span>, criptithe Leagtar béim ar "
-"nasc uplink VPN i <span style=\"color:rgb(68, 170, 68); font-weight:"
-"bold\">uaine</span>."
+"béim ar an nasc uplink a úsáidtear faoi láthair i <span "
+"style=\"color:rgb(51, 119, 204); font-weight:bold\">gorm</span>, criptithe "
+"Leagtar béim ar nasc uplink VPN i <span style=\"color:rgb(68, 170, 68); font-"
+"weight:bold\">uaine</span>."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:421
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:979
@@ -795,7 +795,7 @@ msgstr "Logáil Dífhabhtú Eorbhéiseach"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:323
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:950
 msgid "WPA Ent. (CCMP)"
-msgstr "WPA Ent. (CCMP)"
+msgstr "Iontráil WPA (CCMP)"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:324
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:951

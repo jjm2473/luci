@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2024-07-20 20:10+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2025-05-31 03:48+0000\n"
+"Last-Translator: formiga12 <j.fabio.f21@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationssnmpd/pt/>\n"
 "Language: pt\n"
@@ -10,19 +10,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:22
 msgid "Agent settings"
-msgstr ""
+msgstr "Definições do agente"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:27
 msgid "AgentX settings"
-msgstr ""
+msgstr "Configurações do AgentX"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:28
 msgid "Delete this section to disable AgentX"
-msgstr ""
+msgstr "Exclua esta seção para desabilitar o AgentX"
 
 #: applications/luci-app-snmpd/htdocs/luci-static/resources/view/snmpd/snmpd.js:25
 msgid "Eg: UDP:161, or UDP:10.5.4.3:161 to only listen on a given interface"

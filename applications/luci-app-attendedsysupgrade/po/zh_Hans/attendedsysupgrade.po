@@ -1,14 +1,15 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-26 14:12+0000\n"
-"Last-Translator: try496 <pinghejk@gmail.com>\n"
+"PO-Revision-Date: 2025-04-25 05:53+0000\n"
+"Last-Translator: 大王叫我来巡山 "
+"<hamburger2048@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsattendedsysupgrade/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/configuration.js:21
 msgid "Address"
@@ -23,7 +24,7 @@ msgid "Advanced Mode"
 msgstr "高级模式"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/configuration.js:11
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:659
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:664
 #: applications/luci-app-attendedsysupgrade/root/usr/share/luci/menu.d/luci-app-attendedsysupgrade.json:3
 msgid "Attended Sysupgrade"
 msgstr "值守式系统更新"
@@ -77,7 +78,7 @@ msgid "Could not reach API at \"%s\". Please try again later."
 msgstr "无法访问位于 “%s” 的 API，请稍后再试。"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:565
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:674
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:679
 msgid "Currently running: %s - %s"
 msgstr "当前版本：%s - %s"
 
@@ -216,7 +217,7 @@ msgstr "构建队列位置 %s 中的请求"
 msgid "SHA256"
 msgstr "SHA-256"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:685
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:690
 msgid "Search for firmware upgrade"
 msgstr "搜索固件更新"
 
@@ -268,7 +269,7 @@ msgstr "已成功创建固件镜像"
 msgid "Target"
 msgstr "目标"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:663
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:668
 msgid ""
 "The attended sysupgrade service allows to upgrade vanilla and custom "
 "firmware images easily."
@@ -278,7 +279,7 @@ msgstr "值守式系统升级服务可让您轻松升级原版和自定义固件
 msgid "The device runs the latest firmware version %s - %s"
 msgstr "此设备正运行最新的固件版本 %s - %s"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:669
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:674
 msgid ""
 "This is done by building a new firmware on demand via an online service."
 msgstr "这是通过按需构建新固件的在线服务来实现的。"

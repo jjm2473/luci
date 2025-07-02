@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-02-22 14:33+0000\n"
-"Last-Translator: Максим Горпиніч <maksimgorpinic2005a@gmail.com>\n"
+"PO-Revision-Date: 2025-05-10 23:01+0000\n"
+"Last-Translator: Максим Горпиніч <maksimgorpinic4@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationspbr/uk/>\n"
 "Language: uk\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:240
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:358
@@ -147,7 +147,7 @@ msgstr "Вимкнути"
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:134
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:242
 msgid "Disabled"
-msgstr "Вимкнено"
+msgstr "Відключено"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:539
 msgid "Disabling %s service"
@@ -511,7 +511,7 @@ msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:488
 msgid "Restart"
-msgstr "Перезапустити"
+msgstr "Перезавантажити"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:482
 msgid "Restarting %s service"
@@ -601,7 +601,7 @@ msgstr "Статус"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:507
 msgid "Stop"
-msgstr "Зупинити"
+msgstr "Стій"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:184
 msgid "Stopped (Disabled)."
@@ -645,11 +645,11 @@ msgstr "%s вказує на шлюз за умовчанням. Перегля�
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:333
 msgid ""
-"The %s interface not found, you need to set the 'pbr.config."
-"procd_wan_interface' option"
+"The %s interface not found, you need to set the "
+"'pbr.config.procd_wan_interface' option"
 msgstr ""
-"Інтерфейс %s не знайдено, потрібно встановити опцію 'pbr.config."
-"procd_wan_interface'"
+"Інтерфейс %s не знайдено, потрібно встановити опцію "
+"'pbr.config.procd_wan_interface'"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:96
 msgid "The %s is not supported on this system."

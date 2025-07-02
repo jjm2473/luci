@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-26 17:57+0200\n"
-"PO-Revision-Date: 2024-10-28 20:23+0000\n"
+"PO-Revision-Date: 2025-05-29 18:31+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationspackage-manager/de/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: applications/luci-app-package-manager/htdocs/luci-static/resources/view/package-manager.js:861
 #: applications/luci-app-package-manager/htdocs/luci-static/resources/view/package-manager.js:926
@@ -69,8 +69,8 @@ msgstr ""
 "Konfigurationsdateien. Die <em>opkg.conf</em>-Datei sollte für globale "
 "Einstellungen und die <em>customfeeds.conf</em>-Datei für benutzerdefinierte "
 "Repository-Einträge verwendet werden. Der Inhalt der anderen "
-"Konfigurationsdateien kann zwar geändert werden, wird aber überlicherweise "
-"bei <em>Systemupdates</em> zurückgesetzt."
+"Konfigurationsdateien kann zwar geändert werden, wird aber üblicherweise bei "
+"<em>Systemupdates</em> zurückgesetzt."
 
 #: applications/luci-app-package-manager/htdocs/luci-static/resources/view/package-manager.js:804
 #: applications/luci-app-package-manager/htdocs/luci-static/resources/view/package-manager.js:850
@@ -82,7 +82,7 @@ msgstr "Abbrechen"
 
 #: applications/luci-app-package-manager/htdocs/luci-static/resources/view/package-manager.js:1178
 msgid "Clear"
-msgstr "Zurücksetzen"
+msgstr "Leeren"
 
 #: applications/luci-app-package-manager/htdocs/luci-static/resources/view/package-manager.js:1195
 msgid "Configure %s"

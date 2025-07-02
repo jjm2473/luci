@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2024-11-01 07:42+0000\n"
-"Last-Translator: lotigara <lotigara@yandex.ru>\n"
+"PO-Revision-Date: 2025-05-17 10:22+0000\n"
+"Last-Translator: SnIPeRSnIPeR <feoktistovk@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsalist/ru/>\n"
 "Language: ru\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: applications/luci-app-alist/htdocs/luci-static/resources/view/alist/config.js:67
 msgid ""
@@ -33,7 +33,7 @@ msgid ""
 "Allow connection even if the remote TLS certificate is invalid (<strong>not "
 "recommended</strong>)."
 msgstr ""
-"Разрешить соединение даже если TLS сертификат удалённого хоста неверный "
+"Разрешить соединение даже если TLS-сертификат удалённого хоста неверный "
 "(<strong>Не рекомендуется</strong>)."
 
 #: applications/luci-app-alist/htdocs/luci-static/resources/view/alist/config.js:118
@@ -55,7 +55,7 @@ msgstr "Включить"
 
 #: applications/luci-app-alist/htdocs/luci-static/resources/view/alist/config.js:121
 msgid "Enable logging"
-msgstr "Включить журналирование"
+msgstr "Включить ведение журнала"
 
 #: applications/luci-app-alist/htdocs/luci-static/resources/view/alist/config.js:99
 msgid "Expecting: %s"
@@ -157,4 +157,4 @@ msgstr "Время истечения пользовательской сесс�
 
 #: applications/luci-app-alist/htdocs/luci-static/resources/view/alist/config.js:99
 msgid "valid IP address"
-msgstr "валидный IP адрес"
+msgstr "верный IP-адрес"
