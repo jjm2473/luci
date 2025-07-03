@@ -32,6 +32,3 @@ install: compile
 
 	mkdir -p $(DESTDIR)/usr/share/ucode/luci
 	cp version.uc $(DESTDIR)/usr/share/ucode/luci/version.uc
-
-	mkdir -p $(DESTDIR)/www/luci-static/resources/icons
-	ln -sf loading.svg $(DESTDIR)/www/luci-static/resources/icons/loading.gif
