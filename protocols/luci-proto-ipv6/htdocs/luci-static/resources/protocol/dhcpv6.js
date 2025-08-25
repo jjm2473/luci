@@ -38,6 +38,15 @@ return network.registerProtocol('dhcpv6', {
 		o.default = '1';
 		o.rmempty = false;
 
+		o = s.taboption('advanced', form.Flag, 'iface_dslite', _('Dual-Stack Lite (RFC6333)'));
+		o.default = o.enabled;
+
+		o = s.taboption('advanced', form.Flag, 'iface_map', _('MAP / LW4over6'));
+		o.default = o.enabled;
+
+		o = s.taboption('advanced', form.Flag, 'iface_464xlat', _('464XLAT (CLAT)'));
+		o.default = o.enabled;
+
 		o = s.taboption('advanced', form.Value, 'clientid', _('Client ID to send when requesting DHCP'));
 		o.datatype  = 'hexstring';
 	}
