@@ -52,6 +52,21 @@ return network.registerProtocol('l2tp', {
 			o.value('0', _('Disabled'));
 			o.value('1', _('Manual'));
 			o.default = 'auto';
+
+			o = s.taboption('advanced', form.Flag, 'iface_dslite', _('Dual-Stack Lite (RFC6333)'));
+			o.depends('ppp_ipv6', 'auto');
+			o.depends('ppp_ipv6', '1');
+			o.default = o.enabled;
+
+			o = s.taboption('advanced', form.Flag, 'iface_map', _('MAP / LW4over6'));
+			o.depends('ppp_ipv6', 'auto');
+			o.depends('ppp_ipv6', '1');
+			o.default = o.enabled;
+
+			o = s.taboption('advanced', form.Flag, 'iface_464xlat', _('464XLAT (CLAT)'));
+			o.depends('ppp_ipv6', 'auto');
+			o.depends('ppp_ipv6', '1');
+			o.default = o.enabled;
 		}
 
 		o = s.taboption('advanced', form.Value, 'mtu', _('Override MTU'));
