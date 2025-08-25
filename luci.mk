@@ -86,7 +86,7 @@ UCODE_LIBRARYDIR = /usr/share/ucode/luci
 define findrev
   $(shell \
     if git log -1 >/dev/null 2>/dev/null; then \
-      set -- $$(git log -1 --format="%ct %h" --abbrev=7 -- $(if $(1),. ':(exclude)po',po)); \
+      set -- $$(git log -1 --format="%ct %h" --abbrev=7 -- $(if $(1),$(if $(filter 2,$(1)),,. )':(exclude)po',po)); \
       if [ -n "$$1" ]; then
         secs="$$(($$1 % 86400))"; \
         yday="$$(date --utc --date="@$$1" "+%y.%j")"; \
@@ -116,7 +116,7 @@ PKG_CONFIG_DEPENDS += CONFIG_LUCI_SRCDIET CONFIG_LUCI_JSMIN CONFIG_LUCI_CSSTIDY
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 PKG_PO_VERSION?=$(if $(DUMP),x,$(strip $(call findrev)))
-PKG_SRC_VERSION?=$(if $(DUMP),x,$(strip $(call findrev,1)))
+PKG_SRC_VERSION?=$(if $(DUMP),x,$(strip $(call findrev,$(if $(filter luci-base luci-lua-runtime,$(PKG_NAME)),2,1))))
 
 PKG_GITBRANCH?=$(if $(DUMP),x,$(strip $(shell \
 	variant="LuCI"; \
