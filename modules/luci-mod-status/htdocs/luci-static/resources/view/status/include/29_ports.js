@@ -313,10 +313,11 @@ return baseclass.extend({
 	},
 
 	render: function(data) {
-		if (L.hasSystemFeature('swconfig'))
+		var board = JSON.parse(data[1]);
+		if (L.hasSystemFeature('swconfig') && L.isObject(board) && L.isObject(board.switch))
 			return null;
 
-		var board = JSON.parse(data[1]),
+		var
 		    known_ports = [],
 		    port_map = buildInterfaceMapping(data[2], data[3]);
 
