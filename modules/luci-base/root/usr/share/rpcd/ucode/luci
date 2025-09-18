@@ -565,9 +565,14 @@ const methods = {
 			}
 
 			/* Workaround for targets that do not enumerate  all netdevs in board.json */
-			if (uname().machine in [ 'x86_64' ] &&
+			if (uname().machine in [ 'x86_64', 'aarch64' ] &&
 			    match(ports[0]?.device, /^eth\d+$/)) {
-				let bus = readlink(`/sys/class/net/${ports[0].device}/device/subsystem`);
+				let bus = readlink(`/sys/class/net/${ports[0].device}/device/subsystem`) || 'virtual';
+				let busname = basename(bus);
+				let allowed_buses = [ busname ];
+				if (busname == 'pci' || busname == 'virtio') {
+					allowed_buses = [ 'pci', 'virtio' ];
+				}
 
 				for (let netdev in lsdir('/sys/class/net')) {
 					if (!match(netdev, /^eth\d+$/))
@@ -576,7 +581,7 @@ const methods = {
 					if (length(filter(ports, port => port.device == netdev)))
 						continue;
 
-					if (readlink(`/sys/class/net/${netdev}/device/subsystem`) != bus)
+					if (!(basename(readlink(`/sys/class/net/${netdev}/device/subsystem`) || 'virtual') in allowed_buses))
 						continue;
 
 					push(ports, { role: 'unknown', device: netdev });
