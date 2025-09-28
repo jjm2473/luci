@@ -349,6 +349,7 @@ function maskToPrefix(mask, v6) {
 
 function initNetworkState(refresh) {
 	if (_state == null || refresh) {
+		const hasWifi = L.hasSystemFeature('wifi');
 		_init = _init || Promise.all([
 			L.resolveDefault(callNetworkInterfaceDump(), []),
 			L.resolveDefault(callLuciBoardJSON(), {}),
@@ -357,7 +358,7 @@ function initNetworkState(refresh) {
 			L.resolveDefault(callLuciHostHints(), {}),
 			getProtocolHandlers(),
 			L.resolveDefault(uci.load('network')),
-			L.hasSystemFeature('wifi') ? L.resolveDefault(uci.load('wireless')) : L.resolveDefault(),
+			hasWifi ? L.resolveDefault(uci.load('wireless')) : L.resolveDefault(),
 			L.resolveDefault(uci.load('luci'))
 		]).then(function(data) {
 			var netifd_ifaces = data[0],
@@ -2956,6 +2957,7 @@ Device = baseclass.extend(/** @lends LuCI.network.Device.prototype */ {
 	 *  - `bridge` if it is a bridge device (e.g. `br-lan`)
 	 *  - `tunnel` if it is a tun or tap device (e.g. `tun0`)
 	 *  - `vlan` if it is a vlan device (e.g. `eth0.1`)
+	 *  - `vrf` if it is a Virtual Routing and Forwarding type (e.g. `vrf0`)
 	 *  - `switch` if it is a switch device (e.g.`eth1` connected to switch0)
 	 *  - `ethernet` for all other device types
 	 */
@@ -2978,6 +2980,8 @@ Device = baseclass.extend(/** @lends LuCI.network.Device.prototype */ {
 			return 'vlan';
 		else if (this.config.type == 'bridge')
 			return 'bridge';
+		else if (this.config.type == 'vrf')
+			return 'vrf';
 		else
 			return 'ethernet';
 	},
@@ -3031,6 +3035,9 @@ Device = baseclass.extend(/** @lends LuCI.network.Device.prototype */ {
 
 		case 'bridge':
 			return _('Bridge');
+
+		case 'vrf':
+			return _('Virtual Routing and Forwarding (VRF)');
 
 		case 'switch':
 			return (_state.netdevs[this.device] && _state.netdevs[this.device].devtype == 'dsa')

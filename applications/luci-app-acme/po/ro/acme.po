@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-01-10 11:15+0000\n"
-"Last-Translator: Marc Bodea <marcbodea@gmail.com>\n"
+"PO-Revision-Date: 2025-08-23 10:16+0000\n"
+"Last-Translator: CRISTIAN ANDREI <cristianvdr@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsacme/ro/>\n"
 "Language: ro\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #: applications/luci-app-acme/htdocs/luci-static/resources/view/acme.js:28
 #: applications/luci-app-acme/root/usr/share/luci/menu.d/luci-app-acme.json:3
@@ -30,7 +30,7 @@ msgstr "Adresa de e-mail a contului"
 
 #: applications/luci-app-acme/htdocs/luci-static/resources/view/acme.js:60
 msgid "Advanced Settings"
-msgstr "Setări avansate"
+msgstr "Setări Avansate"
 
 #: applications/luci-app-acme/htdocs/luci-static/resources/view/acme.js:436
 msgid "Base64 content of private key. Use instead of YC_SA_Key_File_Path"
@@ -126,11 +126,11 @@ msgstr "Activați jurnalizarea de depanare"
 
 #: applications/luci-app-acme/htdocs/luci-static/resources/view/acme.js:62
 msgid "Enabled"
-msgstr "activat"
+msgstr "Activat"
 
 #: applications/luci-app-acme/htdocs/luci-static/resources/view/acme.js:57
 msgid "General Settings"
-msgstr "Setări generale"
+msgstr "Setări Generale"
 
 #: applications/luci-app-acme/htdocs/luci-static/resources/view/acme.js:472
 msgid ""

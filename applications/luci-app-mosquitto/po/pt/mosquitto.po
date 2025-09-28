@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2025-06-01 10:03+0000\n"
+"PO-Revision-Date: 2025-08-02 07:12+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmosquitto/pt/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:60
 msgid "Allow anonymous connections"
@@ -34,19 +34,21 @@ msgstr "Automático, mas sem reinicializações"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:178
 msgid "Automatic, but stopped when not used"
-msgstr ""
+msgstr "Automático, mas interrompido quando não utilizado"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:177
 msgid "Automatic, includes restarts"
-msgstr ""
+msgstr "Automático, inclui reinícios"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:83
 msgid "Autosave interval"
-msgstr ""
+msgstr "Intervalo de auto-gravação"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:80
 msgid "Autosave interval applies to change counts instead of time"
 msgstr ""
+"O intervalo de auto-gravação aplica-se ao número de alterações em vez do "
+"tempo"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:80
 msgid "Autosave on changes"
@@ -103,7 +105,7 @@ msgstr ""
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:8
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:101
 msgid "Default"
-msgstr ""
+msgstr "Predefinido"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:122
 msgid "Depends on your openssl version, empty to support all"

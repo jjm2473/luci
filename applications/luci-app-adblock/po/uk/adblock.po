@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-05-10 23:01+0000\n"
-"Last-Translator: Максим Горпиніч <maksimgorpinic4@gmail.com>\n"
+"PO-Revision-Date: 2025-07-22 08:16+0000\n"
+"Last-Translator: Максим Горпиніч <gorpinicmaksim5@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/uk/>\n"
 "Language: uk\n"
@@ -9,11 +9,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:302
 msgid "-- default --"
-msgstr ""
+msgstr "-- за замовчуванням --"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:220
 msgid "0.0.0.0<SPACE><DOMAIN>"
@@ -122,11 +122,11 @@ msgstr "Тека для резервних копій"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:307
 msgid "Base Directory"
-msgstr ""
+msgstr "Базовий каталог"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:307
 msgid "Base working directory during adblock processing."
-msgstr ""
+msgstr "Базовий робочий каталог під час обробки блокування реклами."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:371
 msgid "Block Local Client IPs"
@@ -157,7 +157,7 @@ msgstr "Стрічка чорного списку"
 msgid "Blocklist Query"
 msgstr "Запит до списку блокування"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:415
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:411
 msgid "Blocklist Query..."
 msgstr "Запит до списку блокування..."
 
@@ -364,6 +364,9 @@ msgid ""
 "domains. This requires external requests to get the map tiles and "
 "geolocation data."
 msgstr ""
+"Увімкнути карту GeoIP, яка показує географічне розташування заблокованих "
+"доменів. Для отримання фрагментів карти та даних геолокації потрібні "
+"зовнішні запити."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:221
 msgid "Enable the adblock service."
@@ -461,11 +464,7 @@ msgstr "Загальні налаштування"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:430
 msgid "GeoIP Map"
-msgstr ""
-
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:394
-msgid "GeoIP Map is not enabled!"
-msgstr ""
+msgstr "Карта GeoIP"
 
 #: applications/luci-app-adblock/root/usr/share/rpcd/acl.d/luci-app-adblock.json:3
 msgid "Grant access to LuCI app adblock"
@@ -477,11 +476,11 @@ msgstr "Вибір списку Хагезі"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:297
 msgid "High Priority"
-msgstr ""
+msgstr "Високий пріоритет"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:296
 msgid "Highest Priority"
-msgstr ""
+msgstr "Найвищий пріоритет"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:160
 msgid "Information"
@@ -517,11 +516,11 @@ msgstr "Останні DNS-запити"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:300
 msgid "Least Priority"
-msgstr ""
+msgstr "Найменший пріоритет"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:299
 msgid "Less Priority"
-msgstr ""
+msgstr "Менший пріоритет"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:260
 msgid "Limit SafeSearch"
@@ -554,11 +553,11 @@ msgstr "Перегляд журналу"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:230
 msgid "Map Reset"
-msgstr ""
+msgstr "Скидання карти"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:408
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:404
 msgid "Map..."
-msgstr ""
+msgstr "Карта..."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:228
 msgid "Medium"
@@ -566,11 +565,11 @@ msgstr "Середній"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:295
 msgid "Nice Level"
-msgstr ""
+msgstr "Гарний рівень"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:404
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:400
 msgid "No GeoIP Map data!"
-msgstr ""
+msgstr "Немає даних карти GeoIP!"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:125
 msgid "No Query results!"
@@ -578,7 +577,7 @@ msgstr "Немає результатів запиту!"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:298
 msgid "Normal Priority"
-msgstr ""
+msgstr "Звичайний пріоритет"
 
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:19
 msgid "Overview"
@@ -626,7 +625,7 @@ msgstr "Оновити"
 msgid "Refresh DNS Report"
 msgstr "Оновити звіт DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:422
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:418
 msgid "Refresh..."
 msgstr "Оновити..."
 
@@ -814,6 +813,8 @@ msgstr "Список блокування завеликий, неможливо
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:295
 msgid "The selected priority will be used for adblock background processing."
 msgstr ""
+"Вибраний пріоритет буде використано для фонової обробки блокувальника "
+"реклами."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:253
 msgid ""
@@ -867,7 +868,7 @@ msgstr "Час очікування успішного перезавантаж�
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:375
 msgid "Top Statistics"
-msgstr "Статистика"
+msgstr "Топ Статистика"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:446
 msgid "Topic for adblock notification E-Mails."

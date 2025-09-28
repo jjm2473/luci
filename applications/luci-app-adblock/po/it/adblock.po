@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-07-03 10:09+0000\n"
-"Last-Translator: moreno <morenomatassini95@gmail.com>\n"
+"PO-Revision-Date: 2025-08-23 10:16+0000\n"
+"Last-Translator: Luigi Grilli <luigi.grilli@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/it/>\n"
 "Language: it\n"
@@ -11,11 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:302
 msgid "-- default --"
-msgstr ""
+msgstr "-- predefinito --"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:220
 msgid "0.0.0.0<SPACE><DOMAIN>"
@@ -155,7 +155,7 @@ msgstr ""
 msgid "Blocklist Query"
 msgstr "Consulta lista di blocco"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:415
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:411
 msgid "Blocklist Query..."
 msgstr "Cerca lista di blocco..."
 
@@ -447,10 +447,6 @@ msgstr "Impostazioni Generali"
 msgid "GeoIP Map"
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:394
-msgid "GeoIP Map is not enabled!"
-msgstr ""
-
 #: applications/luci-app-adblock/root/usr/share/rpcd/acl.d/luci-app-adblock.json:3
 msgid "Grant access to LuCI app adblock"
 msgstr "Consenti l'accesso all'app adblock di LuCI"
@@ -540,7 +536,7 @@ msgstr "Vista dei log"
 msgid "Map Reset"
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:408
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:404
 msgid "Map..."
 msgstr ""
 
@@ -552,7 +548,7 @@ msgstr ""
 msgid "Nice Level"
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:404
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:400
 msgid "No GeoIP Map data!"
 msgstr ""
 
@@ -610,7 +606,7 @@ msgstr "Aggiorna"
 msgid "Refresh DNS Report"
 msgstr "Aggiorna il report DNS"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:422
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:418
 msgid "Refresh..."
 msgstr "Aggiorna..."
 

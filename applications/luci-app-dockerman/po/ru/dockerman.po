@@ -1,7 +1,8 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-05-31 20:15+0000\n"
-"Last-Translator: SnIPeRSnIPeR <feoktistovk@gmail.com>\n"
+"PO-Revision-Date: 2025-08-11 21:02+0000\n"
+"Last-Translator: SnIPeRSnIPeR "
+"<snipersniper@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsdockerman/ru/>\n"
 "Language: ru\n"
@@ -9,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:604
 msgid "A list of kernel capabilities to add to the container"
@@ -40,7 +41,7 @@ msgid ""
 "An overview with the relevant data is displayed here with which the LuCI "
 "docker client is connected."
 msgstr ""
-"Здесь отображается актуальная информация об узле, к которому подключен "
+"Здесь отображается актуальная информация об узле, к которому подключён "
 "клиент Docker LuCI."
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:29
@@ -321,7 +322,7 @@ msgstr "DockerMan — простая оболочка над Docker для LuCI"
 
 #: applications/luci-app-dockerman/luasrc/view/dockerman/container_file.htm:14
 msgid "Download"
-msgstr "Получить"
+msgstr "Скачать"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/networks.lua:79
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newnetwork.lua:32
@@ -335,7 +336,7 @@ msgstr "Клонировать"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newnetwork.lua:110
 msgid "Enable IPv6"
-msgstr "Включить IPv6"
+msgstr "Включить <abbr title=\"Internet Protocol Version 6\">IPv6</abbr>"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:343
 msgid "Env"
@@ -601,7 +602,7 @@ msgstr "Смонтировать/Том"
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:411
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/volumes.lua:83
 msgid "Name"
-msgstr "Имя"
+msgstr "Название"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newnetwork.lua:29
 msgid "Name of the network that can be selected during container creation"
@@ -877,7 +878,7 @@ msgstr "TTY (-t)"
 
 #: applications/luci-app-dockerman/luasrc/view/dockerman/container_stats.htm:56
 msgid "TX/RX"
-msgstr "TX/RX"
+msgstr "Tx/Rx"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:564
 msgid "The hostname to use for the container"
@@ -939,7 +940,7 @@ msgstr "Обновить"
 #: applications/luci-app-dockerman/luasrc/view/dockerman/container_file.htm:2
 #: applications/luci-app-dockerman/luasrc/view/dockerman/container_file.htm:13
 msgid "Upload"
-msgstr "Выгрузить"
+msgstr "Загрузить"
 
 #: applications/luci-app-dockerman/luasrc/view/dockerman/container_file.htm:46
 msgid "Upload Error"
@@ -963,7 +964,7 @@ msgstr "Пользователь (-u)"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newnetwork.lua:53
 msgid "VEPA (Virtual Ethernet Port Aggregator)"
-msgstr "VEPA (виртуальный агрегатор портов Ethernet)"
+msgstr "VEPA (виртуальный агрегатор Ethernet-портов)"
 
 #: applications/luci-app-dockerman/luasrc/controller/dockerman.lua:40
 #: applications/luci-app-dockerman/luasrc/view/dockerman/overview.htm:187
@@ -976,7 +977,7 @@ msgstr "Список томов"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:58
 msgid "Warning"
-msgstr "Внимание"
+msgstr "Предупреждение"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/images.lua:125
 msgid ""
