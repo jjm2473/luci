@@ -687,6 +687,14 @@ return view.extend({
 							return _("Invalid DHCP lease time format. Use integer values optionally followed by s, m, h, d, or w.");
 						}
 
+						so = ss.taboption('advanced', form.RichListValue, 'dhcpv4', _('DHCPv4-Service'),
+									_('Enable or disable DHCPv4 service on this interface.'));
+						so.optional = true;
+						so.value('disabled', _('disabled'),
+								_('Do not offer DHCPv4 service on this interface.'));
+						so.value('server', _('enabled'),
+								_('Provide DHCPv4 service on this interface.'));
+
 						so = ss.taboption('advanced', form.Flag, 'dynamicdhcp', _('Dynamic <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr>'), _('Dynamically allocate DHCP addresses for clients. If disabled, only clients having static leases will be served.'));
 						so.default = so.enabled;
 
