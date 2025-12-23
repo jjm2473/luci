@@ -2428,6 +2428,10 @@ msgstr "不监听这些接口。"
 msgid "Do not offer DHCPv6 service on this interface."
 msgstr "不在此接口上提供 DHCPv6 服务。"
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:746
+msgid "Do not provide DHCPv4 services on this interface."
+msgstr "不在这个接口上提供 DHCPv4 服务。"
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:953
 msgid ""
 "Do not proxy any <abbr title=\"Neighbour Discovery Protocol\">NDP</abbr> "
@@ -2920,6 +2924,10 @@ msgid ""
 "Enables fast roaming among access points that belong to the same Mobility "
 "Domain"
 msgstr "启用属于同一移动域接入点之间的快速漫游"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:743
+msgid "Enable or disable DHCPv4 services on this interface."
+msgstr "在这个接口上启用或禁用 DHCPv4 服务。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:572
 msgid "Enables the Spanning Tree Protocol on this bridge"
@@ -6953,6 +6961,10 @@ msgstr "协议"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:227
 msgid "Protocol"
 msgstr "协议"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:748
+msgid "Provide DHCPv4 services on this interface."
+msgstr "在此接口上提供 DHCPv4 服务。"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:282
 msgid "Provide NTP server"
