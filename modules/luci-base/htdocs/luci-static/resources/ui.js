@@ -5387,10 +5387,10 @@ const UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 	 * @returns {Promise<LuCI.view>}
 	 * Returns a promise resolving to the loaded view instance.
 	 */
-	instantiateView(path) {
+	instantiateView(path, version) {
 		const className = 'view.%s'.format(path.replace(/\//g, '.'));
 
-		return L.require(className).then(view => {
+		return L.require(className, undefined, version).then(view => {
 			if (!(view instanceof View))
 				throw new TypeError('Loaded class %s is not a descendant of View'.format(className));
 
