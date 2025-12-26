@@ -792,7 +792,7 @@ function run_action(request_path, lang, tree, resolved, action) {
 		break;
 
 	case 'view':
-		runtime.render('view', { view: action.path });
+		runtime.render('view', { view: action.path, resource_version: action.version });
 		break;
 
 	case 'call':
