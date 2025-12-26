@@ -4,7 +4,7 @@
 	<div class="spinning">{{ _('Loading view…') }}</div>
 	<script>
 		L.require('ui').then(function(ui) {
-			ui.instantiateView('{{ view }}');
+			ui.instantiateView('{{ view }}', {% if (resource_version): %}'{{ resource_version }}'{% else %}undefined{% endif %});
 		});
 	</script>
 </div>
