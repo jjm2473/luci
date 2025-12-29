@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2025-09-01 10:35+0000\n"
+"PO-Revision-Date: 2025-12-05 05:00+0000\n"
 "Last-Translator: Džiugas Januševičius <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/lt/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:642
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:711
@@ -47,7 +47,7 @@ msgstr "-- Nustatyti pasirinkimą --"
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:815
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:836
 msgid "-- default --"
-msgstr "-- numatytas --"
+msgstr "-- numatytasis/-oji --"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:238
 msgid "<DATE><IPv4><SPACE>"
@@ -363,7 +363,7 @@ msgstr "Netikrinti „SSL“ serverio sertifikatus, kol siunčiasi."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:302
 msgid "Download"
-msgstr ""
+msgstr "Atsisiųsti"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:308
 msgid "Download Insecure"
@@ -537,11 +537,11 @@ msgstr "Duoti prieigą prie „LuCI-app-banIP“"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:321
 msgid "High Priority"
-msgstr "Aukštos pirmenybės"
+msgstr "Aukšta pirmenybė"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:320
 msgid "Highest Priority"
-msgstr "Aukščiausios pirmenybės"
+msgstr "Aukščiausia pirmenybė"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:418
 msgid "ICMP-Threshold"
@@ -638,7 +638,7 @@ msgstr "Mažiausia pirmenybė"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:323
 msgid "Less Priority"
-msgstr "Mažiau pirmenybės"
+msgstr "Mažesnė pirmenybė"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:342
 msgid "Limit the cpu cores used by banIP to save RAM, autodetected by default."
@@ -741,6 +741,10 @@ msgstr "Tinklo įrenginiai"
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:319
 msgid "Nice Level"
 msgstr "Lygis – „Nice“"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/logtemplate.js:23
+msgid "No %s related logs yet!"
+msgstr "Kol kas nėra %s susijusių žurnalų!"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:306
 msgid "No GeoIP Map data!"
@@ -917,7 +921,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:338
 msgid "Save"
-msgstr ""
+msgstr "Išsaugoti"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:859
 msgid "Save & Reload"
@@ -1093,6 +1097,11 @@ msgstr ""
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:319
 msgid "The selected priority will be used for banIP background processing."
 msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/logtemplate.js:30
+msgid "The syslog output, pre-filtered for messages related to: %s"
+msgstr ""
+"„Syslog“ išvestis, iš anksto filtruota pagal pranešimus, susijusius su: %s"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/allowlist.js:28
 msgid ""
@@ -1288,6 +1297,10 @@ msgstr "vietinis leidžiamasis sąrašas"
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:569
 msgid "local blocklist"
 msgstr "vietinis blokavimo sąrašas"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/logtemplate.js:17
+msgid "logread not found on system."
+msgstr "„logread“ nerastas sistemoje."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:469
 msgid "memory"

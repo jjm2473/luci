@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-24 20:01+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2025-11-24 10:29+0000\n"
+"Last-Translator: Werner Schleifer <werner.schleifer@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:302
 msgid "-- default --"
@@ -302,7 +302,7 @@ msgstr "Während des Downloads keine SSL-Serverzertifikate überprüfen."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:255
 msgid "Download"
-msgstr "Herunterladen"
+msgstr "Download"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:322
 msgid "Download Insecure"
@@ -572,6 +572,10 @@ msgstr "Mittel"
 msgid "Nice Level"
 msgstr "Nice-Level"
 
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/logtemplate.js:23
+msgid "No %s related logs yet!"
+msgstr "Bisher noch keine %s bezogenen Protokolle!"
+
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:400
 msgid "No GeoIP Map data!"
 msgstr "Keine GeoIP-Kartendaten!"
@@ -612,7 +616,7 @@ msgstr "Frage aktive Sperrlisten und Backups über eine spezifische Domain ab."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:279
 msgid "Receiver address for adblock notification e-mails."
-msgstr "Empfängeradresse für Adblock-Benachrichtigungs-E-Mails."
+msgstr "Empfängeradresse für Mail-Benachrichtigungen des Werbeblockers."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:234
 msgid ""
@@ -822,6 +826,12 @@ msgstr ""
 "Die gewählte Priorität wird für die adblock-Hintergrundverarbeitung "
 "verwendet."
 
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/logtemplate.js:30
+msgid "The syslog output, pre-filtered for messages related to: %s"
+msgstr ""
+"Die Syslog-Ausgabe, vorgefiltert nach Meldungen, die sich auf Folgendes "
+"beziehen: %s"
+
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:253
 msgid ""
 "The top level domain compression removes thousands of needless host entries "
@@ -947,8 +957,9 @@ msgstr ""
 "einfach die benutzerdefinierte Feed-Datei."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:337
+#, fuzzy
 msgid "bind"
-msgstr "bind"
+msgstr "binden"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:335
 msgid "dnsmasq"
@@ -957,6 +968,10 @@ msgstr "dnsmasq"
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:339
 msgid "kresd"
 msgstr "kresd"
+
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/logtemplate.js:17
+msgid "logread not found on system."
+msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:164
 msgid "max. result set size"
@@ -968,7 +983,7 @@ msgstr "Max. Top-Statistiken"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:340
 msgid "raw"
-msgstr "pur"
+msgstr "roh"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:338
 msgid "smartdns"

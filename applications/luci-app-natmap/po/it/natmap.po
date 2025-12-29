@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-30 15:21+0000\n"
-"Last-Translator: moreno matassini <morenomatassini95@gmail.com>\n"
+"PO-Revision-Date: 2025-11-25 16:35+0000\n"
+"Last-Translator: Alex Caserini <alex.caserini@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsnatmap/it/>\n"
 "Language: it\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: applications/luci-app-natmap/htdocs/luci-static/resources/view/natmap.js:108
 msgid "Allocation bind ports randomly instead of sequentially."
-msgstr ""
+msgstr "L'allocazione associa le porte in modo casuale anziché sequenziale."
 
 #: applications/luci-app-natmap/htdocs/luci-static/resources/view/natmap.js:103
 msgid "Bind port"
@@ -20,7 +20,7 @@ msgstr "collega porta"
 
 #: applications/luci-app-natmap/htdocs/luci-static/resources/view/natmap.js:134
 msgid "Congestion control"
-msgstr ""
+msgstr "Controllo congestioni"
 
 #: applications/luci-app-natmap/htdocs/luci-static/resources/view/natmap.js:55
 msgid "Enable"
@@ -41,7 +41,7 @@ msgstr "Per la modalità TCP"
 
 #: applications/luci-app-natmap/htdocs/luci-static/resources/view/natmap.js:82
 msgid "For UDP mode"
-msgstr ""
+msgstr "Per modo UDP"
 
 #: applications/luci-app-natmap/htdocs/luci-static/resources/view/natmap.js:111
 msgid "Forward mode"
@@ -106,7 +106,7 @@ msgstr ""
 
 #: applications/luci-app-natmap/htdocs/luci-static/resources/view/natmap.js:59
 msgid "Protocol"
-msgstr ""
+msgstr "Protocollo"
 
 #: applications/luci-app-natmap/htdocs/luci-static/resources/view/natmap.js:107
 msgid "Randomly allocation ports"

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-09-07 13:02+0000\n"
+"PO-Revision-Date: 2025-11-24 10:29+0000\n"
 "Last-Translator: CRISTIAN ANDREI <cristianvdr@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock-fast/ro/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/adblock-fast/status.js:99
 msgid "%s is currently disabled"
@@ -29,7 +29,7 @@ msgstr "-"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:507
 msgid "Action"
-msgstr "Acțiune"
+msgstr "Acţiune"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/adblock-fast/status.js:66
 msgid "Active"
@@ -38,12 +38,12 @@ msgstr "Activ"
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:186
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:250
 msgid "Ad-blocking on all instances"
-msgstr ""
+msgstr "Blocarea reclamelor pe toate instanțele"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:187
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:251
 msgid "Ad-blocking on select instances"
-msgstr ""
+msgstr "Blocarea reclamelor pe anumite instanțe"
 
 #: applications/luci-app-adblock-fast/root/usr/share/luci/menu.d/luci-app-adblock-fast.json:3
 msgid "AdBlock Fast"
@@ -79,12 +79,12 @@ msgstr "Adăugați intrări IPv6 la block-list."
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:50
 msgid "Advanced Configuration"
-msgstr "Configurație avansată"
+msgstr "Configurație Avansată"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:508
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:513
 msgid "Allow"
-msgstr "Permiteți"
+msgstr "Permite"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:466
 msgid "Allowed Domains"
@@ -228,7 +228,7 @@ msgstr "Descărcarea listelor"
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:349
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:503
 msgid "Enable"
-msgstr "Permite"
+msgstr "Activați"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:447
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:451
@@ -561,7 +561,7 @@ msgstr "Prelucrare simultană"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:490
 msgid "Size"
-msgstr ""
+msgstr "Dimensiune"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:500
 msgid "Size: %s"
@@ -589,7 +589,7 @@ msgstr ""
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/adblock-fast/status.js:488
 msgid "Stop"
-msgstr "Stop"
+msgstr "Oprire"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:372
 msgid "Stop the download if it is stalled for set number of seconds."
@@ -654,7 +654,7 @@ msgstr ""
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:529
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:165
 msgid ""
@@ -772,7 +772,7 @@ msgstr ""
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:334
 msgid "none"
-msgstr "niciunul"
+msgstr "niciuna"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:146
 msgid "smartdns domain set"

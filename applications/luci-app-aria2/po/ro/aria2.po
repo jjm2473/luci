@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-06-20 21:40+0000\n"
+"PO-Revision-Date: 2025-11-24 10:30+0000\n"
 "Last-Translator: CRISTIAN ANDREI <cristianvdr@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsaria2/ro/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:433
 msgid "<abbr title=\"Local Peer Discovery\">LPD</abbr> enabled"
@@ -169,7 +169,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:220
 msgid "Enable logging"
-msgstr "Activează fișierul log"
+msgstr "Activați jurnalizarea"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:442
 msgid "Enable peer exchange"
@@ -202,7 +202,7 @@ msgstr "Alocarea fișierelor"
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/files.js:45
 #: applications/luci-app-aria2/root/usr/share/luci/menu.d/luci-app-aria2.json:24
 msgid "Files"
-msgstr "Fișiere"
+msgstr "Fişiere"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:485
 msgid "Follow torrent"
@@ -387,7 +387,7 @@ msgstr "Nu există date de jurnal."
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:591
 msgid "None"
-msgstr "Nici unul"
+msgstr "Niciuna"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:232
 msgid "Notice"
@@ -894,7 +894,7 @@ msgstr "falloc"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:592
 msgid "prealloc"
-msgstr "prealloc"
+msgstr "prealocare"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:593
 msgid "trunc"

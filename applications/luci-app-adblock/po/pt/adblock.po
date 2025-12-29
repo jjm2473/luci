@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-27 01:17+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2025-11-26 16:13+0000\n"
+"Last-Translator: Luiz Carlos de Souza Santos <lcdessantos@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:302
 msgid "-- default --"
-msgstr "-- predefinição --"
+msgstr "-- padrão --"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:220
 msgid "0.0.0.0<SPACE><DOMAIN>"
@@ -552,7 +552,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:59
 msgid "Log View"
-msgstr "Vista do registo log"
+msgstr "Visualização de log"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:230
 msgid "Map Reset"
@@ -569,6 +569,10 @@ msgstr "Média"
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:295
 msgid "Nice Level"
 msgstr "Nível de Nice"
+
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/logtemplate.js:23
+msgid "No %s related logs yet!"
+msgstr "Ainda não há registos relacionados a %s!"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:400
 msgid "No GeoIP Map data!"
@@ -695,7 +699,7 @@ msgstr "Executar Interfaces"
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:75
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:291
 msgid "Save"
-msgstr "Guardar"
+msgstr "Salvar"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:587
 msgid "Save & Reload"
@@ -820,6 +824,10 @@ msgid "The selected priority will be used for adblock background processing."
 msgstr ""
 "A prioridade selecionada será usada pelo adblock para o processamento em "
 "segundo plano."
+
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/logtemplate.js:30
+msgid "The syslog output, pre-filtered for messages related to: %s"
+msgstr "A saída syslog, pré-filtrada para mensagens relacionadas a: %s"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:253
 msgid ""
@@ -957,6 +965,10 @@ msgstr "dnsmasq"
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:339
 msgid "kresd"
 msgstr "kresd"
+
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/logtemplate.js:17
+msgid "logread not found on system."
+msgstr "logread não foi encontrado no sistema."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:164
 msgid "max. result set size"

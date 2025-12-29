@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-07-20 19:54+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2025-11-26 16:13+0000\n"
+"Last-Translator: Luiz Carlos de Souza Santos <lcdessantos@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:642
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:711
@@ -44,7 +44,7 @@ msgstr "-- Definir seleção --"
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:815
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:836
 msgid "-- default --"
-msgstr "-- predefinição --"
+msgstr "-- padrão --"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:238
 msgid "<DATE><IPv4><SPACE>"
@@ -742,6 +742,10 @@ msgstr "Dispositivos de rede"
 msgid "Nice Level"
 msgstr "Nível de Nice"
 
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/logtemplate.js:23
+msgid "No %s related logs yet!"
+msgstr "Ainda não há registos relacionados a %s!"
+
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:306
 msgid "No GeoIP Map data!"
 msgstr "Sem dados do mapa GeoIP!"
@@ -921,7 +925,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:338
 msgid "Save"
-msgstr "Guardar"
+msgstr "Salvar"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:859
 msgid "Save & Reload"
@@ -1100,6 +1104,10 @@ msgid "The selected priority will be used for banIP background processing."
 msgstr ""
 "A prioridade selecionada será usada pelo banIP para o processamento em "
 "segundo plano."
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/logtemplate.js:30
+msgid "The syslog output, pre-filtered for messages related to: %s"
+msgstr "A saída syslog, pré-filtrada para mensagens relacionadas a: %s"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/allowlist.js:28
 msgid ""
@@ -1305,6 +1313,10 @@ msgstr "lista dos permitidos local"
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:569
 msgid "local blocklist"
 msgstr "lista de bloqueio local"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/logtemplate.js:17
+msgid "logread not found on system."
+msgstr "logread não foi encontrado no sistema."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:469
 msgid "memory"

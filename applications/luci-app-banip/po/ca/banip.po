@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-09-17 06:52+0000\n"
-"Last-Translator: Roger Pueyo Centelles <weblate@rogerpueyo.com>\n"
+"PO-Revision-Date: 2025-12-02 19:00+0000\n"
+"Last-Translator: Alfonso Montero López <amontero@tinet.org>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/ca/>\n"
 "Language: ca\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:642
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:711
@@ -716,6 +716,10 @@ msgstr ""
 msgid "Nice Level"
 msgstr ""
 
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/logtemplate.js:23
+msgid "No %s related logs yet!"
+msgstr ""
+
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:306
 msgid "No GeoIP Map data!"
 msgstr ""
@@ -1005,7 +1009,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:165
 msgid "Status"
-msgstr ""
+msgstr "Estat"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:852
 msgid "Stop"
@@ -1057,6 +1061,10 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:319
 msgid "The selected priority will be used for banIP background processing."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/logtemplate.js:30
+msgid "The syslog output, pre-filtered for messages related to: %s"
 msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/allowlist.js:28
@@ -1252,6 +1260,10 @@ msgstr ""
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:558
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:569
 msgid "local blocklist"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/logtemplate.js:17
+msgid "logread not found on system."
 msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:469
