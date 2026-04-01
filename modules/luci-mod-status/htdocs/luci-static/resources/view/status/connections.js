@@ -3,17 +3,12 @@
 'require poll';
 'require request';
 'require rpc';
+'require fs';
 
 var callLuciRealtimeStats = rpc.declare({
 	object: 'luci',
 	method: 'getRealtimeStats',
 	params: [ 'mode', 'device' ],
-	expect: { result: [] }
-});
-
-var callLuciConntrackList = rpc.declare({
-	object: 'luci',
-	method: 'getConntrackList',
 	expect: { result: [] }
 });
 
@@ -34,10 +29,61 @@ var recheck_lookup_queue = {};
 
 Math.log2 = Math.log2 || function(x) { return Math.log(x) * Math.LOG2E; };
 
+/*
+ * Convert an full IPv6 address string to a shortened format
+ * Examples:
+[
+	compressIpv6('2620:01ec:0029:0001:0000:0000:0000:0049') === '2620:1ec:29:1::49',
+	compressIpv6('fe80:0000:0000:0000:d86d:2fff:fe24:f6ea') === 'fe80::d86d:2fff:fe24:f6ea',
+	compressIpv6('fe80:0000:0000:0000:d86d:2fff:0000:f6ea') === 'fe80::d86d:2fff:0:f6ea',
+	compressIpv6('fe80:0100:0010:0001:d86d:2fff:0000:f6ea') === 'fe80:100:10:1:d86d:2fff::f6ea',
+	compressIpv6('fe80:0000:d86d:2fff:0000:0000:0000:f6ea') === 'fe80:0:d86d:2fff::f6ea',
+	compressIpv6('ff02:0000:0000:0000:0000:0000:0001:0002') === 'ff02::1:2',
+	compressIpv6('0000:0000:0000:0000:0000:0000:0000:0001') === '::1',
+	compressIpv6('0000:0000:0000:0000:0000:0000:0000:0000') === '::',
+	compressIpv6('0001:0000:0000:0000:0000:0000:0000:0000') === '1::',
+	compressIpv6('0000:0001:0001:0001:0001:0001:0001:0001') === '::1:1:1:1:1:1:1',
+	compressIpv6('0001:0000:0001:0001:0001:0001:0001:0001') === '1::1:1:1:1:1:1',
+	compressIpv6('0001:0001:0001:0001:0001:0001:0001:0001') === '1:1:1:1:1:1:1:1',
+]
+ */
+var compressIpv6 = function(addr) {
+	if (addr.indexOf(':') === -1)
+		return addr;
+
+	var parts = addr.split(':');
+	var best_start = 0, best_len = 0, cur_start = 0, cur_len = 0;
+	for (var i = 0; i < parts.length; i++) {
+		if (parts[i].startsWith('0'))
+			parts[i] = parts[i].replace(/^0+/, '').replace(/^$/, '0');
+
+		if (parts[i] === '0') {
+			if (cur_len === 0)
+				cur_start = i;
+			cur_len++;
+		} else {
+			if (cur_len > best_len) {
+				best_start = cur_start;
+				best_len = cur_len;
+			}
+			cur_len = 0;
+		}
+	}
+	if (cur_len > best_len) {
+		best_start = cur_start;
+		best_len = cur_len;
+	}
+	if (best_len > 0) {
+		parts.splice(best_start, best_len, '');
+	}
+	return (best_start===0&&best_len>0?':':'')+parts.join(':')+(best_start+best_len===8?':':'');
+};
+
 return view.extend({
 	load: function() {
 		return Promise.all([
-			this.loadSVG(L.resource('svg/connections.svg'))
+			this.loadSVG(L.resource('svg/connections.svg')),
+			fs.lines('/etc/protocols')
 		]);
 	},
 
@@ -195,10 +241,79 @@ return view.extend({
 		}
 	},
 
+	/*
+	 * Replace the conntrack ubus call with a direct read of /proc/net/nf_conntrack to prevent
+	 *   procd from being kicked off by ubusd due to large amounts of data. See https://github.com/openwrt/openwrt/issues/9747
+	 *
+	 * Copy from modules/luci-base/ucode/sys.uc:conntrack_list with adjustments for js
+	 */
+	conntrackList: function() {
+		var protos = this.protos;
+		return fs.exec_direct('/bin/grep', ['-vF', 'TIME_WAIT', '/proc/net/nf_conntrack']).then(function(data){
+			var connt = [];
+
+			data.split('\n').forEach(function(line) {
+				var m = line.match(/^(ipv[46]) +([0-9]+) +\S+ +([0-9]+)( +.+)$/);
+				if (!m)
+					return;
+
+				var fam = m[1];
+				var l4 = m[3];
+				var tuples = m[4];
+				var timeout = null;
+
+				m = tuples.match(/^ +([0-9]+)( .+)$/);
+
+				if (m) {
+					timeout = m[1];
+					tuples = m[2];
+				}
+
+				var e = {
+					bytes: 0,
+					packets: 0,
+					layer3: fam,
+					layer4: protos[l4] || 'unknown',
+					timeout: +timeout
+				};
+
+				tuples.split(' ').forEach(function(tuple) {
+					var kv = tuple.match(/^(\w+)=(\S+)$/);
+
+					if (!kv)
+						return;
+
+					switch (kv[1]) {
+					case 'bytes':
+					case 'packets':
+						e[kv[1]] += +kv[2];
+						break;
+
+					case 'src':
+					case 'dst':
+						if (undefined === e[kv[1]])
+							e[kv[1]] = compressIpv6(kv[2]);
+						break;
+
+					case 'sport':
+					case 'dport':
+						if (undefined === e[kv[1]])
+							e[kv[1]] = +kv[2];
+						break;
+					}
+				});
+
+				connt.push(e);
+			});
+			return connt;
+
+		});
+	},
+
 	pollData: function() {
 		poll.add(L.bind(function() {
 			var tasks = [
-				L.resolveDefault(callLuciConntrackList(), [])
+				L.resolveDefault(this.conntrackList(), [])
 			];
 
 			for (var i = 0; i < graphPolls.length; i++) {
@@ -333,6 +448,15 @@ return view.extend({
 
 	render: function(data) {
 		var svg = data[0];
+		var protocols = data[1];
+		var protos = {};
+		protocols.forEach(function(line) {
+			var m = line.match(/^([^# \t\n]+)\s+([0-9]+)\s+/);
+
+			if (m)
+				protos[m[2]] = m[1];
+		});
+		this.protos = protos;
 
 		var v = E('div', { 'class': 'cbi-map', 'id': 'map' }, [
 			E('h2', _('Connections')),
