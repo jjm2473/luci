@@ -4634,8 +4634,8 @@ const UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 	 * reachable or rejecting with an `error` event in case it is not reachable
 	 * or rejecting with `null` when the connectivity check timed out.
 	 */
-	pingDevice(proto, ipaddr) {
-		const target = '%s://%s%s?%s'.format(proto ?? 'http', ipaddr ?? window.location.host, L.resource('icons/loading.svg'), Math.random());
+	pingDevice(proto, ipaddr, nonce) {
+		const target = '%s://%s%s?%s'.format(proto ?? 'http', ipaddr ?? window.location.host, L.resource('icons/loading.svg'), nonce ?? Math.random());
 
 		return new Promise((resolveFn, rejectFn) => {
 			const img = new Image();
@@ -4671,13 +4671,14 @@ const UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 		ipaddrs = deduplicated;
 
 		window.setTimeout(L.bind(() => {
+			const nonce = new Date().getTime();
 			poll.add(L.bind(() => {
 				const tasks = [];
 				let reachable = false;
 
 				for (let i = 0; i < 2; i++)
 					for (let j = 0; j < ipaddrs.length; j++)
-						tasks.push(this.pingDevice(i ? 'https' : 'http', ipaddrs[j])
+						tasks.push(this.pingDevice(i ? 'https' : 'http', ipaddrs[j], nonce)
 							.then(ev => { reachable = ev.target.src.replace(/^(https?:\/\/[^\/]+).*$/, '$1/') }, () => {}));
 
 				return Promise.all(tasks).then(() => {
