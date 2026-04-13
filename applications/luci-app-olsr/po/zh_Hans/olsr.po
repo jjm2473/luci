@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2025-11-01 11:14+0000\n"
+"PO-Revision-Date: 2026-03-06 07:15+0000\n"
 "Last-Translator: nKsyn <e.nksyn@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsolsr/zh_Hans/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/mid.js:152
 msgid "Active MID announcements"
@@ -94,7 +94,7 @@ msgstr "ETX"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/routes.js:292
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/topology.js:180
 msgid "ETX:"
-msgstr "ETX:"
+msgstr "ETX："
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:60
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:513
@@ -124,7 +124,7 @@ msgstr "启用这个接口。"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdplugins.js:278
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdplugins6.js:276
 msgid "Enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/neighbors.js:538
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/routes.js:292
@@ -391,8 +391,8 @@ msgid ""
 "with the etx_ffeth metric!<br />Defaults to \"1.0\"."
 msgstr ""
 "如果要更改到当前网关的路由，则在将该网关与新网关进行比较之前，将该网关的ETX值"
-"乘以该值。参数可以是介于 0.1 和 1.0 之间的值，但如果更改则应接近 1.0。<br /"
-"><b>警告：</b>此参数不应与 etx_ffeth 指标一起使用！<br />默认值到“1.0”。"
+"乘以该值。参数可以是介于 0.1 ~ 1.0 之间的值，但如果更改则应接近 1.0。<br /"
+"><b>警告：</b> 此参数不应与 etx_ffeth 指标一起使用！<br />默认值：“1.0”。"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:93
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:93
@@ -475,7 +475,7 @@ msgstr "LQ 级别"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/routes.js:290
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/topology.js:178
 msgid "LQ:"
-msgstr "LQ:"
+msgstr "LQ："
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/topology.js:140
 msgid "Last hop"
@@ -618,8 +618,8 @@ msgid ""
 "LQ to all nodes on this interface by 20%: default 0.8"
 msgstr ""
 "使用此处给出的因子放大路由 LQ。允许值介于 0.01 和 1.0 之间。它仅在 LQ-Level "
-"大于 0 时使用。示例：<br />将到 fd91:662e:3c58::1 的 LQ 减半："
-"fd91:662e:3c58::1 0.5<br />将此接口到所有节点的 LQ 减少 20%：默认 0.8"
+"大于 0 时使用。示例：<br />将到 fd91：662e：3c58::1 的 LQ 减半：fd91：662e："
+"3c58::1 0.5<br />将此接口到所有节点的 LQ 减少 20%：默认 0.8"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:255
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:249
@@ -634,7 +634,7 @@ msgstr "NLQ"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/routes.js:291
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/topology.js:179
 msgid "NLQ:"
-msgstr "NLQ:"
+msgstr "NLQ："
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/neighbors.js:270
 msgid "Neighbour IP"
@@ -823,7 +823,7 @@ msgstr "路由"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/routes.js:301
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/topology.js:189
 msgid "SNR:"
-msgstr "SNR:"
+msgstr "SNR："
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/mid.js:122
 msgid "Secondary OLSR interfaces"
@@ -988,8 +988,7 @@ msgid ""
 "The port OLSR uses. This should usually stay at the IANA assigned port 698. "
 "It can have a value between 1 and 65535."
 msgstr ""
-"OLSR 使用的端口。通常应使用 IANA 分配的保留端口 698。它的值可以在 1 到 65535 "
-"之间。"
+"OLSR 使用的端口。通常应使用 IANA 分配的保留端口 698。有效值范围：1 ~ 65535。"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:115
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:115
@@ -1099,8 +1098,8 @@ msgid ""
 "detected by looking for a local HNA of 0.0.0.0/0, ::ffff:0:0/96 or 2000::/3. "
 "Default setting is \"both\"."
 msgstr ""
-"将导出哪种上行链路到其他网状节点。通过查找本地 HNA 0.0.0.0/0、::ffff:0:0/96 "
-"或 2000::/3 来检测上行链路。默认设置为“两者”。"
+"将导出哪种上行链路到其他网状节点。通过查找本地 HNA 0.0.0.0/0、::ffff：0："
+"0/96 或 2000::/3 来检测上行链路。默认设置为“两者”。"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:82
 msgid ""
@@ -1108,7 +1107,7 @@ msgid ""
 "detected by looking for a local HNA6 ::ffff:0:0/96 or 2000::/3. Default "
 "setting is \"both\"."
 msgstr ""
-"将导出哪种上行链路到其他网状节点。通过查找本地 HNA6 ::ffff:0:0/96 或 "
+"将导出哪种上行链路到其他网状节点。通过查找本地 HNA6 ::ffff：0：0/96 或 "
 "2000::/3 来检测上行链路。默认设置为“两者”。"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:244

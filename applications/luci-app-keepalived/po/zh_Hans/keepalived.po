@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-05 20:47+0000\n"
+"PO-Revision-Date: 2026-03-06 08:10+0000\n"
 "Last-Translator: nKsyn <e.nksyn@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationskeepalived/zh_Hans/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:205
 msgid "2"
@@ -130,11 +130,11 @@ msgstr "当前系统应作为发送者/接收者。"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:221
 msgid "Debug"
-msgstr "调试"
+msgstr "调试 (Debug)"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:222
 msgid "Debug Level"
-msgstr "调试等级"
+msgstr "调试级别"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:87
 msgid "Default IP for binding vrrpd is the primary IP on interface"
@@ -217,7 +217,7 @@ msgstr "邮件通知"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/globals.js:31
 msgid "Email to use when processing “MAIL FROM:” SMTP command"
-msgstr "处理“MAIL FROM:”SMTP 命令时使用的邮箱地址"
+msgstr "处理“MAIL FROM：”SMTP 命令时使用的邮箱地址"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:28
 msgid "Enable"
@@ -229,7 +229,7 @@ msgstr "启用同步"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:135
 msgid "Enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:246
 msgid "Exclude Virtual IP Address"
@@ -489,7 +489,7 @@ msgstr "路由对象列表"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/route.js:54
 msgid "Main"
-msgstr "主"
+msgstr "主要"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:48
 msgid "Mark"
@@ -497,7 +497,7 @@ msgstr "标记"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:26
 msgid "Master"
-msgstr "Master"
+msgstr "主"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/globals.js:47
 msgid "Multicast Group to use for IPv4 VRRP adverts"

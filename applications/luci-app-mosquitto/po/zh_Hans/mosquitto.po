@@ -1,9 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2025-11-09 07:24+0000\n"
-"Last-Translator: 大王叫我来巡山 "
-"<hamburger2048@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-03-06 07:15+0000\n"
+"Last-Translator: nKsyn <e.nksyn@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsmosquitto/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -11,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:60
 msgid "Allow anonymous connections"
@@ -91,11 +90,11 @@ msgstr "客户端过期"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:167
 msgid "Client id to use locally. Important when bridging to yourself"
-msgstr "在本地使用的客户端 ID。在进行本地桥接时很重要"
+msgstr "在本地使用的客户端 ID。进行本地桥接时很重要"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:164
 msgid "Client id to use on remote end of this bridge connection"
-msgstr "此桥接连接远程端要使用的客户端 ID"
+msgstr "此桥接远端要使用的客户端 ID"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:144
 msgid "Connection name"
@@ -108,7 +107,7 @@ msgstr "默认"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:122
 msgid "Depends on your openssl version, empty to support all"
-msgstr "取决于你的 OpenSSL 版本，留空以支持所有"
+msgstr "取决于你的 OpenSSL 版本，留空表示支持所有"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:223
 msgid "Directory to search for CA files"
@@ -124,7 +123,7 @@ msgstr "禁止远程访问此代理"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:9
 msgid "Enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: applications/luci-app-mosquitto/root/usr/share/rpcd/acl.d/luci-app-mosquitto.json:3
 msgid "Grant UCI access for luci-app-mosquitto"
@@ -320,7 +319,7 @@ msgstr "远程代理必须支持相同版本的 TLS 才能成功建立连接。"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:57
 msgid "Time in seconds between updates of the $SYS tree"
-msgstr "更新之间的时间间隔以秒为单位 $SYS"
+msgstr "$SYS 树更新的时间间隔（秒）"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:159
 msgid "Topic to use for local+remote remote for notifications."
@@ -352,7 +351,7 @@ msgstr "地址"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:147
 msgid "address[:port] of remote broker"
-msgstr "地址[:端口]远程代理"
+msgstr "地址[：端口]远程代理"
 
 #: applications/luci-app-mosquitto/htdocs/luci-static/resources/view/mosquitto/mosquitto.js:194
 msgid ""

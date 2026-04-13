@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-10-31 07:04+0000\n"
+"PO-Revision-Date: 2026-03-06 07:15+0000\n"
 "Last-Translator: nKsyn <e.nksyn@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsunbound/zh_Hans/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:161
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:53
@@ -156,7 +156,7 @@ msgstr "编辑'"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/server.lua:15
 msgid "Edit 'server:' clause options for 'include:"
-msgstr "编辑“server:”子选项，位于'include:"
+msgstr "编辑“server：”子选项，位于'include："
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:23
 msgid ""
@@ -166,7 +166,7 @@ msgstr "编辑 Unbound 使用的转发、存根或区域文件缓存区域，而
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/extended.lua:15
 msgid "Edit clauses such as 'forward-zone:' for 'include:"
-msgstr "编辑子选项，例如“forward-zone:”，位于'include:"
+msgstr "编辑子选项，例如“forward-zone：”，位于'include："
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:86
 msgid "Edit: Extended"
@@ -222,7 +222,7 @@ msgstr "启用此转移区域"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:29
 msgid "Enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:298
 msgid "Extended Statistics"
@@ -363,7 +363,7 @@ msgstr "大"
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:122
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:305
 msgid "Limit days between RFC5011 copies to reduce flash writes"
-msgstr "限制 RFC5011 副本之间的天数，以减少闪存写入"
+msgstr "限制 RFC5011 副本的更新间隔天数以减少闪存写入"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:281
 msgid "Limit extended DNS packet size"
@@ -648,12 +648,12 @@ msgstr ""
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:139
 msgid ""
 "This shows Unbound 'local-data:' entries from default, .conf, or control."
-msgstr "显示来自默认、.conf 或 control 的 Unbound “local-data:”条目。"
+msgstr "显示来自默认、.conf 或 control 的 Unbound “local-data：”条目。"
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:151
 msgid ""
 "This shows Unbound 'local-zone:' entries from default, .conf, or control."
-msgstr "显示来自默认、.conf 或 control 的 Unbound “local-zone:”条目。"
+msgstr "显示来自默认、.conf 或 control 的 Unbound “local-zone：”条目。"
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:127
 msgid "This shows Unbound self reported performance statistics."
@@ -682,7 +682,7 @@ msgstr "类型"
 
 #: applications/luci-app-unbound/luasrc/controller/unbound.lua:27
 msgid "Unbound"
-msgstr "Unbound(DNS服務)"
+msgstr "Unbound"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:26
 msgid ""

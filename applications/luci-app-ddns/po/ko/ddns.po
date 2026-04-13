@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-09 17:23+0000\n"
-"Last-Translator: 안정언 <me@jeongeon.net>\n"
+"PO-Revision-Date: 2026-03-03 18:00+0000\n"
+"Last-Translator: Hyeonjeong Lee <h9101654@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsddns/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:423
 msgid "\"../\" not allowed in path for Security Reason."
@@ -174,7 +174,7 @@ msgstr "비활성화"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:733
 msgid "Domain"
-msgstr ""
+msgstr "도메인"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:260
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:7
@@ -188,7 +188,7 @@ msgstr "동적 DNS 버전"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:545
 msgid "Edit"
-msgstr "수정"
+msgstr "편집"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:768
 msgid "Enable secure communication with DDNS provider"
@@ -197,11 +197,11 @@ msgstr ""
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:605
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1128
 msgid "Enabled"
-msgstr "활성화됨"
+msgstr "활성화"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:951
 msgid "Error"
-msgstr "에러"
+msgstr "오류(Error)"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1025
 msgid "Error Max Retry Counter"
@@ -238,27 +238,29 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:900
 msgid "Force IP Version"
-msgstr ""
+msgstr "IP 버전 강제"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:990
+#, fuzzy
 msgid "Force Interval"
-msgstr ""
+msgstr "강제 갱신 주기"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:921
 msgid "Force TCP on DNS"
-msgstr ""
+msgstr "DNS에 TCP 강제"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1016
+#, fuzzy
 msgid "Force Unit"
-msgstr ""
+msgstr "강제 갱신 단위"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:933
 msgid "Format"
-msgstr ""
+msgstr "형식"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:912
 msgid "Format: IP or FQDN"
-msgstr ""
+msgstr "형식: IP 또는 FQDN"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:339
 msgid ""
@@ -272,7 +274,7 @@ msgstr "공통 설정"
 
 #: applications/luci-app-ddns/root/usr/share/rpcd/acl.d/luci-app-ddns.json:3
 msgid "Grant access to ddns procedures"
-msgstr ""
+msgstr "DDNS 프로시저에 접근 권한 부여"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:320
 msgid "HTTPS not supported"
@@ -289,7 +291,7 @@ msgstr ""
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:503
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:622
 msgid "IP address version"
-msgstr ""
+msgstr "IP 주소 버전"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:506
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:627
@@ -311,7 +313,7 @@ msgstr ""
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:508
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:629
 msgid "IPv6-Address"
-msgstr ""
+msgstr "IPv6 주소"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:436
 msgid ""
@@ -336,7 +338,7 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:948
 msgid "Info"
-msgstr "정보"
+msgstr "정보(Info)"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:264
 msgid "Information"
@@ -387,11 +389,11 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:416
 msgid "Log directory"
-msgstr ""
+msgstr "로그 디렉터리"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:428
 msgid "Log length"
-msgstr ""
+msgstr "로그 길이"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:954
 msgid "Log to file"
@@ -399,7 +401,7 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:942
 msgid "Log to syslog"
-msgstr ""
+msgstr "시스로그에 기록"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:614
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1116
@@ -451,7 +453,7 @@ msgstr "안함"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:494
 msgid "New DDns Service…"
-msgstr ""
+msgstr "새 DDNS 서비스 입력…"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1133
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:28
@@ -462,15 +464,15 @@ msgstr ""
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1121
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:40
 msgid "No Data"
-msgstr ""
+msgstr "데이터 없음"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:383
 msgid "No certificates found"
-msgstr ""
+msgstr "인증서를 찾을 수 없음"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:947
 msgid "No logging"
-msgstr ""
+msgstr "기록 안 함"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:393
 msgid "Non-public and by default blocked IPs"
@@ -479,11 +481,11 @@ msgstr ""
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:218
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1107
 msgid "Not Running"
-msgstr ""
+msgstr "중지됨"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:949
 msgid "Notice"
-msgstr ""
+msgstr "알림(Notice)"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:429
 msgid "Number of last lines stored in log files"
@@ -532,11 +534,11 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:930
 msgid "PROXY-Server"
-msgstr ""
+msgstr "프록시 서버"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:745
 msgid "Password"
-msgstr "패스워드"
+msgstr "암호"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:773
 msgid "Path to CA-Certificate"
@@ -571,11 +573,11 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:567
 msgid "Reload"
-msgstr ""
+msgstr "다시 읽기"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:550
 msgid "Reload this service"
-msgstr ""
+msgstr "이 서비스의 설정을 다시 읽어옵니다"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:734
 msgid "Replaces [DOMAIN] in Update-URL (URL-encoded)"
@@ -633,7 +635,7 @@ msgstr "서비스"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:450
 msgid "Services URL Download"
-msgstr ""
+msgstr "서비스 다운로드 URL"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:294
 msgid "Services list last update"
@@ -654,6 +656,7 @@ msgid "Start DDNS"
 msgstr "DDNS 실행"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:272
+#, fuzzy
 msgid "State"
 msgstr "상태"
 
@@ -667,7 +670,7 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:566
 msgid "Stop"
-msgstr ""
+msgstr "중지"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:190
 msgid "Stop DDNS"
@@ -675,7 +678,7 @@ msgstr "DDNS 중지"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:555
 msgid "Stop this service"
-msgstr ""
+msgstr "이 서비스를 중지합니다"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:18
 msgid "Stopped"
@@ -738,7 +741,7 @@ msgstr ""
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1137
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:38
 msgid "Unknown"
-msgstr ""
+msgstr "알 수 없음"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:301
 msgid "Update DDns Services List"
@@ -762,7 +765,7 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:739
 msgid "Username"
-msgstr "사용자명"
+msgstr "사용자 이름"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:371
 msgid "Using specific DNS Server not supported"
@@ -782,7 +785,7 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:950
 msgid "Warning"
-msgstr "경고"
+msgstr "경고(Warning)"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:504
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:623
@@ -836,11 +839,11 @@ msgstr ""
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:513
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:635
 msgid "custom"
-msgstr ""
+msgstr "사용자 정의"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1022
 msgid "days"
-msgstr ""
+msgstr "일"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:774
 msgid "directory or path/file"
@@ -849,17 +852,17 @@ msgstr ""
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:987
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1021
 msgid "hours"
-msgstr ""
+msgstr "시간"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:986
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1020
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1048
 msgid "minutes"
-msgstr ""
+msgstr "분"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:776
 msgid "or"
-msgstr ""
+msgstr "또는"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:313
 msgid "or update your system to the latest OpenWrt Release"
@@ -868,7 +871,7 @@ msgstr ""
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:985
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1047
 msgid "seconds"
-msgstr ""
+msgstr "초"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:778
 msgid "to run HTTPS without verification of server certificates (insecure)"

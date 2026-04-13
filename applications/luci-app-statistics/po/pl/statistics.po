@@ -1,10 +1,8 @@
-#  statistics.pot
-#  generated from ./applications/luci-statistics/luasrc/i18n/statistics.en.lua
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2025-09-07 21:06+0000\n"
-"Last-Translator: Matthaiks <kitynska@gmail.com>\n"
+"PO-Revision-Date: 2026-01-25 10:10+0000\n"
+"Last-Translator: Piotr Kołtun <pkoltungm@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsstatistics/pl/>\n"
 "Language: pl\n"
@@ -13,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:47
 msgid "0 - At most once"
@@ -104,11 +102,11 @@ msgstr "Szybkość transmisji"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:82
 msgid "Bitswap Down"
-msgstr "Bitswap w dół"
+msgstr "Bitswap pobierania"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:77
 msgid "Bitswap Up"
-msgstr "Bitswap w górę"
+msgstr "Bitswap wysyłania"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpu.js:15
 msgid "By setting this, CPU is not aggregate of all processors on the system"
@@ -244,7 +242,7 @@ msgstr "Dzierżawy DHCP"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/dhcpleases.js:6
 msgid "DHCP Leases Plugin Configuration"
-msgstr "Dzierżawy DHCP"
+msgstr "Konfiguracja wtyczki dzierżaw DHCP"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/dhcpleases.js:14
 msgid "DHCP leases file"
@@ -277,11 +275,11 @@ msgstr "Sygnał DSL"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:128
 msgid "Data Rate Down"
-msgstr "Szybkość transmisji danych w dół"
+msgstr "Szybkość transmisji danych pobierania"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:123
 msgid "Data Rate Up"
-msgstr "Szybkość transmisji danych w górę"
+msgstr "Szybkość transmisji danych wysyłania"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/collectd.js:74
 msgid "Data collection interval"
@@ -666,7 +664,7 @@ msgstr "Ładowanie danych…"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/syslog.js:14
 msgid "Log level"
-msgstr "Poziom logowania"
+msgstr "Poziom rejestrowania"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iptables.js:20
 msgid "Match IPv4 iptables rules"
@@ -1823,11 +1821,11 @@ msgstr "Konfiguracja wtyczki użytkowników"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:92
 msgid "Vectoring Down"
-msgstr "Wektorowanie w dół"
+msgstr "Wektorowanie pobierania"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:87
 msgid "Vectoring Up"
-msgstr "Wektorowanie w górę"
+msgstr "Wektorowanie wysyłania"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/netlink.js:21
 msgid "Verbose monitoring"

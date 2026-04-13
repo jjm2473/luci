@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-09 14:31+0000\n"
+"PO-Revision-Date: 2026-03-07 18:57+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/cs/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:642
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:711
@@ -388,7 +388,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:674
 msgid "E-Mail Notification"
-msgstr "Notifikace e-mailem"
+msgstr "Upozornění e-mailem"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:689
 msgid "E-Mail Profile"
@@ -688,7 +688,7 @@ msgstr "Zaznamenávat příchozí"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:615
 msgid "Log Limit"
-msgstr "Limit záznamu událostí"
+msgstr "Omezení záznamu událostí"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:608
 msgid "Log Outbound"
@@ -752,7 +752,7 @@ msgstr "Síťová zařízení"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:319
 msgid "Nice Level"
-msgstr "Stupeň laskavosti"
+msgstr "Priorita procesu"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/logtemplate.js:23
 msgid "No %s related logs yet!"
@@ -1329,7 +1329,7 @@ msgstr "chyb"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:594
 msgid "info"
-msgstr "info"
+msgstr "informace"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:524
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:535

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-09 14:31+0000\n"
+"PO-Revision-Date: 2026-03-07 18:57+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstravelmate/cs/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:77
 msgid "-- AP Selection --"
@@ -298,7 +298,7 @@ msgstr ""
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:424
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:967
 msgid "FAST"
-msgstr "RYCHLÉ"
+msgstr "FAST"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:381
 msgid "Filter AutoAdd SSIDs"
@@ -619,7 +619,7 @@ msgstr "Restartovat rozhraní"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:311
 msgid "Restrict travelmate to certain radio(s)."
-msgstr ""
+msgstr "Omezit travelmate na pouze konkrétní bezdrátová rozhraní."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:414
 msgid "Retry limit to connect to an uplink."
@@ -627,11 +627,11 @@ msgstr "Limit počtu opakovaných pokusů pro připojení k uplink."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:322
 msgid "Reverse Radio Order"
-msgstr ""
+msgstr "Obrátit pořadí bezdrátových rozhraní"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:322
 msgid "Reverse the radio processing order."
-msgstr ""
+msgstr "Obrátit pořadí zpracovávání bezdrátových rozhraní."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:257
 msgid "Run Flags"

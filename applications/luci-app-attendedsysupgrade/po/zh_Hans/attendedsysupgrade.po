@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-29 15:57+0000\n"
+"PO-Revision-Date: 2026-03-06 16:33+0000\n"
 "Last-Translator: nKsyn <e.nksyn@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsattendedsysupgrade/zh_Hans/>\n"
@@ -8,13 +8,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:290
 msgid ""
 ". If you don't find a solution there, then report all of the information "
 "below."
-msgstr "如果在这没找到解决方案，那么请报告下面所有的信息。"
+msgstr "如果在这没找到解决方案，那么请反馈下列信息。"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:42
 msgid "A new %s version of OpenWrt is available:"
@@ -26,7 +26,7 @@ msgstr "地址"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/configuration.js:22
 msgid "Address of the sysupgrade server"
-msgstr "系统更新服务器地址"
+msgstr "系统升级服务器地址"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/configuration.js:50
 msgid "Advanced Mode"
@@ -37,11 +37,11 @@ msgstr "高级模式"
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:46
 #: applications/luci-app-attendedsysupgrade/root/usr/share/luci/menu.d/luci-app-attendedsysupgrade.json:3
 msgid "Attended Sysupgrade"
-msgstr "智能辅助系统更新"
+msgstr "值守式系统升级"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/configuration.js:12
 msgid "Attendedsysupgrade Configuration."
-msgstr "智能辅助系统更新配置。"
+msgstr "值守式系统升级配置。"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:29
 msgid "Available"
@@ -171,7 +171,7 @@ msgstr "正在生成固件文件"
 
 #: applications/luci-app-attendedsysupgrade/root/usr/share/rpcd/acl.d/luci-app-attendedsysupgrade.json:3
 msgid "Grant UCI access to LuCI app attendedsysupgrade"
-msgstr "授予访问 LuCI 应用 attendedsysupgrade 的权限"
+msgstr "授予 LuCI 应用 attendedsysupgrade 的 UCI 访问权限"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:240
 msgid "Install firmware image"
@@ -187,7 +187,7 @@ msgstr "正在安装…"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:226
 msgid "Keep settings and retain the current configuration"
-msgstr "保留当前配置"
+msgstr "保留设置并继续使用当前配置"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:20
 msgid "Kernel Version"
@@ -199,15 +199,15 @@ msgstr "加载状态页时在线查找固件更新"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:41
 msgid "New Firmware Available"
-msgstr "有新的固件版本可用"
+msgstr "有新的固件可用"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:622
 msgid "New firmware upgrade available"
-msgstr "有新固件版本可供更新"
+msgstr "有新固件可供升级"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:671
 msgid "No upgrade available"
-msgstr "已是最新版本"
+msgstr "无可用的升级"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:487
 msgid "Once the image is written, the system will reboot."
@@ -218,8 +218,8 @@ msgid ""
 "Other ASU server instances that rebuild a requested image. Allows to compare "
 "checksums and verify that the results are the same."
 msgstr ""
-"其他可以构建所请求固件文件的更新服务器。用于比对固件文件哈希值来验证构建的固"
-"件文件是否相同，以防止获取损坏的或非官方固件文件。"
+"其他用于重新构建所请求固件镜像的 ASU 服务器实例，可用于对比校验和并验证构建结"
+"果一致性。"
 
 #: applications/luci-app-attendedsysupgrade/root/usr/share/luci/menu.d/luci-app-attendedsysupgrade.json:15
 msgid "Overview"
@@ -247,7 +247,7 @@ msgstr "队列中…"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/configuration.js:28
 msgid "Rebuilders"
-msgstr "固件文件比对服务器"
+msgstr "复现构建服务器"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:204
 msgid "Rebuilds"
@@ -275,7 +275,7 @@ msgstr "修订版本"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:180
 msgid "SHA256"
-msgstr "SHA-256"
+msgstr "SHA256"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:751
 msgid "Search for firmware upgrade"
@@ -333,7 +333,7 @@ msgstr "目标"
 msgid ""
 "The attended sysupgrade service allows to upgrade vanilla and custom "
 "firmware images easily."
-msgstr "智能辅助系统更新服务可以轻松更新官方原版或自定义固件文件。"
+msgstr "值守式系统升级服务可以轻松升级官方原版或自定义固件文件。"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:674
 msgid "The device runs the latest firmware version %s - %s"

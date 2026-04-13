@@ -1,21 +1,21 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-03-28 20:32+0000\n"
-"Last-Translator: 翻譯得真好下次別翻了 <x86_64-pc-linux-gnu@proton.me>\n"
+"PO-Revision-Date: 2026-02-26 14:29+0000\n"
+"Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationslxc/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:18
 msgid ""
 "<b>Please note:</b> LXC Containers require features not available on OpenWrt "
 "images for devices with small flash.<br />"
 msgstr ""
-"<b>請注意：</b>對於具有較小快閃記憶體的裝置，LXC容器需要OpenWrt映像檔上不提供"
+"<b>請注意: </b>對於具有較小快閃記憶體的裝置，LXC容器需要OpenWrt映像檔上不提供"
 "的功能。<br />"
 
 #: applications/luci-app-lxc/luasrc/view/lxc.htm:29
@@ -29,19 +29,19 @@ msgstr "另外，您可能需要安裝 'kmod-veth' 以獲得可選的網路支�
 
 #: applications/luci-app-lxc/luasrc/view/lxc.htm:23
 msgid "Available Containers"
-msgstr "可用的容器"
+msgstr "可用容器"
 
 #: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:25
 msgid "Containers URL"
-msgstr "容器網址"
+msgstr "容器 URL"
 
 #: applications/luci-app-lxc/luasrc/view/lxc.htm:53
 msgid "Create"
-msgstr "創造"
+msgstr "建立"
 
 #: applications/luci-app-lxc/luasrc/view/lxc.htm:41
 msgid "Create New Container"
-msgstr "創建新容器"
+msgstr "建立新容器"
 
 #: applications/luci-app-lxc/luasrc/view/lxc.htm:132
 msgid "Delete"
@@ -49,7 +49,7 @@ msgstr "刪除"
 
 #: applications/luci-app-lxc/luasrc/view/lxc.htm:50
 msgid "Enter new name"
-msgstr "輸入新名字"
+msgstr "輸入新名稱"
 
 #: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:31
 msgid "Free Space Threshold"
@@ -57,16 +57,16 @@ msgstr "可用空間閾值"
 
 #: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:37
 msgid "Free Temp Threshold"
-msgstr "自由溫度閾值"
+msgstr "可用暫存空間閾值"
 
 #: applications/luci-app-lxc/root/usr/share/rpcd/acl.d/luci-app-lxc.json:3
 msgid "Grant UCI access for luci-app-lxc"
-msgstr "授予luci-app-lxc存取UCI的權限"
+msgstr "授予 luci-app-lxc 存取 UCI 的權限"
 
 #: applications/luci-app-lxc/luasrc/controller/lxc.lua:31
 #: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:17
 msgid "LXC Containers"
-msgstr "LXC容器"
+msgstr "LXC 容器"
 
 #: applications/luci-app-lxc/luasrc/view/lxc.htm:72
 msgid "Loading"
@@ -74,11 +74,11 @@ msgstr "載入中"
 
 #: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:32
 msgid "Minimum required free space for LXC Container creation in KB"
-msgstr "LXC容器創建所需的最小可用空間（以KB為單位）"
+msgstr "LXC 容器建立所需的最小可用空間 (以 KB 為單位)"
 
 #: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:38
 msgid "Minimum required free temp space for LXC Container creation in KB"
-msgstr "LXC容器創建所需的最小臨時空間（以KB為單位）"
+msgstr "LXC 容器建立所需的最小臨時空間 (以 KB 為單位)"
 
 #: applications/luci-app-lxc/luasrc/view/lxc.htm:27
 #: applications/luci-app-lxc/luasrc/view/lxc.htm:45

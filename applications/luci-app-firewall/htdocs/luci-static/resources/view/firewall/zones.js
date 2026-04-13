@@ -107,6 +107,7 @@ return view.extend({
 		s.addremove = true;
 		s.anonymous = true;
 		s.sortable  = true;
+		s.filterrow = true;
 		s.nodescriptions = true;
 
 		s.handleRemove = function(section_id, ev) {
@@ -135,7 +136,7 @@ return view.extend({
 		o.placeholder = _('Unnamed zone');
 		o.modalonly = true;
 		o.rmempty = false;
-		o.datatype = L.hasSystemFeature('firewall4') ? 'uciname' : 'and(uciname,maxlength(11))';
+		o.datatype = L.hasSystemFeature('firewall4') ? 'ucifw4zonename' : 'and(ucifw4zonename,maxlength(11))';
 		o.write = function(section_id, formvalue) {
 			var cfgvalue = this.cfgvalue(section_id);
 

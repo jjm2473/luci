@@ -55,11 +55,14 @@ const UIElement = baseclass.extend(/** @lends LuCI.ui.AbstractElement.prototype 
 	 * It defaults to `string` which will allow any value.
 	 * See {@link LuCI.validation} for details on the expression format.
 	 *
-	 * @property {function} [validator]
-	 * Specifies a custom validator function which is invoked after the
-	 * standard validation constraints are checked. The function should return
-	 * `true` to accept the given input value. Any other return value type is
-	 * converted to a string and treated as validation error message.
+	 * @property {function|function[]} [validator]
+	 * Specifies one or more custom validator functions which are invoked after
+	 * the standard validation constraints are checked. Each function should
+	 * return `true` to accept the given input value. When multiple functions
+	 * are provided as an array, they are executed serially and validation stops
+	 * at the first function that returns a non-true value. Any non-true return
+	 * value type is converted to a string and treated as a validation error
+	 * message.
 	 *
 	 * @property {boolean} [disabled=false]
 	 * Specifies whether the widget should be rendered in disabled state
@@ -2647,7 +2650,7 @@ const UIDynamicList = UIElement.extend(/** @lends LuCI.ui.DynamicList.prototype 
 /**
  * Instantiate a range slider widget.
  *
- * @constructor Slider
+ * @constructor RangeSlider
  * @memberof LuCI.ui
  * @augments LuCI.ui.AbstractElement
  *
@@ -2661,25 +2664,54 @@ const UIDynamicList = UIElement.extend(/** @lends LuCI.ui.DynamicList.prototype 
  * instantiating CBI forms.
  *
  * This class is automatically instantiated as part of `LuCI.ui`. To use it
- * in views, use `'require ui'` and refer to `ui.Slider`. To import it in
+ * in views, use `'require ui'` and refer to `ui.RangeSlider`. To import it in
  * external JavaScript, use `L.require("ui").then(...)` and access the
- * `Slider` property of the class instance value.
+ * `RangeSlider` property of the class instance value.
  *
  * @param {string|string[]} [value=null]
- * ...
+ * The initial value to set the slider handle position.
  *
+ * @param {LuCI.ui.RangeSlider.InitOptions} [options]
+ * Object describing the widget specific options to initialize the range slider.
  */
 const UIRangeSlider = UIElement.extend({
+	/**
+	 * In addition to the [AbstractElement.InitOptions]{@link LuCI.ui.AbstractElement.InitOptions}
+	 * the following properties are recognized:
+	 *
+	 * @typedef {LuCI.ui.AbstractElement.InitOptions} InitOptions
+	 * @memberof LuCI.ui.RangeSlider
+	 *
+	 * @property {int} [min=1]
+	 * Specifies the minimum value of the range.
+	 *
+	 * @property {int} [max=100]
+	 * Specifies the maximum value of the range.
+	 *
+	 * @property {string} [step=1]
+	 * Specifies the step value of the range slider handle. Use "any" for
+	 * arbitrary precision floating point numbers.
+	 *
+	 * @param {function} [calculate=null]
+	 * A function to invoke when the slider is adjusted by the user. The function
+	 * performs a calculation on the selected value to produce a new value.
+	 *
+	 * @property {string} [calcunits=null]
+	 * Specifies a suffix string to append to the calculated value output.
+	 *
+	 * @property {boolean} [disabled=false]
+	 * Specifies whether the the widget is disabled.
+	 *
+	 */
+
 	__init__(value, options) {
 		this.value = value;
 		this.options = Object.assign({
-			optional: true,
 			min: 0,
 			max: 100,
 			step: 1,
 			calculate: null,
 			calcunits: null,
-			usecalc: false,
 			disabled: false,
 		}, options);
 	},
@@ -2744,7 +2776,12 @@ const UIRangeSlider = UIElement.extend({
 		return this.sliderEl.value;
 	},
 
-	/** @private */
+	/**
+	 * Return the value calculated by the `calculate` function.
+	 *
+	 * @instance
+	 * @memberof LuCI.ui.RangeSlider
+	 */
 	getCalculatedValue() {
 		return this.calculatedvalue;
 	},
@@ -2886,6 +2923,12 @@ const UIFileUpload = UIElement.extend(/** @lends LuCI.ui.FileUpload.prototype */
 	 * remotely depends on the ACL setup for the current session. This option
 	 * merely controls whether the file remove controls are rendered or not.
 	 *
+	 * @property {boolean} [directory_create=false]
+	 * Specifies whether the widget allows the user to create directories.
+	 *
+	 * @property {boolean} [directory_select=false]
+	 * Specifies whether the widget shall select directories only instead of files.
+	 *
 	 * @property {boolean} [enable_download=false]
 	 * Specifies whether the widget allows the user to download files.
 	 *
@@ -2900,6 +2943,8 @@ const UIFileUpload = UIElement.extend(/** @lends LuCI.ui.FileUpload.prototype */
 		this.value = value;
 		this.options = Object.assign({
 			browser: false,
+			directory_create: false,
+			directory_select: false,
 			show_hidden: false,
 			enable_upload: true,
 			enable_remove: true,
@@ -2925,15 +2970,17 @@ const UIFileUpload = UIElement.extend(/** @lends LuCI.ui.FileUpload.prototype */
 		const renderFileBrowser = L.resolveDefault(this.value != null ? fs.stat(this.value) : null).then(L.bind((stat) => {
 			let label;
 
-			if (L.isObject(stat) && stat.type != 'directory')
+			if (L.isObject(stat))
 				this.stat = stat;
 
-			if (this.stat != null)
+			if (this.stat != null && this.stat.type === 'directory')
+				label = [ this.iconForType(this.stat.type), ' %s'.format(this.truncatePath(this.stat.path)) ];
+			else if (this.stat != null && this.stat.type !== 'directory')
 				label = [ this.iconForType(this.stat.type), ' %s (%1000mB)'.format(this.truncatePath(this.stat.path), this.stat.size) ];
 			else if (this.value != null)
 				label = [ this.iconForType('file'), ' %s (%s)'.format(this.truncatePath(this.value), _('File not accessible')) ];
 			else
-				label = [ _('Select file…') ];
+				label = [ this.options.directory_select ? _('Select directory…') : _('Select file…') ];
 			let btnOpenFileBrowser = E('button', {
 				'class': 'btn open-file-browser',
 				'click': UI.prototype.createHandlerFn(this, 'handleFileBrowser'),
@@ -3016,11 +3063,63 @@ const UIFileUpload = UIElement.extend(/** @lends LuCI.ui.FileUpload.prototype */
 		if (cpath.length <= croot.length)
 			return [ croot ];
 
-		const parts = cpath.substring(croot.length).split(/\//);
+		const parts = cpath.substring(croot.length).split(/\//).filter(p => p !== '');
 
 		parts.unshift(croot);
 
 		return parts;
+	},
+
+	/** @private */
+	handleCreateDirectory(path, ev) {
+		const container = E('div', { 'class': 'uci-dialog' });
+
+		const input = E('input', {
+			'type': 'text',
+			'placeholder': _('Directory name'),
+			'style': 'margin-right: 0.5em'
+		});
+
+		const okBtn = E('button', {
+			'type': 'button',
+			'class': 'btn cbi-button',
+			'click': async () => {
+				var directoryName = input.value.trim();
+				if (!directoryName) {
+					alert(_('Directory name cannot be empty.'));
+					return;
+				}
+
+				try {
+					// Assume current upload path (you may need to retrieve or set this yourself)
+					var basePath = path || '/tmp';
+					var fullPath = basePath + '/' + directoryName;
+
+					await fs.exec('mkdir', ['-p', fullPath]).then(L.bind((path, ev) => {
+						return this.handleSelect(path, null, ev);
+					}, this, path, ev));
+				} catch (err) {
+					UI.prototype.addTimeLimitedNotification(_('Error'), E('p', _('Failed to create directory: %s').format(err.message)), 5000, 'error');
+				} finally {
+					UI.prototype.hideModal();
+				}
+			}
+		}, _('OK'));
+
+		var cancelBtn = E('button', {
+			'type': 'button',
+			'class': 'btn cbi-button',
+			'click': () => UI.prototype.hideModal(),
+		}, _('Cancel'));
+
+        container.appendChild(input);
+        container.appendChild(okBtn);
+        container.appendChild(cancelBtn);
+
+
+		UI.prototype.showModal(_('Create Directory'), [
+			container
+		]);
 	},
 
 	/** @private */
@@ -3080,7 +3179,7 @@ const UIFileUpload = UIElement.extend(/** @lends LuCI.ui.FileUpload.prototype */
 			const hidden = this.node.lastElementChild;
 
 			if (path == hidden.value) {
-				dom.content(button, _('Select file…'));
+				dom.content(button, this.options.directory_select ? _('Select directory…') : _('Select file…'));
 				hidden.value = '';
 			}
 
@@ -3161,6 +3260,8 @@ const UIFileUpload = UIElement.extend(/** @lends LuCI.ui.FileUpload.prototype */
 				E('div', { 'class': 'name' }, [
 					this.iconForType(list[i].type),
 					' ',
+					(this.options.directory_select && list[i].type !== 'directory') ? 
+					list[i].name :
 					E('a', {
 						'href': '#',
 						'style': selected ? 'font-weight:bold' : null,
@@ -3178,6 +3279,11 @@ const UIFileUpload = UIElement.extend(/** @lends LuCI.ui.FileUpload.prototype */
 						mtime.getSeconds())
 				]),
 				E('div', [
+					(this.options.directory_select && list[i].type === 'directory') ? E('button', {
+						'class': 'btn cbi-button',
+						'click': UI.prototype.createHandlerFn(this, 'handleSelect',
+							entrypath, list[i].type === 'directory' ? list[i] : null)
+					}, [ _('Select') ]) : '',
 					selected ? E('button', {
 						'class': 'btn',
 						'click': UI.prototype.createHandlerFn(this, 'handleReset')
@@ -3201,7 +3307,7 @@ const UIFileUpload = UIElement.extend(/** @lends LuCI.ui.FileUpload.prototype */
 		let cur = '';
 
 		for (let i = 0; i < dirs.length; i++) {
-			cur += dirs[i];
+			cur = (i === 0 || cur === '/') ? cur + dirs[i] : cur + '/' + dirs[i];
 			dom.append(breadcrumb, [
 				i ? ' » ' : '',
 				E('a', {
@@ -3216,6 +3322,11 @@ const UIFileUpload = UIElement.extend(/** @lends LuCI.ui.FileUpload.prototype */
 			rows,
 			E('div', { 'class': 'right' }, [
 				this.renderUpload(path, list),
+				(this.options.directory_create) ? E('a', {
+					'href': '#',
+					'class': 'btn cbi-button',
+					'click': UI.prototype.createHandlerFn(this, 'handleCreateDirectory', path)
+				}, _('Create')) : '',
 				!this.options.browser ? E('a', {
 					'href': '#',
 					'class': 'btn',
@@ -3244,7 +3355,7 @@ const UIFileUpload = UIElement.extend(/** @lends LuCI.ui.FileUpload.prototype */
 		const hidden = this.node.lastElementChild;
 
 		hidden.value = '';
-		dom.content(button, _('Select file…'));
+		dom.content(button, this.options.directory_select ? _('Select directory…') : _('Select file…'));
 
 		this.handleCancel(ev);
 	},
@@ -5166,11 +5277,14 @@ const UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 	 * If an input element is not marked optional it must not be empty,
 	 * otherwise it will be marked as invalid.
 	 *
-	 * @param {function} [vfunc]
-	 * Specifies a custom validation function which is invoked after the
-	 * other validation constraints are applied. The validation must return
-	 * `true` to accept the passed value. Any other return type is converted
-	 * to a string and treated as validation error message.
+	 * @param {function|function[]} [vfunc]
+	 * Specifies a custom validation function or an array of validation functions
+	 * which are invoked after the other validation constraints are applied. Each
+	 * function must return `true` to accept the passed value. When multiple
+	 * functions are provided as an array, they are executed serially and
+	 * validation stops at the first function that returns a non-true value.
+	 * Any non-true return type is converted to a string and treated as validation
+	 * error message.
 	 *
 	 * @param {...string} [events=blur, keyup]
 	 * The list of events to bind. Each received event will trigger a field

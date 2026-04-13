@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-12-06 07:06+0000\n"
+"PO-Revision-Date: 2026-03-06 16:33+0000\n"
 "Last-Translator: nKsyn <e.nksyn@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationstravelmate/zh_Hans/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:77
 msgid "-- AP Selection --"
@@ -57,7 +57,7 @@ msgstr "匿名身份"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:428
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:970
 msgid "Authentication"
-msgstr "身份认证"
+msgstr "认证"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:542
 msgid "Auto Added Open Uplink"
@@ -145,7 +145,7 @@ msgstr ""
 "配置 travelmate 包来启用旅行路由器功能。更多信息请 <a href=\"https://"
 "github.com/openwrt/packages/blob/master/net/travelmate/files/README.md\" "
 "target=\"_blank\" rel=\"noreferrer noopener\" >查阅在线文档</a>。<br /"
-"><b><em>注意：</em></b>首次启动时请调用一次“接口向导”进行必要的网络的防火墙设"
+"><b><em>注意: </em></b>首次启动时请调用一次“接口向导”进行必要的网络的防火墙设"
 "置。"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:531
@@ -198,7 +198,7 @@ msgstr "电子邮件接口"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:480
 msgid "E-Mail Profile"
-msgstr "电子邮件概要"
+msgstr "邮件概要"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:465
 msgid "E-Mail Receiver Address"
@@ -270,7 +270,7 @@ msgstr "启用/禁用此网络"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:308
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:298
 msgid "Enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:321
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:755
@@ -499,9 +499,9 @@ msgid ""
 msgstr ""
 "travelmate 所有已配置上行链路的概览。你可以编辑、删除或对现有上行链路进行优先"
 "级设置，方法是拖 &#38; 放并扫描新上行链路。<br />当前使用的上行连接以<span "
-"style=\"color:rgb(51, 119, 204);font-weight:bold\">蓝色</span>表示，加密的 "
-"VPN 上行连接以<span style=\"color:rgb(68, 170, 68);font-weight:bold\">绿色</"
-"span>表示。"
+"style=\"color：rgb(51, 119, 204);font-weight：bold\">蓝色</span>表示，加密的 "
+"VPN 上行连接以<span style=\"color：rgb(68, 170, 68);font-weight：bold\">绿色"
+"</span>表示。"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:429
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:972
@@ -572,7 +572,7 @@ msgstr "travelmate电子邮件提醒的收件人地址。"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:293
 msgid "Remove"
-msgstr "移除"
+msgstr "删除"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:291
 msgid "Remove this network"

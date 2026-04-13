@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-09 17:23+0000\n"
-"Last-Translator: 안정언 <me@jeongeon.net>\n"
+"PO-Revision-Date: 2026-02-23 17:09+0000\n"
+"Last-Translator: Hyeonjeong Lee <h9101654@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:302
 msgid "-- default --"
-msgstr ""
+msgstr "-- 기본값 --"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:220
 msgid "0.0.0.0<SPACE><DOMAIN>"
@@ -40,11 +40,11 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:314
 msgid "Action"
-msgstr "액션"
+msgstr "동작"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:170
 msgid "Active Feeds"
-msgstr ""
+msgstr "활성 피드"
 
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:3
 msgid "Adblock"
@@ -105,7 +105,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:330
 msgid "Allowlist..."
-msgstr ""
+msgstr "허용 목록..."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:313
 #, fuzzy
@@ -113,13 +113,12 @@ msgid "Answer"
 msgstr "답변"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:311
-#, fuzzy
 msgid "Backup Directory"
-msgstr "백업 경로"
+msgstr "백업 디렉터리"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:307
 msgid "Base Directory"
-msgstr ""
+msgstr "기준 디렉터리"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:307
 msgid "Base working directory during adblock processing."
@@ -142,7 +141,7 @@ msgstr "차단된 DNS 요청"
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:267
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:166
 msgid "Blocked Domains"
-msgstr "차단된 도메인들"
+msgstr "차단된 도메인"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:481
 msgid "Blocklist Feed"
@@ -165,7 +164,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:338
 msgid "Blocklist..."
-msgstr ""
+msgstr "차단 목록..."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:383
 msgid ""
@@ -187,7 +186,7 @@ msgstr "취소"
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:535
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:551
 msgid "Categories"
-msgstr ""
+msgstr "카테고리"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:476
 msgid "Changes on this tab needs an adblock service reload to take effect."
@@ -203,7 +202,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:282
 msgid "Clear"
-msgstr ""
+msgstr "삭제"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:311
 msgid "Client"
@@ -211,7 +210,7 @@ msgstr "클라이언트"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:263
 msgid "Clients"
-msgstr ""
+msgstr "클라이언트"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:53
 msgid ""
@@ -229,12 +228,12 @@ msgstr ""
 
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:43
 msgid "Custom Feed Editor"
-msgstr ""
+msgstr "사용자 정의 피드 편집기"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:174
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:334
 msgid "DNS Backend"
-msgstr ""
+msgstr "DNS 백엔드"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:355
 msgid "DNS Directory"
@@ -242,11 +241,11 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:358
 msgid "DNS Instance"
-msgstr ""
+msgstr "DNS 인스턴스"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:351
 msgid "DNS Lookup Domain"
-msgstr ""
+msgstr "DNS 조회 도메인"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:271
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:51
@@ -259,15 +258,15 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:309
 msgid "Date"
-msgstr ""
+msgstr "날짜"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:234
 msgid "Description"
-msgstr ""
+msgstr "설명"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:312
 msgid "Domain"
-msgstr ""
+msgstr "도메인"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:351
 msgid "Domain to check for a successful DNS backend restart."
@@ -275,7 +274,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:265
 msgid "Domains"
-msgstr ""
+msgstr "도메인"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:322
 msgid "Don't check SSL server certificates during download."
@@ -283,7 +282,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:255
 msgid "Download"
-msgstr ""
+msgstr "다운로드"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:322
 msgid "Download Insecure"
@@ -291,11 +290,11 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:315
 msgid "Download Utility"
-msgstr ""
+msgstr "다운로드 유틸리티"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:275
 msgid "E-Mail Notification"
-msgstr ""
+msgstr "이메일 알림"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:450
 msgid "E-Mail Profile"
@@ -315,16 +314,16 @@ msgstr ""
 
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:27
 msgid "Edit Allowlist"
-msgstr ""
+msgstr "허용 목록 편집"
 
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:35
 msgid "Edit Blocklist"
-msgstr ""
+msgstr "차단 목록 편집"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:198
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:238
 msgid "Empty field not allowed"
-msgstr ""
+msgstr "필수 입력 항목"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:348
 msgid ""
@@ -353,7 +352,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:221
 msgid "Enabled"
-msgstr "활성화됨"
+msgstr "활성화"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:361
 msgid "End Timestamp"
@@ -379,7 +378,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:193
 msgid "Feed Name"
-msgstr ""
+msgstr "피드 이름"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:211
 msgid "Feed Selection"
@@ -411,15 +410,17 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:234
 msgid "Force Local DNS"
-msgstr ""
+msgstr "로컬 DNS 강제"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:243
+#, fuzzy
 msgid "Forced Ports"
-msgstr ""
+msgstr "강제 포트"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:237
+#, fuzzy
 msgid "Forced Zones"
-msgstr ""
+msgstr "강제 구역"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:271
 msgid ""
@@ -430,7 +431,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:206
 msgid "General Settings"
-msgstr "기본 설정"
+msgstr "일반 설정"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:430
 msgid "GeoIP Map"
@@ -438,7 +439,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/root/usr/share/rpcd/acl.d/luci-app-adblock.json:3
 msgid "Grant access to LuCI app adblock"
-msgstr ""
+msgstr "LuCI 앱 adblock에 접근 권한 부여"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:533
 msgid "Hagezi List Selection"
@@ -446,11 +447,11 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:297
 msgid "High Priority"
-msgstr ""
+msgstr "높은 우선순위"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:296
 msgid "Highest Priority"
-msgstr ""
+msgstr "최고 우선순위"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:160
 msgid "Information"
@@ -458,7 +459,7 @@ msgstr "정보"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:201
 msgid "Invalid characters"
-msgstr ""
+msgstr "허용되지 않는 문자"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:117
 msgid "Invalid input values, unable to save modifications."
@@ -478,7 +479,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:190
 msgid "Last Run"
-msgstr ""
+msgstr "최근 실행"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:382
 msgid "Latest DNS Requests"
@@ -486,11 +487,11 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:300
 msgid "Least Priority"
-msgstr ""
+msgstr "최저 우선순위"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:299
 msgid "Less Priority"
-msgstr ""
+msgstr "낮은 우선순위"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:260
 msgid "Limit SafeSearch"
@@ -518,7 +519,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:59
 msgid "Log View"
-msgstr ""
+msgstr "로그 보기"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:230
 msgid "Map Reset"
@@ -550,7 +551,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:298
 msgid "Normal Priority"
-msgstr ""
+msgstr "보통 우선순위"
 
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:19
 msgid "Overview"
@@ -566,7 +567,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:212
 msgid "Protocol/URL format not supported"
-msgstr ""
+msgstr "지원되지 않는 프로토콜 또는 URL 형식"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:133
 msgid "Query"
@@ -588,7 +589,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:196
 msgid "Refresh"
-msgstr ""
+msgstr "새로고침"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:140
 msgid "Refresh DNS Report"
@@ -636,11 +637,11 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:97
 msgid "Result"
-msgstr ""
+msgstr "결과"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:217
 msgid "Rule"
-msgstr ""
+msgstr "규칙"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:182
 msgid "Run Directories"
@@ -658,7 +659,7 @@ msgstr ""
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:75
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:291
 msgid "Save"
-msgstr ""
+msgstr "저장"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:587
 msgid "Save & Reload"
@@ -666,7 +667,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:594
 msgid "Save & Restart"
-msgstr ""
+msgstr "저장 및 재시작"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:361
 msgid "Second instance"
@@ -688,7 +689,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:204
 msgid "Settings"
-msgstr ""
+msgstr "설정"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:344
 msgid "Shift DNS Blocklist"
@@ -703,11 +704,11 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:226
 msgid "Size"
-msgstr ""
+msgstr "크기"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:227
 msgid "Small"
-msgstr ""
+msgstr "소형(S)"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:423
 msgid "Space separated list of ports used by tcpdump."
@@ -723,7 +724,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:162
 msgid "Status / Version"
-msgstr ""
+msgstr "상태 / 버전"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:517
 msgid "StevenBlack List Selection"
@@ -731,7 +732,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:572
 msgid "Stop"
-msgstr ""
+msgstr "중지"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:580
 msgid "Suspend"
@@ -739,7 +740,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:194
 msgid "System Info"
-msgstr ""
+msgstr "시스템 정보"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:253
 msgid "TLD Compression"
@@ -807,7 +808,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:310
 msgid "Time"
-msgstr ""
+msgstr "시간"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:366
 msgid "Timeout to wait for a successful DNS backend restart."
@@ -831,7 +832,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:206
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:502
 msgid "UTCapitole Archive Selection"
@@ -856,7 +857,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:264
 msgid "Upload"
-msgstr ""
+msgstr "업로드"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:72
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:77
@@ -870,7 +871,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:292
 msgid "Verbose Debug Logging"
-msgstr ""
+msgstr "상세 디버그 로그 기록"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/feeds.js:179
 msgid ""
@@ -887,7 +888,7 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:335
 msgid "dnsmasq"
-msgstr ""
+msgstr "dnsmasq"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:339
 msgid "kresd"
@@ -915,4 +916,4 @@ msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:336
 msgid "unbound"
-msgstr ""
+msgstr "unbound"

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-24 10:30+0000\n"
+"PO-Revision-Date: 2026-02-18 15:43+0000\n"
 "Last-Translator: Werner Schleifer <werner.schleifer@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstravelmate/de/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:77
 msgid "-- AP Selection --"
@@ -256,8 +256,7 @@ msgstr "Travelmate-Service aktivieren."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:390
 msgid "Enable verbose debug logging in case of any processing errors."
-msgstr ""
-"Aktiviere das ausführliche Anwendungs-Logging bei Verarbeitungsfehlern."
+msgstr "Aktiviere das ausführliche Debug-Logging bei Verarbeitungsfehlern."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:286
 msgid "Enable/Disable this network"
@@ -289,7 +288,7 @@ msgstr ""
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:424
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:967
 msgid "FAST"
-msgstr "SCHNELL"
+msgstr "FAST"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:381
 msgid "Filter AutoAdd SSIDs"
@@ -354,7 +353,7 @@ msgstr "Schnittstellen-Assistent ..."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:393
 msgid "LAN Interface"
-msgstr ""
+msgstr "LAN-Schnittstelle"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:265
 msgid "Last Run"
@@ -525,7 +524,7 @@ msgstr "PEAP"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:951
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:957
 msgid "Password"
-msgstr "Kennwort"
+msgstr "Passwort"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:489
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:1024

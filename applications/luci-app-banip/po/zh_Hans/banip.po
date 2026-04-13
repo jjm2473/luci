@@ -1,15 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-09 07:24+0000\n"
-"Last-Translator: 大王叫我来巡山 "
-"<hamburger2048@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-03-06 16:33+0000\n"
+"Last-Translator: nKsyn <e.nksyn@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsbanip/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:642
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:711
@@ -369,11 +368,11 @@ msgstr "静默丢弃数据包或主动拒绝传入流量。"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:674
 msgid "E-Mail Notification"
-msgstr "电子邮件通知"
+msgstr "邮件通知"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:689
 msgid "E-Mail Profile"
-msgstr "电子邮件概要"
+msgstr "邮件概要"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:677
 msgid "E-Mail Receiver Address"
@@ -446,7 +445,7 @@ msgstr "如遇处理错误启用详细调试记录。"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:233
 msgid "Enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:242
 msgid "Enables IPv4 support."
@@ -904,7 +903,7 @@ msgstr "保存 & 重新加载"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:866
 msgid "Save & Restart"
-msgstr "保存 & 重启"
+msgstr "保存并重启"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:57
 msgid "Search IP"
@@ -1082,9 +1081,9 @@ msgid ""
 "exactly one MAC/IPv4/IPv6 address or domain name per line. Ranges in CIDR "
 "notation and MAC/IP-bindings are allowed."
 msgstr ""
-"这是本地 banIP 白名单，会允许特定的 MAC、IP 地址或域名。<br /><em><b>请注意："
-"</b></em>每行只能添加一个 MAC/IPv4/IPv6 地址或域名。允许 CIDR 格式的 IP 范围"
-"和 MAC/IP 绑定。"
+"这是本地 banIP 白名单，会允许特定的 MAC、IP 地址或域名。<br /> <em><b>请注"
+"意：</b></em> 每行只能添加一个 MAC/IPv4/IPv6 地址或域名。允许 CIDR 格式的 IP "
+"范围和 MAC/IP 绑定。"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/blocklist.js:28
 msgid ""
@@ -1093,9 +1092,9 @@ msgid ""
 "exactly one MAC/IPv4/IPv6 address or domain name per line. Ranges in CIDR "
 "notation and MAC/IP-bindings are allowed."
 msgstr ""
-"这是本地 banIP 黑名单，会拦截特定的 MAC、IP 地址或域名。<br /><em><b>请注意："
-"</b></em>每行只能添加一个 MAC/IPv4/IPv6 地址或域名。允许 CIDR 格式的 IP 范围"
-"和 MAC/IP 绑定。"
+"这是本地 banIP 黑名单，会拦截特定的 MAC、IP 地址或域名。<br /> <em><b>请注"
+"意：</b></em> 每行只能添加一个 MAC/IPv4/IPv6 地址或域名。允许 CIDR 格式的 IP "
+"范围和 MAC/IP 绑定。"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:248
 msgid ""
@@ -1264,7 +1263,7 @@ msgstr "错误项"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:594
 msgid "info"
-msgstr "信息项"
+msgstr "信息"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:524
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:535

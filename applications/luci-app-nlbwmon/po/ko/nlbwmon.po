@@ -1,34 +1,34 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-04 03:38+0000\n"
-"Last-Translator: Wonchul Kang <teshi85@gmail.com>\n"
+"PO-Revision-Date: 2026-02-07 16:11+0000\n"
+"Last-Translator: Hyeonjeong Lee <h9101654@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsnlbwmon/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:563
 msgid "%d IPv4-only hosts"
-msgstr ""
+msgstr "%d개의 IPv4 전용 호스트"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:570
 msgid "%d IPv6-only hosts"
-msgstr ""
+msgstr "%d개의 IPv6 전용 호스트"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:577
 msgid "%d dual-stack hosts"
-msgstr ""
+msgstr "%d개의 듀얼 스택 호스트"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:114
 msgid "%s and %s"
-msgstr ""
+msgstr "%s 및 %s"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:112
 msgid "%s, %s and %s"
-msgstr ""
+msgstr "%s, %s, %s"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:93
 msgid "-1 - Restart every last day of month"
@@ -124,7 +124,7 @@ msgstr "고급 설정"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:906
 msgid "Application"
-msgstr ""
+msgstr "애플리케이션"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:882
 msgid "Application Protocols"
@@ -132,7 +132,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/root/usr/share/luci/menu.d/luci-app-nlbwmon.json:34
 msgid "Backup"
-msgstr ""
+msgstr "백업"
 
 #: applications/luci-app-nlbwmon/root/usr/share/luci/menu.d/luci-app-nlbwmon.json:3
 msgid "Bandwidth Monitor"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:170
 msgid "Database directory"
-msgstr ""
+msgstr "데이터베이스 디렉터리"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:171
 msgid ""
@@ -213,28 +213,28 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:629
 msgid "Down. (Bytes)"
-msgstr ""
+msgstr "다운 (바이트)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:630
 msgid "Down. (Pkts.)"
-msgstr ""
+msgstr "다운 (패킷)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:611
 msgctxt "Traffic counter"
 msgid "Download"
-msgstr ""
+msgstr "다운로드"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:862
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:908
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:955
 msgid "Download (Bytes)"
-msgstr ""
+msgstr "다운로드 (바이트)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:863
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:909
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:956
 msgid "Download (Packets)"
-msgstr ""
+msgstr "다운로드 (패킷)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:885
 msgid "Download / Application"
@@ -262,7 +262,7 @@ msgstr ""
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:1001
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:1010
 msgid "Export"
-msgstr ""
+msgstr "내보내기"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:804
 msgid "Failed to commit database: %s"
@@ -282,7 +282,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:954
 msgid "Family"
-msgstr ""
+msgstr "체계"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:73
 msgid "Fixed interval"
@@ -291,20 +291,21 @@ msgstr ""
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:877
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:923
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:970
+#, fuzzy
 msgid "Force reload…"
-msgstr ""
+msgstr "강제 새로고침…"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:59
 msgid "General Settings"
-msgstr "기본 설정"
+msgstr "일반 설정"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/backup.js:64
 msgid "Generate Backup"
-msgstr ""
+msgstr "백업 생성"
 
 #: applications/luci-app-nlbwmon/root/usr/share/rpcd/acl.d/luci-app-nlbwmon.json:3
 msgid "Grant UCI access for luci-app-nlbwmon"
-msgstr ""
+msgstr "luci-app-nlbwmon의 UCI 접근 권한 부여"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:987
 msgid "Grouped by IP (CSV)"
@@ -341,8 +342,9 @@ msgid "IPv6"
 msgstr "IPv6"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:111
+#, fuzzy
 msgid "Interval"
-msgstr ""
+msgstr "주기"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:159
 msgid ""
@@ -362,7 +364,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:123
 msgid "Local interfaces"
-msgstr ""
+msgstr "로컬 인터페이스"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:132
 msgid "Local subnets"
@@ -442,7 +444,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/backup.js:57
 msgid "Restore"
-msgstr ""
+msgstr "복구"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/backup.js:52
 msgid "Restore Database Backup"
@@ -458,7 +460,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:334
 msgid "Source IP"
-msgstr ""
+msgstr "출발지 IP"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:96
 msgid "Start date"
@@ -502,28 +504,28 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:631
 msgid "Up. (Bytes)"
-msgstr ""
+msgstr "업 (바이트)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:632
 msgid "Up. (Pkts.)"
-msgstr ""
+msgstr "업 (패킷)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:615
 msgctxt "Traffic counter"
 msgid "Upload"
-msgstr ""
+msgstr "업로드"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:864
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:910
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:957
 msgid "Upload (Bytes)"
-msgstr ""
+msgstr "업로드 (바이트)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:865
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:911
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:958
 msgid "Upload (Packets)"
-msgstr ""
+msgstr "업로드 (패킷)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:890
 msgid "Upload / Application"
@@ -535,7 +537,7 @@ msgstr ""
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:75
 msgid "Warning"
-msgstr "경고"
+msgstr "경고(Warning)"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:152
 msgid ""

@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-02-15 06:36+0000\n"
-"Last-Translator: Peng Liu <littlenewton6@gmail.com>\n"
+"PO-Revision-Date: 2026-02-25 10:58+0000\n"
+"Last-Translator: nKsyn <e.nksyn@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsadvanced-reboot/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: applications/luci-app-advanced-reboot/htdocs/luci-static/resources/view/system/advanced_reboot.js:294
 #: applications/luci-app-advanced-reboot/root/usr/share/luci/menu.d/luci-app-advanced-reboot.json:3
@@ -37,7 +37,7 @@ msgstr "确认"
 #: applications/luci-app-advanced-reboot/htdocs/luci-static/resources/view/system/advanced_reboot.js:131
 #: applications/luci-app-advanced-reboot/htdocs/luci-static/resources/view/system/advanced_reboot.js:179
 msgid "Device unreachable! Still waiting for device..."
-msgstr "设备无法访问。仍在等待设备……"
+msgstr "无法连接到设备！仍在等待设备…"
 
 #: applications/luci-app-advanced-reboot/htdocs/luci-static/resources/view/system/advanced_reboot.js:312
 msgid "ERROR:"
@@ -186,7 +186,7 @@ msgstr ""
 
 #: applications/luci-app-advanced-reboot/htdocs/luci-static/resources/view/system/advanced_reboot.js:123
 msgid "Waiting for device..."
-msgstr "正在等待设备…"
+msgstr "等待设备…"
 
 #: applications/luci-app-advanced-reboot/htdocs/luci-static/resources/view/system/advanced_reboot.js:342
 msgid ""
@@ -194,8 +194,8 @@ msgid ""
 "seeing this on an OpenWrt dual-firmware supported device,%splease refer to "
 "%sHow to add a new device section of the README%s."
 msgstr ""
-"警告： 设备 (%s) 未知或者不是多固件设备！%s如果你在支持 OpenWrt 多固件的设备"
-"上看到这个，%s请参阅 %sHow to add a new device 章节，其位于 README%s 文件中。"
+"警告：设备 (%s) 未知或者不是多固件设备！%s如果你在支持 OpenWrt 多固件的设备上"
+"看到这个，%s请参阅 %sHow to add a new device 章节，其位于 README%s 文件中。"
 
 #: applications/luci-app-advanced-reboot/htdocs/luci-static/resources/view/system/advanced_reboot.js:301
 msgid "Warning: There are unsaved changes that will get lost on reboot!"

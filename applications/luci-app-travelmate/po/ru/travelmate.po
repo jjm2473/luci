@@ -2,8 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: travelmate\n"
 "POT-Creation-Date: 2017-12-07 21:00+0300\n"
-"PO-Revision-Date: 2025-11-09 22:43+0000\n"
-"Last-Translator: vanapro1 <law820314@gmail.com>\n"
+"PO-Revision-Date: 2026-02-21 16:03+0000\n"
+"Last-Translator: SnIPeRSnIPeR "
+"<snipersniper@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstravelmate/ru/>\n"
 "Language: ru\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "Project-Info: Это технический перевод, не дословный. Главное-удобный русский "
 "интерфейс, все проверялось в графическом режиме, совместим с другими apps\n"
 
@@ -47,7 +48,7 @@ msgstr "Дополнительные настройки"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:409
 msgid ""
 "Additional trigger delay in seconds before travelmate processing begins."
-msgstr "Дополнительная задержка в секундах до запуска TravelMate."
+msgstr "Дополнительная задержка в секундах до запуска Travelmate."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:447
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:987
@@ -258,7 +259,7 @@ msgstr "EAP-TLS"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:282
 msgid "Edit"
-msgstr "Изменить"
+msgstr "Редактировать"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:280
 msgid "Edit this network"
@@ -266,7 +267,7 @@ msgstr "Изменить эту сеть"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:308
 msgid "Enable the travelmate service."
-msgstr "Включить службу travelmate."
+msgstr "Включить службу Travelmate."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:390
 msgid "Enable verbose debug logging in case of any processing errors."
@@ -321,7 +322,7 @@ msgstr ""
 
 #: applications/luci-app-travelmate/root/usr/share/rpcd/acl.d/luci-app-travelmate.json:3
 msgid "Grant access to LuCI app travelmate"
-msgstr "Предоставить доступ LuCI к приложению travelmate"
+msgstr "Предоставить доступ LuCI к приложению Travelmate"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:401
 msgid "High Priority"
@@ -335,12 +336,12 @@ msgstr "Высокий"
 msgid ""
 "How long should travelmate wait for a successful wlan uplink connection."
 msgstr ""
-"Как долго travelmate должен ждать успешного подключения wlan по uplink."
+"Как долго Travelmate должен ждать успешного подключения wlan по uplink."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:443
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:984
 msgid "Identity"
-msgstr "Идентификация"
+msgstr "Идентификация EAP"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:917
 msgid "Ignore BSSID"
@@ -376,7 +377,7 @@ msgstr "Последний запуск"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:404
 msgid "Least Priority"
-msgstr "Низкий"
+msgstr "Наименьший приоритет"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:403
 msgid "Less Priority"
@@ -416,7 +417,7 @@ msgstr "Просмотр журнала"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:559
 msgid "MAC Address"
-msgstr "MAC Адрес"
+msgstr "MAC-адрес"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:431
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:974
@@ -518,7 +519,7 @@ msgid ""
 "VPN uplink connection is emphasized in <span style=\"color:rgb(68, 170, "
 "68);font-weight:bold\">green</span>."
 msgstr ""
-"Обзор всех настроенных Uplink соединений для travelmate. Вы можете "
+"Обзор всех настроенных Uplink соединений для Travelmate. Вы можете "
 "редактировать, удалять или определять приоритет существующих Uplink путем "
 "перетаскивания, а также сканировать новые.<br /> Используемое в данный "
 "момент Uplink соединение выделяется <span style=\"color:rgb(51, 119, "
@@ -579,7 +580,7 @@ msgstr ""
 msgid "Profile used by 'msmtp' for travelmate notification E-Mails."
 msgstr ""
 "Профиль, используемый 'msmtp' для рассылки электронной почты с уведомлениями "
-"от travelmate."
+"от Travelmate."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:117
 msgid "QR-Code Overview"
@@ -595,7 +596,7 @@ msgstr "Случайное значение MAC-адресов"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:465
 msgid "Receiver address for travelmate notification E-Mails."
-msgstr "Адрес получателя электронной почты для уведомлений от travelmate."
+msgstr "Адрес получателя электронной почты для уведомлений от Travelmate."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:293
 msgid "Remove"
@@ -628,7 +629,7 @@ msgstr "Перезагрузка сетевого интерфейса"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:311
 msgid "Restrict travelmate to certain radio(s)."
-msgstr ""
+msgstr "Ограничить Travelmate определёнными радиомодулями."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:414
 msgid "Retry limit to connect to an uplink."
@@ -636,11 +637,11 @@ msgstr "Лимит повторных попыток для подключени
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:322
 msgid "Reverse Radio Order"
-msgstr ""
+msgstr "Обратный порядок радиомодулей"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:322
 msgid "Reverse the radio processing order."
-msgstr ""
+msgstr "Изменить порядок обработки радиомодулей на обратный."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:257
 msgid "Run Flags"
@@ -684,7 +685,7 @@ msgstr ""
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:470
 msgid "Sender address for travelmate notification E-Mails."
-msgstr "Адрес отправителя электронной почты для уведомлений от travelmate."
+msgstr "Адрес отправителя электронной почты для уведомлений от Travelmate."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:462
 msgid "Sends notification E-Mails after every succesful uplink connect."
@@ -797,7 +798,7 @@ msgstr ""
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:399
 msgid "The selected priority will be used for travelmate processes."
-msgstr "Выбранный приоритет будет использоваться для процессов travelmate."
+msgstr "Выбранный приоритет будет использоваться для процессов Travelmate."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:444
 msgid ""
@@ -836,11 +837,11 @@ msgstr ""
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:475
 msgid "Topic for travelmate notification E-Mails."
-msgstr "Тема для уведомлений travelmate по электронной почте."
+msgstr "Тема для уведомлений Travelmate по электронной почте."
 
 #: applications/luci-app-travelmate/root/usr/share/luci/menu.d/luci-app-travelmate.json:3
 msgid "Travelmate"
-msgstr "TravelMate"
+msgstr "Travelmate"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:266
 msgid "Travelmate Settings"
@@ -885,7 +886,7 @@ msgstr "Настройки VPN"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:337
 msgid "VPN connections will be managed by travelmate."
-msgstr "VPN-соединения будут управляться travelmate."
+msgstr "VPN-соединения будут управляться Travelmate."
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:337
 msgid "VPN processing"

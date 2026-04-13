@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-11-07 13:37+0000\n"
+"PO-Revision-Date: 2026-03-06 16:33+0000\n"
 "Last-Translator: nKsyn <e.nksyn@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationslldpd/zh_Hans/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:374
 msgid "1A"
@@ -109,7 +109,7 @@ msgstr "市政地址"
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:65
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:613
 msgid "Collecting data..."
-msgstr "正在收集数据中..."
+msgstr "收集数据中..."
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:588
 msgid "Communication Device Endpoints (Class III)"
@@ -442,7 +442,7 @@ msgstr "必须是一个数字"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:246
 msgid "Must contain: 'coordinate ...', 'address ...' or 'elin ...'"
-msgstr "必须包含: 'coordinate ...', 'address ...'或 'elin ...'"
+msgstr "必须包含：'coordinate ...', 'address ...'或 'elin ...'"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:620
 msgid "Must start: application ..."
@@ -542,7 +542,7 @@ msgstr "原始"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:226
 msgid "Raw config string sent to lldpd, starting: [coordinate|address|elin]"
-msgstr "发送给 lldpd 的原始配置字符串,开始于:[coordinate|address|elin]"
+msgstr "发送给 lldpd 的原始配置字符串,开始于：[coordinate|address|elin]"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:225
 msgid "Raw location config"
@@ -631,7 +631,7 @@ msgstr "街道"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:953
 msgid "Subtype"
-msgstr "子类"
+msgstr "子类型"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:468
 msgid "Suffix %s for millisecond values."
@@ -696,7 +696,7 @@ msgstr "默认值来源于内核信息。"
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:465
 msgid ""
 "The delay between transmissions of LLDP PDU. The default value is 30 seconds."
-msgstr "LLDP 数据包传输之间的延迟。默认值为30秒。"
+msgstr "LLDP PDU 的发送间隔。默认值为 30 秒。"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:604
 msgid ""
@@ -785,12 +785,12 @@ msgstr "替换"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:296
 msgid "valid syntax: %f .. %f [mf]"
-msgstr "有效的语法: %f .. %f [mf]"
+msgstr "有效的语法：%f .. %f [mf]"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:278
 msgid "valid syntax: 0 .. 180.000[E|W]"
-msgstr "有效的语法: 0 .. 180.000[E|W]"
+msgstr "有效的语法：0 .. 180.000[E|W]"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:262
 msgid "valid syntax: 0 .. 90.000[N|S]"
-msgstr "有效的语法: 0 .. 90.000[N|S]"
+msgstr "有效的语法：0 .. 90.000[N|S]"
