@@ -368,7 +368,9 @@ return view.extend({
 			});
 		}
 
-		poll.add(L.bind(update_port_status, m, topologies));
+		setTimeout(function() {
+			poll.add(L.bind(update_port_status, m, topologies));
+		}, 1000);
 
 		return m.render();
 	}
