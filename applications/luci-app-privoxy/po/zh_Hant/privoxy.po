@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-privoxy\n"
 "POT-Creation-Date: 2015-06-10 20:16+0100\n"
-"PO-Revision-Date: 2026-02-28 09:36+0000\n"
-"Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-05-17 16:40+0000\n"
+"Last-Translator: 為什麼不加空格 <c++23@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsprivoxy/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:236
@@ -66,7 +66,7 @@ msgstr "CGI 使用者介面"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:861
 msgid "Common Log Format"
-msgstr "通用日誌格式"
+msgstr "通用紀錄格式"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:92
 msgid ""
@@ -79,19 +79,19 @@ msgstr ""
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:855
 msgid "Debug GIF de-animation"
-msgstr "偵錯 GIF 動畫"
+msgstr "除錯 GIF 動畫"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:837
 msgid "Debug force feature"
-msgstr "偵錯強制功能"
+msgstr "除錯強制功能"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:849
 msgid "Debug redirects"
-msgstr "偵錯重新導向"
+msgstr "除錯重新導向"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:843
 msgid "Debug regular expression filters"
-msgstr "偵錯正規表示式篩選"
+msgstr "除錯正規表示式篩選"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:152
 msgid "Delay (in seconds) during system boot before Privoxy start"
@@ -127,7 +127,7 @@ msgstr "啟用/禁用 Privoxy 在系統啟動或介面事件時自動啟動"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:555
 msgid "Enable/Disable filtering when Privoxy starts."
-msgstr "Privoxy 啟動時啟用 / 禁用篩選。"
+msgstr "Privoxy 啟動時啟用/禁用篩選。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:134
 msgid "Enabled"
@@ -137,7 +137,7 @@ msgstr "已啟用"
 msgid ""
 "Enabling this option is NOT recommended if there is no parent proxy that "
 "requires authentication!"
-msgstr "如果沒有需要認證的父級代理時，不建議開啟這個選項！"
+msgstr "若沒有需要認證的父級代理時，不建議開啟這個選項！"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:368
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:404
@@ -179,8 +179,8 @@ msgid ""
 "be a good idea to let them know how to reach you, what you block and why you "
 "do that, your policies, etc."
 msgstr ""
-"如果除了您還有其他使用者使用 Privoxy 連線，最好讓他們知道如何聯絡您，您遮蔽什"
-"麼，您為什麼這樣做，您的政策等等。"
+"若除了您還有其他使用者使用 Privoxy 連線，最好讓他們知道如何聯絡您，您遮蔽什"
+"麼，您為什麼這樣做，您的策略等等。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:215
 msgid "Invalid email address"
@@ -208,13 +208,13 @@ msgstr "記錄所有傳送的網路資料"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:905
 msgid "Log the applying actions"
-msgstr "記錄配置儲存動作"
+msgstr "記錄套用動作"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:807
 msgid ""
 "Log the destination for each request Privoxy let through. See also 'Debug "
 "1024'."
-msgstr "記錄 Privoxy 允許的所有請求。另請參考\"Debug 1024\"。"
+msgstr "記錄 Privoxy 允許的所有請求。請參考「Debug 1024」。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:867
 msgid ""
@@ -271,7 +271,7 @@ msgstr "最大用戶端連線數。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:535
 msgid "Maximum size (in KB) of the buffer for content filtering."
-msgstr "內容篩選的最大緩衝 (單位: KB) 。"
+msgstr "內容篩選的最大緩衝 (單位: KB)。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:97
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:100
@@ -334,7 +334,7 @@ msgid ""
 "configuration, help and logging. This section of the configuration file "
 "tells Privoxy where to find those other files."
 msgstr ""
-"Privoxy 可以 (而且一般都會) 使用其他一些檔案用於附加配置，幫助和日誌。配置檔"
+"Privoxy 可以 (而且一般都會) 使用其他一些檔案用於附加配置，幫助和紀錄。配置檔"
 "案的此區域用來告訴 Privoxy 從哪裡找到這些檔案。"
 
 #: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:32
@@ -421,7 +421,7 @@ msgstr "Privoxy 接收用戶端請求時監聽的位址和 TCP 連接埠。"
 msgid ""
 "The compression level that is passed to the zlib library when compressing "
 "buffered content."
-msgstr "使用 zlib 壓縮緩衝內容時的壓縮級別。"
+msgstr "使用 zlib 壓縮緩衝內容時的壓縮等級。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:252
 msgid ""
@@ -445,7 +445,7 @@ msgstr "CGI 頁面顯示的主機名稱。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:274
 msgid "The log file to use. File name, relative to log directory."
-msgstr "要使用的日誌檔；檔案名稱與日誌目錄相對。"
+msgstr "要使用的紀錄檔；檔案名稱與紀錄目錄相對。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:788
 msgid "The order in which client headers are sorted before forwarding them."
@@ -473,7 +473,7 @@ msgstr "只有開啟了信任機制時這個選項的值才有效。"
 msgid ""
 "This option is only there for debugging purposes. It will drastically reduce "
 "performance."
-msgstr "這個選項僅用於偵錯。它會極大地降低效能。"
+msgstr "這個選項僅用於除錯。它會極大地降低效能。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:574
 msgid ""
@@ -491,8 +491,7 @@ msgstr "此分頁用於配置與安全相關的 Privoxy 選項。"
 msgid ""
 "Through which SOCKS proxy (and optionally to which parent HTTP proxy) "
 "specific requests should be routed."
-msgstr ""
-"指定的請求應該通過哪一個 SOCKS 代理 (並且通過哪一個 HTTP 父代理，可選) 。"
+msgstr "指定的請求應該透過哪個 SOCKS 代理 (以及透過哪個 HTTP 父代理，可選)。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:610
 msgid "To which parent HTTP proxy specific requests should be routed."
@@ -547,7 +546,7 @@ msgstr "版本資訊"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:650
 msgid "Whether intercepted requests should be treated as valid."
-msgstr "是否應把被攔截的請求當作是有效的。"
+msgstr "是否應把被攔截的請求當作是有效。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:572
 msgid ""
@@ -571,7 +570,7 @@ msgstr "是否處理管道化請求。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:600
 msgid "Whether or not proxy authentication through Privoxy should work."
-msgstr "是否可以通過 Privoxy 進行代理認證。"
+msgstr "是否可以經由 Privoxy 進行代理認證。"
 
 #: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:582
 msgid "Whether or not the web-based actions file editor may be used."

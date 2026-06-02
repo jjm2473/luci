@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:41+0200\n"
-"PO-Revision-Date: 2026-01-20 07:03+0000\n"
-"Last-Translator: Nicolas Aigner <nicolas.aigner@gmail.com>\n"
+"PO-Revision-Date: 2026-05-17 16:40+0000\n"
+"Last-Translator: Volenski <volenski@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsstatistics/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:47
 msgid "0 - At most once"
@@ -310,7 +310,7 @@ msgstr "Configuração do plugin Disco"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/df.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/df.json:2
 msgid "Disk Space Usage"
-msgstr "Utilização de espaço em disco"
+msgstr "Uso do espaço em disco"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/disk.js:10
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/disk.json:2
@@ -343,7 +343,7 @@ msgstr "Valor vazio = monitore todos"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/curl.js:21
 msgid "Enable"
-msgstr "Habilitar"
+msgstr "Ativar"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/network.js:25
 msgid "Enable forwarding"
@@ -558,11 +558,11 @@ msgstr "Host executando o chrony"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/collectd.js:51
 msgid "Hostname"
-msgstr "Nome do equipamento (hostname)"
+msgstr "Hostname"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:15
 msgid "IP or hostname where to get the txtinfo output from"
-msgstr "Endereço IP ou nome do equipamento de onde obter a saída do txtinfo"
+msgstr "IP ou nome do dispositivo de onde obter a saída do txtinfo"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/ipstatistics.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/ipstatistics.json:2
@@ -658,7 +658,7 @@ msgstr "Monitoramento de carga ativado"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/graphs.js:30
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/graphs.js:117
 msgid "Loading data…"
-msgstr "Carregando os dados…"
+msgstr "Carregando dados…"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/syslog.js:14
 msgid "Log level"
@@ -1062,7 +1062,7 @@ msgstr "Configuração do plugin Ping"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/collectd.js:136
 msgid "Plugin is disabled"
-msgstr "O Plugin está desativado"
+msgstr "O plugin está desativado"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:34
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:18
@@ -1559,8 +1559,8 @@ msgid ""
 "The iwinfo plugin collects statistics about wireless signal strength, noise "
 "and quality."
 msgstr ""
-"O plugin iwinfo coleta estatísticas sobre a força, ruído e qualidade do "
-"sinal da rede sem fio."
+"O plugin iwinfo coleta estatísticas sobre força, ruído e qualidade do sinal "
+"Wi-Fi."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/load.js:7
 msgid "The load plugin collects statistics about the general system load."
@@ -1733,11 +1733,11 @@ msgstr "Assunto"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:67
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:74
 msgid "True"
-msgstr "Ativado"
+msgstr "Verdadeiro"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/collectd.js:80
 msgid "Try to look up fully qualified hostname"
-msgstr "Tentar encontrar o nome completo do equipamento (FQDN)"
+msgstr "Tentar encontrar o nome completo do dispositivo (FQDN)"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:157
 msgid "Tx Retransmitted Far"
@@ -1861,11 +1861,11 @@ msgstr ""
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/iwinfo.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/iwinfo.json:2
 msgid "Wireless"
-msgstr "Rede sem fio"
+msgstr "Wi-Fi"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/iwinfo.js:7
 msgid "Wireless iwinfo Plugin Configuration"
-msgstr "Configuração do Plugin iwinfo da Rede Sem Fio (Wireless)"
+msgstr "Configuração do Plugin iwinfo da Rede Wi-Fi"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:102
 msgid "Writing *.rrd files to %s"

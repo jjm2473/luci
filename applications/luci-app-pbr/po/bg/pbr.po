@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-03-05 17:53+0000\n"
-"Last-Translator: Nikolay Tsanov <nick.tsanov@gmail.com>\n"
+"PO-Revision-Date: 2026-03-15 08:27+0000\n"
+"Last-Translator: Daniel Konstantinov <bgshadow2010@gmail.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationspbr/bg/>\n"
 "Language: bg\n"
@@ -17,7 +17,7 @@ msgstr "%s"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/pbr/status.js:405
 msgid "%s binary cannot be found"
-msgstr ""
+msgstr "Не може да се намери двоичният файл %s"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:49
 msgid ""
@@ -25,6 +25,9 @@ msgid ""
 "anything in this section! Change any of the settings below with extreme "
 "caution!%s"
 msgstr ""
+"%sВНИМАНИЕ:%s Моля, уверете се, че сте проверили %sREADME%s преди да "
+"променяте каквото и да е в този раздел! Променяйте настройките по-долу с "
+"изключителна предпазливост!%s"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/status/include/72_pbr.js:27
 msgid "Active"
@@ -54,18 +57,18 @@ msgstr "Разширени Конфигурация"
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:144
 msgid ""
-"Allows to specify the list of interface names (in lower case) to be "
-"explicitly supported by the service. Can be useful if your OpenVPN tunnels "
-"have dev option other than tun* or tap* or specific use cases of WireGuard "
-"servers. See the %sREADME%s for details."
+"Allows to specify the list of interface names to be explicitly supported by "
+"the service. Can be useful if your OpenVPN tunnels have dev option other "
+"than tun* or tap* or specific use cases of WireGuard servers. See the "
+"%sREADME%s for details."
 msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:160
 msgid ""
-"Allows to specify the list of interface names (lower case) to be ignored by "
-"the service. Can be useful for an OpenVPN server running on OpenWrt device. "
-"WireGuard servers, which have a listen_port defined, are handled "
-"automatically, do not add those here.See the %sREADME%s for details."
+"Allows to specify the list of interface names to be ignored by the service. "
+"Can be useful for an OpenVPN server running on OpenWrt device. WireGuard "
+"servers, which have a listen_port defined, are handled automatically, do not "
+"add those here.See the %sREADME%s for details."
 msgstr ""
 
 #: applications/luci-app-pbr/htdocs/luci-static/resources/view/pbr/overview.js:44

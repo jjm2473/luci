@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-28 10:51+0000\n"
+"PO-Revision-Date: 2026-03-08 17:31+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationshttps-dns-proxy/cs/>\n"
@@ -8,13 +8,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:283
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:275
 msgid "%s%s%s proxy at %s on port %s.%s"
 msgstr "%s%s%s proxy na %s na portu %s.%s"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:275
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:267
 msgid "%s%s%s proxy on port %s.%s"
 msgstr "%s%s%s proxy na portu %s.%s"
 
@@ -58,7 +58,7 @@ msgstr "AdGuard"
 
 #: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/recipes.v.json:22
 msgid "Adblock"
-msgstr ""
+msgstr "Adblock"
 
 #: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.controld.freedns.json:30
 msgid "Ads + Malware + Social Filter"
@@ -229,11 +229,11 @@ msgstr "Digitale Gesellschaft (CH)"
 msgid "Direct"
 msgstr "Přímé"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:407
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:401
 msgid "Disable"
 msgstr "Zakázat"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:401
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:395
 msgid "Disabling %s service"
 msgstr "Vypínání služby %s"
 
@@ -253,11 +253,11 @@ msgstr "DoH DNS (SB)"
 msgid "ECS Optimized"
 msgstr ""
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:388
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:382
 msgid "Enable"
 msgstr "Povolit"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:382
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:376
 msgid "Enabling %s service"
 msgstr "Povoluje se služba %s"
 
@@ -523,7 +523,7 @@ msgstr "OpenNameServer"
 msgid "Parameter"
 msgstr "Parametr"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:294
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:287
 msgid "Please %sdonate%s to support development of this project."
 msgstr "Prosíme podpořte vývoj tohoto projektu %sdarováním%s."
 
@@ -584,11 +584,11 @@ msgstr "Quad 101 (TW)"
 msgid "Quad 9"
 msgstr "Quad 9"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:350
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:344
 msgid "Restart"
 msgstr "Restartovat"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:344
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:338
 msgid "Restarting %s service"
 msgstr "Restartuje se služba %s"
 
@@ -628,24 +628,20 @@ msgstr "Zabezpečeno s podporou ESC"
 
 #: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/recipes.v.json:18
 msgid "Security"
-msgstr ""
+msgstr "Zabezpečení"
 
 #: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.cloudflare-dns.json:22
 #: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/org.cleanbrowsing.doh.json:22
 msgid "Security Filter"
 msgstr "Filtr zabezpečení"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:228
-msgid "See the %sREADME%s for details."
-msgstr "Podrobnosti naleznete v %sREADME%s."
-
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:104
 msgid "Select the DNSMASQ Configs to update"
 msgstr "Vyberte DNSMASQ nastavení, která aktualizovat"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:433
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:427
 msgid "Service Control"
-msgstr "Řízení služby"
+msgstr "Ovládání služby"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:226
 msgid "Service Instances"
@@ -689,11 +685,11 @@ msgstr "Španělsko"
 msgid "Standard"
 msgstr "Standardní"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:331
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:325
 msgid "Start"
 msgstr "Spustit"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:325
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:319
 msgid "Starting %s service"
 msgstr "Startuje se služba %s"
 
@@ -702,11 +698,11 @@ msgstr "Startuje se služba %s"
 msgid "Statistic Interval"
 msgstr "Interval statistik"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:369
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:363
 msgid "Stop"
 msgstr "Zastavit"
 
-#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:363
+#: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:357
 msgid "Stopping %s service"
 msgstr "Zastavuje se služba %s"
 
@@ -757,7 +753,7 @@ msgstr "US/New York"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:109
 msgid "Unable to retrieve %s status"
-msgstr ""
+msgstr "Nebylo možné získat stav %s"
 
 #: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.adguard.dns.json:18
 #: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/eu.joindns4.json:14
@@ -859,7 +855,7 @@ msgstr "ns1: Německo – Baden-Baden"
 
 #: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/org.opennameserver.json:18
 msgid "ns2: Germany - Düsseldorf"
-msgstr ""
+msgstr "ns2: Německo (Düsseldorf)"
 
 #: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/org.opennameserver.json:22
 msgid "ns3: Germany - Berlin"

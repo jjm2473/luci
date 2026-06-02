@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-26 17:57+0200\n"
-"PO-Revision-Date: 2026-03-04 20:22+0000\n"
+"PO-Revision-Date: 2026-05-08 11:22+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/luci/de/"
 ">\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.5-dev\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1330
 msgid "!known (not known)"
@@ -525,7 +525,7 @@ msgstr "A43C + J43 + A43 + V43"
 
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:51
 msgid "AC"
-msgstr ""
+msgstr "AC"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1696
 msgid "ADSL"
@@ -598,6 +598,10 @@ msgstr "ADSL2+ (G.992.5) Annex M"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1669
 msgid "ANSI T1.413"
 msgstr "ANSI T1.413"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:66
+msgid "AP Isolation"
+msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:95
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:65
@@ -997,7 +1001,7 @@ msgstr "Administration"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1044
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:241
 msgid "Advanced Settings"
-msgstr "erweiterte Einstellungen"
+msgstr "Erweiterte Einstellungen"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:449
 msgid "Advanced device options"
@@ -1036,7 +1040,7 @@ msgstr "Aggregations-Ports"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:46
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:192
 msgid "Alert"
-msgstr "Meldung"
+msgstr "Alarm"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3031
 #: modules/luci-compat/luasrc/model/network.lua:1417
@@ -1348,7 +1352,7 @@ msgstr ""
 "Der Schnittstelle zugewiesene Partitionen des Adressraums werden anhand "
 "dieser hexadezimalen ID gewählt."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2420
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2421
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:387
 msgid "Associated Stations"
 msgstr "Assoziierte Clients"
@@ -1578,6 +1582,10 @@ msgstr "Batman-Gerätedatei"
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_hardif.js:10
 msgid "Batman Interface"
 msgstr "Batman-Schnittstelle"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:11
+msgid "Batman VLAN Interface"
+msgstr ""
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:81
 msgid ""
@@ -1842,7 +1850,7 @@ msgstr ""
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:174
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2293
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2294
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:79
@@ -2013,7 +2021,7 @@ msgstr "Kanalbreite"
 msgid "Check filesystems before mount"
 msgstr "Dateisysteme prüfen"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2254
 msgid "Check this option to delete the existing networks from this radio."
 msgstr ""
 "Diese Option setzen um existierende Netzwerke auf dem Radio zu löschen."
@@ -2032,7 +2040,7 @@ msgid "Choose mtdblock"
 msgstr "Wähle \"mtdblock\" Datei"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:576
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2284
 msgid ""
 "Choose the firewall zone you want to assign to this interface. Select "
 "<em>unspecified</em> to remove the interface from the associated zone or "
@@ -2115,7 +2123,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:45
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:64
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2418
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2419
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:435
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:356
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:359
@@ -2373,7 +2381,7 @@ msgid "Create"
 msgstr "Erstellen"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:576
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2284
 msgid "Create / Assign firewall-zone"
 msgstr "Firewallzone anlegen / zuweisen"
 
@@ -2791,6 +2799,7 @@ msgstr "Ziel-Zone"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:281
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:355
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:391
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:48
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:29
 msgid "Device"
 msgstr "Gerät"
@@ -3328,7 +3337,7 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:482
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:950
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr "Bearbeitung"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1185
 msgid "Edit IP set"
@@ -3440,6 +3449,16 @@ msgstr "<abbr title=\"Spanning Tree Protocol\">STP</abbr> aktivieren"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:817
 msgid "Enable <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr>"
 msgstr "<abbr title=\"Stateless Address Auto Config\">SLAAC</abbr> aktivieren"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:67
+msgid ""
+"Enable AP Isolation to isolate wireless clients connected to this Batman "
+"VLAN on this AP from wireless clients connected to this Batman VLAN on "
+"different APs. To isolate all wireless clients connected to this Batman VLAN "
+"on all APs from each other, be sure to enable this option on all APs, and be "
+"sure to enable additional wireless client isolation options ('isolate' and "
+"'bridge_isolate') for all associated wireless interfaces on all APs."
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:190
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:412
@@ -3679,7 +3698,6 @@ msgid "Encap 2+3"
 msgstr "Encap 2+3"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:692
-#, fuzzy
 msgid "Encap 3+4"
 msgstr "Encap 3+4"
 
@@ -4007,7 +4025,7 @@ msgstr "Verbindung konnte nicht getrennt werden"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:36
 msgid "Failed to execute \"/etc/init.d/%s %s\" action: %s"
-msgstr "Fehler beim Ausführen der Aktion \"/etc/init.d/%s %s\": %s"
+msgstr "Die Aktion „/etc/init.d/%s %s“ konnte nicht ausgeführt werden: %s"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:123
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:151
@@ -4747,7 +4765,7 @@ msgid "Hop Penalty"
 msgstr "Hop-Penalty"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:58
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2412
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2413
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:134
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:237
 msgid "Host"
@@ -5252,6 +5270,12 @@ msgstr ""
 "wirkt sich weder auf ausgehende Peerings noch auf link-lokale Peers aus, die "
 "über Multicast entdeckt wurden."
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:49
+msgid ""
+"If not listed, please open the drop-down list and type in the name of the "
+"Batman VLAN device in the 'custom' field."
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1128
 msgid ""
 "If set, downstream subnets are only allocated from the given IPv6 prefix "
@@ -5566,7 +5590,7 @@ msgstr "Instanz „%q“"
 msgid "Instance Details"
 msgstr "Instanzdetails"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2279
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2280
 msgid ""
 "Instead of joining any network with a matching SSID, only connect to the "
 "BSSID <code>%h</code>."
@@ -5670,6 +5694,10 @@ msgstr "Internationale Identität der Mobilstationsausrüstung"
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:139
 msgid "International Mobile Subscriber Identity"
 msgstr "Internationale Mobilfunk-Teilnehmeridentität"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:138
+msgid "Interval"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1076
 msgid ""
@@ -5833,7 +5861,7 @@ msgstr ""
 msgid "JavaScript required!"
 msgstr "JavaScript benötigt!"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2052
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2053
 msgid "Join Network"
 msgstr "Netzwerk beitreten"
 
@@ -5841,7 +5869,7 @@ msgstr "Netzwerk beitreten"
 msgid "Join Network: Wireless Scan"
 msgstr "Netzwerk beitreten: Suche nach Netzwerken"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2287
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2288
 msgid "Joining Network: %q"
 msgstr "Trete Netzwerk %q bei"
 
@@ -6210,7 +6238,7 @@ msgstr "Listen-Port"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:263
 msgid "Listen addresses"
-msgstr "Listen Adressen"
+msgstr "Listen-Adresse"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:260
 msgid "Listen for peers"
@@ -6273,7 +6301,7 @@ msgid "Load configuration…"
 msgstr "Konfiguration laden…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1299
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2216
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2217
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:167
 msgid "Loading data…"
 msgstr "Lade Daten…"
@@ -6409,13 +6437,13 @@ msgstr "Lokalisiere Anfragen"
 msgid "Location Area Code"
 msgstr "Ortsvorwahl"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2279
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2280
 msgid "Lock to BSSID"
 msgstr "Auf BSSID beschränken"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:396
 msgid "Log"
-msgstr "Log"
+msgstr "Protokoll"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:31
 msgid "Log alert"
@@ -6529,7 +6557,7 @@ msgstr "MAC-VLAN"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1111
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:41
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1225
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2411
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2412
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:47
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:89
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:236
@@ -7132,7 +7160,7 @@ msgstr "NTP Server Kandidaten"
 msgid "Name"
 msgstr "Name"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2256
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2257
 msgid ""
 "Name for OpenWrt network configuration. (No relation to wireless network "
 "name/SSID)"
@@ -7140,7 +7168,7 @@ msgstr ""
 "Name für die OpenWrt-Netzwerkkonfiguration. (Kein Bezug zum Namen des "
 "drahtlosen Netzwerks/SSID)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2255
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2256
 msgid "Name of the new network"
 msgstr "Name des neuen Netzwerkes"
 
@@ -7188,7 +7216,7 @@ msgstr "Netfilter-Tabellenname"
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:45
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1081
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2410
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2411
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:427
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:54
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:235
@@ -7207,7 +7235,7 @@ msgstr "Netzwerkmodus"
 msgid "Network Registration"
 msgstr "Netzwerkregistrierung"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2250
 msgid "Network SSID"
 msgstr "Netzwerk-SSID"
 
@@ -7569,14 +7597,13 @@ msgstr ""
 "hat der \"mwlwifi\" Treiber bekannte Probleme"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1920
-#, fuzzy
 msgid ""
 "Note: Workaround mode allows a STA that claims OCV capability to connect "
 "even if the STA doesn't send OCI or negotiate PMF."
 msgstr ""
-"Hinweis: Der Workaround-Modus ermöglicht es einem STA, der behauptet OCV-"
-"fähig zu sein, sich zu verbinden, auch wenn der STA OCI nicht sendet oder "
-"PMF verhandelt."
+"Hinweis: Der Workaround-Modus ermöglicht es einem STA, dass OCV-Fähigkeit "
+"behauptet, zu verbinden, auch wenn der STA OCI nicht sendet oder PMF "
+"verhandelt."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:988
 msgid ""
@@ -8530,13 +8557,19 @@ msgstr "Pkte."
 msgid "Please enter your username and password."
 msgstr "Bitte Benutzernamen und Passwort eingeben."
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:63
+msgid ""
+"Please open the drop-down list and select or type in the name of the Batman "
+"VLAN device."
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4632
 msgid "Please select the file to upload."
 msgstr "Bitte wählen Sie die hochzuladende Datei aus."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:54
 msgid "Policy"
-msgstr "Standardregel"
+msgstr "Richtlinie"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:597
 msgctxt "Chain hook policy"
@@ -8682,7 +8715,7 @@ msgstr "Privat (Kommunikation zwischen MAC-VLANs unterbinden)"
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:137
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:578
 msgid "Private Key"
-msgstr "Private Key"
+msgstr "Privater Schlüssel"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1476
 msgid ""
@@ -8929,7 +8962,7 @@ msgstr "RX"
 msgid "RX Rate"
 msgstr "RX-Rate"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2414
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2415
 msgid "RX Rate / TX Rate"
 msgstr "RX-Rate / TX-Rate"
 
@@ -9003,9 +9036,8 @@ msgid "Receive"
 msgstr "Empfangen"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:247
-#, fuzzy
 msgid "Receive dropped"
-msgstr "Empfangenes fallen gelassen"
+msgstr "Empfang unterbrochen"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:246
 msgid "Receive errors"
@@ -9235,7 +9267,7 @@ msgstr "Subnetz-Adresse vor der Weiterleitungsabfrage entfernen"
 msgid "Removes records of the specified type(s) from answers."
 msgstr "Entfernt Datensätze der angegebenen Art(en) aus Antworten."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2254
 msgid "Replace wireless configuration"
 msgstr "WLAN-Konfiguration ersetzen"
 
@@ -9846,6 +9878,10 @@ msgstr ""
 "wenn die Formatüberprüfung fehlschlägt. Diese Option nur benutzen wenn das "
 "Abbild korrekt und für dieses Gerät bestimmt ist!"
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:52
+msgid "Select Batman VLAN device…"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2983
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3182
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3358
@@ -10057,7 +10093,7 @@ msgstr "Diese Schnittstelle herunterfahren"
 msgid "Signal"
 msgstr "Signal"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2413
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2414
 msgid "Signal / Noise"
 msgstr "Signal / Rauschen"
 
@@ -10331,10 +10367,9 @@ msgid "Specifies the rule target routing action"
 msgstr "Spezifiziert die Routing-Aktion dieser IP-Regel"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:616
-#, fuzzy
 msgid "Specifies the wired ports to attach to this bonding."
 msgstr ""
-"Gibt die Anschlüsse mit Kabel an, die an dieses Bonding angebunden werden "
+"Gibt die kabelgebundenen Anschlüsse an, die diesem Bonding zugeordnet werden "
 "sollen."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1006
@@ -10422,7 +10457,7 @@ msgstr ""
 "Geben Sie die Anzahl der Peer-Meldungen an, die nach einem "
 "Ausfallsicherungsereignis ausgegeben werden sollen."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "Specify the secret encryption key here."
 msgstr "Geben Sie hier den geheimen Netzwerkschlüssel an."
 
@@ -10459,7 +10494,7 @@ msgstr "WPS starten"
 msgid "Start priority"
 msgstr "Startpriorität"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2072
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2073
 msgid "Start refresh"
 msgstr "Aktualisierungen aktivieren"
 
@@ -10541,13 +10576,13 @@ msgid "Stop WPS"
 msgstr "WPS stoppen"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1982
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2077
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2078
 msgid "Stop refresh"
 msgstr "Aktualisierungen deaktivieren"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/25_storage.js:38
 msgid "Storage"
-msgstr "Datenspeicher"
+msgstr "Speicher"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1149
 msgid "Strict filtering"
@@ -10562,7 +10597,7 @@ msgid "Strong"
 msgstr "Stark"
 
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:61
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2297
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2298
 msgid "Submit"
 msgstr "Absenden"
 
@@ -10973,7 +11008,7 @@ msgstr "Die Adresse, über die dieser %s erreichbar ist"
 msgid "The algorithm that is used to discover mesh routes"
 msgstr "Der Algorithmus der für die Erkundung von Mesh-Routen genutzt wird"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2257
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2258
 msgid ""
 "The allowed characters are: <code>A-Z</code>, <code>a-z</code>, <code>0-9</"
 "code> and <code>_</code>"
@@ -11008,7 +11043,7 @@ msgstr ""
 "Die Konfigurationsdatei konnte aufgrund der folgenden Fehler nicht geladen "
 "werden:"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2250
 msgid ""
 "The correct SSID must be manually specified when joining a hidden wireless "
 "network"
@@ -11075,10 +11110,10 @@ msgid ""
 "compare them with the original file to ensure data integrity. <br /> Click "
 "'Continue' below to start the flash procedure."
 msgstr ""
-"Das Firmware-Image wurde hochgeladen. Die aufgeführte Prüfsumme und "
-"Dateigröße mit der ursprünglichen Datei vergleichen um die Datenintegrität "
-"zu gewährleisten.<br />Auf \"Fortfahren\" klicken um den Schreibvorgang zu "
-"starten."
+"Das Flash-Image wurde hochgeladen. Nachstehend finden Sie die Prüfsumme und "
+"die Dateigröße. Vergleichen Sie diese mit der Originaldatei, um die "
+"Datenintegrität sicherzustellen. <br /> Klicken Sie unten auf „Weiter“, um "
+"den Flash-Vorgang zu starten."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:259
 msgid "The following rules are currently active on this system."
@@ -11224,7 +11259,7 @@ msgstr ""
 "Die folgenden Netzfilterkomponenten werden nur bei der Ausführung von fw4 "
 "berücksichtigt."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2263
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2264
 msgid "The network name is already used"
 msgstr "Der Netzwerkname wird bereits verwendet"
 
@@ -11762,7 +11797,6 @@ msgid "Transmit errors"
 msgstr "Übertragungsfehler"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:630
-#, fuzzy
 msgid "Transmit hash - balance-xor"
 msgstr "Hash-Versand - balance-xor"
 
@@ -12527,7 +12561,7 @@ msgstr "WEP Open System"
 msgid "WEP Shared Key"
 msgstr "WEP Shared Key"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "WEP passphrase"
 msgstr "WEP Schlüssel"
 
@@ -12547,7 +12581,7 @@ msgstr "WNM-Schlafmodus"
 msgid "WNM Sleep Mode Fixes"
 msgstr "WNM-Schlafmodus-Korrekturen"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "WPA passphrase"
 msgstr "WPA Schlüssel"
 
@@ -13073,7 +13107,7 @@ msgstr "Halb-Duplex"
 msgid "hexadecimal encoded value"
 msgstr "hexadezimal kodierten Wert"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2044
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2045
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/channel_analysis.js:374
 msgid "hidden"
 msgstr "versteckt"
@@ -13146,6 +13180,10 @@ msgstr "gemanagte Konfiguration (M)"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1469
 msgid "medium security"
 msgstr "mittlere Sicherheit"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:138
+msgid "milliseconds"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:75
 msgctxt "nft unit"
@@ -13310,6 +13348,8 @@ msgid ""
 "the VXLAN Network Identifier (or VXLAN Segment ID) to use to connect to the "
 "remote VXLAN tunnel endpoint"
 msgstr ""
+"die VXLAN-Netzwerkkennung (oder VXLAN-Segment-ID), die für die Verbindung "
+"mit dem entfernten VXLAN-Tunnelendpunkt verwendet werden soll"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:251
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:251
@@ -13317,6 +13357,9 @@ msgid ""
 "the source VNI Network Identifier (or VXLAN Segment ID) this entry belongs "
 "to. Used only when the VXLAN device is in external or collect metadata mode"
 msgstr ""
+"die VNI-Netzwerkkennung (oder VXLAN-Segment-ID), zu der dieser Eintrag "
+"gehört. Wird nur verwendet, wenn sich das VXLAN-Gerät im externen Modus oder "
+"im Modus zum Sammeln von Metadaten befindet"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1677
 msgid "time units (TUs / 1.024 ms) [1000-65535]"

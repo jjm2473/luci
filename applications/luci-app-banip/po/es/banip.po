@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-07-23 22:17-0300\n"
-"PO-Revision-Date: 2026-03-06 06:52+0000\n"
+"PO-Revision-Date: 2026-05-02 19:29+0000\n"
 "Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/es/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:642
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:711
@@ -176,7 +176,7 @@ msgid ""
 "Always allow a protocol (tcp/udp) with certain ports or port ranges in WAN-"
 "Input and WAN-Forward chain."
 msgstr ""
-"Permite siempre un protocolo (tcp/udp) con ciertos puertos o rangos de "
+"Permite siempre un protocolo (TCP/UDP) con ciertos puertos o rangos de "
 "puertos en la cadena de Entrada-WAN y Reenvío-WAN."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:406
@@ -1306,23 +1306,23 @@ msgstr "banIP"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:264
 msgid "blocked icmp-flood packets"
-msgstr "Paquetes de inundación-ICMP bloqueados"
+msgstr "paquetes de inundación ICMP bloqueados"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:268
 msgid "blocked invalid ct packets"
-msgstr "Paquetes CT no válidos bloqueados"
+msgstr "paquetes ct no válidos bloqueados"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:272
 msgid "blocked invalid tcp packets"
-msgstr "Paquetes TCP no válidos bloqueados"
+msgstr "paquetes TCP no válidos bloqueados"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:256
 msgid "blocked syn-flood packets"
-msgstr "Paquetes de inundación-SYN bloqueados"
+msgstr "Paquetes de inundación-syn bloqueados"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:260
 msgid "blocked udp-flood packets"
-msgstr "Paquetes de inundación-UDP bloqueados"
+msgstr "paquetes de inundación UDP bloqueados"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:590
 msgid "crit"

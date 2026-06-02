@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-03-05 15:10+0000\n"
-"Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-05-22 21:11+0000\n"
+"Last-Translator: 為什麼不加空格 <c++23@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsdockerman/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:604
 msgid "A list of kernel capabilities to add to the container"
-msgstr "新增至容器的核心功能清單"
+msgstr "新增至容器的核心權限清單"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/containers.lua:183
 msgid "Add"
@@ -38,7 +38,7 @@ msgstr "始終先拉取映像檔"
 msgid ""
 "An overview with the relevant data is displayed here with which the LuCI "
 "docker client is connected."
-msgstr "此處顯示與 LuCI docker 用戶端連線的相關資料概覽。"
+msgstr "這裡顯示與 LuCI docker 用戶端連線的相關資料概覽。"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:29
 msgid "Api Version"
@@ -62,7 +62,7 @@ msgstr "繫結掛載(-v)"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:539
 msgid "Bind mount a volume"
-msgstr "綁定掛載一個儲存區"
+msgstr "繫結掛載一個儲存區"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:588
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:637
@@ -91,8 +91,7 @@ msgstr "橋接裝置"
 msgid ""
 "By entering a valid image name with the corresponding version, the docker "
 "image can be downloaded from the configured registry."
-msgstr ""
-"輸入有效的映像檔名稱和對應的版本，可以從配置的註冊表下載 docker 映像檔。"
+msgstr "輸入有效映像檔名稱和對應的版本，可以從配置的註冊表下載 docker 映像檔。"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:603
 msgid "CAP-ADD(--cap-add)"
@@ -111,7 +110,7 @@ msgstr "CPU 使用率"
 msgid ""
 "CPU shares relative weight, if 0 is set, the system will ignore the value "
 "and use the default of 1024"
-msgstr "CPU 共享相對權重，如果設定為 0，系統會忽略該值並使用預設值 1024"
+msgstr "CPU 共享相對權重，若設定為 0，系統會忽略該值並使用預設值 1024"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:574
 msgid ""
@@ -123,7 +122,7 @@ msgstr "CPU佔用相對權重，如果設定為0，系統會忽略該值並使�
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:611
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:30
 msgid "CPUs"
-msgstr "CPUs"
+msgstr "CPU"
 
 #: applications/luci-app-dockerman/luasrc/view/dockerman/newcontainer_resolve.htm:91
 msgid "Cancel"
@@ -180,7 +179,7 @@ msgstr "容器檢查"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:662
 msgid "Container Logs"
-msgstr "容器日誌"
+msgstr "容器紀錄"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/containers.lua:125
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:458
@@ -228,7 +227,7 @@ msgstr "DNS"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:56
 msgid "Debug"
-msgstr "偵錯"
+msgstr "除錯"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:41
 msgid "Default bridge"
@@ -317,7 +316,7 @@ msgstr "驅動程式"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:263
 msgid "Duplicate/Edit"
-msgstr "複製 / 編輯"
+msgstr "複製/編輯"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newnetwork.lua:110
 msgid "Enable IPv6"
@@ -350,7 +349,7 @@ msgstr "範例: tcp://0.0.0.0:2375"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newnetwork.lua:106
 msgid "Exclude IPs"
-msgstr "排除 IPs"
+msgstr "排除 IP"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:570
 msgid "Exposed All Ports(-P)"
@@ -489,12 +488,12 @@ msgstr "內部"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newnetwork.lua:56
 msgid "Ipvlan Mode"
-msgstr "ipvlan 模式"
+msgstr "IPvlan 模式"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:49
 msgid ""
 "It replaces the daemon registry mirrors with a new set of registry mirrors"
-msgstr "它用一組新的註冊表鏡像取代了守護程式註冊表鏡像"
+msgstr "它用一組新的 registry 鏡像取代了常駐程式 registry 鏡像"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:245
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/containers.lua:220
@@ -524,15 +523,15 @@ msgstr "負載"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:54
 msgid "Log Level"
-msgstr "日誌等級"
+msgstr "紀錄等級"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:646
 msgid "Log driver options"
-msgstr "日誌驅動程式選項"
+msgstr "紀錄驅動程式選項"
 
 #: applications/luci-app-dockerman/luasrc/view/dockerman/container.htm:9
 msgid "Logs"
-msgstr "日誌"
+msgstr "紀錄"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newnetwork.lua:35
 msgid "MAC VLAN"
@@ -552,7 +551,7 @@ msgid ""
 "Memory limit (format: <number>[<unit>]). Number is a positive integer. Unit "
 "can be one of b, k, m, or g. Minimum is 4M"
 msgstr ""
-"記憶體限制 (格式: <數字> [<單元>]) 。數字是一個正整數。單位可以是 b、k、m 或 "
+"記憶體限制 (格式: <數字> [<單元>])。數字是一個正整數。單位可以是 b、k、m 或 "
 "g。最低為 4M"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:582
@@ -621,7 +620,7 @@ msgstr "新標籤"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:612
 msgid "Number of CPUs. Number is a fractional number. 0.000 means no limit"
-msgstr "CPU 數量。數字是小數。0.000 表示沒有限制"
+msgstr "CPU 數量 (可為小數，0.000 表示不限制)"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:566
 msgid "Number of CPUs. Number is a fractional number. 0.000 means no limit."
@@ -692,7 +691,7 @@ msgstr "特權"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:546
 msgid "Publish container's port(s) to the host"
-msgstr "將容器連接埠發佈至主機"
+msgstr "發佈容器連接埠至主機"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/images.lua:100
 msgid "Pull"
@@ -705,7 +704,7 @@ msgstr "拉取映像檔"
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:48
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/overview.lua:34
 msgid "Registry Mirrors"
-msgstr ""
+msgstr "Registry 鏡像"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:13
 msgid "Remote Endpoint"
@@ -730,7 +729,7 @@ msgstr "刪除"
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/images.lua:43
 #: applications/luci-app-dockerman/luasrc/view/dockerman/images_import.htm:82
 msgid "Remove tag"
-msgstr "移除標籤"
+msgstr "刪除標籤"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/images.lua:140
 msgid "RepoTags"
@@ -753,7 +752,7 @@ msgstr "重新啟動"
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:419
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:495
 msgid "Restart Policy"
-msgstr "重啟政策"
+msgstr "重啟策略"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newnetwork.lua:76
 msgid "Restrict external access to the network"
@@ -781,7 +780,7 @@ msgstr "設定容器內環境變數"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/configuration.lua:55
 msgid "Set the logging level"
-msgstr "設定日誌等級"
+msgstr "設定紀錄等級"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/images.lua:146
 msgid "Size"
@@ -854,11 +853,11 @@ msgstr "TX/RX"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:564
 msgid "The hostname to use for the container"
-msgstr "容器要使用的主機名稱"
+msgstr "容器使用的主機名稱"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:647
 msgid "The logging configuration for this container"
-msgstr "此容器的日誌配置"
+msgstr "此容器的紀錄配置"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/newcontainer.lua:525
 msgid ""
@@ -876,7 +875,7 @@ msgstr "此頁面顯示已連線Docker主機上建立的所有容器。"
 msgid ""
 "This page displays all docker networks that have been created on the "
 "connected docker host."
-msgstr "此頁面顯示已連線Docker主機上建立的所有Docker網路。"
+msgstr "此頁面顯示已連線 Docker 主機上建立的所有網路。"
 
 #: applications/luci-app-dockerman/luasrc/model/cbi/dockerman/container.lua:359
 msgid "Tmpfs"

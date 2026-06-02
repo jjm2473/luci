@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-02-08 18:12+0000\n"
-"Last-Translator: Kehribar <103407696+dpentx@users.noreply.github.com>\n"
+"PO-Revision-Date: 2026-04-20 13:23+0000\n"
+"Last-Translator: Mustafa Can Elmacı <mustafacan@elmaci.net>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openwrt/luci/tr/"
 ">\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1330
 msgid "!known (not known)"
@@ -435,7 +435,7 @@ msgstr "<var>%s</var> , <strong>%s</strong> kümesinde mevcut"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:83
 msgctxt "nft relational \"==\" operator expression"
 msgid "<var>%s</var> is <strong>%s</strong>"
-msgstr "<var>%s</var> eşit<strong>%s</strong>"
+msgstr "<var>%s</var> eşit <strong>%s</strong>"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:89
 msgctxt "nft relational \"in\" operator expression"
@@ -476,7 +476,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:492
 msgid "A configuration for the device \"%s\" already exists"
-msgstr "\"%s\" cihazı için bir yapılandırma zaten var"
+msgstr "\"%s\" aygıtı için bir yapılandırma zaten var"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:241
 msgid ""
@@ -586,6 +586,10 @@ msgstr "ADSL2+ (G.992.5) Annex M"
 msgid "ANSI T1.413"
 msgstr "ANSI T1.413"
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:66
+msgid "AP Isolation"
+msgstr ""
+
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:95
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:65
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:65
@@ -665,7 +669,7 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1751
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:62
 msgid "ATM device number"
-msgstr "ATM cihaz numarası"
+msgstr "ATM aygıt numarası"
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:284
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:583
@@ -820,11 +824,11 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1441
 msgid "Add device configuration"
-msgstr "Cihaz yapılandırması ekle"
+msgstr "Aygıt yapılandırması ekle"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1381
 msgid "Add device configuration…"
-msgstr "Cihaz yapılandırması ekle…"
+msgstr "Aygıt yapılandırması ekle…"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:15
 msgid "Add instance"
@@ -981,7 +985,7 @@ msgstr "Gelişmiş Ayarlar"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:449
 msgid "Advanced device options"
-msgstr "Gelişmiş cihaz seçenekleri"
+msgstr "Gelişmiş aygıt seçenekleri"
 
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:34
 msgid ""
@@ -1104,7 +1108,7 @@ msgstr "Yerel ağa izin ver"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:194
 msgid "Allow rebooting the device"
-msgstr "Cihazın yeniden başlamasına izin ver"
+msgstr "Aygıtın yeniden başlamasına izin ver"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:673
 msgid "Allow receiving on inactive ports"
@@ -1189,7 +1193,7 @@ msgstr "Formu kaydederken bir hata oluştu:"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:139
 msgid "An optional, short description for this device"
-msgstr "Bu cihaz için isteğe bağlı, kısa bir açıklama"
+msgstr "Bu aygıt için isteğe bağlı kısa bir açıklama"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1658
 msgid "Annex"
@@ -1209,7 +1213,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:997
 msgid "Announce this device as IPv6 DNS server."
-msgstr "Bu cihazı IPv6 DNS sunucusu olarak duyur."
+msgstr "Bu aygıtı IPv6 DNS sunucusu olarak duyur."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:809
 msgid ""
@@ -1225,14 +1229,14 @@ msgid ""
 "regardless of local default route availability."
 msgstr ""
 "Yerel varsayılan rota kullanılabilirliğinden bağımsız olarak, genel bir IPv6 "
-"öneki varsa bu cihazı varsayılan yönlendirici olarak duyur."
+"öneki varsa bu aygıtı varsayılan yönlendirici olarak duyur."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:813
 msgid ""
 "Announce this device as default router regardless of whether a prefix or "
 "default route is present."
 msgstr ""
-"Bir önek veya varsayılan yol olup olmadığına bakılmaksızın bu cihazı "
+"Bir önek veya varsayılan yol olup olmadığına bakılmaksızın bu aygıtı "
 "varsayılan yönlendirici olarak duyur."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1004
@@ -1321,7 +1325,7 @@ msgstr ""
 "Bu arabirim için bu onaltılık alt önek kimliğini kullanarak önek parçalarını "
 "atayın."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2420
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2421
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:387
 msgid "Associated Stations"
 msgstr "İlişkili istasyonlar"
@@ -1351,7 +1355,7 @@ msgstr ""
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:154
 msgid "Attempt to enable configured mount points for attached devices"
 msgstr ""
-"Bağlı cihazlar için yapılandırılmış bağlantı noktalarını etkinleştirmeye "
+"Bağlı aygıtlar için yapılandırılmış bağlantı noktalarını etkinleştirmeye "
 "çalış"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1530
@@ -1535,7 +1539,7 @@ msgstr "Bant Genişliği"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:499
 msgid "Base device"
-msgstr "Temel cihaz"
+msgstr "Temel aygıt"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:144
 msgid "Base64-encoded public key of this interface for sharing."
@@ -1544,11 +1548,15 @@ msgstr "Paylaşım için bu arayüzün Base64 ile kodlanmış genel anahtarı."
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:10
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_hardif.js:41
 msgid "Batman Device"
-msgstr "Batman Cihazı"
+msgstr "Batman Aygıtı"
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_hardif.js:10
 msgid "Batman Interface"
 msgstr "Batman Arayüzü"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:11
+msgid "Batman VLAN Interface"
+msgstr ""
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:81
 msgid ""
@@ -1683,7 +1691,7 @@ msgstr "Köprü VLAN filtreleme"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:463
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1548
 msgid "Bridge device"
-msgstr "Köprü cihazı"
+msgstr "Köprü aygıtı"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:450
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:467
@@ -1801,7 +1809,7 @@ msgstr ""
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:174
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2293
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2294
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:79
@@ -1945,7 +1953,7 @@ msgstr "Değişiklikler geri alındı."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js:46
 msgid "Changes the administrator password for accessing the device"
-msgstr "Cihaza erişim için yönetici şifresini değiştirir"
+msgstr "Aygıta erişim için yönetici parolasını değiştirir"
 
 #: modules/luci-compat/luasrc/view/cbi/wireless_modefreq.htm:190
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:118
@@ -1970,7 +1978,7 @@ msgstr "Kanal genişliği"
 msgid "Check filesystems before mount"
 msgstr "Bağlamadan önce dosya sistemlerini kontrol edin"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2254
 msgid "Check this option to delete the existing networks from this radio."
 msgstr "Mevcut ağları bu kablosuzdan silmek için bu seçeneği işaretleyin."
 
@@ -1988,7 +1996,7 @@ msgid "Choose mtdblock"
 msgstr "Mtdblock seçin"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:576
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2284
 msgid ""
 "Choose the firewall zone you want to assign to this interface. Select "
 "<em>unspecified</em> to remove the interface from the associated zone or "
@@ -2070,7 +2078,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:45
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:64
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2418
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2419
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:435
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:356
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:359
@@ -2178,9 +2186,9 @@ msgid ""
 "unspecified, the device will assign the smallest available prefix greater "
 "than or equal to the requested prefix."
 msgstr ""
-"Talep eden bir aşağı akış yönlendiricisine atanan minimum temsilci önek "
+"İstenen bir aşağı akış yönlendiricisine atanan minimum temsilci önek "
 "uzunluğunu yapılandırır ve potansiyel olarak istenen bir önek uzunluğunu "
-"geçersiz kılar. Belirtilmeden bırakılırsa cihaz, istenen önekten büyük veya "
+"geçersiz kılar. Belirtilmeden bırakılırsa aygıt, istenen önekten büyük veya "
 "ona eşit olan en küçük öneki atayacaktır."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:794
@@ -2296,7 +2304,7 @@ msgid ""
 "changes. You might need to reconnect if you modified network related "
 "settings such as the IP address or wireless security credentials."
 msgstr ""
-"Yapılandırma değişiklikleri uygulandıktan sonra cihaza yeniden erişim "
+"Yapılandırma değişiklikleri uygulandıktan sonra aygıta yeniden erişim "
 "sağlanamadı. IP adresi veya kablosuz güvenlik kimlik bilgileri gibi ağla "
 "ilgili ayarları değiştirdiyseniz yeniden bağlanmanız gerekebilir."
 
@@ -2321,7 +2329,7 @@ msgid "Create"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:576
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2284
 msgid "Create / Assign firewall-zone"
 msgstr "Güvenlik duvarı bölgesi oluştur / ata"
 
@@ -2391,7 +2399,7 @@ msgid ""
 "Customizes the behaviour of the device <abbr title=\"Light Emitting "
 "Diode\">LED</abbr>s if possible."
 msgstr ""
-"Mümkünse, cihazın <abbr title=\"Light Emitting Diode\">LED</abbr> lerinin "
+"Olabiliyorsa, aygıt <abbr title=\"Light Emitting Diode\">LED</abbr> lerinin "
 "davranışını özelleştirir."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1206
@@ -2481,8 +2489,8 @@ msgid ""
 "DNS servers for the remote clients using this tunnel to your openwrt device. "
 "Some wireguard clients require this to be set."
 msgstr ""
-"Bu tüneli openwrt cihazınıza kullanan uzak istemciler için DNS sunucuları. "
-"Bazı wireguard istemcileri bunun ayarlanmasını gerektirir."
+"OpenWRT aygıtınıza giden bu tüneli kullanan uzak istemciler için DNS "
+"sunucuları. Bazı wireguard istemcileri bunun ayarlanmasını gerektirir."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:279
 msgid "DNS setting is invalid"
@@ -2734,50 +2742,51 @@ msgstr "Hedef bölge"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:281
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:355
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:391
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:48
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:29
 msgid "Device"
-msgstr "Cihaz"
+msgstr "Aygıt"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:968
 msgid "Device Configuration"
-msgstr "Cihaz Yapılandırması"
+msgstr "Aygıt Yapılandırması"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:88
 msgid "Device Identifier"
-msgstr "Cihaz Tanımlayıcı"
+msgstr "Aygıt Tanımlayıcı"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:122
 msgid "Device is not active"
-msgstr "Cihaz aktif değil"
+msgstr "Aygıt aktif değil"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:238
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:687
 msgid "Device is restarting…"
-msgstr "Cihaz yeniden başlatılıyor…"
+msgstr "Aygıt yeniden başlatılıyor…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:563
 msgid "Device name"
-msgstr "Cihaz adı"
+msgstr "Aygıt adı"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:10
 msgid "Device not managed by ModemManager."
-msgstr "Cihaz, ModemManager tarafından yönetilmiyor."
+msgstr "Aygıt, ModemManager tarafından yönetilmiyor."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1536
 msgid "Device not present"
-msgstr "Cihaz mevcut değil"
+msgstr "Aygıt yok"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:453
 msgid "Device type"
-msgstr "Cihaz tipi"
+msgstr "Aygıt türü"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:5056
 msgid "Device unreachable!"
-msgstr "Cihaza ulaşılamıyor!"
+msgstr "Aygıta ulaşılamıyor!"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js:53
 msgid "Device unreachable! Still waiting for device..."
-msgstr "Cihaza ulaşılamıyor! Hâlâ cihaz bekleniyor ..."
+msgstr "Aygıta ulaşılamıyor! Hâlâ aygıt bekleniyor..."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1378
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:287
@@ -2786,7 +2795,7 @@ msgstr "Aygıtlar"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:390
 msgid "Devices &amp; Ports"
-msgstr "Cihazlar ve Bağlantı Noktaları"
+msgstr "Aygıtlar ve Bağlantı Noktaları"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:159
 #: modules/luci-mod-network/root/usr/share/luci/menu.d/luci-mod-network.json:76
@@ -3306,12 +3315,12 @@ msgstr "Çıkış QoS eşlemesi"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:12
 msgctxt "nft meta oif"
 msgid "Egress device id"
-msgstr "Çıkış cihazı kimliği"
+msgstr "Çıkış aygıtı kimliği"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:10
 msgctxt "nft meta oifname"
 msgid "Egress device name"
-msgstr "Çıkış cihazı adı"
+msgstr "Çıkış aygıtı adı"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:23
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:103
@@ -3369,6 +3378,16 @@ msgstr "<abbr title=\"Spanning Tree Protocol\">STP</abbr>'yi etkinleştir"
 msgid "Enable <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr>"
 msgstr ""
 "<abbr title=\"Stateless Address Auto Config\">SLAAC</abbr> 'ı etkinleştir"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:67
+msgid ""
+"Enable AP Isolation to isolate wireless clients connected to this Batman "
+"VLAN on this AP from wireless clients connected to this Batman VLAN on "
+"different APs. To isolate all wireless clients connected to this Batman VLAN "
+"on all APs from each other, be sure to enable this option on all APs, and be "
+"sure to enable additional wireless client isolation options ('isolate' and "
+"'bridge_isolate') for all associated wireless interfaces on all APs."
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:190
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:412
@@ -3738,7 +3757,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:478
 msgid "Existing device"
-msgstr "Mevcut cihaz"
+msgstr "Var olan aygıt"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:433
 msgid "Expand hosts"
@@ -4121,7 +4140,7 @@ msgstr "Yeni sistem yazılımı dosyasını yaz"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:386
 msgid "Flash operations"
-msgstr "Cihaza sistem yazılımı yükleme/yedekleme işlemleri"
+msgstr "Aygıta sistem yazılımı yükleme/yedekleme işlemleri"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:319
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:321
@@ -4262,7 +4281,7 @@ msgstr "Mesh eş trafiğini yönlendir"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1244
 msgid "Forward multicast packets as unicast packets on this device."
 msgstr ""
-"Bu cihazda çok noktaya yayın paketlerini tek noktaya yayın paketleri olarak "
+"Bu aygıtta çok noktaya yayın paketlerini tek noktaya yayın paketleri olarak "
 "yönlendirin."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:471
@@ -4385,7 +4404,7 @@ msgstr "Genel Kurulum"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:448
 msgid "General device options"
-msgstr "Genel cihaz seçenekleri"
+msgstr "Genel aygıt seçenekleri"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:150
 msgid "Generate Config"
@@ -4511,7 +4530,7 @@ msgstr "Güvenlik duvarı durumuna erişim izni verin"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:147
 msgid "Grant access to flash operations"
-msgstr "Cihaza yazma işlemlerine erişim izni verin"
+msgstr "Aygıta yazma işlemlerine erişim izni verin"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status-index.json:3
 msgid "Grant access to main status display"
@@ -4624,7 +4643,7 @@ msgid ""
 "Here you can configure the basic aspects of your device like its hostname or "
 "the timezone."
 msgstr ""
-"Burada, cihazınızın ana bilgisayar adı veya saat dilimi gibi temel "
+"Burada, aygıtınızın ana bilgisayar adı veya saat dilimi gibi temel "
 "özelliklerini yapılandırabilirsiniz."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1111
@@ -4662,7 +4681,7 @@ msgid "Hop Penalty"
 msgstr "Atlama karşılığı"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:58
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2412
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2413
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:134
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:237
 msgid "Host"
@@ -5159,6 +5178,12 @@ msgstr ""
 "eşleşmeleri veya çok noktaya yayın yoluyla keşfedilen bağlantı yerel "
 "eşlerini etkilemez."
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:49
+msgid ""
+"If not listed, please open the drop-down list and type in the name of the "
+"Batman VLAN device in the 'custom' field."
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1128
 msgid ""
 "If set, downstream subnets are only allocated from the given IPv6 prefix "
@@ -5176,7 +5201,7 @@ msgstr "Ayarlanırsa, eşleşme seçeneklerinin anlamı ters çevrilir"
 msgid ""
 "If specified, mount the device by its UUID instead of a fixed device node"
 msgstr ""
-"Belirtilirse, cihazı sabit bir cihaz düğümü yerine UUID'sine göre bağlayın"
+"Belirtilirse, aygıtı sabit bir aygıt düğümü yerine UUID'sine göre bağlayın"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:268
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:375
@@ -5184,7 +5209,7 @@ msgid ""
 "If specified, mount the device by the partition label instead of a fixed "
 "device node"
 msgstr ""
-"Belirtilmişse, cihazı sabit bir cihaz düğümü yerine bölüm etiketi ile "
+"Belirtilmişse, aygıtı sabit bir aygıt düğümü yerine bölüm etiketi ile "
 "bağlayın"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1061
@@ -5212,9 +5237,9 @@ msgid ""
 "datarates of the <abbr title=\"Random Access Memory\">RAM</abbr>."
 msgstr ""
 "Fiziksel belleğiniz yetersizse, kullanılmayan veriler geçici olarak bir "
-"takas cihazına aktarılabilir ve bu da daha yüksek miktarda kullanılabilir "
+"takas aygıtına aktarılabilir ve bu da daha yüksek miktarda kullanılabilir "
 "<abbr title=\"Random Access Memory\">RAM</abbr> ile sonuçlanır. Takas "
-"cihazına <abbr title=\"Random Access Memory\">RAM</abbr> yüksek veri "
+"aygıtına <abbr title=\"Random Access Memory\">RAM</abbr> yüksek veri "
 "değerleri ile erişilemediğinden, verilerin değiş tokuşunun çok yavaş bir "
 "süreç olduğunu unutmayın."
 
@@ -5385,12 +5410,12 @@ msgstr "Giriş QoS eşleme"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:11
 msgctxt "nft meta iif"
 msgid "Ingress device id"
-msgstr "Giriş cihazı kimliği"
+msgstr "Giriş aygıtı kimliği"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:9
 msgctxt "nft meta iifname"
 msgid "Ingress device name"
-msgstr "Giriş cihazı adı"
+msgstr "Giriş aygıtı adı"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:162
 msgid "Initial EPS Bearer"
@@ -5471,7 +5496,7 @@ msgstr "Örnek \"%q\""
 msgid "Instance Details"
 msgstr "Örnek Ayrıntıları"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2279
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2280
 msgid ""
 "Instead of joining any network with a matching SSID, only connect to the "
 "BSSID <code>%h</code>."
@@ -5501,7 +5526,7 @@ msgstr "\"%h\" arabirimi zaten atanmış asıl olarak işaretlendi."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:62
 msgid "Interface %q device auto-migrated from %q to %q."
-msgstr "Arabirim %q cihazı %q'dan %q'ya otomatik olarak taşındı."
+msgstr "Arabirim %q aygıtı %q'dan %q'ya kendiliğinden taşındı."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1037
 msgid "Interface Configuration"
@@ -5572,6 +5597,10 @@ msgstr "Uluslararası Mobil İstasyon Ekipman Kimliği"
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:139
 msgid "International Mobile Subscriber Identity"
 msgstr "Uluslararası Mobil Abone Kimliği"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:138
+msgid "Interval"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1076
 msgid ""
@@ -5731,7 +5760,7 @@ msgstr ""
 msgid "JavaScript required!"
 msgstr "JavaScript gerekli!"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2052
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2053
 msgid "Join Network"
 msgstr "Ağa Katıl"
 
@@ -5739,7 +5768,7 @@ msgstr "Ağa Katıl"
 msgid "Join Network: Wireless Scan"
 msgstr "Ağa Katıl: Kablosuz Tarama"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2287
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2288
 msgid "Joining Network: %q"
 msgstr "Ağa Katılıyor: %q"
 
@@ -6157,7 +6186,7 @@ msgid "Load configuration…"
 msgstr "Yapılandırma Yükle…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1299
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2216
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2217
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:167
 msgid "Loading data…"
 msgstr "Veri yükleniyor…"
@@ -6292,7 +6321,7 @@ msgstr "Sorguları yerelleştir"
 msgid "Location Area Code"
 msgstr "Konum Alan Kodu"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2279
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2280
 msgid "Lock to BSSID"
 msgstr "BSSID'ye Kilitlen"
 
@@ -6410,7 +6439,7 @@ msgstr "MAC VLAN"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1111
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:41
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1225
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2411
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2412
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:47
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:89
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:236
@@ -6819,7 +6848,7 @@ msgstr "Modem varsayılanı"
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:73
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:57
 msgid "Modem device"
-msgstr "Modem cihazı"
+msgstr "Modem aygıtı"
 
 #: modules/luci-compat/luasrc/model/network/proto_ncm.lua:66
 msgid "Modem information query failed"
@@ -6884,12 +6913,12 @@ msgid ""
 "Mount Points define at which point a memory device will be attached to the "
 "filesystem"
 msgstr ""
-"Bağlama Noktaları, bir bellek cihazının dosya sistemine hangi noktada "
+"Bağlama Noktaları, bir bellek aygıtının dosya sistemine hangi noktada "
 "ekleneceğini tanımlar"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:154
 msgid "Mount attached devices"
-msgstr "Ekli cihazları bağla"
+msgstr "Ekli aygıtları bağla"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:162
 msgid "Mount filesystems not specifically configured"
@@ -7011,14 +7040,14 @@ msgstr "NTP sunucusu adayları"
 msgid "Name"
 msgstr "Ad"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2256
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2257
 msgid ""
 "Name for OpenWrt network configuration. (No relation to wireless network "
 "name/SSID)"
 msgstr ""
 "OpenWrt ağ yapılandırması için ad. (Kablosuz ağ adı/SSID ile ilişkisi yoktur)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2255
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2256
 msgid "Name of the new network"
 msgstr "Yeni ağın adı"
 
@@ -7034,7 +7063,7 @@ msgstr "Setin ismi"
 
 #: protocols/luci-proto-unet/htdocs/luci-static/resources/protocol/unet.js:38
 msgid "Name of the tunnel device"
-msgstr "Tünel cihazının adı"
+msgstr "Tünel aygıtının adı"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:417
 msgid "Names not in {etc_hosts} are answered {not_found}."
@@ -7063,7 +7092,7 @@ msgstr "Netfilter tablo adı"
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:45
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1081
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2410
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2411
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:427
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:54
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:235
@@ -7082,7 +7111,7 @@ msgstr "Ağ Modu"
 msgid "Network Registration"
 msgstr "Ağ Kaydı"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2250
 msgid "Network SSID"
 msgstr "Ağ SSID'si"
 
@@ -7110,20 +7139,20 @@ msgstr "Ağ köprüsü yapılandırma geçişi"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:459
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1563
 msgid "Network device"
-msgstr "Ağ cihazı"
+msgstr "Ağ aygıtı"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:7
 msgid "Network device activity (kernel: netdev)"
-msgstr "Ağ cihazı etkinliği (kernel: netdev)"
+msgstr "Ağ aygıtı etkinliği (kernel: netdev)"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:15
 #: modules/luci-compat/luasrc/model/network.lua:33
 msgid "Network device is not present"
-msgstr "Ağ cihazı mevcut değil"
+msgstr "Ağ aygıtı yok"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:648
 msgid "Network device table \"%h\""
-msgstr "Ağ cihazı tablosu \"%h\""
+msgstr "Ağ aygıtı tablosu \"%h\""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:78
 msgctxt "nft @nh,off,len"
@@ -7236,7 +7265,7 @@ msgstr "Hiçbir istemci ilişkilendirilmedi"
 
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:27
 msgid "No control device specified"
-msgstr "Kontrol cihazı belirtilmedi"
+msgstr "Denetim aygıtı belirtilmedi"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3623
 msgctxt "empty table placeholder"
@@ -7461,7 +7490,7 @@ msgid ""
 "Note: this setting is for local services on the device only (not for "
 "forwarding)."
 msgstr ""
-"Not: Bu ayar yalnızca cihazdaki yerel hizmetler içindir (yönlendirme için "
+"Not: Bu ayar yalnızca aygıttaki yerel hizmetler içindir (yönlendirme için "
 "değil)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:559
@@ -7727,7 +7756,7 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:142
 msgid "Optional, free-form notes about this device"
-msgstr "Bu cihaz hakkında isteğe bağlı notlar"
+msgstr "Bu aygıtla ilgili isteğe bağlı notlar"
 
 #: protocols/luci-proto-openfortivpn/htdocs/luci-static/resources/protocol/openfortivpn.js:147
 msgid "Optional, in seconds. If set to '0', no reconnect is attempted."
@@ -7825,8 +7854,8 @@ msgid ""
 "Optional. Seconds between keep alive messages. Default is 0 (disabled). "
 "Recommended value if this device is behind a NAT is 25."
 msgstr ""
-"İsteğe bağlı. Canlı tutma mesajları arasındaki saniyeler. Varsayılan 0'dır "
-"(devre dışı). Bu cihaz bir NAT'ın arkasındaysa önerilen değer 25'tir."
+"İsteğe bağlı. Canlı tutma iletileri arasındaki saniye. Öntanımlı 0'dır "
+"(devre dışı). Bu aygıt bir NAT'ın arkasındaysa önerilen değer 25'tir."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:162
 msgid "Optional. UDP port used for outgoing and incoming packets."
@@ -8163,7 +8192,7 @@ msgstr "%q bölgesinin parçası"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:560
 msgctxt "MACVLAN mode"
 msgid "Pass-through (Mirror physical device to single MAC VLAN)"
-msgstr "Geçiş (Fiziksel cihazı tek bir MAC VLAN'a yansıtın)"
+msgstr "Geçiş (Fiziksel aygıtı tek bir MAC VLAN'a yansıt)"
 
 #: modules/luci-base/ucode/template/sysauth.ut:29
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1879
@@ -8312,7 +8341,7 @@ msgstr "Eş adresler"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1114
 msgid "Peer device name"
-msgstr "Eş cihaz adı"
+msgstr "Eş aygıt adı"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:279
 msgid "Peer interface"
@@ -8388,6 +8417,12 @@ msgstr "Pktler."
 #: modules/luci-base/ucode/template/sysauth.ut:19
 msgid "Please enter your username and password."
 msgstr "Lütfen kullanıcı adınızı ve şifrenizi giriniz."
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:63
+msgid ""
+"Please open the drop-down list and select or type in the name of the Batman "
+"VLAN device."
+msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4632
 msgid "Please select the file to upload."
@@ -8642,13 +8677,13 @@ msgid ""
 "input field."
 msgstr ""
 "Genel anahtarlar, düz şifrelerin kullanımına kıyasla daha yüksek güvenlikli "
-"şifresiz SSH oturumlarına izin verir. Cihaza yeni bir anahtar yüklemek için "
+"şifresiz SSH oturumlarına izin verir. Aygıta yeni bir anahtar yüklemek için "
 "OpenSSH uyumlu bir genel anahtar satırı yapıştırın veya giriş alanına bir "
 "<code>.pub</code> dosyası sürükleyin."
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/static.js:193
 msgid "Public prefix routed to this device for distribution to clients."
-msgstr "İstemcilere dağıtılmak üzere bu cihaza yönlendirilen genel önek."
+msgstr "İstemcilere dağıtılmak üzere bu aygıta yönlendirilen genel önek."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:292
 msgid "PublicKey setting is invalid"
@@ -8777,7 +8812,7 @@ msgstr "RX"
 msgid "RX Rate"
 msgstr "RX Oranı"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2414
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2415
 msgid "RX Rate / TX Rate"
 msgstr "RX Oranı / TX Oranı"
 
@@ -8840,7 +8875,7 @@ msgstr "Yeniden başlatılıyor…"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js:21
 msgid "Reboots the operating system of your device"
-msgstr "Cihazınızın işletim sistemini yeniden başlatır"
+msgstr "Aygıtınızın işletim sistemini yeniden başlatır"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:26
 msgid "Receive"
@@ -9062,7 +9097,7 @@ msgstr "Örnek #%d'yi kaldır"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1431
 msgid "Remove related device settings from the configuration"
-msgstr "İlgili cihaz ayarlarını yapılandırmadan kaldır"
+msgstr "İlgili aygıt ayarlarını yapılandırmadan kaldır"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:768
 msgid "Remove subnet address before forwarding query"
@@ -9072,7 +9107,7 @@ msgstr ""
 msgid "Removes records of the specified type(s) from answers."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2254
 msgid "Replace wireless configuration"
 msgstr "Kablosuz yapılandırmayı değiştirin"
 
@@ -9377,7 +9412,7 @@ msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:121
 msgid "Rewrite to egress device address"
-msgstr "Çıkış cihazı adresine yeniden yaz"
+msgstr "Çıkış aygıtı adresine yeniden yaz"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1596
 msgid ""
@@ -9676,9 +9711,13 @@ msgid ""
 "fails. Use only if you are sure that the firmware is correct and meant for "
 "your device!"
 msgstr ""
-"İmaj kontrolü başarısız olsa bile görüntüyü flaş etmek için 'Yükseltmeye "
+"İmaj kontrolü başarısız olsa bile görüntüyü flaşlamak için 'Yükseltmeye "
 "zorla' seçeneğini seçin. Yalnızca donanım yazılımının doğru olduğundan ve "
-"cihazınız için tasarlandığından eminseniz kullanın!"
+"aygıtınız için tasarlandığından eminseniz kullanın!"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:52
+msgid "Select Batman VLAN device…"
+msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2983
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3182
@@ -9697,7 +9736,7 @@ msgid ""
 "Send <abbr title=\"Router Advertisement, ICMPv6 Type 134\">RA</abbr> "
 "messages advertising this device as IPv6 router."
 msgstr ""
-"Bu cihazı IPv6 yönlendiricisi olarak tanıtan <abbr title=\"Router "
+"Bu aygıtı IPv6 yönlendiricisi olarak tanıtan <abbr title=\"Router "
 "Advertisement, ICMPv6 Type 134\">RA</abbr> iletileri gönder."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1170
@@ -9723,7 +9762,7 @@ msgstr "Çok noktaya yayın işaretini gönder"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:24
 msgid "Send the hostname of this device"
-msgstr "Bu cihazın ana bilgisayar adını gönder"
+msgstr "Bu aygıtın ana bilgisayar adını gönder"
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:89
 msgid "Server"
@@ -9890,7 +9929,7 @@ msgstr "Bu arayüzü kapat"
 msgid "Signal"
 msgstr "Sinyal"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2413
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2414
 msgid "Signal / Noise"
 msgstr "Sinyal / Gürültü"
 
@@ -9917,7 +9956,7 @@ msgstr "DNS sorgu önbelleğinin boyutu"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:208
 msgid "Size of the ZRam device in megabytes"
-msgstr "ZRam cihazının megabayt cinsinden boyutu"
+msgstr "ZRam aygıtının megabayt türünden boyutu"
 
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:18
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:57
@@ -9971,9 +10010,8 @@ msgid ""
 "flashed manually. Please refer to the wiki for device specific install "
 "instructions."
 msgstr ""
-"Üzgünüz, mevcut sistem yükseltme desteği yok; yeni bir sistem yazılımı "
-"manuel olarak flaşlanmalıdır. Cihaza özel kurulum talimatları için lütfen "
-"wiki'ye bakın."
+"Üzgünüz, sistem yükseltme desteği yok; yeni bir sistem yazılımı elle "
+"flaşlanmalıdır. Aygıta özel kurulum yönergeleri için lütfen wiki'ye bakın."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:107
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:157
@@ -10246,7 +10284,7 @@ msgid ""
 "Specify the number of peer notifications to be issued after a failover event."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "Specify the secret encryption key here."
 msgstr "Gizli şifreleme anahtarını burada belirtin."
 
@@ -10283,7 +10321,7 @@ msgstr "WPS'yi başlat"
 msgid "Start priority"
 msgstr "Başlatma önceliği"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2072
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2073
 msgid "Start refresh"
 msgstr "Yenilemeye başla"
 
@@ -10366,7 +10404,7 @@ msgid "Stop WPS"
 msgstr "WPS'yi durdur"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1982
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2077
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2078
 msgid "Stop refresh"
 msgstr "Yenilemeyi durdur"
 
@@ -10387,7 +10425,7 @@ msgid "Strong"
 msgstr "Kuvvetli"
 
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:61
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2297
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2298
 msgid "Submit"
 msgstr "Gönder"
 
@@ -10638,7 +10676,7 @@ msgid ""
 "The <em>Mobile IPv6 Home Agent</em> (H) flag indicates that the device is "
 "also acting as Mobile IPv6 home agent on this link."
 msgstr ""
-"<em>Mobil IPv6 Ana Aracısı</em> (H) işareti, cihazın bu bağlantıda Mobil "
+"<em>Mobil IPv6 Ana Aracısı</em> (H) işareti, aygıtın bu bağlantıda Mobil "
 "IPv6 ana aracısı olarak da hareket ettiğini gösterir."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:829
@@ -10783,7 +10821,7 @@ msgstr "Bu %s'nin erişilebilir olduğu adres"
 msgid "The algorithm that is used to discover mesh routes"
 msgstr "Mesh yollarını keşfetmek için kullanılan algoritma"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2257
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2258
 msgid ""
 "The allowed characters are: <code>A-Z</code>, <code>a-z</code>, <code>0-9</"
 "code> and <code>_</code>"
@@ -10811,7 +10849,7 @@ msgstr ""
 msgid "The configuration file could not be loaded due to the following error:"
 msgstr "Aşağıdaki hata nedeniyle yapılandırma dosyası yüklenemedi:"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2250
 msgid ""
 "The correct SSID must be manually specified when joining a hidden wireless "
 "network"
@@ -10832,11 +10870,11 @@ msgid ""
 "or revert all pending changes to keep the currently working configuration "
 "state."
 msgstr ""
-"Bekleyen değişiklikler uygulandıktan sonra cihaza %d saniye içinde "
+"Bekleyen değişiklikler uygulandıktan sonra aygıta %d saniye içinde "
 "erişilemedi, bu da yapılandırmanın güvenlik nedenleriyle geri alınmasına "
 "neden oldu. Yapılandırma değişikliklerinin yine de doğru olduğuna "
 "inanıyorsanız, denetlenmemiş bir yapılandırma uygulayın. Alternatif olarak, "
-"tekrar uygulamayı denemeden önce bu uyarıyı reddedebilir ve değişiklikleri "
+"yeniden uygulamayı denemeden önce bu uyarıyı reddedebilir ve değişiklikleri "
 "düzenleyebilir veya şu anda çalışan yapılandırma durumunu korumak için tüm "
 "bekleyen değişiklikleri geri alabilirsiniz."
 
@@ -10851,7 +10889,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:572
 msgid "The device name \"%s\" is already taken"
-msgstr "Cihaz adı \"%s\" zaten alınmış"
+msgstr "Aygıt adı \"%s\" zaten alınmış"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:381
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:415
@@ -10876,10 +10914,10 @@ msgid ""
 "compare them with the original file to ensure data integrity. <br /> Click "
 "'Continue' below to start the flash procedure."
 msgstr ""
-"Cihaz yazılımı arabelleğe yüklendi. Aşağıda sağlama toplamı ve dosya boyutu "
-"verilmiştir, veri bütünlüğünü sağlamak için bunları orijinal dosyayla "
-"karşılaştırın.<br /> Cihaza yazma prosedürünü başlatmak için aşağıdaki "
-"'Devam Et'e tıklayın."
+"Aygıt yazılımı arabelleğe yüklendi. Aşağıda sağlama toplamı ve dosya boyutu "
+"verilmiştir, veri tümlüğünü sağlamak için bunları özgün dosyayla "
+"karşılaştırın.<br /> Aygıta yazma yordamını başlatmak için aşağıdaki 'Devam "
+"Et'e tıklayın."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:259
 msgid "The following rules are currently active on this system."
@@ -10898,7 +10936,7 @@ msgid ""
 "The generated configuration can be imported into a WireGuard client "
 "application to set up a connection towards this device."
 msgstr ""
-"Oluşturulan konfigürasyon, bu cihaza bir bağlantı kurmak için bir WireGuard "
+"Oluşturulan yapılandırma, bu aygıta bir bağlantı kurmak için bir WireGuard "
 "istemci uygulamasına aktarılabilir."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:172
@@ -11015,7 +11053,7 @@ msgid "The netfilter components below are only regarded when running fw4."
 msgstr ""
 "Aşağıdaki netfilter bileşenleri yalnızca fw4 çalıştırılırken dikkate alınır."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2263
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2264
 msgid "The network name is already used"
 msgstr "Ağ adı zaten kullanılıyor"
 
@@ -11109,9 +11147,9 @@ msgid ""
 "address of your computer to reach the device again, depending on your "
 "settings."
 msgstr ""
-"Sistem şimdi seçtiğiniz dosyayı cihaza yazıyor. <br />CİHAZI KAPATMAYIN!<br /"
+"Sistem şimdi seçtiğiniz dosyayı aygıta yazıyor. <br />AYGITI KAPATMAYIN!<br /"
 "> Yeniden bağlanmayı denemeden önce birkaç dakika bekleyin. Ayarlarınıza "
-"bağlı olarak, cihaza tekrar ulaşmak için bilgisayarınızın adresini "
+"bağlı olarak, aygıta yeniden ulaşmak için bilgisayarınızın adresini "
 "yenilemeniz gerekebilir."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:163
@@ -11259,11 +11297,11 @@ msgid ""
 "selector but rather go to the Wireless settings and select this Interface as "
 "a network from there."
 msgstr ""
-"Bu, fiziksel Cihazı yukarıdan bağlamak istediğiniz batman-adv cihazıdır. Bu "
+"Bu, fiziksel Aygıtı yukarıdan bağlamak istediğiniz batman-adv aygıtıdır. Bu "
 "liste boşsa, önce bir tane oluşturmanız gerekir. Mesh trafiğini kablolu bir "
-"ağ cihazı üzerinden yönlendirmek istiyorsanız, lütfen yukarıdaki Cihaz "
+"ağ aygıtı üzerinden yönlendirmek istiyorsanız, lütfen yukarıdaki Aygıt "
 "seçiciden seçin. Batman-adv arayüzünü bir Wi-fi ağına atamak istiyorsanız, "
-"Cihaz seçicide bir Cihaz seçmeyin, bunun yerine Kablosuz ayarlarına gidin ve "
+"Aygıt seçicide bir Aygıt seçmeyin, bunun yerine Kablosuz ayarlarına gidin ve "
 "oradan bir ağ olarak bu arabirimi seçin."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:116
@@ -11581,7 +11619,7 @@ msgstr "Tünel Bağlantısı"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1551
 msgid "Tunnel device"
-msgstr "Tünel cihazı"
+msgstr "Tünel aygıtı"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1031
 msgid "Tx LDPC"
@@ -11662,7 +11700,7 @@ msgstr "UUID"
 #: modules/luci-compat/luasrc/model/network.lua:34
 #: modules/luci-compat/luasrc/model/network.lua:35
 msgid "Unable to determine device name"
-msgstr "Cihaz adı belirlenemiyor"
+msgstr "Aygıt adı belirlenemiyor"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:18
 #: modules/luci-compat/luasrc/model/network.lua:36
@@ -12288,7 +12326,7 @@ msgstr "WEP Açık Sistem"
 msgid "WEP Shared Key"
 msgstr "WEP Paylaşılan Anahtar"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "WEP passphrase"
 msgstr "WEP parolası"
 
@@ -12308,7 +12346,7 @@ msgstr "WNM Uyku Modu"
 msgid "WNM Sleep Mode Fixes"
 msgstr "WNM Uyku Modu Düzeltmeleri"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "WPA passphrase"
 msgstr "WPA parolası"
 
@@ -12557,7 +12595,7 @@ msgid ""
 "You appear to be currently connected to the device via the \"%h\" interface. "
 "Do you really want to shut down the interface?"
 msgstr ""
-"Şu anda cihaza \"%h\" arayüzü üzerinden bağlı görünüyorsunuz. Arayüzü "
+"Şu anda aygıta \"%h\" arayüzü üzerinden bağlı görünüyorsunuz. Arayüzü "
 "gerçekten kapatmak istiyor musunuz?"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:112
@@ -12568,9 +12606,9 @@ msgid ""
 "inaccessible!</strong>"
 msgstr ""
 "Yüklü başlatma komut dosyalarını buradan etkinleştirebilir veya devre dışı "
-"bırakabilirsiniz. Değişiklikler, cihaz yeniden başlatıldıktan sonra "
+"bırakabilirsiniz. Değişiklikler, aygıt yeniden başlatıldıktan sonra "
 "uygulanacak. <br /> <strong>Uyarı: \"network\" gibi temel başlatma komut "
-"dosyalarını devre dışı bırakırsanız, cihazınız erişilemez hale gelebilir!</"
+"dosyalarını devre dışı bırakırsanız, aygıtınız erişilemez duruma gelebilir!</"
 "strong>"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:945
@@ -12832,7 +12870,7 @@ msgstr "Yarı dubleks"
 msgid "hexadecimal encoded value"
 msgstr "onaltılık kodlanmış değer"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2044
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2045
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/channel_analysis.js:374
 msgid "hidden"
 msgstr "gizli"
@@ -12905,6 +12943,10 @@ msgstr "yönetilen yapılandırma (M)"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1469
 msgid "medium security"
 msgstr "orta güvenlik"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:138
+msgid "milliseconds"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:75
 msgctxt "nft unit"
@@ -13290,7 +13332,7 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:496
 msgid "valid network device name, not \".\" or \"..\""
-msgstr "geçerli ağ cihazı adı, \".\" veya \"..\" değil"
+msgstr "geçerli ağ aygıtı adı, \".\" ya da \"..\" değil"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:365
 msgid "valid network in address/netmask notation"

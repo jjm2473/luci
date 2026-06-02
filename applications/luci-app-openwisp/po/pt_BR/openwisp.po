@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2026-02-15 08:21+0000\n"
-"Last-Translator: Janderson Vieira Santos <jandersonvs79@gmail.com>\n"
+"PO-Revision-Date: 2026-05-03 08:19+0000\n"
+"Last-Translator: Volenski <volenski@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "openwrt/luciapplicationsopenwisp/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -10,11 +10,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: applications/luci-app-openwisp/htdocs/luci-static/resources/view/openwisp.js:17
 msgid "Advanced Settings"
-msgstr "Configurações avançadas"
+msgstr "Configurações Avançadas"
 
 #: applications/luci-app-openwisp/htdocs/luci-static/resources/view/openwisp.js:82
 msgid "Boot Delay"
@@ -22,7 +22,7 @@ msgstr "Atraso na inicialização (boot)"
 
 #: applications/luci-app-openwisp/htdocs/luci-static/resources/view/openwisp.js:100
 msgid "CA Cert"
-msgstr "Certificados CA (CA Cert)"
+msgstr "Certificados CA"
 
 #: applications/luci-app-openwisp/htdocs/luci-static/resources/view/openwisp.js:97
 msgid "CA Path"
@@ -54,7 +54,7 @@ msgstr "Desativado"
 
 #: applications/luci-app-openwisp/htdocs/luci-static/resources/view/openwisp.js:27
 msgid "Enable"
-msgstr "Habilitar"
+msgstr "Ativar"
 
 #: applications/luci-app-openwisp/htdocs/luci-static/resources/view/openwisp.js:28
 msgid "Enable or disable the OpenWISP service."
@@ -66,7 +66,7 @@ msgstr "Ativado"
 
 #: applications/luci-app-openwisp/htdocs/luci-static/resources/view/openwisp.js:16
 msgid "General Settings"
-msgstr ""
+msgstr "Configurações Gerais"
 
 #: applications/luci-app-openwisp/root/usr/share/rpcd/acl.d/luci-app-openwisp.json:3
 msgid "Grant access to luci-app-openwisp"

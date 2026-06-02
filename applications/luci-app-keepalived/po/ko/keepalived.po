@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-03-03 18:00+0000\n"
+"PO-Revision-Date: 2026-05-07 13:14+0000\n"
 "Last-Translator: Hyeonjeong Lee <h9101654@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationskeepalived/ko/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:205
 msgid "2"
@@ -106,7 +106,7 @@ msgstr "백업"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/route.js:57
 msgid "Blackhole"
-msgstr ""
+msgstr "블랙홀"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:157
 msgid "Check"
@@ -134,7 +134,7 @@ msgstr "디버그"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:222
 msgid "Debug Level"
-msgstr ""
+msgstr "디버그 수준"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:87
 msgid "Default IP for binding vrrpd is the primary IP on interface"
@@ -209,11 +209,11 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:231
 msgid "Email Alert"
-msgstr ""
+msgstr "이메일 경보"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_sync_group.js:45
 msgid "Email Notification"
-msgstr ""
+msgstr "이메일 알림"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/globals.js:31
 msgid "Email to use when processing “MAIL FROM:” SMTP command"
@@ -254,15 +254,15 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:66
 msgid "Forwarding Method"
-msgstr ""
+msgstr "전달 방식"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:299
 msgid "GARP"
-msgstr ""
+msgstr "GARP"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:130
 msgid "GARP Delay"
-msgstr ""
+msgstr "GARP 지연 시간"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:152
 msgid "GARP Refresh"
@@ -291,11 +291,11 @@ msgstr "일반"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/ipaddress.js:52
 msgid "Global"
-msgstr ""
+msgstr "전역"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_sync_group.js:50
 msgid "Global Tracking"
-msgstr ""
+msgstr "전역 추적"
 
 #: applications/luci-app-keepalived/root/usr/share/luci/menu.d/luci-app-keepalived.json:12
 msgid "Globals"
@@ -360,7 +360,7 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/ipaddress.js:18
 msgid "IP Addresses"
-msgstr ""
+msgstr "IP 주소"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/ipaddress.js:62
 msgid "IP Addresses must be configured for Static IP List"
@@ -412,7 +412,7 @@ msgstr "인스턴스"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_sync_group.js:38
 msgid "Instance Group"
-msgstr ""
+msgstr "인스턴스 그룹"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_sync_group.js:20
 msgid "Instances must be configured for VRRP Groups"
@@ -467,11 +467,11 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:81
 msgid "Least-Connection"
-msgstr ""
+msgstr "최소 연결"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/ipaddress.js:49
 msgid "Link"
-msgstr ""
+msgstr "링크"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/globals.js:20
 msgid "Link Polling"
@@ -491,11 +491,11 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:48
 msgid "Mark"
-msgstr ""
+msgstr "마크"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:26
 msgid "Master"
-msgstr ""
+msgstr "주(Primary)"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/globals.js:47
 msgid "Multicast Group to use for IPv4 VRRP adverts"
@@ -614,7 +614,7 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:44
 msgid "Priority"
-msgstr ""
+msgstr "우선순위"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/overview.js:29
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/status/include/35_keepalived.js:33
@@ -632,7 +632,7 @@ msgstr "프로토콜"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:53
 msgid "Real Server"
-msgstr ""
+msgstr "실제 서버"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:125
 msgid "Real Server to redirect all request"
@@ -640,7 +640,7 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:124
 msgid "Real Servers"
-msgstr ""
+msgstr "실제 서버"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/peers.js:55
 msgid "Receiver"
@@ -675,12 +675,12 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:79
 msgid "Round-Robin"
-msgstr ""
+msgstr "라운드 로빈"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/route.js:78
 #: applications/luci-app-keepalived/root/usr/share/luci/menu.d/luci-app-keepalived.json:30
 msgid "Route"
-msgstr ""
+msgstr "경로(Route)"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/route.js:51
 msgid "Route Table"
@@ -729,7 +729,7 @@ msgstr "부하 분산 알고리즘"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/ipaddress.js:46
 msgid "Scope"
-msgstr "범위(Scope)"
+msgstr "범위"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/ipaddress.js:47
 msgid "Scope of the Address"
@@ -749,11 +749,11 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:232
 msgid "Send SMTP alerts"
-msgstr ""
+msgstr "SMTP 경보를 보냅니다"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_sync_group.js:46
 msgid "Send email notification during state transition"
-msgstr ""
+msgstr "상태 전환 시 이메일 알림을 보냅니다"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:185
 msgid "Send/Recv VRRP messages from base interface instead of VMAC interfac"
@@ -792,7 +792,7 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/ipaddress.js:48
 msgid "Site"
-msgstr ""
+msgstr "사이트"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:96
 msgid "Sorry Server Address"
@@ -825,7 +825,7 @@ msgstr "고정 IP 주소"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/route.js:71
 msgid "Static Routes"
-msgstr ""
+msgstr "정적 경로(Route)"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/route.js:72
 msgid "Static Routes are not moved by vrrpd, they stay on the machine."
@@ -918,11 +918,11 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_sync_group.js:51
 msgid "Track interfaces, scripts and files"
-msgstr ""
+msgstr "인터페이스, 스크립트, 파일을 추적합니다"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:298
 msgid "Tracking"
-msgstr ""
+msgstr "추적"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/script.js:24
 msgid "Tracking scripts would be referenced from VRRP instances"
@@ -940,7 +940,7 @@ msgstr ""
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/url.js:11
 #: applications/luci-app-keepalived/root/usr/share/luci/menu.d/luci-app-keepalived.json:39
 msgid "URLs"
-msgstr ""
+msgstr "URL"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/url.js:12
 msgid "URLs can be referenced into Real Servers to test"
@@ -956,7 +956,7 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:190
 msgid "Use IPV6"
-msgstr ""
+msgstr "IPv6 사용"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/peers.js:76
 msgid ""
@@ -966,7 +966,7 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:178
 msgid "Use VMAC"
-msgstr ""
+msgstr "VMAC 사용"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:184
 msgid "Use VMAC Base"
@@ -974,7 +974,7 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:179
 msgid "Use VRRP Virtual MAC"
-msgstr ""
+msgstr "VRRP 가상 MAC을 사용합니다"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:173
 msgid "User Check Script"
@@ -1011,7 +1011,7 @@ msgstr ""
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/script.js:33
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/script.js:56
 msgid "VRRP Script"
-msgstr ""
+msgstr "VRRP 스크립트"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/script.js:20
 msgid "VRRP Scripts must be configured for Track Scripts"
@@ -1027,7 +1027,7 @@ msgstr ""
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_sync_group.js:25
 msgid "VRRP synchronization group"
-msgstr ""
+msgstr "VRRP 동기화 그룹"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/vrrp_instance.js:203
 msgid "VRRP version to run on interface"
@@ -1039,7 +1039,7 @@ msgstr "버전"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/ipaddress.js:41
 msgid "Virtual Device Label"
-msgstr ""
+msgstr "가상 장치 레이블"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:61
 msgid "Virtual Host"
@@ -1066,15 +1066,15 @@ msgstr "가상 서버"
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:150
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/track_interface.js:28
 msgid "Weight"
-msgstr ""
+msgstr "가중치"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:82
 msgid "Weighted Least-Connection"
-msgstr ""
+msgstr "가중 최소 연결"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/servers.js:80
 msgid "Weighted Round-Robin"
-msgstr ""
+msgstr "가중 라운드 로빈"
 
 #: applications/luci-app-keepalived/htdocs/luci-static/resources/view/keepalived/track_interface.js:29
 msgid ""

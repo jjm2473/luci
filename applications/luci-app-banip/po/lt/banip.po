@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2026-02-12 22:14+0000\n"
+"PO-Revision-Date: 2026-05-22 21:12+0000\n"
 "Last-Translator: Džiugas Januševičius <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/lt/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:642
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:711
@@ -265,7 +265,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:342
 msgid "CPU Cores"
-msgstr "Procesoriaus branduoliai"
+msgstr "„CPU“ branduoliai"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:40
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:123
@@ -382,7 +382,7 @@ msgstr "Atsisiuntimo parametrai"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:296
 msgid "Download Retries"
-msgstr "Atsisiuntimo atkartojimai"
+msgstr "Atsisiuntimo pakartojimai/bandymai iš naujo"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:273
 msgid "Download Utility"
@@ -478,7 +478,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:233
 msgid "Enabled"
-msgstr "Įjungtas/Įgalintas"
+msgstr "Įjungta/Įgalinta (-s/-i)"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:242
 msgid "Enables IPv4 support."
@@ -789,8 +789,7 @@ msgid ""
 "Number of download attempts in case of an error (not supported by uclient-"
 "fetch)."
 msgstr ""
-"Atsisiuntimų bandymų skaičius atsiradus klaidai (nepalaikomas „uclient-"
-"fetch“)."
+"Atsisiuntimo bandymų skaičius klaidos atveju (nepalaikoma „uclient-fetch“)."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:628
 msgid ""
@@ -914,7 +913,7 @@ msgstr "Regioninis interneto registras"
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:633
 msgid "Regular expressions to detect suspicious IPs in the system log."
 msgstr ""
-"Reguliariosios išraiškos, skirtos aptikti  įtartinus IP (dgs.) sistemos "
+"Reguliariosios išraiškos, skirtos aptikti įtartinus IP (dgs.) sistemos "
 "žurnale."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:651
@@ -985,7 +984,7 @@ msgstr "Ieškoti „banIP“ susijusių rinkinių konkrečiam IP."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:273
 msgid "Select one of the pre-configured download utilities."
-msgstr "Pasirinkti vieną iš iš anksto sukonfigūruotų atsisiuntimo įrankių."
+msgstr "Pasirinkti vieną iš anksto sukonfigūruotų atsisiuntimo įrankių."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:252
 msgid "Select the WAN network device(s)."
@@ -1097,11 +1096,11 @@ msgstr "Būklė/Būsena"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:852
 msgid "Stop"
-msgstr "Sustabdyti"
+msgstr "Stabdyti"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:812
 msgid "Subnet"
-msgstr "Potinklis (numatytas/-a)"
+msgstr "Potinklis"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:745
 msgid "Summary of countries based on the Regional Internet Registry (RIR)."
@@ -1217,7 +1216,7 @@ msgstr "Žetonas, skirtas komunikuoti su „cgi“ sąsaja ir/arba sietuvu."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:685
 msgid "Topic for banIP notification E-Mails."
-msgstr "Tema, skirta „banIP“ pranešimų el. paštams"
+msgstr "Tema, skirta „banIP“ pranešimams el. paštui/-ams."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:291
 msgid "Trigger Delay"

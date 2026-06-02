@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-21 16:02+0000\n"
+"PO-Revision-Date: 2026-05-18 21:24+0000\n"
 "Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/ga/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :"
 "(n>6 && n<11) ? 3 : 4;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:642
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:711
@@ -262,7 +262,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:342
 msgid "CPU Cores"
-msgstr "Croí LAP"
+msgstr "Croíleacáin LAP"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:40
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:123
@@ -296,7 +296,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:329
 msgid "Clear"
-msgstr "Glan"
+msgstr "Soiléir"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:762
 msgid "Collection of IP addresses based on Autonomous System Numbers."
@@ -374,11 +374,11 @@ msgstr "Íoslódáil Insecure"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:281
 msgid "Download Parameters"
-msgstr "Paraiméadair Íos"
+msgstr "Paraiméadair Íoslódála"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:296
 msgid "Download Retries"
-msgstr "Íoslódáil Retries"
+msgstr "Íoslódáil Ath-Iarrachtaí"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:273
 msgid "Download Utility"
@@ -621,7 +621,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:163
 msgid "Information"
-msgstr "Eolas"
+msgstr "Faisnéis"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:216
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:659
@@ -776,8 +776,8 @@ msgid ""
 "Number of download attempts in case of an error (not supported by uclient-"
 "fetch)."
 msgstr ""
-"Líon na n-iarrachtaí íoslódála i gcás earráide (nach dtacaíonn uclient-"
-"fetch)."
+"Líon na n-iarrachtaí íoslódála i gcás earráide (ní thacaíonn uclient-fetch "
+"leis seo)."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:628
 msgid ""
@@ -932,7 +932,7 @@ msgstr "Bratacha Rith"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:193
 msgid "Run Information"
-msgstr "Rith Faisnéis"
+msgstr "Faisnéis Rith"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:432
 msgid "SYN-Threshold"
@@ -1077,7 +1077,7 @@ msgstr "Stádas"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:852
 msgid "Stop"
-msgstr "Stad"
+msgstr "Stop"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:812
 msgid "Subnet"

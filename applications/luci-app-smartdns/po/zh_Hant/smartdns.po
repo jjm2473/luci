@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-28 09:36+0000\n"
-"Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-04-16 14:10+0000\n"
+"Last-Translator: ZW <roc_fe@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationssmartdns/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:792
 msgid "Additional Args for upstream dns servers"
@@ -58,11 +58,11 @@ msgstr "連接埠更改時自動設為 dnsmasq 上游。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:229
 msgid "Bind Device"
-msgstr "綁定裝置"
+msgstr "繫結裝置"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:234
 msgid "Bind Device Name"
-msgstr "綁定裝置名稱"
+msgstr "繫結裝置名稱"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:998
 msgid "Block domain"
@@ -237,7 +237,8 @@ msgid ""
 "Download domain list files for domain-rule and include config files, please "
 "refresh the page after download to take effect."
 msgstr ""
-"下載用於網域規則的網域清單檔案與包含的配置檔案，完成後請刷新頁面以使其生效。"
+"下載用於網域規則的網域清單檔案與包含的配置檔案，完成後請重新整理頁面以使其生"
+"效。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:240
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:1007
@@ -389,7 +390,7 @@ msgstr "IP 集合名稱。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:1138
 msgid "If you like this software, please buy me a cup of coffee."
-msgstr "如果你喜歡此軟體，請買一杯咖啡給我。"
+msgstr "若您喜歡此軟體，請買一杯咖啡給我。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:353
 msgid "Include Config Files<br>/etc/smartdns/conf.d"
@@ -421,19 +422,19 @@ msgstr "本地連接埠"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:624
 msgid "Log File"
-msgstr "日誌檔案"
+msgstr "紀錄檔案"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:608
 msgid "Log Level"
-msgstr "日誌等級"
+msgstr "紀錄等級"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:620
 msgid "Log Number"
-msgstr "日誌數量"
+msgstr "紀錄數量"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:604
 msgid "Log Size"
-msgstr "日誌大小"
+msgstr "紀錄大小"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:757
 msgid "Marking Packets"
@@ -531,7 +532,7 @@ msgstr "代理伺服器 URL 格式錯誤，格式: [socks5|http]://user:pass@ip:
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:390
 msgid "Query DNS through specific dns server group, such as office, home."
-msgstr "指定 DNS 伺服器群組查詢，比如 office、home。"
+msgstr "指定 DNS 伺服器群組查詢，例如 office、home。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:64
 msgid "RUNNING"
@@ -548,7 +549,7 @@ msgstr "設定回覆給用戶端的網域最大 TTL。"
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:1150
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:1151
 msgid "Report bugs"
-msgstr "回報漏洞"
+msgstr "報告漏洞"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:267
 msgid "Resolve Local Hostnames"
@@ -603,7 +604,7 @@ msgstr "設定特定網域的規則清單。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:808
 msgid "Set Specific ip blacklist."
-msgstr "設定指定的 ip 黑名單列表。"
+msgstr "設定指定的 ip 黑名單清單。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:709
 msgid "Set TLS hostname to verify."
@@ -621,7 +622,7 @@ msgstr "設定查詢時使用的 HTTP 主機，當 URL 位址的主機是 IP 位
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:728
 msgid "Sets the server name indication for query. '-' for disable SNI name."
-msgstr "為查詢設定伺服器名稱指示，\"-\" 表示停用 SNI 名稱。"
+msgstr "設定伺服器 SNI 名稱，「-」表示停用 SNI 名稱。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:128
 msgid "Settings"
@@ -811,7 +812,7 @@ msgstr "上傳網域清單檔案至 /etc/smartdns/domain-set"
 msgid ""
 "Upload domain list file, or configure auto download from Download File "
 "Setting page."
-msgstr "上傳網域清單檔案，或在下載檔案設定的頁面配置自動下載。"
+msgstr "上傳網域清單檔案，或在下載檔案設定的頁面設定自動下載。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:921
 msgid "Upload domain list file."
@@ -852,7 +853,7 @@ msgstr ""
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:262
 msgid "Write cache to disk on exit and load on startup."
-msgstr "退出時寫入快取到磁碟然後啟動時載入。"
+msgstr "退出時寫入快取至磁碟然後啟動時載入。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:1013
 msgid "Yes"

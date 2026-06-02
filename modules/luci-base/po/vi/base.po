@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-16 06:59+0200\n"
-"PO-Revision-Date: 2025-08-05 09:41+0000\n"
-"Last-Translator: Vũ Minh Ngọc <vuminhngocpt@gmail.com>\n"
+"PO-Revision-Date: 2026-04-20 17:56+0000\n"
+"Last-Translator: Mytai20100 <mytai232746@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/openwrt/luci/"
 "vi/>\n"
 "Language: vi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1330
 msgid "!known (not known)"
@@ -593,6 +593,10 @@ msgstr "ADSL2+ (G.992.5) Phụ lục M"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1669
 msgid "ANSI T1.413"
 msgstr "ANSI T1.413"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:66
+msgid "AP Isolation"
+msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:95
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:65
@@ -1334,7 +1338,7 @@ msgstr ""
 "Chỉ định các phần tiền tố bằng tiền tố thức cấp ID dạng thập lục phân cho "
 "giao diện này."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2420
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2421
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:387
 msgid "Associated Stations"
 msgstr "Trạm liên kết"
@@ -1469,7 +1473,7 @@ msgstr "Avahi IPv4LL"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:193
 msgid "Available"
-msgstr "Sẵn có"
+msgstr "Có sẵn"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/bandwidth.js:269
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/bandwidth.js:279
@@ -1562,6 +1566,10 @@ msgstr "Thiết bị Batman"
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_hardif.js:10
 msgid "Batman Interface"
 msgstr "Giao diện Batman"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:11
+msgid "Batman VLAN Interface"
+msgstr ""
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:81
 msgid ""
@@ -1813,14 +1821,14 @@ msgstr ""
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:174
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2293
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2294
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:79
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:209
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:472
 msgid "Cancel"
-msgstr "Hủy lệnh"
+msgstr "huỷ"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:334
 msgid "Cannot parse configuration: %s"
@@ -1981,7 +1989,7 @@ msgstr "Độ rộng Kênh"
 msgid "Check filesystems before mount"
 msgstr "Kiểm tra hệ thống tập tin trước khi gắn kết"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2254
 msgid "Check this option to delete the existing networks from this radio."
 msgstr "Kiểm tra tùy chọn này để xóa các mạng hiện có khỏi đài này."
 
@@ -1999,7 +2007,7 @@ msgid "Choose mtdblock"
 msgstr "Chọn phân vùng mtdblock"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:576
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2284
 msgid ""
 "Choose the firewall zone you want to assign to this interface. Select "
 "<em>unspecified</em> to remove the interface from the associated zone or "
@@ -2078,7 +2086,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:45
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:64
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2418
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2419
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:435
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:356
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:359
@@ -2135,7 +2143,6 @@ msgstr "Tệp cấu hình"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4894
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:456
-#, fuzzy
 msgid "Configuration"
 msgstr "Cấu hình"
 
@@ -2330,7 +2337,7 @@ msgid "Create"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:576
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2284
 msgid "Create / Assign firewall-zone"
 msgstr "Tạo/ gán firewall-zone"
 
@@ -2576,7 +2583,6 @@ msgid "Debug"
 msgstr "Debug"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:21
-#, fuzzy
 msgid "Default"
 msgstr "Mặc định"
 
@@ -2746,6 +2752,7 @@ msgstr "Vùng điểm đến"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:281
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:355
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:391
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:48
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:29
 msgid "Device"
 msgstr "Thiết bị"
@@ -3384,6 +3391,16 @@ msgstr "Kích hoạt <abbr title=\"Spanning Tree Protocol\">STP</abbr>"
 msgid "Enable <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr>"
 msgstr ""
 "Bật <abbr title=\"Cấu hình Tự động Địa chỉ Không có Trạng thái\">SLAAC</abbr>"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:67
+msgid ""
+"Enable AP Isolation to isolate wireless clients connected to this Batman "
+"VLAN on this AP from wireless clients connected to this Batman VLAN on "
+"different APs. To isolate all wireless clients connected to this Batman VLAN "
+"on all APs from each other, be sure to enable this option on all APs, and be "
+"sure to enable additional wireless client isolation options ('isolate' and "
+"'bridge_isolate') for all associated wireless interfaces on all APs."
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:190
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:412
@@ -4038,7 +4055,7 @@ msgstr "Hệ thống tập tin"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:920
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:393
 msgid "Filter"
-msgstr "Lọc"
+msgstr "Bộ lọc"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:697
 msgid "Filter IPv4 A records"
@@ -4127,7 +4144,7 @@ msgstr "Tập tin phần mềm"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js:59
 msgid "Firmware Version"
-msgstr "Phiên bản firmware"
+msgstr "Phiên bản Firmware"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:773
 #, fuzzy
@@ -4698,7 +4715,7 @@ msgid "Hop Penalty"
 msgstr "Hình phạt Hops"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:58
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2412
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2413
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:134
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:237
 msgid "Host"
@@ -4728,7 +4745,6 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js:55
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:87
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:135
-#, fuzzy
 msgid "Hostname"
 msgstr "Tên máy chủ"
 
@@ -5186,6 +5202,12 @@ msgid ""
 "affect outgoing peerings, nor link-local peers discovered via multicast."
 msgstr ""
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:49
+msgid ""
+"If not listed, please open the drop-down list and type in the name of the "
+"Batman VLAN device in the 'custom' field."
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1128
 msgid ""
 "If set, downstream subnets are only allocated from the given IPv6 prefix "
@@ -5491,7 +5513,7 @@ msgstr ""
 msgid "Instance Details"
 msgstr "Chi tiết Phiên bản"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2279
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2280
 msgid ""
 "Instead of joining any network with a matching SSID, only connect to the "
 "BSSID <code>%h</code>."
@@ -5591,6 +5613,10 @@ msgstr ""
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:139
 msgid "International Mobile Subscriber Identity"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:138
+msgid "Interval"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1076
@@ -5747,7 +5773,7 @@ msgstr ""
 msgid "JavaScript required!"
 msgstr "Yêu cầu JavaScript!"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2052
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2053
 msgid "Join Network"
 msgstr "Hòa mạng"
 
@@ -5755,7 +5781,7 @@ msgstr "Hòa mạng"
 msgid "Join Network: Wireless Scan"
 msgstr "Hòa mạng: Quét mạng wifi"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2287
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2288
 msgid "Joining Network: %q"
 msgstr "Hòa mạng: %q"
 
@@ -6165,7 +6191,7 @@ msgid "Load configuration…"
 msgstr "Tải cấu hình…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1299
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2216
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2217
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:167
 msgid "Loading data…"
 msgstr "Đang tải dữ liệu…"
@@ -6299,7 +6325,7 @@ msgstr "Tra vấn địa phương"
 msgid "Location Area Code"
 msgstr "Mã vùng vị trí"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2279
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2280
 msgid "Lock to BSSID"
 msgstr "Khóa vào BSSID"
 
@@ -6417,7 +6443,7 @@ msgstr "VLAN MAC"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1111
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:41
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1225
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2411
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2412
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:47
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:89
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:236
@@ -7024,14 +7050,14 @@ msgstr "Ứng cử viên máy chủ NTP"
 msgid "Name"
 msgstr "Tên"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2256
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2257
 msgid ""
 "Name for OpenWrt network configuration. (No relation to wireless network "
 "name/SSID)"
 msgstr ""
 "Tên cấu hình mạng cho OpenWrt (không liên quan đến tên mạng không dây/SSID)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2255
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2256
 msgid "Name of the new network"
 msgstr "Tên của mạng mới"
 
@@ -7076,7 +7102,7 @@ msgstr "Tên bảng Netfilter"
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:45
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1081
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2410
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2411
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:427
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:54
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:235
@@ -7095,7 +7121,7 @@ msgstr "Chế độ mạng"
 msgid "Network Registration"
 msgstr "Đăng ký mạng"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2250
 msgid "Network SSID"
 msgstr "SSID mạng"
 
@@ -8405,6 +8431,12 @@ msgstr "Pkts."
 msgid "Please enter your username and password."
 msgstr "Nhập tên và mật mã."
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:63
+msgid ""
+"Please open the drop-down list and select or type in the name of the Batman "
+"VLAN device."
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4632
 msgid "Please select the file to upload."
 msgstr "Vui lòng chọn tệp để tải lên."
@@ -8792,7 +8824,7 @@ msgstr "RX"
 msgid "RX Rate"
 msgstr "Tốc độ dữ liệu nhận"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2414
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2415
 msgid "RX Rate / TX Rate"
 msgstr "Tốc độ dữ liệu nhận/truyền"
 
@@ -9085,7 +9117,7 @@ msgstr ""
 msgid "Removes records of the specified type(s) from answers."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2254
 msgid "Replace wireless configuration"
 msgstr "Thay thế cấu hình mạng không dây"
 
@@ -9284,7 +9316,7 @@ msgstr "Không tìm được nguồn"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:923
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:99
 msgid "Restart"
-msgstr "Khởi Động Lại"
+msgstr "Khởi động"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:352
 msgid "Restart Firewall"
@@ -9338,7 +9370,7 @@ msgstr "Đang hoàn nguyên cấu hình .."
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:84
 msgid "Revision"
-msgstr ""
+msgstr "Phiên bản (revision)"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:112
 msgctxt "nft dnat ip to addr"
@@ -9686,6 +9718,10 @@ msgstr ""
 "phần mềm không thành công. Chỉ chọn nếu bạn có thể chắc chắc rằng phần mềm "
 "này tương thích với thiết bị của bạn!"
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:52
+msgid "Select Batman VLAN device…"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2983
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3182
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3358
@@ -9894,7 +9930,7 @@ msgstr "Tắt giao diện mạng này"
 msgid "Signal"
 msgstr "Tín hiệu"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2413
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2414
 msgid "Signal / Noise"
 msgstr "Tín hiệu / Nhiễu"
 
@@ -10245,7 +10281,7 @@ msgid ""
 "Specify the number of peer notifications to be issued after a failover event."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "Specify the secret encryption key here."
 msgstr "Chỉ định khóa mã hóa bí mật ở đây."
 
@@ -10282,7 +10318,7 @@ msgstr "Bắt đầu WPS"
 msgid "Start priority"
 msgstr "Bắt đầu ưu tiên"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2072
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2073
 msgid "Start refresh"
 msgstr "Bắt đầu làm mới"
 
@@ -10364,7 +10400,7 @@ msgid "Stop WPS"
 msgstr "Dừng WPS"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1982
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2077
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2078
 msgid "Stop refresh"
 msgstr "Dừng làm mới"
 
@@ -10385,7 +10421,7 @@ msgid "Strong"
 msgstr "Mạnh"
 
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:61
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2297
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2298
 msgid "Submit"
 msgstr "Trình"
 
@@ -10778,7 +10814,7 @@ msgstr ""
 msgid "The algorithm that is used to discover mesh routes"
 msgstr "Thuật toán được sử dụng để khám phá các tuyến đường lưới"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2257
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2258
 msgid ""
 "The allowed characters are: <code>A-Z</code>, <code>a-z</code>, <code>0-9</"
 "code> and <code>_</code>"
@@ -10804,7 +10840,7 @@ msgstr ""
 msgid "The configuration file could not be loaded due to the following error:"
 msgstr "Không thể tải tệp cấu hình do lỗi sau:"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2250
 msgid ""
 "The correct SSID must be manually specified when joining a hidden wireless "
 "network"
@@ -11006,7 +11042,7 @@ msgstr ""
 msgid "The netfilter components below are only regarded when running fw4."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2263
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2264
 msgid "The network name is already used"
 msgstr "Tên mạng đã được sử dụng"
 
@@ -12260,7 +12296,7 @@ msgstr "Hệ thống mở WEP"
 msgid "WEP Shared Key"
 msgstr "Khóa dùng chung WEP"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "WEP passphrase"
 msgstr "Mật khẩu WEP"
 
@@ -12280,7 +12316,7 @@ msgstr "Chế độ ngủ WNM"
 msgid "WNM Sleep Mode Fixes"
 msgstr "Sửa lỗi chế độ ngủ WNM"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "WPA passphrase"
 msgstr "Mật khẩu WPA"
 
@@ -12501,6 +12537,8 @@ msgstr "Mạng không dây được kích hoạt"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1933
 msgid "Workaround mode can only be used when acting as an access point."
 msgstr ""
+"Chế độ workaround chỉ có thể được sử dụng khi hoạt động như một điểm truy "
+"cập."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:438
 msgid "Write received DNS queries to syslog."
@@ -12516,7 +12554,7 @@ msgstr "Có"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:205
 msgid "Yggdrasil Network"
-msgstr ""
+msgstr "Mạng Yggdrasil"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:163
 msgid ""
@@ -12533,10 +12571,10 @@ msgid ""
 "essential init scripts like \"network\", your device might become "
 "inaccessible!</strong>"
 msgstr ""
-"Bạn có thể bật hoặc tắt cài đặt script khởi động tại đây. Thay đổi này sẽ "
-"được áp dụng sau khi thiết bị được khởi động lại.<br /><strong>Cảnh báo: Vô "
-"hiệu hoá các script khởi động thiết yếu như \"network\" có thể khiến thiết "
-"bị của bạn không thể truy cập được</strong>"
+"Bạn có thể bật hoặc tắt các script khởi động đã cài đặt tại đây. Các thay "
+"đổi sẽ được áp dụng sau khi thiết bị khởi động lại. <br /><strong>Cảnh báo: "
+"Nếu bạn tắt các script khởi động quan trọng như \"network\", thiết bị của "
+"bạn có thể không còn truy cập được!</strong>"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:945
 msgid "You may add multiple records for the same Target."
@@ -12585,11 +12623,11 @@ msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:262
 msgid "and above"
-msgstr ""
+msgstr "và phía trên"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:254
 msgid "and:"
-msgstr ""
+msgstr "và:"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:795
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:161
@@ -12632,7 +12670,7 @@ msgstr "baseT"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:252
 msgid "between:"
-msgstr ""
+msgstr "giữa:"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1755
 msgid "bridged"
@@ -12655,6 +12693,8 @@ msgid ""
 "custom: Use different options when establishing a connection (these options "
 "are prefixed with %s)."
 msgstr ""
+"tùy chỉnh: sử dụng các tùy chọn khác khi thiết lập kết nối (các tùy chọn này "
+"được thêm tiền tố %s)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:44
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:46
@@ -12700,7 +12740,7 @@ msgstr "ngày"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:164
 msgid "default: Use the configuration options above (APN, IP Type, ...)."
-msgstr ""
+msgstr "mặc định: sử dụng các tùy chọn cấu hình ở trên (APN, loại IP, ...)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1146
 msgid "disable"
@@ -12720,16 +12760,16 @@ msgstr "Đã vô hiệu hóa"
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:20
 msgctxt "DHCPv6 address request mode"
 msgid "disabled"
-msgstr ""
+msgstr "Đã vô hiệu hoá"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:805
 msgid "distribute traffic according to port load"
-msgstr ""
+msgstr "phân phối lưu lượng theo tải cổng"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:606
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:641
 msgid "driver default"
-msgstr "Bộ điều khiển mặc didinhj"
+msgstr "mặc định của trình điều khiển"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1226
 msgid "driver default (%s)"
@@ -12749,7 +12789,7 @@ msgstr "đã kích hoạt"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:748
 msgid "enabled (default)"
-msgstr ""
+msgstr "đã bật (mặc định)"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:60
 msgctxt "WireGuard keep alive interval"
@@ -12765,12 +12805,12 @@ msgstr "Hết hạn"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:211
 msgid "facility:"
-msgstr ""
+msgstr "mức (facility):"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:19
 msgctxt "DHCPv6 address request mode"
 msgid "force"
-msgstr ""
+msgstr "Buộc"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:812
 msgid "forced"
@@ -12796,7 +12836,7 @@ msgstr "bán phạm vi"
 msgid "hexadecimal encoded value"
 msgstr "Giá trị mã hóa thập lục phân"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2044
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2045
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/channel_analysis.js:374
 msgid "hidden"
 msgstr "ẩn"
@@ -12820,11 +12860,11 @@ msgstr "Từ chối"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:271
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:221
 msgid "including:"
-msgstr ""
+msgstr "bao gồm:"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1305
 msgid "infinite (lease does not expire)"
-msgstr ""
+msgstr "vô thời hạn (lease không hết hạn)"
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:85
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:209
@@ -12834,7 +12874,7 @@ msgstr "đầu vào"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1526
 msgid "integer"
-msgstr ""
+msgstr "số nguyên"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:469
 msgid "key between 8 and 63 characters"
@@ -12846,21 +12886,21 @@ msgstr "Mật khẩu có 5 hoặc 13 ký tự"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1329
 msgid "known"
-msgstr ""
+msgstr "được xác định"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1331
 msgid "known-othernet (on different subnet)"
-msgstr ""
+msgstr "đã biết - mạng khác (trên subnet khác)"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:111
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:111
 msgid "l2miss: Layer 2 miss"
-msgstr ""
+msgstr "l2miss: lỗi thiếu Layer 2 (không tìm thấy trong lớp 2)"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:117
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:117
 msgid "l3miss: Layer 3 miss"
-msgstr ""
+msgstr "l3miss: lỗi thiếu Layer 3 (không tìm thấy trong lớp 3)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:826
 msgid "managed config (M)"
@@ -12869,6 +12909,10 @@ msgstr "cấu hình quản lý (M)"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1469
 msgid "medium security"
 msgstr "Độ mạnh vừa phải"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:138
+msgid "milliseconds"
+msgstr "mili giây"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:75
 msgctxt "nft unit"
@@ -12914,7 +12958,7 @@ msgstr "không"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:163
 msgid "none: Do not set an initial EPS bearer (default behaviour)"
-msgstr ""
+msgstr "không: không thiết lập EPS bearer ban đầu (hành vi mặc định)"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:41
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:55
@@ -12924,7 +12968,7 @@ msgstr "Không có sẵn"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1526
 msgid "octet string"
-msgstr ""
+msgstr "chuỗi octet"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:747
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:349
@@ -13004,7 +13048,7 @@ msgstr "Chế độ máy chủ"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:215
 msgid "severity:"
-msgstr ""
+msgstr "mức độ nghiêm trọng:"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:58
 msgid "sstpc Log-level"
@@ -13039,6 +13083,8 @@ msgid ""
 "the source VNI Network Identifier (or VXLAN Segment ID) this entry belongs "
 "to. Used only when the VXLAN device is in external or collect metadata mode"
 msgstr ""
+"ID mạng VNI nguồn (hoặc VXLAN Segment ID) mà mục này thuộc về. Chỉ được sử "
+"dụng khi thiết bị VXLAN ở chế độ external hoặc collect metadata."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1677
 msgid "time units (TUs / 1.024 ms) [1000-65535]"
@@ -13047,7 +13093,7 @@ msgstr "đơn bị thời gian (TÚ / 1.024 ms) [1000-65535]"
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:18
 msgctxt "DHCPv6 address request mode"
 msgid "try"
-msgstr ""
+msgstr "thử"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/uhttpd.js:9
 msgid ""
@@ -13111,7 +13157,7 @@ msgstr "địa chỉ IP hoặc tiền tố hợp lệ"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:380
 msgid "valid IP address range"
-msgstr ""
+msgstr "phạm vi địa chỉ IP hợp lệ"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:336
 msgid "valid IPv4 CIDR"
@@ -13128,7 +13174,7 @@ msgstr "Mạng hoặc địa chỉ IPv4 hợp lệ"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:386
 msgid "valid IPv4 address range"
-msgstr ""
+msgstr "phạm vi địa chỉ IPv4 hợp lệ"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:448
 msgid "valid IPv4 address:port"
@@ -13169,7 +13215,7 @@ msgstr "Địa chỉ IPv6 hoặc tiền tố hợp lệ"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:392
 msgid "valid IPv6 address range"
-msgstr ""
+msgstr "phạm vi địa chỉ IPv6 hợp lệ"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:360
 msgid "valid IPv6 host id"
@@ -13211,7 +13257,7 @@ msgstr "Giá trị thập phân hợp lệ"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:489
 msgid "valid fw4 zone name UCI identifier"
-msgstr ""
+msgstr "tên vùng fw4 hợp lệ (định danh UCI)"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:479
 msgid "valid hexadecimal WEP key"
@@ -13323,7 +13369,7 @@ msgstr "có"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:484
 msgctxt "hint: <code>/#/</code> matches any domain (and returns NXDOMAIN)."
 msgid "{any_domain} matches any domain (and returns {nxdomain})."
-msgstr ""
+msgstr "{any_domain} khớp với bất kỳ tên miền nào (và trả về {nxdomain})."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:488
 msgctxt ""
@@ -13333,11 +13379,13 @@ msgid ""
 "{example_null} returns {null_addr} addresses ({null_ipv4}, {null_ipv6}) for "
 "{example_com} and its subdomains."
 msgstr ""
+"{example_null} trả về các địa chỉ {null_addr} ({null_ipv4}, {null_ipv6}) cho "
+"{example_com} và các tên miền con của nó."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:481
 msgctxt "hint: <code>/example.com/</code> returns <code>NXDOMAIN</code>."
 msgid "{example_nx} returns {nxdomain}."
-msgstr ""
+msgstr "{example_nx} trả về {nxdomain}."
 
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:20
 msgid "« Back"

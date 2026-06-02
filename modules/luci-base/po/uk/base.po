@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2026-02-23 17:10+0000\n"
-"Last-Translator: Oleksii Nazarenko <energy.aleks@gmail.com>\n"
+"PO-Revision-Date: 2026-05-21 05:04+0000\n"
+"Last-Translator: Dan <jonweblin2205@protonmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openwrt/luci/"
 "uk/>\n"
 "Language: uk\n"
@@ -11,11 +11,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1330
 msgid "!known (not known)"
-msgstr "!known (невідомий)"
+msgstr "!known (невідомо)"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:652
 msgctxt "Yet unknown nftables table family (\"family\" table \"name\")"
@@ -78,16 +78,15 @@ msgstr "%s є непозначеним у декількох VLAN!"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:903
 msgid "%s means \"the address of the system running dnsmasq\"."
-msgstr "%s означає \"адреса системи, на якій запущено dnsmasq\"."
+msgstr "%s означає «адреса системи, на якій запущено dnsmasq»."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1623
 msgid ""
 "%s services running on this device in the default VRF context (ie., not "
 "bound to any VRF device) shall work across all VRF domains."
 msgstr ""
-"%s служб, що працюють на цьому пристрої в контексті VRF за замовчуванням "
-"(тобто не прив'язані до жодного пристрою VRF), працюватимуть на всіх доменах "
-"VRF."
+"%s служб, що працюють на цьому пристрої в типовому контексті VRF (тобто не "
+"привʼязані до жодного пристрою VRF), працюватимуть на всіх доменах VRF."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:745
 msgid "%s uses a human-readable encoding of hex-and-colons"
@@ -156,7 +155,7 @@ msgstr "-- Оберіть --"
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2068
 #: modules/luci-compat/luasrc/view/cbi/header.htm:9
 msgid "-- custom --"
-msgstr "-- нетипово --"
+msgstr "-- власне --"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:271
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:378
@@ -166,7 +165,7 @@ msgstr "-- відповідно мітці --"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:257
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:361
 msgid "-- match by uuid --"
-msgstr "-- відповідно UUID --"
+msgstr "-- пошук за UUID --"
 
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:27
 #: modules/luci-compat/luasrc/view/cbi/network_ifacelist.htm:44
@@ -186,7 +185,7 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2814
 msgid "0/1"
-msgstr ""
+msgstr "0/1"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:60
 msgctxt "sstp log level value"
@@ -207,7 +206,7 @@ msgstr[2] "%d флагів"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1303
 msgid "12h (12 hours - default)"
-msgstr "12h (12 годин - за замовчуванням)"
+msgstr "12 год (12 годин — типово)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:942
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:953
@@ -236,7 +235,7 @@ msgstr "3"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:941
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:952
 msgid "3h (3 hours)"
-msgstr "3h (3 години)"
+msgstr "3 год (3 години)"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:63
 msgctxt "sstp log level value"
@@ -249,7 +248,7 @@ msgstr "4-симв. шістнадцятковий ID"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:940
 msgid "45m (45 minutes - default)"
-msgstr "45 хв (45 хвилин – за замовчуванням)"
+msgstr "45 хв (45 хвилин – типово)"
 
 #: modules/luci-compat/luasrc/model/network/proto_4x6.lua:20
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/464xlat.js:11
@@ -264,7 +263,7 @@ msgstr "Навантаження за 5 хвилин:"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:939
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:950
 msgid "5m (5 minutes)"
-msgstr "5m (5 хвилин)"
+msgstr "5 хв (5 хвилин)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1700
 msgid "6-octet identifier as a hex string - no colons"
@@ -275,7 +274,7 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:943
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:954
 msgid "7d (7 days)"
-msgstr "7d (7 днів)"
+msgstr "7 дн (7 днів)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1723
 msgid "802.11k RRM"
@@ -364,7 +363,7 @@ msgstr "Логіка агрегації 802.3ad"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:951
 msgid "90m (90 minutes - default)"
-msgstr "90 хв (90 хвилин – за замовчуванням)"
+msgstr "90 хв (90 хвилин – типово)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:236
 msgid "; invalid MAC:"
@@ -397,7 +396,7 @@ msgstr "Назва <abbr title=\"Light Emitting Diode — світлодіод\"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1038
 msgid "<abbr title=\"Neighbour Discovery Protocol\">NDP</abbr>-Proxy"
-msgstr "<abbr title=\"Протокол виявлення сусідів\">NDP</abbr>-Proxy"
+msgstr "<abbr title=\"Neighbour Discovery Protocol\">NDP</abbr>-проксі"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:969
 msgid "<abbr title=\"Prefix Delegation\">PD</abbr> minimum length"
@@ -405,7 +404,7 @@ msgstr "Мінімальна довжина <abbr title=\"Prefix Delegation\">PD
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:823
 msgid "<abbr title=\"Router Advertisement\">RA</abbr> Flags"
-msgstr "<abbr title=\"Router Advertisement\">RA</abbr> флаги"
+msgstr "<abbr title=\"Router Advertisement\">RA</abbr>-прапори"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:917
 msgid "<abbr title=\"Router Advertisement\">RA</abbr> Hop Limit"
@@ -436,7 +435,7 @@ msgstr "<abbr title=\"Router Advertisement\">RA</abbr>-Служба"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:229
 msgid "<br/>"
-msgstr ""
+msgstr "<br/>"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:87
 msgctxt "nft relational \">\" operator expression"
@@ -505,7 +504,7 @@ msgid ""
 "default."
 msgstr ""
 "Стандартний MTU 65535 встановлено Yggdrasil. Рекомендується використовувати "
-"значення за замовчуванням."
+"типове значення."
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3140
 msgid "A directory with the same name already exists."
@@ -535,7 +534,7 @@ msgstr "A43C + J43 + A43 + V43"
 
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:51
 msgid "AC"
-msgstr "AC"
+msgstr "КД"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1696
 msgid "ADSL"
@@ -608,6 +607,10 @@ msgstr "ADSL2+ (G.992.5) Annex M"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1669
 msgid "ANSI T1.413"
 msgstr "ANSI T1.413"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:66
+msgid "AP Isolation"
+msgstr "Ізоляція точки доступу"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:95
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:65
@@ -688,7 +691,7 @@ msgid ""
 "Linux network interfaces which can be used in conjunction with DHCP or PPP "
 "to dial into the provider network."
 msgstr ""
-"ATM-мости виставляють інкапсульований Ethernet у з'єднаннях AAL5 як "
+"ATM-мости виставляють інкапсульований Ethernet у зʼєднаннях AAL5 як "
 "віртуальні мережеві інтерфейси Linux, котрі можуть використовуватися в "
 "поєднанні з DHCP або PPP для підключення до мережі провайдера."
 
@@ -775,7 +778,7 @@ msgstr "Активні IPv4 маршрути"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:268
 msgid "Active IPv4 Rules"
-msgstr "Активні правила IPv4"
+msgstr "Активні IPv4-правила"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:275
 msgid "Active IPv6 Routes"
@@ -860,7 +863,7 @@ msgstr "Додати конфігурацію пристрою…"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:15
 msgid "Add instance"
-msgstr "Додати реалізацію"
+msgstr "Додати екземпляр"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:171
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:297
@@ -896,11 +899,13 @@ msgstr "Додати правило багатоадресної розсилк�
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:451
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1265
 msgid "Add new interface..."
-msgstr "Додати новий інтерфейс..."
+msgstr "Додати новий інтерфейс…"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:304
 msgid "Add new repository public key by pasting its content, a file, or a URL."
 msgstr ""
+"Додати новий відкритий ключ репозиторію, вставивши його вміст, файл або URL-"
+"адресу."
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:188
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:188
@@ -923,7 +928,7 @@ msgstr "Додайте примірник сервера"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1351
 msgid "Add static forward and reverse DNS entries for this host."
-msgstr "Додайте статичні прямі та зворотні записи DNS для цього хосту."
+msgstr "Додайте статичні прямі та зворотні записи DNS для цього вузла."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:757
 msgid "Add subnet address to forwards"
@@ -1048,7 +1053,7 @@ msgstr "Порти агрегації"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:46
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:192
 msgid "Alert"
-msgstr "'Агент"
+msgstr "Тривога"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3031
 #: modules/luci-compat/luasrc/model/network.lua:1417
@@ -1104,7 +1109,7 @@ msgstr ""
 msgid "Allow AP mode to disconnect STAs based on low ACK condition"
 msgstr ""
 "Дозволити режиму AP відключення абонентів на підставі низького рівня <abbr "
-"title=\"Підтвердження (Acknowledge) успішності отримання TCP-сегменту\">ACK</"
+"title=«Підтвердження (Acknowledge) успішності отримання TCP-сегменту»>ACK</"
 "abbr>"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:356
@@ -1169,7 +1174,7 @@ msgstr "Дозволені IP-адреси"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:88
 msgid "Allowed network technology"
-msgstr "Дозволена мережева технологія"
+msgstr "Дозволені мережеві технології"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:302
 msgid "AllowedIPs setting is invalid"
@@ -1199,14 +1204,14 @@ msgstr "Завжди ввімкнено (ядро: default-on)"
 msgid ""
 "Always send the chosen DHCP options. Sometimes needed, with e.g. PXELinux."
 msgstr ""
-"Завжди надсилайте вибрані параметри DHCP. Іноді потрібно, напр. PXELinux."
+"Завжди надсилайте вибрані параметри DHCP. Іноді потрібно, наприклад PXELinux."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1020
 msgid ""
 "Always use 40MHz channels even if the secondary channel overlaps. Using this "
 "option does not comply with IEEE 802.11n-2009!"
 msgstr ""
-"Завжди використовувати канали '40 МГц', навіть якщо вторинний канал "
+"Завжди використовувати канали '40 МГц', навіть якщо вторинний канал "
 "перекривається. Використання цієї опції не відповідає стандарту IEEE "
 "802.11n-2009!"
 
@@ -1224,7 +1229,7 @@ msgstr "Сталася помилка під час збереження фор�
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:139
 msgid "An optional, short description for this device"
-msgstr "Необов'язковий, короткий опис для цього пристрою"
+msgstr "Необовʼязковий, короткий опис для цього пристрою"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1658
 msgid "Annex"
@@ -1251,8 +1256,8 @@ msgid ""
 "Announce this device as default router if a local IPv6 default route is "
 "present."
 msgstr ""
-"Оголошувати цей пристрій як маршрутизатор за замовчуванням, якщо присутній "
-"локальний IPv6 маршрут за замовчуванням."
+"Оголошувати цей пристрій як типовий маршрутизатор, якщо присутній локальний "
+"типовий IPv6-маршрут."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:811
 msgid ""
@@ -1281,7 +1286,7 @@ msgstr "Анонсовані IPv6 DNS-сервери"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1876
 msgid "Anonymous Identity"
-msgstr "Анонімна ідентифікація"
+msgstr "Анонімний ідентифікатор"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:162
 msgid "Anonymous Mount"
@@ -1358,10 +1363,10 @@ msgstr ""
 "Призначати для цього інтерфейсу частину префікса, використовуючи цей "
 "шістнадцятковий ID субпрефікса."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2420
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2421
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:387
 msgid "Associated Stations"
-msgstr "Пов'язані станції"
+msgstr "Повʼязані станції"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:152
 msgid "Associations"
@@ -1457,7 +1462,7 @@ msgid ""
 "addresses and IP addresses into the VXLAN device %s"
 msgstr ""
 "Автоматичне навчання Mac за допомогою багатоадресної передачі; вставляє "
-"невідомі адреси рівня зв’язку джерела та IP-адреси в пристрій VXLAN %s"
+"невідомі адреси рівня звʼязку джерела та IP-адреси в пристрій VXLAN %s"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:174
 msgid "Automatically check filesystem for errors before mounting"
@@ -1494,7 +1499,7 @@ msgstr "Avahi IPv4LL"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:193
 msgid "Available"
-msgstr "В наявності"
+msgstr "Доступно"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/bandwidth.js:269
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/bandwidth.js:279
@@ -1550,7 +1555,7 @@ msgstr "Повернутися до конфігурації вузлів"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:918
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:393
 msgid "Backup"
-msgstr "Резервне копіювання"
+msgstr "Резервний"
 
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json:139
 msgid "Backup / Flash Firmware"
@@ -1589,6 +1594,10 @@ msgstr "Пристрій Batman"
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_hardif.js:10
 msgid "Batman Interface"
 msgstr "Інтерфейс Batman"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:11
+msgid "Batman VLAN Interface"
+msgstr "Інтерфейс Batman VLAN"
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:81
 msgid ""
@@ -1632,7 +1641,7 @@ msgstr "Краще"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:293
 msgid "Bind NTP server"
-msgstr "Прив’язати NTP-сервер"
+msgstr "Привʼязати NTP-сервер"
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:59
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:64
@@ -1644,26 +1653,26 @@ msgstr "Прив’язати NTP-сервер"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:132
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:132
 msgid "Bind interface"
-msgstr "Прив'язка інтерфейсу"
+msgstr "Привʼязка інтерфейсу"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:539
 msgid ""
 "Bind only to configured interface addresses, instead of the wildcard address."
 msgstr ""
-"Прив’яжіть лише до налаштованих адрес інтерфейсу, замість адреси підстановки."
+"Привʼяжіть лише до налаштованих адрес інтерфейсу, замість адреси підстановки."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:981
 msgid ""
 "Bind service records to a domain name: specify the location of services."
 msgstr ""
-"Прив’язати записи служби до доменного імені: вказати розташування послуг."
+"Привʼязати записи служби до доменного імені: вказати розташування послуг."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:942
 msgid ""
 "Bind service records to a domain name: specify the location of services. See "
 "<a href=\"%s\">RFC2782</a>."
 msgstr ""
-"Прив’язати записи служби до доменного імені: вказати розташування послуг. "
+"Привʼязати записи служби до доменного імені: вказати розташування послуг. "
 "Перегляньте <a href=\"%s\">RFC2782</a>."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:59
@@ -1676,11 +1685,11 @@ msgstr ""
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:132
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:132
 msgid "Bind the tunnel to this interface (optional)."
-msgstr "Прив'язка тунелю до цього інтерфейсу (за бажання)."
+msgstr "Привʼязка тунелю до цього інтерфейсу (за бажання)."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:20
 msgid "Bind to Interface"
-msgstr "Прив'язка до інтерфейсу"
+msgstr "Привʼязка до інтерфейсу"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:119
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:180
@@ -1694,11 +1703,11 @@ msgstr "Режим склеювання"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:626
 msgid "Bonding Policy"
-msgstr "Політика зв'язування"
+msgstr "Політика звʼязування"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:461
 msgid "Bonding/Aggregation device"
-msgstr "Пристрій зв'язування/агрегації"
+msgstr "Пристрій звʼязування/агрегації"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:601
 msgid "Both \"Relay from\" and \"Relay to address\" must be specified."
@@ -1712,7 +1721,7 @@ msgstr "Міст"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:559
 msgctxt "MACVLAN mode"
 msgid "Bridge (Support direct communication between MAC VLANs)"
-msgstr "Міст (Підтримка прямого зв'язку між MAC VLAN)"
+msgstr "Міст (підтримка прямого звʼязку між MAC VLAN)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:451
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:468
@@ -1761,7 +1770,7 @@ msgstr "Трансляція"
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3230
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4663
 msgid "Browse…"
-msgstr "Огляд…"
+msgstr "Оглянути…"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/20_memory.js:40
 msgid "Buffered"
@@ -1841,7 +1850,7 @@ msgstr ""
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:174
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1271
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2293
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2294
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:79
@@ -1857,7 +1866,7 @@ msgstr "Неможливо проаналізувати конфігурацію
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:571
 msgctxt "Chain hook: forward"
 msgid "Capture incoming packets addressed to other hosts"
-msgstr "Перехоплювати вхідні пакети, адресовані іншим хостам"
+msgstr "Перехоплювати вхідні пакети, адресовані іншим вузлам"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:563
 msgctxt "Chain hook: prerouting"
@@ -1913,7 +1922,7 @@ msgstr "Обмеження сертифіката (SAN)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1793
 msgid "Certificate constraint (Subject)"
-msgstr "Обмеження сертифіката (Суб'єкт)"
+msgstr "Обмеження сертифіката (Субʼєкт)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1802
 msgid "Certificate constraint (Wildcard)"
@@ -1926,7 +1935,7 @@ msgid ""
 "`logread -f` during handshake for actual values"
 msgstr ""
 "Підрядок обмеження сертифіката (наприклад, /CN=wifi.mycompany.com).<br /"
-">Див. `logread-f` під час рукостискання для отримання фактичних значень"
+">Див. «logread-f» під час рукостискання для отримання фактичних значень"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1799
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1857
@@ -1935,7 +1944,7 @@ msgid ""
 "Subject CN (exact match)"
 msgstr ""
 "Обмеження сертифікатів щодо значень DNS SAN (якщо вони доступні)<br /> або "
-"CN суб'єкта (точний збіг)"
+"CN субʼєкта (точний збіг)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1802
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1860
@@ -1944,7 +1953,7 @@ msgid ""
 "Subject CN (suffix match)"
 msgstr ""
 "Обмеження сертифікатів за значеннями DNS SAN (якщо вони доступні)<br /> або "
-"CN суб'єкта (збіг суфікса)"
+"CN субʼєкта (збіг суфікса)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1796
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1854
@@ -1952,7 +1961,7 @@ msgid ""
 "Certificate constraint(s) via Subject Alternate Name values<br />(supported "
 "attributes: EMAIL, DNS, URI) - e.g. DNS:wifi.mycompany.com"
 msgstr ""
-"Обмеження сертифікатів за значеннями альтернативного імені суб'єкта,<br /"
+"Обмеження сертифікатів за значеннями альтернативного імені субʼєкта,<br /"
 ">наприклад, DNS:wifi.mycompany.com (підтримуються атрибути: EMAIL, DNS, URI)"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:54
@@ -1976,10 +1985,9 @@ msgid ""
 "inhibit access to this device. Any IP change requires <strong>connecting to "
 "the new IP</strong> within %d seconds to retain the changes."
 msgstr ""
-"Було внесено зміни до існуючого підключення через \"%h\". Це може "
-"заблокувати доступ до цього пристрою. Будь-яка зміна IP вимагає "
-"<strong>підключення до нової IP</strong> протягом %d секунд, щоб зберегти "
-"зміни."
+"Було внесено зміни до наявного підключення через «%h». Це може заблокувати "
+"доступ до цього пристрою. Будь-яка зміна IP вимагає <strong>підключення до "
+"нової IP</strong> протягом %d секунд, щоб зберегти зміни."
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:5233
 msgid "Changes have been reverted."
@@ -2012,9 +2020,9 @@ msgstr "Ширина каналу"
 msgid "Check filesystems before mount"
 msgstr "Перевірити файлову систему перед монтуванням"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2254
 msgid "Check this option to delete the existing networks from this radio."
-msgstr "Позначте цей параметр, щоб видалити існуючі мережі з цього радіо."
+msgstr "Позначте цей параметр, щоб видалити наявні мережі з цього радіо."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:110
 msgid "Checking archive…"
@@ -2030,7 +2038,7 @@ msgid "Choose mtdblock"
 msgstr "Виберіть mtdblock"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:576
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2284
 msgid ""
 "Choose the firewall zone you want to assign to this interface. Select "
 "<em>unspecified</em> to remove the interface from the associated zone or "
@@ -2039,8 +2047,8 @@ msgid ""
 msgstr ""
 "Оберіть зону брандмауера, яку ви хочете призначити на цей інтерфейс. "
 "Виберіть <em>невизначено</em>, щоб видалити інтерфейс з відповідних зон, або "
-"заповніть поле <em>нетипово</em>, щоб визначити нову зону і прикріпити до "
-"неї інтерфейс."
+"заповніть поле <em>власне</em>, щоб визначити нову зону і прикріпити до неї "
+"інтерфейс."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1081
 msgid ""
@@ -2048,7 +2056,7 @@ msgid ""
 "out the <em>custom</em> field to define a new network."
 msgstr ""
 "Оберіть мережі, які ви хочете прикріпити до цього бездротового інтерфейсу "
-"або заповніть поле <em>нетипово</em>, щоб визначити нову мережу."
+"або заповніть поле <em>власне</em>, щоб визначити нову мережу."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1294
 msgid "Cipher"
@@ -2063,15 +2071,15 @@ msgid ""
 "Click \"Generate archive\" to download a tar archive of the current "
 "configuration files."
 msgstr ""
-"Натисніть кнопку \"Створити архів\", щоб завантажити tar-архів поточних "
-"файлів конфігурації."
+"Натисніть кнопку «Створити архів», щоб завантажити tar-архів поточних файлів "
+"конфігурації."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:426
 msgid ""
 "Click \"Save mtdblock\" to download specified mtdblock file. (NOTE: THIS "
 "FEATURE IS FOR PROFESSIONALS! )"
 msgstr ""
-"Натисніть \"Зберегти mtdblock\", щоб завантажити вказаний файл mtdblock. "
+"Натисніть «Зберегти mtdblock», щоб завантажити вказаний файл mtdblock. "
 "(ПРИМІТКА: ЦЕ ФУНКЦІЯ ДЛЯ ПРОФЕСІОНАЛІВ!)"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3920
@@ -2089,7 +2097,7 @@ msgstr "Ідентифікатор клієнта для відправки пр
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3072
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3076
 msgid "Clone"
-msgstr "Клон"
+msgstr "Клонувати"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4911
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:173
@@ -2107,18 +2115,18 @@ msgid ""
 "Close inactive connection after the given amount of seconds, use 0 to "
 "persist connection"
 msgstr ""
-"Закривати неактивні з'єднання після вказаного інтервалу часу (секунди). Для "
-"утримання неактивних з'єднань використовуйте 0"
+"Закривати неактивні зʼєднання після вказаного інтервалу часу (секунди). Для "
+"утримання неактивних зʼєднань використовуйте 0"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:45
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:64
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2418
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2419
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:435
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:356
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:359
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:67
 msgid "Collecting data..."
-msgstr "Збір даних..."
+msgstr "Збір даних…"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:254
 msgid "Collisions seen"
@@ -2162,7 +2170,7 @@ msgstr ""
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:103
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:108
 msgid "Compute outgoing checksum (optional)."
-msgstr "Обчислити вихідну контрольну суму (необов’язково)."
+msgstr "Обчислити вихідну контрольну суму (необовʼязково)."
 
 #: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
 msgid "Config File"
@@ -2199,11 +2207,11 @@ msgid ""
 "offered."
 msgstr ""
 "Настроювання швидкості передачі даних залежно від щільності елементів "
-"покриття. Режим «Нормально» налаштовує базові швидкості на 6, 12, 24 Мбіт/с, "
+"покриття. Режим «Нормально» налаштовує базові швидкості на 6, 12, 24 Мбіт/с, "
 "якщо застарілі швидкості 802.11b не використовуються, в іншому випадку на "
-"5.5, 11 Мбіт/с. Режим «Висока» налаштовує базові швидкості на 12, 24 Мбіт/с, "
+"5.5, 11 Мбіт/с. Режим «Висока» налаштовує базові швидкості на 12, 24 Мбіт/с, "
 "якщо застарілі швидкості 802.11b не використовуються, в іншому випадку на 11 "
-"Мбіт/с. Режим «Дуже висока» налаштовує базову швидкість на 24 Мбіт/с. "
+"Мбіт/с. Режим «Дуже висока» налаштовує базову швидкість на 24 Мбіт/с. "
 "Підтримувані швидкості нижчі від мінімальної базової швидкості не "
 "пропонуються."
 
@@ -2250,7 +2258,7 @@ msgstr "Налаштувати…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:162
 msgid "Confirm disconnect"
-msgstr "Підтвердіть від'єднання"
+msgstr "Підтвердіть відʼєднання"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js:55
 msgid "Confirmation"
@@ -2262,7 +2270,7 @@ msgstr "Підтвердження"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:236
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:42
 msgid "Connected"
-msgstr "Підключений"
+msgstr "Підключено"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:9
 #: modules/luci-compat/luasrc/model/network.lua:27
@@ -2279,12 +2287,12 @@ msgstr "Кінцева точка підключення"
 
 #: modules/luci-base/htdocs/luci-static/resources/rpc.js:407
 msgid "Connection lost"
-msgstr "З'єднання втрачено"
+msgstr "Зʼєднання втрачено"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:338
 #: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:160
 msgid "Connections"
-msgstr "Підключення"
+msgstr "З’єднання"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:5157
 msgid "Connectivity change"
@@ -2349,7 +2357,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:741
 msgid "Count"
-msgstr "Граф"
+msgstr "Кількість"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:181
 msgid "Country"
@@ -2368,7 +2376,7 @@ msgid "Create"
 msgstr "Створити"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:576
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2284
 msgid "Create / Assign firewall-zone"
 msgstr "Створити / Визначити зону брандмауера"
 
@@ -2392,7 +2400,7 @@ msgstr "Cron"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:195
 msgid "Cron Log Level"
-msgstr "Рівень виведення інформації Cron"
+msgstr "Рівень журналювання Cron"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dslite.js:45
 msgid "Cross Pass (Japan only)"
@@ -2438,8 +2446,8 @@ msgid ""
 "Customizes the behaviour of the device <abbr title=\"Light Emitting "
 "Diode\">LED</abbr>s if possible."
 msgstr ""
-"Налаштування поведінки <abbr title=\"Light Emitting Diode — "
-"світлодіод\">LED</abbr>, якщо це можливо."
+"Налаштування поведінки <abbr title=\"Light Emitting Diode\">LED</abbr>, якщо "
+"це можливо."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1206
 msgid "DAD transmits"
@@ -2594,7 +2602,7 @@ msgstr "DUID"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:20
 msgid "Daemon"
-msgstr "Деамон"
+msgstr "Служба"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/50_dsl.js:29
 msgid "Data Rate"
@@ -2619,7 +2627,7 @@ msgstr "Налагодження"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:21
 msgid "Default"
-msgstr "За замовчуванням"
+msgstr "Типово"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/ipip6.js:70
 msgid "Default gateway"
@@ -2628,7 +2636,7 @@ msgstr "Типовий шлюз"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:371
 msgctxt "Dnsmasq instance"
 msgid "Default instance"
-msgstr "Примірник за замовчуванням"
+msgstr "Типовий екземпляр"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:805
 msgid "Default router"
@@ -2744,7 +2752,7 @@ msgstr "Призначений майстер"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:430
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:71
 msgid "Destination"
-msgstr "Отримувач"
+msgstr "Призначення"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:44
 msgctxt "nft ip daddr"
@@ -2787,6 +2795,7 @@ msgstr "Зона призначення"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:281
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:355
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:391
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:48
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:29
 msgid "Device"
 msgstr "Пристрій"
@@ -2830,7 +2839,7 @@ msgstr "Пристрій недосяжний!"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js:53
 msgid "Device unreachable! Still waiting for device..."
-msgstr "Пристрій недоступний! Чекаю на доступність пристрою..."
+msgstr "Пристрій недоступний! Очікування доступності пристрою…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1378
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:287
@@ -2874,7 +2883,7 @@ msgstr "Назва каталогу"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3089
 msgid "Directory name cannot be empty."
-msgstr "Ім'я каталогу не може бути порожнім."
+msgstr "Імʼя каталогу не може бути порожнім."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1644
 msgid ""
@@ -2940,7 +2949,7 @@ msgstr "Вимкнути цю мережу"
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pptp.js:70
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:500
 msgid "Disabled"
-msgstr "Відключено"
+msgstr "Вимкнено"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:529
 msgctxt "Label indicating that WireGuard peer is disabled"
@@ -2949,7 +2958,7 @@ msgstr "Вимкнено"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1257
 msgid "Disassociate On Low Acknowledgement"
-msgstr "Роз'єднувати за низького підтвердження"
+msgstr "Розʼєднувати за низького підтвердження"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:510
 msgid ""
@@ -2969,11 +2978,11 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:357
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:372
 msgid "Disconnect"
-msgstr "Відключитися"
+msgstr "Відʼєднати"
 
 #: modules/luci-compat/luasrc/model/network/proto_ncm.lua:64
 msgid "Disconnection attempt failed"
-msgstr "Спроба від'єднання не вдалася"
+msgstr "Спроба відʼєднання не вдалася"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:13
 msgid "Disconnection attempt failed."
@@ -2981,7 +2990,7 @@ msgstr "Спроба відключення зазнала невдачі."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/25_storage.js:59
 msgid "Disk space"
-msgstr "Дисковий простір"
+msgstr "Місце на диску"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:622
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3386
@@ -2994,7 +3003,7 @@ msgstr "Дисковий простір"
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:45
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:66
 msgid "Dismiss"
-msgstr "Закрити"
+msgstr "Відхилити"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1008
 msgid "Distance Optimization"
@@ -3017,7 +3026,7 @@ msgid ""
 "Dnsmasq instance to which this DHCP host section is bound. If unspecified, "
 "the section is valid for all dnsmasq instances."
 msgstr ""
-"Примірник Dnsmasq, до якого прив’язаний цей розділ хосту DHCP. Якщо не "
+"Примірник Dnsmasq, до якого привʼязаний цей розділ вузла DHCP. Якщо не "
 "вказано, розділ дійсний для всіх екземплярів dnsmasq."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:920
@@ -3025,7 +3034,7 @@ msgid ""
 "Dnsmasq instance to which this boot section is bound. If unspecified, the "
 "section is valid for all dnsmasq instances."
 msgstr ""
-"Екземпляр Dnsmasq, до якого прив'язаний даний завантажувальний розділ. Якщо "
+"Екземпляр Dnsmasq, до якого привʼязаний даний завантажувальний розділ. Якщо "
 "не вказано, розділ дійсний для усіх екземплярів Dnsmasq."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:348
@@ -3040,7 +3049,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:732
 msgid "Do not cache negative replies, e.g. for non-existent domains."
-msgstr "Не кешувати негативні відповіді, наприклад, за неіснуючих доменів."
+msgstr "Не кешувати негативні відповіді, наприклад, для відсутніх доменів."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:86
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:91
@@ -3048,7 +3057,7 @@ msgstr "Не кешувати негативні відповіді, напри�
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:93
 #: protocols/luci-proto-ipip/htdocs/luci-static/resources/protocol/ipip.js:70
 msgid "Do not create host route to peer (optional)."
-msgstr "Не створювати маршрут до вузла (необов'язково)."
+msgstr "Не створювати маршрут до вузла (необовʼязково)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:552
 msgid "Do not listen on the specified interfaces."
@@ -3076,7 +3085,7 @@ msgstr "Не надсилайте Release під час перезапуску"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:25
 msgid "Do not send a hostname"
-msgstr "Не надсилати ім'я вузла"
+msgstr "Не надсилати імʼя вузла"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:797
 msgid ""
@@ -3119,7 +3128,7 @@ msgstr "Потрібен домен"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:523
 msgid "Domain whitelist"
-msgstr "\"Білий список\" доменів"
+msgstr "«Білий список» доменів"
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:83
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:88
@@ -3129,7 +3138,7 @@ msgstr "Не фрагментувати"
 
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:152
 msgid "Down"
-msgstr "Вниз"
+msgstr "Вимкнути"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3294
 msgid "Download"
@@ -3238,7 +3247,7 @@ msgstr "Dual-Stack Lite (RFC6333)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:438
 msgid "Dump cache on SIGUSR1, include requesting IP."
-msgstr "Дамп кешу на SIGUSR1, включити запит IP."
+msgstr "Дамп кешу на SIGUSR1, додати запит IP."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:690
 msgid "Dynamic <abbr title=\"Dynamic Host Configuration Protocol\">DHCP</abbr>"
@@ -3296,7 +3305,7 @@ msgstr "Кожній STA призначається власний інтерф�
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:230
 msgid "Each key is stored as a file in %s."
-msgstr ""
+msgstr "Кожен ключ зберігається як файл у %s."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:229
 msgid ""
@@ -3324,13 +3333,13 @@ msgstr "Редагувати набір IP"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:879
 msgid "Edit PXE/TFTP/BOOTP Host"
-msgstr "Редагувати хост PXE/TFTP/BOOTP"
+msgstr "Редагувати вузол PXE/TFTP/BOOTP"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:190
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:190
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:212
 msgid "Edit peer"
-msgstr "Редагування вузла"
+msgstr "Редагувати peer"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1226
 msgid "Edit static lease"
@@ -3342,7 +3351,7 @@ msgid ""
 "reload the page."
 msgstr ""
 "Щоб виправити якусь помилку, відредагуйте вихідні дані конфігурації вище і "
-"натисніть \"Зберегти\", щоб перезавантажити сторінку."
+"натисніть «Зберегти», щоб перезавантажити сторінку."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:948
 msgid "Edit this network"
@@ -3369,7 +3378,7 @@ msgstr "Ідентифікатор висхідного пристрою"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:10
 msgctxt "nft meta oifname"
 msgid "Egress device name"
-msgstr "Ім'я висхідного пристрою"
+msgstr "Імʼя висхідного пристрою"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:23
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:103
@@ -3386,7 +3395,7 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:45
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:193
 msgid "Emergency"
-msgstr "Надзвичайна ситуація"
+msgstr "Аварія"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:119
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:119
@@ -3429,6 +3438,24 @@ msgstr "Увімкнути <abbr title=\"Spanning Tree Protocol\">STP</abbr>"
 msgid "Enable <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr>"
 msgstr "Увімкнути <abbr title=\"Stateless Address Auto Config\">SLAAC</abbr>"
 
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:67
+msgid ""
+"Enable AP Isolation to isolate wireless clients connected to this Batman "
+"VLAN on this AP from wireless clients connected to this Batman VLAN on "
+"different APs. To isolate all wireless clients connected to this Batman VLAN "
+"on all APs from each other, be sure to enable this option on all APs, and be "
+"sure to enable additional wireless client isolation options ('isolate' and "
+"'bridge_isolate') for all associated wireless interfaces on all APs."
+msgstr ""
+"Увімкніть ізоляцію точки доступу, щоб ізолювати бездротові клієнти, "
+"під’єднаних до цієї Batman VLAN на цій точці доступу, від бездротових "
+"клієнтів, під’єднаних до цієї Batman VLAN на інших точках доступу. Щоб "
+"ізолювати всі бездротові клієнти, під’єднаних до цієї Batman VLAN на всіх "
+"точках доступу один від одного, обов’язково ввімкніть цей параметр на всіх "
+"точках доступу, а також увімкніть додаткові параметри ізоляції бездротових "
+"клієнтів («isolate» та «bridge_isolate») для всіх пов’язаних бездротових "
+"інтерфейсів на всіх точках доступу."
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:190
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:412
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:418
@@ -3459,7 +3486,7 @@ msgstr "Увімкнути узгодження IPv6"
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pptp.js:67
 #: protocols/luci-proto-pppossh/htdocs/luci-static/resources/protocol/pppossh.js:93
 msgid "Enable IPv6 negotiation on the PPP link"
-msgstr "Увімкнути узгодження IPv6 для PPP-з'єднань"
+msgstr "Увімкнути узгодження IPv6 для PPP-зʼєднань"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1194
 msgid "Enable IPv6 segment routing"
@@ -3559,8 +3586,8 @@ msgid ""
 "Yggdrasil version are included."
 msgstr ""
 "Увімкніть конфіденційність інформації про вузол, щоб назад надсилалися лише "
-"елементи, указані в «Інформація про вузол». В іншому випадку включено "
-"стандартні параметри, включаючи платформу, архітектуру та версію Yggdrasil."
+"елементи, указані в «Інформація про вузол». Інакше у відповідь долучаються "
+"стандартні параметри: платформа, архітектура та версія Yggdrasil."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1634
 msgid "Enable packet steering across CPUs. May help or hinder network speed."
@@ -3582,7 +3609,7 @@ msgstr "Увімкнути контрольну суму отримання"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:91
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:96
 msgid "Enable support for multicast traffic (optional)."
-msgstr "Увімкнути підтримку багатоадресного трафіку (необов’язково)."
+msgstr "Увімкнути підтримку багатоадресного трафіку (необовʼязково)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:83
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:88
@@ -3657,8 +3684,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1038
 msgid "Enables the Spanning Tree Protocol on this bridge"
-msgstr ""
-"Вмикає <abbr title=\"Spanning Tree Protocol\">STP</abbr> на цьому мосту"
+msgstr "Вмикає протокол Spanning Tree на цьому мосту"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:691
 msgid "Encap 2+3"
@@ -3738,7 +3764,7 @@ msgstr "Введіть власні значення"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:97
 msgid "Erasing..."
-msgstr "Видалення..."
+msgstr "Видалення…"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3102
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:93
@@ -3794,12 +3820,12 @@ msgid ""
 "for <abbr title=\"Real-time Block List\">RBL</abbr> services."
 msgstr ""
 "Звільнити {loopback_slash_8_v4} та {localhost_v6} від перевірок повторного "
-"прив’язування, наприклад. для служб <abbr title=\"Real-time Block "
+"привʼязування, наприклад. для служб <abbr title=\"Real-time Block "
 "List\">RBL</abbr>."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:478
 msgid "Existing device"
-msgstr "Існуючий пристрій"
+msgstr "Наявний пристрій"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:433
 msgid "Expand hosts"
@@ -3835,7 +3861,7 @@ msgstr "Очікується дійсна IPv6-адреса"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:236
 msgid "Expecting a valid MAC address, optionally including wildcards"
-msgstr "Очікується дійсна MAC-адреса, необов’язково із символами підстановки"
+msgstr "Очікується дійсна MAC-адреса, необовʼязково із символами підстановки"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:29
 msgid "Expecting two priority values separated by a colon"
@@ -3856,7 +3882,7 @@ msgstr "Очікується: %s"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:41
 msgid "Expires"
-msgstr "Збігає за"
+msgstr "Термін дії закінчується"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:675
 msgid ""
@@ -3983,11 +4009,11 @@ msgstr "Не вдалося створити каталог: %s"
 
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:23
 msgid "Failed to disconnect"
-msgstr "Не вдалося від’єднатися"
+msgstr "Не вдалося відʼєднатися"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:36
 msgid "Failed to execute \"/etc/init.d/%s %s\" action: %s"
-msgstr "Не вдалося виконати дію \"/etc/init.d/%s %s\": %s"
+msgstr "Не вдалося виконати дію «/etc/init.d/%s %s»: %s"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:123
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:151
@@ -4035,9 +4061,8 @@ msgid ""
 "File listing upstream resolvers, optionally domain-specific, e.g. "
 "{servers_file_entry01}, {servers_file_entry02}."
 msgstr ""
-"Цей файл може містити такі рядки, як {servers_file_entry02} або "
-"{servers_file_entry01} для домен-орієнтованих або повних висхідних <abbr "
-"title=\"Domain Name System\">DNS</abbr>-серверів."
+"Файл зі списком висхідних DNS-серверів, за бажанням для конкретних доменів, "
+"наприклад, {servers_file_entry01}, {servers_file_entry02}."
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2981
 msgid "File not accessible"
@@ -4051,18 +4076,16 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:640
 msgid "File with upstream resolvers."
-msgstr ""
-"Локальний <abbr title=\"Domain Name System — система доменних імен\">DNS</"
-"abbr>-файл."
+msgstr "Подати запит до висхідних DNS-серверів."
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3231
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:883
 msgid "Filename"
-msgstr "Ім'я файлу"
+msgstr "Імʼя файлу"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:868
 msgid "Filename of the boot image advertised to clients."
-msgstr "І'мя завантажувального образу, що оголошується клієнтам."
+msgstr "Іʼмя завантажувального образу, що оголошується клієнтам."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:191
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:315
@@ -4121,8 +4144,8 @@ msgid ""
 "Find all currently attached filesystems and swap and replace configuration "
 "with defaults based on what was detected"
 msgstr ""
-"Знайти всі файлові системи та свопи, які наразі приєднано і замінити "
-"конфігурацію типовою на підставі того, що було виявлено"
+"Знайти всі файлові системи та свопи, які наразі приєднано, і замінити "
+"конфігурацію на типову на підставі того, що було виявлено"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:926
 msgid "Find and join network"
@@ -4135,7 +4158,7 @@ msgstr "Готово"
 #: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:27
 #: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:43
 msgid "Firewall"
-msgstr "Брандмауер"
+msgstr "Міжмережевий екран"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:187
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:39
@@ -4160,7 +4183,7 @@ msgstr "Файл прошивки"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js:59
 msgid "Firmware Version"
-msgstr "Версія мікропрограми"
+msgstr "Версія прошивки"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:773
 msgid "First answer wins."
@@ -4173,7 +4196,7 @@ msgstr "Фіксований порт для вихідних DNS-запитів
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:314
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:451
 msgid "Flash image..."
-msgstr "Прошити образ..."
+msgstr "Прошити образ…"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:310
 msgid "Flash image?"
@@ -4202,7 +4225,7 @@ msgstr "Для VRF встановіть %s"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:455
 msgid "For bonding, install %s"
-msgstr "Для з’єднання встановіть %s"
+msgstr "Для зʼєднання встановіть %s"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:211
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:211
@@ -4260,7 +4283,7 @@ msgstr "Примусова трансляція відповіді DHCP."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1369
 msgid "Force link"
-msgstr "Примусове з'єднання"
+msgstr "Примусове зʼєднання"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:283
 msgid "Force upgrade"
@@ -4348,7 +4371,7 @@ msgstr "Режим переспрямовування"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:394
 msgid "Forwards"
-msgstr "Нападаючі"
+msgstr "Сервери пересилання"
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:80
 msgid "Fragmentation"
@@ -4370,7 +4393,7 @@ msgstr "Подальша інформація про інтерфейси VXLAN 
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:200
 msgid "Further information about WireGuard interfaces and peers at %s."
-msgstr ""
+msgstr "Подальша інформація про інтерфейси WireGuard і вузли на %s."
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:123
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:123
@@ -4381,7 +4404,7 @@ msgstr "GBP"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:176
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:171
 msgid "GHz"
-msgstr "Ггц"
+msgstr "ГГц"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:92
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:82
@@ -4489,11 +4512,11 @@ msgstr "Створення QR-коду…"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js:79
 msgid "Given password confirmation did not match, password not changed!"
-msgstr "Оскільки пароль і підтвердження не співпадають, то пароль не змінено!"
+msgstr "Оскільки пароль і підтвердження не збігаються, то пароль не змінено!"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:146
 msgid "Global Settings"
-msgstr "Загальні параметри"
+msgstr "Загальні налаштування"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1613
 msgid "Global network options"
@@ -4504,14 +4527,14 @@ msgstr "Глобальні параметри мережі"
 #: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:66
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:83
 msgid "Go to firmware upgrade..."
-msgstr "Перейти до оновлення прошивки..."
+msgstr "Перейти до оновлення прошивки…"
 
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:61
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:81
 #: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:56
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:73
 msgid "Go to password configuration..."
-msgstr "Перейти до конфігурування пароля..."
+msgstr "Перейти до конфігурування пароля…"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2776
 #: modules/luci-base/htdocs/luci-static/resources/form.js:4154
@@ -4526,7 +4549,7 @@ msgstr "Надати доступ до конфігурування DHCP"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status-index.json:33
 msgid "Grant access to DHCP status display"
-msgstr "Надання доступу до відображення стану DHCP"
+msgstr "Надати доступ до відображення стану DHCP"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status-index.json:42
 msgid "Grant access to DSL status display"
@@ -4580,7 +4603,7 @@ msgstr "Надати доступ до операцій прошивання"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status-index.json:3
 msgid "Grant access to main status display"
-msgstr "Надання доступу до основного відображення стану"
+msgstr "Надати доступ до основного відображення стану"
 
 #: protocols/luci-proto-modemmanager/root/usr/share/rpcd/acl.d/luci-proto-modemmanager.json:3
 msgid "Grant access to mmcli"
@@ -4661,7 +4684,7 @@ msgstr "Пароль HE.net"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6in4.js:73
 msgid "HE.net username"
-msgstr "Ім'я користувача HE.net"
+msgstr "Імʼя користувача HE.net"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:124
 msgid "HTTP error %d"
@@ -4690,7 +4713,7 @@ msgid ""
 "the timezone."
 msgstr ""
 "Тут ви можете налаштувати основні параметри вигляду вашого пристрою, такі як "
-"назва (ім'я) вузла або часовий пояс."
+"назва (імʼя) вузла або часовий пояс."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1111
 msgid "Hex Data"
@@ -4731,11 +4754,11 @@ msgid "Hop Penalty"
 msgstr "Хоп Пенальті"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:58
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2412
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2413
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:134
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:237
 msgid "Host"
-msgstr "Хост"
+msgstr "Вузол"
 
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:171
 msgid "Host expiry timeout"
@@ -4743,7 +4766,7 @@ msgstr "Тайм-аут вузла"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:884
 msgid "Host requests this filename from the boot server."
-msgstr "Хост запитує цей файл з сервера завантаження."
+msgstr "Вузол запитує цей файл з сервера завантаження."
 
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:104
 msgid "Host-Uniq tag content"
@@ -4754,8 +4777,8 @@ msgid ""
 "Host-specific lease time, e.g. <code>5m</code>, <code>3h</code>, <code>7d</"
 "code>."
 msgstr ""
-"Термін оренди для конкретного хоста, напр. <code>5 хв</code>, <code>3 год</"
-"code>, <code>7 дн</code>."
+"Термін оренди для конкретного вузла, наприклад <code>5 хв</code>, "
+"<code>3 год</code>, <code>7 дн</code>."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:39
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1037
@@ -4764,11 +4787,11 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:87
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:135
 msgid "Hostname"
-msgstr "Ім'я хосту"
+msgstr "Імʼя вузла"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:22
 msgid "Hostname to send when requesting DHCP"
-msgstr "Ім'я вузла для надсилання при запиті DHCP"
+msgstr "Імʼя вузла для надсилання при запиті DHCP"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:935
 msgid "Hostnames"
@@ -4780,8 +4803,8 @@ msgid ""
 "redundant for hostnames already configured with static leases, but it can be "
 "useful to rebind an FQDN."
 msgstr ""
-"Імена пристроїв використовуються для прив'язування доменного імені до IP-"
-"адреси. Цей параметр зайвий для хостів, які вже налаштовані зі статичною "
+"Імена пристроїв використовуються для привʼязування доменного імені до IP-"
+"адреси. Цей параметр зайвий для вузлів, які вже налаштовані зі статичною "
 "орендою, але може бути корисним для передачі FQDN."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/timer.js:19
@@ -4852,7 +4875,7 @@ msgstr "IP-протокол"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:399
 msgid "IP Sets"
-msgstr "Списки IP"
+msgstr "Набори IP"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:138
 msgid "IP Type"
@@ -4950,7 +4973,7 @@ msgstr "Правила IPv4"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:33
 msgid "IPv4 Upstream"
-msgstr "З'єднання IPv4 (upstream)"
+msgstr "Зʼєднання IPv4 (upstream)"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/static.js:179
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:40
@@ -5092,7 +5115,7 @@ msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:33
 msgid "IPv6 Upstream"
-msgstr "З'єднання IPv6 (upstream)"
+msgstr "Зʼєднання IPv6 (upstream)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:947
 msgid "IPv6 Valid Prefix Lifetime"
@@ -5190,14 +5213,14 @@ msgstr "IPv6 через IPv4 (6to4)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1873
 msgid "Identity"
-msgstr "Ідентифікація EAP"
+msgstr "Ідентичність"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1328
 msgid ""
 "If a host matches an entry which cannot be used because it specifies an "
 "address on a different subnet, the tag %s is set."
 msgstr ""
-"Якщо хост відповідає запису, який не можна використовувати, оскільки він "
+"Якщо вузол відповідає запису, який не можна використовувати, оскільки він "
 "визначає адресу в іншій підмережі, встановлюється тег %s."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:759
@@ -5233,9 +5256,17 @@ msgid ""
 "If empty, all incoming connections will be allowed (default). This does not "
 "affect outgoing peerings, nor link-local peers discovered via multicast."
 msgstr ""
-"Якщо пусте, усі вхідні підключення будуть дозволені (за замовчуванням). Це "
-"не впливає ні на вихідні однорангові зв’язки, ні на локальні однорангові "
-"канали, виявлені через багатоадресну розсилку."
+"Якщо пусте, усі вхідні підключення будуть дозволені (типово). Це не впливає "
+"ні на вихідні однорангові звʼязки, ні на локальні однорангові канали, "
+"виявлені через багатоадресну розсилку."
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:49
+msgid ""
+"If not listed, please open the drop-down list and type in the name of the "
+"Batman VLAN device in the 'custom' field."
+msgstr ""
+"Якщо його немає у списку, відкрийте випадний список і введіть назву пристрою "
+"Batman VLAN у полі «власний»."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1128
 msgid ""
@@ -5289,9 +5320,9 @@ msgid ""
 "very slow process as the swap-device cannot be accessed with the high "
 "datarates of the <abbr title=\"Random Access Memory\">RAM</abbr>."
 msgstr ""
-"Якщо фізичної пам'яті недостатньо, невикористовувані дані можуть тимчасово "
+"Якщо фізичної памʼяті недостатньо, невикористовувані дані можуть тимчасово "
 "витіснятися на своп-пристрій, у результаті чого збільшується кількість "
-"корисної оперативної пам'яті (<abbr title=\"Random Access Memory\">RAM</"
+"корисної оперативної памʼяті (<abbr title=\"Random Access Memory\">RAM</"
 "abbr>). Майте на увазі, що свопінг даних є дуже повільним процесом, оскільки "
 "своп-пристрої не можуть бути доступні з такою високою швидкістю, як <abbr "
 "title=\"Random Access Memory\">RAM</abbr>."
@@ -5302,7 +5333,7 @@ msgstr "Ігнорувати"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:651
 msgid "Ignore hosts files directory"
-msgstr "Ігнорувати каталог файлів хостів"
+msgstr "Ігнорувати каталог файлів вузлів"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:662
 msgid "Ignore interface"
@@ -5449,7 +5480,7 @@ msgstr "Вибрано канал лише для приміщень"
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:158
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:345
 msgid "Info"
-msgstr "Інфо"
+msgstr "Інформація"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:91
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:92
@@ -5492,7 +5523,7 @@ msgstr "Початковий пароль носія EPS"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:185
 msgid "Initial EPS Bearer Username"
-msgstr "Початкове ім’я користувача носія EPS"
+msgstr "Початкове імʼя користувача носія EPS"
 
 #: modules/luci-compat/luasrc/model/network/proto_ncm.lua:67
 msgid "Initialization failure"
@@ -5516,7 +5547,7 @@ msgstr "Внутрішнє обмеження сертифіката (SAN)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1851
 msgid "Inner certificate constraint (Subject)"
-msgstr "Внутрішнє обмеження сертифіката (Суб'єкт)"
+msgstr "Внутрішнє обмеження сертифіката (Субʼєкт)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1860
 msgid "Inner certificate constraint (Wildcard)"
@@ -5528,7 +5559,7 @@ msgstr "Встановити %s"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:289
 msgid "Install protocol extensions..."
-msgstr "Інсталяція розширень протоколу..."
+msgstr "Інсталяція розширень протоколу…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:919
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1335
@@ -5549,13 +5580,13 @@ msgstr "Екземпляр \"%q\""
 msgid "Instance Details"
 msgstr "Деталі екземпляра"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2279
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2280
 msgid ""
 "Instead of joining any network with a matching SSID, only connect to the "
 "BSSID <code>%h</code>."
 msgstr ""
 "Замість того, щоб приєднуватися до будь-якої мережі з відповідним SSID, "
-"підключатися лише до BSSID <code>%h</code>."
+"під’єднюйтеся лише до BSSID <code>%h</code>."
 
 #: modules/luci-compat/luasrc/view/cbi/map.htm:43
 msgid "Insufficient permissions to read UCI configuration."
@@ -5651,6 +5682,10 @@ msgstr "Міжнародна ідентифікація обладнання м�
 msgid "International Mobile Subscriber Identity"
 msgstr "Міжнародна ідентифікація мобільного абонента"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:138
+msgid "Interval"
+msgstr "Інтервал"
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1076
 msgid ""
 "Interval in centiseconds between multicast general queries. By varying the "
@@ -5690,7 +5725,7 @@ msgid ""
 "m, h, d, or w."
 msgstr ""
 "Недійсний формат часу оренди DHCP. Використовуйте цілі значення, за якими "
-"необов’язково слідують s, m, h, d або w."
+"необовʼязково слідують s, m, h, d або w."
 
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:119
 msgid "Invalid IPv6 address"
@@ -5742,7 +5777,7 @@ msgstr "Неприпустиме шістнадцяткове значення"
 
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:128
 msgid "Invalid hostname or IPv4 address"
-msgstr "Недійсне ім’я хоста або адреса IPv4"
+msgstr "Недійсне імʼя вузла або адреса IPv4"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:162
 msgid "Invalid key format"
@@ -5771,7 +5806,7 @@ msgstr "Недійсна URL-адреса сервера"
 #: modules/luci-base/ucode/template/sysauth.ut:12
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:32
 msgid "Invalid username and/or password! Please try again."
-msgstr "Неприпустиме ім'я користувача та/або пароль! Спробуйте ще раз."
+msgstr "Неприпустиме імʼя користувача та/або пароль! Спробуйте ще раз."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/heartbeat.js:13
 msgid "Invert blinking"
@@ -5795,7 +5830,7 @@ msgid ""
 "It appears that you are trying to flash an image that does not fit into the "
 "flash memory, please verify the image file!"
 msgstr ""
-"Схоже, що ви намагаєтеся прошити образ, який не вміщається до флеш-пам'яті! "
+"Схоже, що ви намагаєтеся прошити образ, який не вміщається до флеш-памʼяті! "
 "Перевірте файл образу!"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:312
@@ -5814,7 +5849,7 @@ msgstr ""
 msgid "JavaScript required!"
 msgstr "Потрібен JavaScript!"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2052
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2053
 msgid "Join Network"
 msgstr "Підключитися до мережі"
 
@@ -5822,7 +5857,7 @@ msgstr "Підключитися до мережі"
 msgid "Join Network: Wireless Scan"
 msgstr "Підключення до мережі: Сканування бездротових мереж"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2287
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2288
 msgid "Joining Network: %q"
 msgstr "Приєднання до мережі: %q"
 
@@ -5882,7 +5917,7 @@ msgstr "Ключовий файл занадто великий"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:99
 #: protocols/luci-proto-vti/htdocs/luci-static/resources/protocol/vti.js:64
 msgid "Key for incoming packets (optional)."
-msgstr "Ключ для вхідних пакетів (необов’язково)."
+msgstr "Ключ для вхідних пакетів (необовʼязково)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:96
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:101
@@ -5890,7 +5925,7 @@ msgstr "Ключ для вхідних пакетів (необов’язков
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:103
 #: protocols/luci-proto-vti/htdocs/luci-static/resources/protocol/vti.js:68
 msgid "Key for outgoing packets (optional)."
-msgstr "Ключ для вихідних пакетів (необов’язково)."
+msgstr "Ключ для вихідних пакетів (необовʼязково)."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:537
 msgctxt "Label indicating that WireGuard peer lacks public key"
@@ -6073,10 +6108,10 @@ msgid ""
 "interoperate. Airtime efficiency may be significantly reduced where these "
 "are used. It is recommended to not allow 802.11b rates where possible."
 msgstr ""
-"Для взаємодії із застарілими або погано функціонуючими пристроями можуть "
-"знадобитися застарілі швидкості 802.11b. Там, де вони використовуються, "
-"ефективність ефірного часу може значно зменшитися. Рекомендується не "
-"дозволяти швидкості 802.11b, де це можливо."
+"Для взаємодії зі застарілими чи несправними пристроями можуть знадобитися "
+"застарілі швидкості 802.11b. Там, де вони використовуються, ефективність "
+"ефірного часу може значно зменшитися. Рекомендується не дозволяти швидкості "
+"802.11b, де це можливо."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:680
 msgid "Legacy rules detected"
@@ -6112,16 +6147,16 @@ msgstr "Стан лінії"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/50_dsl.js:26
 msgid "Line Uptime"
-msgstr "Час безперервної роботи лінії"
+msgstr "Час роботи лінії"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/netdev.js:24
 msgid "Link On"
-msgstr "З'єднання встановлено"
+msgstr "Зʼєднання встановлено"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:77
 msgctxt "nft @ll,off,len"
 msgid "Link layer header bits %d-%d"
-msgstr "Біти заголовка рівня зв’язку %d-%d"
+msgstr "Біти заголовка рівня звʼязку %d-%d"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:876
 msgid "Link monitoring mode"
@@ -6148,7 +6183,7 @@ msgstr ""
 "ідентифікатор NAS, 256-бітний ключ як шістнадцятковий рядок. <br />Цей "
 "список використовується для зіставлення R0KH-ID (ідентифікатора NAS) з MAC-"
 "адресою призначення під час запиту ключа PMK-R1 від R0KH, який STA "
-"використовував під час початкового зв’язку домену мобільності."
+"використовував під час початкового звʼязку домену мобільності."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1715
 msgid ""
@@ -6248,7 +6283,7 @@ msgid "Load configuration…"
 msgstr "Завантажити конфігурацію…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1299
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2216
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2217
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:167
 msgid "Loading data…"
 msgstr "Завантаження даних…"
@@ -6384,7 +6419,7 @@ msgstr "Локалізувати запити"
 msgid "Location Area Code"
 msgstr "Код регіону розташування"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2279
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2280
 msgid "Lock to BSSID"
 msgstr "Зблокувати з BSSID"
 
@@ -6414,7 +6449,7 @@ msgstr "Подія журналу \"<strong>%h</strong>…\""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:447
 msgid "Log facility"
-msgstr "Журнал об'єкта"
+msgstr "Журнал обʼєкта"
 
 #: modules/luci-base/ucode/template/sysauth.ut:38
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:36
@@ -6427,7 +6462,7 @@ msgstr "До входу…"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:340
 msgid "Log level"
-msgstr "Рівень журналу"
+msgstr "Рівень журналювання"
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:81
 msgid "Log out"
@@ -6444,7 +6479,7 @@ msgstr "Журнал запитів"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:123
 msgid "Logging"
-msgstr "Логування"
+msgstr "Журналювання"
 
 #: themes/luci-theme-bootstrap/htdocs/luci-static/resources/view/bootstrap/sysauth.js:23
 msgid "Logging in…"
@@ -6457,12 +6492,12 @@ msgid ""
 "address is empty and no WAN IPv6 is available (optional)."
 msgstr ""
 "Логічна мережа, з якої можна вибрати локальну кінцеву точку, якщо локальна "
-"IPv6-адреса порожня і WAN IPv6 не доступний (необов'язково)."
+"IPv6-адреса порожня і WAN IPv6 не доступний (необовʼязково)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:57
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:62
 msgid "Logical network to which the tunnel will be added (bridged) (optional)."
-msgstr "Логічна мережа, до якої буде додано тунель (міст) (необов'язково)."
+msgstr "Логічна мережа, до якої буде додано тунель (міст) (необовʼязково)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1148
 msgid "Loose filtering"
@@ -6488,7 +6523,7 @@ msgstr "MAC"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1589
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:51
 msgid "MAC Address"
-msgstr "MAC-Адреса"
+msgstr "MAC-адреса"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1143
 msgid "MAC Address Filter"
@@ -6502,7 +6537,7 @@ msgstr "MAC VLAN"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1111
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:41
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1225
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2411
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2412
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:47
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:89
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:236
@@ -6660,19 +6695,19 @@ msgstr "Максимальне допустиме значення %s."
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:814
 msgid "Max. DHCP leases"
 msgstr ""
-"<abbr title=\"Максимум\">Макс.</abbr> оренд <abbr title=\"Dynamic Host "
+"<abbr title=«Максимум»>Макс.</abbr> оренд <abbr title=\"Dynamic Host "
 "Configuration Protocol — протокол динамічної конфігурації вузла\">DHCP</abbr>"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:821
 msgid "Max. EDNS0 packet size"
 msgstr ""
-"<abbr title=\"Максимальний\">Макс.</abbr> розмір пакета <abbr "
+"<abbr title=«Максимальний»>Макс.</abbr> розмір пакета <abbr "
 "title=\"Extension Mechanisms for Domain Name System — Механізми розширень "
 "для доменної системи імен\">EDNS0</abbr>"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:828
 msgid "Max. concurrent queries"
-msgstr "<abbr title=\"Максимум\">Макс.</abbr> одночасних запитів"
+msgstr "<abbr title=«Максимум»>Макс.</abbr> одночасних запитів"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1052
 msgid "Maximum age"
@@ -6762,11 +6797,11 @@ msgstr "Середній"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/20_memory.js:24
 msgid "Memory"
-msgstr "Пам'ять"
+msgstr "Памʼять"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:73
 msgid "Memory usage (%)"
-msgstr "Використання пам'яті, %"
+msgstr "Використання памʼяті, %"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:146
 msgid "Mesh ID"
@@ -6786,7 +6821,7 @@ msgstr "Меш-маршрутизація"
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:41
 msgid "Mesh and routing related options"
-msgstr "Опції, пов’язані з сіткою та маршрутизацією"
+msgstr "Опції, повʼязані з сіткою та маршрутизацією"
 
 #: modules/luci-base/htdocs/luci-static/resources/rpc.js:400
 msgid "Method not found"
@@ -6908,7 +6943,7 @@ msgid ""
 "Modem connection in progress. Please wait. This process will timeout after 2 "
 "minutes."
 msgstr ""
-"Модем з'єднується. Зачекайте, будь-ласка. Цей процес завершиться за тайм-"
+"Модем зʼєднується. Зачекайте, будь-ласка. Цей процес завершиться за тайм-"
 "аутом через 2 хвилини."
 
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:77
@@ -6950,7 +6985,7 @@ msgstr "Інтервал моніторингу"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:974
 msgid "Monitor link-down delay"
-msgstr "Монітор затримки з’єднання"
+msgstr "Монітор затримки зʼєднання"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:968
 msgid "Monitor link-up delay"
@@ -6987,7 +7022,7 @@ msgid ""
 "Mount Points define at which point a memory device will be attached to the "
 "filesystem"
 msgstr ""
-"Точки монтування визначають, до якої точки пристрою пам'яті буде приєднано "
+"Точки монтування визначають, до якої точки пристрою памʼяті буде приєднано "
 "файлову систему"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:154
@@ -7000,7 +7035,7 @@ msgstr "Монтувати не конкретно налаштовані фай
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:332
 msgid "Mount options"
-msgstr "Опції монтування"
+msgstr "Параметри монтування"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:293
 msgid "Mount point"
@@ -7112,9 +7147,9 @@ msgstr "Сервери NTP – кандидати для синхронізац�
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:242
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:36
 msgid "Name"
-msgstr "Ім'я"
+msgstr "Імʼя"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2256
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2257
 msgid ""
 "Name for OpenWrt network configuration. (No relation to wireless network "
 "name/SSID)"
@@ -7122,7 +7157,7 @@ msgstr ""
 "Назва конфігурації мережі OpenWrt. (Немає відношення до назви/SSID "
 "бездротової мережі)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2255
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2256
 msgid "Name of the new network"
 msgstr "Назва нової мережі"
 
@@ -7165,11 +7200,11 @@ msgstr "Дійсність кешу сусідів"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1201
 msgid "Netfilter table name"
-msgstr "Ім'я таблиці Netfilter"
+msgstr "Імʼя таблиці Netfilter"
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:45
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1081
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2410
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2411
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:427
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:54
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:235
@@ -7188,7 +7223,7 @@ msgstr "Режим мережі"
 msgid "Network Registration"
 msgstr "Реєстрація мережі"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2250
 msgid "Network SSID"
 msgstr "Мережевий SSID"
 
@@ -7266,7 +7301,7 @@ msgid ""
 "hosts files only."
 msgstr ""
 "Ніколи не пересилайте ці відповідні домени чи субдомени; вирішувати лише з "
-"файлів DHCP або хостів."
+"файлів DHCP або вузлів."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:381
 msgctxt "Dnsmasq instance"
@@ -7338,7 +7373,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:59
 msgid "No client associated"
-msgstr "Не пов’язано жодного клієнта"
+msgstr "Не повʼязано жодного клієнта"
 
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:27
 msgid "No control device specified"
@@ -7386,7 +7421,7 @@ msgstr ""
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:93
 #: protocols/luci-proto-ipip/htdocs/luci-static/resources/protocol/ipip.js:70
 msgid "No host route"
-msgstr "Відсутній хост-маршрут"
+msgstr "Відсутній маршрут до вузла"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:782
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:158
@@ -7487,7 +7522,7 @@ msgstr "Без шаблону заміни"
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:114
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:182
 msgid "None"
-msgstr "Жоден"
+msgstr "Немає"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1004
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:197
@@ -7514,7 +7549,7 @@ msgstr "Не учасник"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:65
 msgid "Not associated"
-msgstr "Не пов'язано"
+msgstr "Не повʼязано"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:36
 msgid "Not connected"
@@ -7640,14 +7675,14 @@ msgstr "Отримати IPv6-адресу"
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:87
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:342
 msgid "Off"
-msgstr "Вимк."
+msgstr "Вимкнено"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1624
 msgid ""
 "Off means VRF traffic will be handled exclusively by sockets bound to VRFs."
 msgstr ""
 "Вимкнено означає, що трафік VRF оброблятиметься виключно сокетами, "
-"пов'язаними з VRF."
+"повʼязаними з VRF."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/timer.js:18
 msgid "Off-State Delay"
@@ -7659,7 +7694,7 @@ msgid ""
 "<code>vlan_tagged_interface.XXX</code>, e.g. <code>eth0.1</code>."
 msgstr ""
 "Вимкнено: <code>vlanXXX</code>, наприклад, <code>vlan1</code>. Увімкнено: "
-"<code>vlan_tagged_interface.XXX</code>, напр. <code>eth0.1</code>."
+"<code>vlan_tagged_interface.XXX</code>, наприклад <code>eth0.1</code>."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:653
 msgid ""
@@ -7671,7 +7706,7 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/none.js:19
 msgid "On"
-msgstr "Увімк"
+msgstr "Увімкнено"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:112
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:112
@@ -7697,7 +7732,7 @@ msgstr "Увімк.: використовувати лише файл hosts дл
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1272
 msgid "One of hostname or MAC address must be specified!"
-msgstr "Має бути зазначено одне з двох – ім'я вузла або МАС-адреса!"
+msgstr "Має бути зазначено одне з двох – імʼя вузла або МАС-адреса!"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:553
 msgid "One of the following: %s"
@@ -7710,12 +7745,12 @@ msgstr "Одне або декілька полів містять неприп�
 
 #: modules/luci-compat/luasrc/view/cbi/map.htm:32
 msgid "One or more invalid/required values on tab"
-msgstr "Одне або декілька неприпустимих/обов'язкових значень на вкладці"
+msgstr "Одне або декілька неприпустимих/обовʼязкових значень на вкладці"
 
 #: modules/luci-compat/luasrc/view/cbi/nullsection.htm:19
 #: modules/luci-compat/luasrc/view/cbi/ucisection.htm:24
 msgid "One or more required fields have no value!"
-msgstr "Одне або декілька обов'язкових полів не мають значень!"
+msgstr "Одне або декілька обовʼязкових полів не мають значень!"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:909
 msgid "Only DHCP Clients with this tag are sent this boot option."
@@ -7733,7 +7768,7 @@ msgstr "Впливає лише на журнал ядра dmesg"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1235
 msgid "Only allow communication with non-isolated bridge ports when enabled"
 msgstr ""
-"Якщо увімкнено, дозволяти зв'язок лише з неізольованими мостовими портами"
+"Якщо увімкнено, дозволяти звʼязок лише з неізольованими мостовими портами"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:99
 msgid "Only interfaces using this table (via override) will use this route."
@@ -7747,7 +7782,7 @@ msgstr "Відкрити огляд правил iptables…"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:474
 msgid "Open list..."
-msgstr "Відкрити список..."
+msgstr "Відкрити список…"
 
 #: modules/luci-compat/luasrc/model/network/proto_openconnect.lua:9
 msgid "OpenConnect (CISCO AnyConnect)"
@@ -7801,7 +7836,7 @@ msgstr "Код оператора"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:135
 msgid "Operator Name"
-msgstr "Ім'я оператора"
+msgstr "Імʼя оператора"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2053
 #: modules/luci-base/htdocs/luci-static/resources/form.js:4769
@@ -7823,7 +7858,7 @@ msgstr "Опцію видалено"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1547
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1888
 msgid "Optional"
-msgstr "Необов'язково"
+msgstr "Необовʼязковий"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1230
 msgid "Optional hostname to assign"
@@ -7836,12 +7871,12 @@ msgid ""
 "on request."
 msgstr ""
 "Додаткова інформація про вузол. Це має бути карта { \"key\": "
-"\"value\", ... } або встановлено значення null. Це абсолютно необов’язково, "
+"\"value\", ... } або встановлено значення null. Це абсолютно необовʼязково, "
 "але, якщо встановлено, буде видимим для всієї мережі за запитом."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:142
 msgid "Optional, free-form notes about this device"
-msgstr "Необов'язкові нотатки у довільній формі щодо цього пристрою"
+msgstr "Необовʼязкові нотатки у довільній формі щодо цього пристрою"
 
 #: protocols/luci-proto-openfortivpn/htdocs/luci-static/resources/protocol/openfortivpn.js:147
 msgid "Optional, in seconds. If set to '0', no reconnect is attempted."
@@ -7854,7 +7889,7 @@ msgid ""
 "Optional. 32-bit mark for packets during firewall processing. Enter value in "
 "hex, starting with <code>0x</code>."
 msgstr ""
-"Необов'язково. 32-бітна позначка для вихідних зашифрованих пакетів. Введіть "
+"Необовʼязково. 32-бітна позначка для вихідних зашифрованих пакетів. Введіть "
 "значення в шістнадцятковому форматі, починаючи з <code>0x</code>."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1151
@@ -7864,7 +7899,7 @@ msgid ""
 "server, use the suffix (like '::1') to form the IPv6 address ('a:b:c:d::1') "
 "for the interface."
 msgstr ""
-"Необов'язково. Припустимі значення: 'eui64', 'random' чи фіксоване значення, "
+"Необовʼязково. Припустимі значення: 'eui64', 'random' чи фіксоване значення, "
 "наприклад '::1' або '::1:2'. Якщо префікс IPv6 (наприклад, 'a:b:c:d::') "
 "отримано від сервера делегування, для формування IPv6-адреси інтерфейсу "
 "(наприклад, 'a:b:c:d::1') використовуйте суфікс ('::1')."
@@ -7874,33 +7909,34 @@ msgid ""
 "Optional. Base64-encoded preshared key. Adds in an additional layer of "
 "symmetric-key cryptography for post-quantum resistance."
 msgstr ""
-"Необов'язково. Заздалегідь установлений Base64-кодований спільний ключ. "
+"Необовʼязково. Заздалегідь установлений Base64-кодований спільний ключ. "
 "Додавання додатково рівня шифрування із симетричним ключем для пост-"
 "квантової стійкості."
 
 #: protocols/luci-proto-xfrm/htdocs/luci-static/resources/protocol/xfrm.js:42
 msgid "Optional. Bind to a specific interface."
-msgstr "Додатково. Прив’язка до певного інтерфейсу."
+msgstr "Додатково. Привʼязка до певного інтерфейсу."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:644
 msgid "Optional. Create routes for Allowed IPs for this peer."
-msgstr "Необов'язково. Створити для цього вузла маршрути для дозволених IP."
+msgstr "Необовʼязково. Створити для цього вузла маршрути для дозволених IP."
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:196
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:196
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:505
 msgid "Optional. Description of peer."
-msgstr "Необов'язково. Опис вузла."
+msgstr "Необовʼязково. Опис вузла."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:171
 msgid "Optional. Do not create host routes to peers."
-msgstr "Необов'язково. Не створювати хост-маршрути для вузлів."
+msgstr "Необовʼязково. Не створювати маршрути до вузлів."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:647
 msgid ""
 "Optional. Host of peer. Names are resolved prior to bringing up the "
 "interface."
-msgstr "Необов'язково. Хост вузла. Імена буде виділено до підняття інтерфейсу."
+msgstr ""
+"Необовʼязково. Вузол вузла. Імена буде виділено до підняття інтерфейсу."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:609
 msgid ""
@@ -7908,23 +7944,23 @@ msgid ""
 "the tunnel. Usually the peer's tunnel IP addresses and the networks the peer "
 "routes through the tunnel."
 msgstr ""
-"Необов'язково. IP-адреси та префікси, які дозволено даному вузлу "
+"Необовʼязково. IP-адреси та префікси, які дозволено даному вузлу "
 "використовувати всередині тунелю. Зазвичай це IP-адреси тунелю даного вузла "
 "та мережі, які він маршрутизує через тунель."
 
 #: protocols/luci-proto-xfrm/htdocs/luci-static/resources/protocol/xfrm.js:46
 msgid "Optional. Maximum Transmission Unit of the XFRM interface."
-msgstr "Необов'язково. MTU XFRM інтерфейса."
+msgstr "Необовʼязково. MTU XFRM інтерфейса."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:182
 msgid "Optional. Maximum Transmission Unit of tunnel interface."
 msgstr ""
-"Необов'язково. <abbr title=\"Maximum Transmission Unit — максимальний блок "
+"Необовʼязково. <abbr title=\"Maximum Transmission Unit — максимальний блок "
 "передавання даних\">MTU</abbr> тунельного інтерфейсу."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:663
 msgid "Optional. Port of peer."
-msgstr "Необов'язково. Порт вузла."
+msgstr "Необовʼязково. Порт вузла."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:578
 msgid ""
@@ -7934,7 +7970,7 @@ msgid ""
 "exported."
 msgstr ""
 "Додатково. Закритий ключ однорангового вузла WireGuard. Ключ не потрібен для "
-"встановлення з’єднання, але дозволяє згенерувати однорангову конфігурацію "
+"встановлення зʼєднання, але дозволяє згенерувати однорангову конфігурацію "
 "або QR-код, якщо він доступний. Його можна видалити після експорту "
 "конфігурації."
 
@@ -7943,14 +7979,14 @@ msgid ""
 "Optional. Seconds between keep alive messages. Default is 0 (disabled). "
 "Recommended value if this device is behind a NAT is 25."
 msgstr ""
-"Необов'язково. Час (сек.) між перевірками активності повідомлень. Типове "
+"Необовʼязково. Час (с) між перевірками активності повідомлень. Типове "
 "значення – 0 (вимкнено). Рекомендоване значення для цього пристрою за NAT – "
 "25."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:162
 msgid "Optional. UDP port used for outgoing and incoming packets."
 msgstr ""
-"Необов'язково. UDP-порт, який використовується для вихідних та вхідних "
+"Необовʼязково. UDP-порт, який використовується для вихідних та вхідних "
 "пакетів."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:72
@@ -8076,8 +8112,8 @@ msgid ""
 "Override default MAC address - the range of usable addresses might be "
 "limited by the driver"
 msgstr ""
-"Замінити MAC-адресу за замовчуванням – діапазон доступних адрес може бути "
-"обмежений драйвером"
+"Замінити типову MAC-адресу — діапазон доступних адрес може бути обмежений "
+"драйвером"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1217
 msgid "Override default interface name"
@@ -8106,7 +8142,7 @@ msgstr "Огляд"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3141
 msgid "Overwrite existing file \"%s\" ?"
-msgstr "Перезаписати існуючий файл \"%s\"?"
+msgstr "Перезаписати наявний файл «%s»?"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:342
 msgid "Overwrite the current settings with the imported configuration?"
@@ -8162,7 +8198,7 @@ msgstr "Пароль PAP/CHAP"
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:96
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:48
 msgid "PAP/CHAP username"
-msgstr "Ім'я користувача PAP/CHAP"
+msgstr "Імʼя користувача PAP/CHAP"
 
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:94
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:121
@@ -8171,7 +8207,7 @@ msgstr "Тип PDP"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:69
 msgid "PID"
-msgstr "<abbr title=\"Process Identifier — Ідентифікатор процесу\">PID</abbr>"
+msgstr "PID"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:106
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:73
@@ -8288,8 +8324,7 @@ msgstr "Частина зони %q"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:560
 msgctxt "MACVLAN mode"
 msgid "Pass-through (Mirror physical device to single MAC VLAN)"
-msgstr ""
-"Pass-through (дзеркальне відображення фізичного пристрою у один MAC VLAN)"
+msgstr "Наскрізне (віддзеркалення фізичного пристрою на один MAC VLAN)"
 
 #: modules/luci-base/ucode/template/sysauth.ut:29
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1879
@@ -8403,7 +8438,7 @@ msgstr "Пік:"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:74
 msgid "Peer"
-msgstr "Одноліток"
+msgstr "Одноранговий вузол"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:51
 msgid "Peer Details"
@@ -8452,7 +8487,7 @@ msgstr "Повідомлення однолітків"
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:200
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:254
 msgid "Peers"
-msgstr "Однолітки"
+msgstr "Однорангові вузли"
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:80
 msgid "Perfect Forward Secrecy"
@@ -8463,7 +8498,7 @@ msgstr "Цілковита пряма секретність"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:105
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:110
 msgid "Perform outgoing packets serialization (optional)."
-msgstr "Виконати серіалізацію вихідних пакетів (необов’язково)."
+msgstr "Виконати серіалізацію вихідних пакетів (необовʼязково)."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js:34
 msgid "Perform reboot"
@@ -8501,7 +8536,7 @@ msgstr "Фізичні параметри"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:88
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:98
 msgid "Ping"
-msgstr "Ехо-запит"
+msgstr "Пінг"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:49
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:50
@@ -8514,11 +8549,18 @@ msgstr "Пакетів."
 
 #: modules/luci-base/ucode/template/sysauth.ut:19
 msgid "Please enter your username and password."
-msgstr "Введіть ім'я користувача і пароль."
+msgstr "Введіть імʼя користувача і пароль."
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:63
+msgid ""
+"Please open the drop-down list and select or type in the name of the Batman "
+"VLAN device."
+msgstr ""
+"Відкрийте випадний список і виберіть або введіть назву пристрою Batman VLAN."
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4632
 msgid "Please select the file to upload."
-msgstr "Виберіть файл для відвантаження."
+msgstr "Виберіть файл для вивантаження."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:54
 msgid "Policy"
@@ -8592,7 +8634,7 @@ msgstr "Придушувач префікса"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:587
 msgid "Preshared Key"
-msgstr "Заздалегідь установлений спільний ключ"
+msgstr "Спільний ключ"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:558
 msgid "Preshared key in use"
@@ -8633,7 +8675,7 @@ msgid ""
 "17, /24, /28 or more specific routes yet ignore /16, /8, /0 (default) routes"
 msgstr ""
 "Запобігає розгляду надто широких маршрутів. Параметр 16 враховує /17, /24, /"
-"28 або більш конкретні маршрути, але ігнорує /16, /8, /0 (за замовчуванням)"
+"28 або більш конкретні маршрути, але ігнорує /16, /8, /0 (типово)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:677
 msgid "Primary Device"
@@ -8662,7 +8704,7 @@ msgstr "Приватний"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:558
 msgctxt "MACVLAN mode"
 msgid "Private (Prevent communication between MAC VLANs)"
-msgstr "Приватний (заборонити зв'язок між MAC VLAN-ами)"
+msgstr "Приватний (запобігання звʼязку між MAC VLAN)"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:137
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:578
@@ -8735,7 +8777,7 @@ msgstr ""
 
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:152
 msgid "Proxy Server"
-msgstr "Проксі сервер"
+msgstr "Проксі-сервер"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1762
 msgid "ProxyARP"
@@ -8911,7 +8953,7 @@ msgstr "Одержано"
 msgid "RX Rate"
 msgstr "Швидкість приймання"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2414
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2415
 msgid "RX Rate / TX Rate"
 msgstr "Швидкість прийм./перед"
 
@@ -8965,7 +9007,7 @@ msgstr "Кінцевий термін реассоціації"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:508
 msgid "Rebind protection"
-msgstr "Захист від переприв'язки"
+msgstr "Захист від перепривʼязки"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js:20
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json:151
@@ -9191,7 +9233,7 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:372
 msgctxt "Dnsmasq instance"
 msgid "Remove default instance"
-msgstr "Видалити екземпляр за замовчуванням"
+msgstr "Видалити типовий екземпляр"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:376
 msgctxt "Dnsmasq instance"
@@ -9205,7 +9247,7 @@ msgstr "Видалити екземпляр #%d"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1431
 msgid "Remove related device settings from the configuration"
-msgstr "Видалити пов’язані налаштування пристрою з конфігурації"
+msgstr "Видалити повʼязані налаштування пристрою з конфігурації"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:768
 msgid "Remove subnet address before forwarding query"
@@ -9215,7 +9257,7 @@ msgstr "Видаліть адресу підмережі перед переси
 msgid "Removes records of the specified type(s) from answers."
 msgstr "Видаляє з відповідей записи вказаного типу(ів)."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2254
 msgid "Replace wireless configuration"
 msgstr "Замінити конфігурацію бездротової мережі"
 
@@ -9253,19 +9295,19 @@ msgstr "Тайм-аут запиту минув"
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:102
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:107
 msgid "Require incoming checksum (optional)."
-msgstr "Вимагати вхідної контрольної суми (необов’язково)."
+msgstr "Вимагати вхідної контрольної суми (необовʼязково)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:102
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:107
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:104
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:109
 msgid "Require incoming packets serialization (optional)."
-msgstr "Вимагати серіалізації вхідних пакетів (необов’язково)."
+msgstr "Вимагати серіалізації вхідних пакетів (необовʼязково)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1548
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1889
 msgid "Required"
-msgstr "Вимагається"
+msgstr "Обовʼязковий"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:34
 msgid "Required for certain ISPs, e.g. Charter with DOCSIS 3"
@@ -9278,11 +9320,11 @@ msgstr "Вимагається. Base64-кодований закритий кл�
 #: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
 msgid "Required. Path to the .yml config file for this interface."
 msgstr ""
-"Обов'язковий. Шлях до конфігураційного файлу .yml для цього інтерфейсу."
+"Обовʼязковий. Шлях до конфігураційного файлу .yml для цього інтерфейсу."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:573
 msgid "Required. Public key of the WireGuard peer."
-msgstr "Обов'язковий. Відкритий ключ вузла WireGuard."
+msgstr "Обовʼязковий. Відкритий ключ вузла WireGuard."
 
 #: protocols/luci-proto-xfrm/htdocs/luci-static/resources/protocol/xfrm.js:39
 msgid "Required. XFRM interface ID to be used for SA."
@@ -9378,7 +9420,7 @@ msgstr "Скинути лічильники"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2829
 msgid "Reset filters"
-msgstr ""
+msgstr "Скинути фільтри"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:406
 msgid "Reset to defaults"
@@ -9386,7 +9428,7 @@ msgstr "Відновити початковий стан"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:397
 msgid "Resolv &amp; Hosts Files"
-msgstr "Resolv &amp; Хост-файли"
+msgstr "Файли Resolv та Hosts"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:639
 msgid "Resolv file"
@@ -9416,7 +9458,7 @@ msgstr "Ресурс не знайдено"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:923
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:99
 msgid "Restart"
-msgstr "Перезавантажити"
+msgstr "Перезапустити"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:352
 msgid "Restart Firewall"
@@ -9428,7 +9470,7 @@ msgstr "Перезавантажити радіоінтерфейс"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:402
 msgid "Restore"
-msgstr "Відновлення"
+msgstr "Відновити"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:412
 msgid "Restore backup"
@@ -9705,7 +9747,7 @@ msgstr "Порт сервера SSH"
 
 #: protocols/luci-proto-pppossh/htdocs/luci-static/resources/protocol/pppossh.js:58
 msgid "SSH username"
-msgstr "Ім'я користувача SSH"
+msgstr "Імʼя користувача SSH"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:289
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json:51
@@ -9775,19 +9817,19 @@ msgstr "Заплановані завдання"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:32
 msgid "Scheduling daemon"
-msgstr "Демон планування"
+msgstr "Служба планування"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:141
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:130
 msgctxt "scroll to top (the head) of the log file"
 msgid "Scroll to head"
-msgstr "Прокрутіть до початку"
+msgstr "Прокрутити до початку"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:134
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:123
 msgctxt "scroll to bottom (the tail) of the log file"
 msgid "Scroll to tail"
-msgstr "Прокрутіть до кінця"
+msgstr "Прокрутити до кінця"
 
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:41
 msgid "Search domain"
@@ -9825,8 +9867,12 @@ msgid ""
 "your device!"
 msgstr ""
 "Щоб прошити образ, навіть якщо не вдалося виконати перевірку його формату, "
-"виберіть \"Примусове оновлення\". Використовуйте тільки якщо ви впевнені, що "
+"виберіть «Примусове оновлення». Використовуйте тільки якщо ви впевнені, що "
 "прошивка є правильною і призначена для вашого пристрою!"
+
+#: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:52
+msgid "Select Batman VLAN device…"
+msgstr "Виберіть пристрій Batman VLAN…"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2983
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3182
@@ -9871,7 +9917,7 @@ msgstr "Надіслати багатоадресний маяк"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:24
 msgid "Send the hostname of this device"
-msgstr "Надіслати ім’я хосту цього пристрою"
+msgstr "Надіслати імʼя вузла цього пристрою"
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:89
 msgid "Server"
@@ -9883,11 +9929,11 @@ msgstr "Адреса сервера"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:889
 msgid "Server name"
-msgstr "Ім'я сервера"
+msgstr "Імʼя сервера"
 
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:56
 msgid "Service Name"
-msgstr "Назва сервісу"
+msgstr "Назва служби"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:88
 msgid "Service Type"
@@ -9895,7 +9941,7 @@ msgstr "Тип сервісу"
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:36
 msgid "Services"
-msgstr "Сервіси"
+msgstr "Служби"
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2617
 msgid "Session expired"
@@ -9912,7 +9958,7 @@ msgstr "Установіть максимальне значення TTL у се
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1008
 msgid "Set an alias for a hostname."
-msgstr "Встановіть псевдонім для імені хоста."
+msgstr "Встановіть псевдонім для імені вузла."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1059
 msgid "Set an arbitrary resource record (RR) type."
@@ -9935,7 +9981,7 @@ msgid ""
 "Set interface properties regardless of the link carrier (If set, carrier "
 "sense events do not invoke hotplug handlers)."
 msgstr ""
-"Властивості інтерфейсу встановлюються незалежно від каналу зв'язку (якщо "
+"Властивості інтерфейсу встановлюються незалежно від каналу звʼязку (якщо "
 "позначено, обробник автовизначення не викликається при змінах)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:448
@@ -10039,7 +10085,7 @@ msgstr "Вимкнути цей інтерфейс"
 msgid "Signal"
 msgstr "Сигнал"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2413
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2414
 msgid "Signal / Noise"
 msgstr "Сигнал / шум"
 
@@ -10075,7 +10121,7 @@ msgstr "Пропустити"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:259
 msgid "Skip from backup files that are equal to those in /rom"
-msgstr "Пропускати з резервної копії файли, які співпадають з файлами в /rom"
+msgstr "Пропускати з резервної копії файли, які збігаються з файлами в /rom"
 
 #: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:34
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:37
@@ -10106,7 +10152,7 @@ msgid ""
 "Domain. Make sure to follow this advice if a channel is reported as such."
 msgstr ""
 "Деякі канали можуть бути обмежені використанням лише в приміщенні вашим "
-"регуляторним доменом. Обов’язково дотримуйтесь цієї поради, якщо канал "
+"регуляторним доменом. Обовʼязково дотримуйтесь цієї поради, якщо канал "
 "повідомлено як такий."
 
 #: modules/luci-compat/luasrc/view/cbi/header.htm:5
@@ -10115,7 +10161,7 @@ msgstr "Деякі поля є неприпустимими, неможливо 
 
 #: modules/luci-base/ucode/template/error404.ut:10
 msgid "Sorry, the object you requested was not found."
-msgstr "На жаль, об'єкт, який ви просили, не знайдено."
+msgstr "На жаль, обʼєкт, який ви просили, не знайдено."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:444
 msgid ""
@@ -10197,7 +10243,7 @@ msgid ""
 "DHCPv6/<abbr title=\"Router Advertisement\">RA</abbr> (see %s)."
 msgstr ""
 "Вказує фіксований список зашифрованих адрес DNS-серверів для оголошення "
-"через DHCPv6/<abbr title=\"Router Advertisement\">RA</abbr> (див. %s)."
+"через DHCPv6/<abbr title=\"Router Advertisement\">RA</abbr> (дивіться %s)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:203
 msgid ""
@@ -10220,8 +10266,8 @@ msgid ""
 "settings."
 msgstr ""
 "Визначає пристрої, які потрібно підключити до цієї VRF. Щоб підключити "
-"бездротові мережі, виберіть пов’язаний інтерфейс як мережу в налаштуваннях "
-"бездротового зв’язку."
+"бездротові мережі, виберіть повʼязаний інтерфейс як мережу в налаштуваннях "
+"бездротового звʼязку."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:293
 msgid "Specifies the directory the device is attached to"
@@ -10242,7 +10288,7 @@ msgid ""
 "Specifies the fwmark and optionally its mask to match, e.g. 0xFF to match "
 "mark 255 or 0x0/0x1 to match any even mark value"
 msgstr ""
-"Вказує fwmark та, опціонально, її маску відповідності, напр. 0xFF для "
+"Вказує fwmark та, опціонально, її маску відповідності, наприклад 0xFF для "
 "відповідності позначці 255 або 0x0/0x1 для відповідності будь-якому парному "
 "значенню позначки"
 
@@ -10255,7 +10301,7 @@ msgid ""
 "Specifies the logical interface name of the parent (or master) interface "
 "this route belongs to"
 msgstr ""
-"Вказує ім’я логічного інтерфейсу батьківського (або головного) інтерфейсу, "
+"Вказує імʼя логічного інтерфейсу батьківського (або головного) інтерфейсу, "
 "до якого належить цей маршрут"
 
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:175
@@ -10264,7 +10310,7 @@ msgid ""
 "to be dead"
 msgstr ""
 "Визначає максимальну кількість невдалих ARP-запитів до вузлів, після якого "
-"вважається, що вузли \"мертві\""
+"вважається, що вузли «мертві»"
 
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:171
 msgid ""
@@ -10272,7 +10318,7 @@ msgid ""
 "dead"
 msgstr ""
 "Визначає максимальний час (секунди), після якого вважається, що вузли "
-"\"мертві\""
+"«мертві»"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:996
 msgid ""
@@ -10320,7 +10366,7 @@ msgstr "Визначає цільову дію правила маршрутиз
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:616
 msgid "Specifies the wired ports to attach to this bonding."
-msgstr "Визначає дротові порти для підключення до цього з’єднання."
+msgstr "Визначає дротові порти для підключення до цього зʼєднання."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1006
 msgid ""
@@ -10348,7 +10394,7 @@ msgid ""
 msgstr ""
 "Вкажіть TOS (тип послуги). Може бути <code>inherit</code> (зовнішній "
 "заголовок успадковує значення внутрішнього заголовка) або шістнадцяткове "
-"значення <code>00..FF</code> (необов’язково)."
+"значення <code>00..FF</code> (необовʼязково)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:74
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:74
@@ -10358,7 +10404,7 @@ msgid ""
 "default (64) (optional)."
 msgstr ""
 "Вкажіть TTL (Time to Live — час життя) для пакета інкапсуляції, відмінний "
-"від типового (64) (необов'язково)."
+"від типового (64) (необовʼязково)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:69
 #: protocols/luci-proto-ipip/htdocs/luci-static/resources/protocol/ipip.js:58
@@ -10379,7 +10425,7 @@ msgid ""
 msgstr ""
 "Вкажіть TC (клас трафіку). Може бути <code>inherit</code> (зовнішній "
 "заголовок успадковує значення внутрішнього заголовка) або шістнадцяткове "
-"значення <code>00..FF</code> (необов’язково)."
+"значення <code>00..FF</code> (необовʼязково)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:64
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:69
@@ -10390,7 +10436,7 @@ msgid ""
 "bytes) (optional)."
 msgstr ""
 "Вкажіть MTU (Maximum Transmission Unit), відмінний від стандартного (1280 "
-"байт) (необов’язково)."
+"байт) (необовʼязково)."
 
 #: protocols/luci-proto-ipip/htdocs/luci-static/resources/protocol/ipip.js:53
 msgid ""
@@ -10407,7 +10453,7 @@ msgstr ""
 "Укажіть кількість однорангових сповіщень, які надсилатимуться після події "
 "відновлення після відмови."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "Specify the secret encryption key here."
 msgstr "Вкажіть тут секретний ключ шифрування."
 
@@ -10444,7 +10490,7 @@ msgstr "Запустити WPS"
 msgid "Start priority"
 msgstr "Стартовий пріоритет"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2072
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2073
 msgid "Start refresh"
 msgstr "Запустити оновлення"
 
@@ -10455,7 +10501,7 @@ msgstr "Розпочато застосування конфігурації…"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1984
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/channel_analysis.js:489
 msgid "Starting wireless scan..."
-msgstr "Розпочато сканування бездротових мереж..."
+msgstr "Розпочато сканування бездротових мереж…"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:109
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json:89
@@ -10510,7 +10556,7 @@ msgstr "Обмеження бездіяльності станції"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:978
 #: modules/luci-mod-status/ucode/template/admin_status/index.ut:9
 msgid "Status"
-msgstr "Статус"
+msgstr "Стан"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1643
 msgid "Steering flows (<abbr title=\"Receive Packet Steering\">RPS</abbr>)"
@@ -10520,14 +10566,14 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:499
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:101
 msgid "Stop"
-msgstr "Стій"
+msgstr "Зупинити"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:136
 msgid "Stop WPS"
 msgstr "Зупинити WPS"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1982
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2077
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2078
 msgid "Stop refresh"
 msgstr "Зупинити оновлення"
 
@@ -10548,7 +10594,7 @@ msgid "Strong"
 msgstr "Висока"
 
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:61
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2297
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2298
 msgid "Submit"
 msgstr "Надіслати"
 
@@ -10736,7 +10782,7 @@ msgstr "Таблиця"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:247
 msgid "Table Filters"
-msgstr ""
+msgstr "Фільтри таблиці"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1206
 msgid "Table IP family"
@@ -10793,7 +10839,7 @@ msgid ""
 "The <em>Managed address configuration</em> (M) flag indicates that IPv6 "
 "addresses are available via DHCPv6."
 msgstr ""
-"Флаг <em>Managed address configuration</em> (M) вказує, що адреси IPv6 "
+"Прапорець <em>Managed address configuration</em> (M) вказує, що адреси IPv6 "
 "доступні через DHCPv6."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:831
@@ -10801,16 +10847,16 @@ msgid ""
 "The <em>Mobile IPv6 Home Agent</em> (H) flag indicates that the device is "
 "also acting as Mobile IPv6 home agent on this link."
 msgstr ""
-"Флаг <em>Mobile IPv6 Home Agent</em> (H) вказує, що пристрій також діє в "
-"якості мобільного домашнього агента IPv6 на цьому з'єднанні."
+"Прапорець <em>Mobile IPv6 Home Agent</em> (H) вказує, що пристрій також діє "
+"як мобільний домашній агент IPv6 на цьому зʼєднанні."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:829
 msgid ""
 "The <em>Other configuration</em> (O) flag indicates that other information, "
 "such as DNS servers, is available via DHCPv6."
 msgstr ""
-"Флаг <em>Other configuration</em> (O) вказує, що через DHCPv6 доступна інша "
-"інформація, до прикладу, DNS-сервери."
+"Прапорець <em>Other configuration</em> (O) вказує, що через DHCPv6 доступна "
+"інша інформація, до прикладу, DNS-сервери."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:84
 msgid "The <em>block mount</em> command failed with code %d"
@@ -10834,7 +10880,7 @@ msgid ""
 "username instead of the user ID!"
 msgstr ""
 "Конфігурацію оновлення кінцевого вузла HE.net змінено, тепер потрібно "
-"використовувати звичайне ім'я користувача замість ідентифікатора користувача!"
+"використовувати звичайне імʼя користувача замість ідентифікатора користувача!"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1281
 msgid "The IP address %h is already used by another static lease"
@@ -10858,7 +10904,7 @@ msgstr ""
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:41
 msgid "The IPv4 address or the fully-qualified domain name of the remote end."
-msgstr "Адреса IPv4 або повне доменне ім’я віддаленого вузла."
+msgstr "Адреса IPv4 або повне доменне імʼя віддаленого вузла."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:42
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:42
@@ -10866,17 +10912,17 @@ msgstr "Адреса IPv4 або повне доменне ім’я відда�
 #: protocols/luci-proto-vti/htdocs/luci-static/resources/protocol/vti.js:40
 msgid ""
 "The IPv4 address or the fully-qualified domain name of the remote tunnel end."
-msgstr "Адреса IPv4 або повне доменне ім'я віддаленого кінця тунелю."
+msgstr "Адреса IPv4 або повне доменне імʼя віддаленого кінця тунелю."
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:41
 msgid "The IPv6 address or the fully-qualified domain name of the remote end."
-msgstr "Адреса IPv6 або повне доменне ім’я віддаленого вузла."
+msgstr "Адреса IPv6 або повне доменне імʼя віддаленого вузла."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:42
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:42
 msgid ""
 "The IPv6 address or the fully-qualified domain name of the remote tunnel end."
-msgstr "Адреса IPv6 або повне доменне ім'я віддаленого кінця тунелю."
+msgstr "Адреса IPv6 або повне доменне імʼя віддаленого кінця тунелю."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1317
 msgid ""
@@ -10906,7 +10952,7 @@ msgstr "Світлодіод блимає, імітуючи реальне се�
 msgid ""
 "The LED flashes with link status and activity on the configured interface."
 msgstr ""
-"Світлодіод блимає в залежності від стану зв’язку та активності на "
+"Світлодіод блимає в залежності від стану звʼязку та активності на "
 "налаштованому інтерфейсі."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/none.js:7
@@ -10947,7 +10993,7 @@ msgstr "Адреса, за якою цей %s доступний"
 msgid "The algorithm that is used to discover mesh routes"
 msgstr "Алгоритм, який використовується для виявлення сітчастих маршрутів"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2257
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2258
 msgid ""
 "The allowed characters are: <code>A-Z</code>, <code>a-z</code>, <code>0-9</"
 "code> and <code>_</code>"
@@ -10979,7 +11025,7 @@ msgstr ""
 msgid "The configuration file could not be loaded due to the following error:"
 msgstr "Файл конфігурації не вдалося завантажити через таку помилку:"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2249
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2250
 msgid ""
 "The correct SSID must be manually specified when joining a hidden wireless "
 "network"
@@ -11001,12 +11047,12 @@ msgid ""
 "or revert all pending changes to keep the currently working configuration "
 "state."
 msgstr ""
-"Пристрій недосяжний протягом %d секунд після застосування очікуючих змін, що "
-"призвело до відкочування конфигурації з міркувань безпеки. Проте, якщо ви "
-"впевнені, що зміни конфігурації є правильними, виконайте застосування "
-"неперевіреної конфігурації. Крім того, ви можете відхилити це попередження "
-"та відредагувати зміни, перш ніж намагатись застосувати їх знову, або ж "
-"скасувати всі очікуючі зміни, щоб зберегти поточну робочу конфігурацію."
+"Пристрій недосяжний протягом %d секунд після застосування змін, що очікують "
+"на застосування, через що конфігурацію відкочено з міркувань безпеки. Якщо "
+"ви впевнені, що зміни конфігурації правильні, виконайте застосування без "
+"перевірки. Або ж закрийте це попередження й відредагуйте зміни перед "
+"повторною спробою застосувати; також можна скасувати всі зміни, що очікують, "
+"щоб зберегти поточну робочу конфігурацію."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:281
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:391
@@ -11014,28 +11060,27 @@ msgid ""
 "The device file of the memory or partition (<abbr title=\"for example\">e.g."
 "</abbr> <code>/dev/sda1</code>)"
 msgstr ""
-"Файл пристрою пам'яті або розділу (<abbr title=\"наприклад\">напр.</abbr> "
+"Файл пристрою памʼяті або розділу (<abbr title=\"наприклад\">напр.</abbr> "
 "<code>/dev/sda1</code>)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:572
 msgid "The device name \"%s\" is already taken"
-msgstr "Ім'я пристрою «%s» вже зайнято"
+msgstr "Імʼя пристрою «%s» вже зайнято"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:381
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:415
 msgid ""
 "The existing network configuration needs to be changed for LuCI to function "
 "properly."
-msgstr ""
-"Для належної роботи LuCI необхідно змінити існуючу конфігурацію мережі."
+msgstr "Для належної роботи LuCI необхідно змінити наявну конфігурацію мережі."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:838
 msgid ""
 "The existing wireless configuration needs to be changed for LuCI to function "
 "properly."
 msgstr ""
-"Для правильного функціонування LuCI, потрібно змінити існуючу конфігурацію "
-"бездротового зв'язку."
+"Для належної роботи LuCI потрібно змінити наявну конфігурацію бездротового "
+"зʼєднання."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:222
 msgid ""
@@ -11065,7 +11110,7 @@ msgid ""
 "application to set up a connection towards this device."
 msgstr ""
 "Згенеровану конфігурацію можна імпортувати в клієнтську програму WireGuard, "
-"щоб налаштувати з’єднання з цим пристроєм."
+"щоб налаштувати зʼєднання з цим пристроєм."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:172
 msgid "The given SSH public key has already been added."
@@ -11102,7 +11147,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:890
 msgid "The hostname of the boot server"
-msgstr "Ім'я хоста сервера завантаження"
+msgstr "Імʼя вузла сервера завантаження"
 
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:28
 msgid "The interface could not be found"
@@ -11134,13 +11179,13 @@ msgstr "Довжина IPv6-префікса в бітах"
 #: protocols/luci-proto-vti/htdocs/luci-static/resources/protocol/vti.js:44
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:47
 msgid "The local IPv4 address over which the tunnel is created (optional)."
-msgstr "Локальна адреса IPv4, за якою створюється тунель (необов'язково)."
+msgstr "Локальна адреса IPv4, за якою створюється тунель (необовʼязково)."
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:46
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:53
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:47
 msgid "The local IPv6 address over which the tunnel is created (optional)."
-msgstr "Локальна адреса IPv6, через яку створюється тунель (необов’язково)."
+msgstr "Локальна адреса IPv6, через яку створюється тунель (необовʼязково)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1095
 msgid ""
@@ -11153,8 +11198,8 @@ msgstr ""
 "Максимальний час відповіді в сантисекундах, вставлений у групові запити, "
 "надіслані у відповідь на повідомлення про вихід з групи. Це також проміжок "
 "часу між груповими запитами. Це значення може бути налаштовано, щоб змінити "
-"\"затримку виходу\" мережі. Зменшене значення призводить до скорочення часу "
-"на виявлення втрати останнього члена групи"
+"«затримку виходу» мережі. Зменшене значення призводить до скорочення часу на "
+"виявлення втрати останнього члена групи"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1081
 msgid ""
@@ -11166,7 +11211,7 @@ msgstr ""
 "Максимальний час відповіді в сантисекундах, що вставляється в періодичні "
 "загальні запити. Змінюючи значення, адміністратор може налаштувати частоту "
 "передачі повідомлень IGMP у підмережі; більші значення роблять трафік менш "
-"інтенсивним, оскільки відповіді хоста розподіляються на більший інтервал"
+"інтенсивним, оскільки відповіді вузла розподіляються на більший інтервал"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:917
 msgid ""
@@ -11182,7 +11227,7 @@ msgid "The netfilter components below are only regarded when running fw4."
 msgstr ""
 "Наведені нижче компоненти netfilter враховуються лише під час запуску fw4."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2263
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2264
 msgid "The network name is already used"
 msgstr "Назва мережі вже використовується"
 
@@ -11214,9 +11259,9 @@ msgid ""
 "This usually is a static public IP address, a static hostname or a DDNS "
 "domain."
 msgstr ""
-"Загальнодоступне ім’я хоста або IP-адреса цієї системи, до якої має "
+"Загальнодоступне імʼя вузла або IP-адреса цієї системи, до якої має "
 "підключитися одноранговий вузол. Зазвичай це статична загальнодоступна IP-"
-"адреса, статичне ім’я хоста або домен DDNS."
+"адреса, статичне імʼя вузла або домен DDNS."
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:235
 msgid "The public key for your Yggdrasil node"
@@ -11262,7 +11307,7 @@ msgstr "Поданий маркер безпеки недійсний або в�
 msgid "The syslog output, pre-filtered for messages related to:"
 msgstr ""
 "Висновок системного журналу, попередньо відфільтрований для повідомлень, "
-"пов’язаних із:"
+"повʼязаних із:"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:98
 msgid ""
@@ -11281,8 +11326,8 @@ msgid ""
 msgstr ""
 "Система перепрошивається.<br /> <strong>НЕ ВИМИКАЙТЕ ЖИВЛЕННЯ ПРИСТРОЮ!</"
 "strong><br /> Зачекайте кілька хвилин перед тим, як пробувати знову "
-"під'єднатися. Залежно від налаштувань, можливо, треба буде оновити адресу "
-"вашого комп'ютера, щоб знову отримати доступ до пристрою."
+"підʼєднатися. Залежно від налаштувань, можливо, треба буде оновити адресу "
+"вашого компʼютера, щоб знову отримати доступ до пристрою."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:163
 msgid ""
@@ -11307,10 +11352,10 @@ msgid ""
 "directives are used in preference to untagged ones. Note that one of mac, "
 "duid or hostname still needs to be specified (can be a wildcard)."
 msgstr ""
-"Конструкція тегу фільтрує, які директиви хоста використовуються; можна "
+"Конструкція тегу фільтрує, які директиви вузла використовуються; можна "
 "надати більше ніж один тег, у цьому випадку запит повинен відповідати всім. "
 "Директиви з тегами використовуються на перевагу перед директивами без тегів. "
-"Зверніть увагу, що одне з mac, duid або ім’я хоста все одно потрібно вказати "
+"Зверніть увагу, що одне з mac, duid або імʼя вузла все одно потрібно вказати "
 "(може бути символом підстановки)."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:120
@@ -11320,16 +11365,16 @@ msgid ""
 "\"Cancel\" to abort the operation."
 msgstr ""
 "Відвантажений резервний архів видається дійсним і містить перелічені нижче "
-"файли. Натисніть \"Продовжити\", щоб відновити резервну копію та виконати "
-"перезавантаження, або \"Скасувати\", щоб перервати операцію."
+"файли. Натисніть «Продовжити», щоб відновити резервну копію та виконати "
+"перезавантаження, або «Скасувати», щоб перервати операцію."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:115
 msgid "The uploaded backup archive is not readable"
-msgstr "Відвантажений архів резервної копії не читається"
+msgstr "Вивантажений архів резервної копії не читається"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:251
 msgid "The uploaded firmware does not allow keeping current configuration."
-msgstr "Відвантажена прошивка не дозволить зберегти поточну конфігурацію."
+msgstr "Вивантажена прошивка не дозволить зберегти поточну конфігурацію."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:246
 msgid ""
@@ -11415,8 +11460,8 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:108
 msgid "This is only used if no default route matches the destination gateway"
 msgstr ""
-"Це використовується, лише якщо жоден маршрут за замовчуванням не відповідає "
-"шлюзу призначення"
+"Це використовується, лише якщо жоден типовий маршрут не відповідає шлюзу "
+"призначення"
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_hardif.js:42
 msgid ""
@@ -11433,7 +11478,7 @@ msgstr ""
 "хочете спрямувати сітчастий трафік через дротовий мережевий пристрій, "
 "виберіть його в переліку пристроїв вище. Якщо ви хочете призначити інтерфейс "
 "batman-adv для мережі Wi-Fi, не вибирайте пристрій у селекторі пристроїв, а "
-"перейдіть до налаштувань бездротового зв’язку та виберіть звідти цей "
+"перейдіть до налаштувань бездротового звʼязку та виберіть звідти цей "
 "інтерфейс як мережу."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:116
@@ -11460,7 +11505,7 @@ msgstr ""
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6in4.js:73
 msgid "This is the plain username for logging into the account"
-msgstr "Це звичайне ім'я користувача для входу до облікового запису"
+msgstr "Це звичайне імʼя користувача для входу до облікового запису"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6in4.js:57
 msgid ""
@@ -11497,7 +11542,7 @@ msgstr "Цей ключ, схоже, не має формату PEM, який п
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:267
 msgid "This key is protected and cannot be deleted."
-msgstr ""
+msgstr "Цей ключ захищено й не може бути видалений."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:65
 msgid ""
@@ -11601,7 +11646,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1052
 msgid "Timeout in seconds until topology updates on link loss"
-msgstr "Тайм-аут в секундах до оновлення топології при втраті зв’язку"
+msgstr "Тайм-аут в секундах до оновлення топології при втраті звʼязку"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:145
 msgid "Timezone"
@@ -11626,8 +11671,7 @@ msgid ""
 msgstr ""
 "Щоб відновити файли конфігурації, ви можете завантажити раніше створений "
 "архів резервної копії. Для відновлення прошивки до її початкового стану "
-"натисніть кнопку \"Виконати відновлення\" (можливо тільки з образами "
-"SquashFS)."
+"натисніть кнопку «Виконати відновлення» (можливо тільки з образами SquashFS)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1681
 msgid "Tone"
@@ -11639,7 +11683,7 @@ msgstr "Усього доступно"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:347
 msgid "Trace"
-msgstr "Слід"
+msgstr "Трасування"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:110
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:111
@@ -11774,7 +11818,7 @@ msgstr "Тип"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:198
 msgid "Type of service"
-msgstr "Тип послуги"
+msgstr "Тип служби"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1630
 msgid "UDP Layer 3 Master Device (udp_l3mdev) accept"
@@ -11880,12 +11924,12 @@ msgstr "Не вдалося скинути лічильники iptables: %s"
 #: modules/luci-compat/luasrc/model/network/proto_4x6.lua:64
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dslite.js:7
 msgid "Unable to resolve AFTR host name"
-msgstr "Не вдалося розрізнити ім'я хоста AFTR"
+msgstr "Не вдалося розрізнити імʼя вузла AFTR"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:20
 #: modules/luci-compat/luasrc/model/network.lua:38
 msgid "Unable to resolve peer host name"
-msgstr "Не вдалося розрізнити ім'я хоста вузла"
+msgstr "Не вдалося розрізнити імʼя вузла"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:317
 msgid "Unable to restart firewall: %s"
@@ -12030,11 +12074,11 @@ msgstr "Одноліток без назви"
 
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:151
 msgid "Up"
-msgstr "Вгору"
+msgstr "Увімкнути"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4724
 msgid "Upload"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:443
 msgid ""
@@ -12046,29 +12090,29 @@ msgstr ""
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:169
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:414
 msgid "Upload archive..."
-msgstr "Відвантажити архів…"
+msgstr "Вивантажити архів…"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3236
 msgid "Upload file"
-msgstr "Відвантажити файл"
+msgstr "Вивантажити файл"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3211
 msgid "Upload file…"
-msgstr "Відвантажити файл…"
+msgstr "Вивантажити файл…"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4670
 msgid "Upload has been cancelled"
-msgstr "Завантаження скасовано"
+msgstr "Вивантаження скасовано"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3158
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4712
 msgid "Upload request failed: %s"
-msgstr "Не вдалося виконати запит на відвантаження: %s"
+msgstr "Не вдалося виконати запит на вивантаження: %s"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4631
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4685
 msgid "Uploading file…"
-msgstr "Відвантаження файлу…"
+msgstr "Вивантаження файлу…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:839
 msgid ""
@@ -12076,7 +12120,7 @@ msgid ""
 "assigned with a name in the form <em>wifinet#</em> and the network will be "
 "restarted to apply the updated configuration."
 msgstr ""
-"Після натискання \"Продовжити\" безіменним розділам \"wifi-iface\" будуть "
+"Після натискання «Продовжити» безіменним розділам \"wifi-iface\" будуть "
 "призначені назви у формі <em>wifinet#</em>, і мережу буде перезапущено для "
 "застосування оновленої конфігурації."
 
@@ -12100,7 +12144,7 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js:62
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:142
 msgid "Uptime"
-msgstr "Час безвідмовної роботи"
+msgstr "Час безперервної роботи"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:964
 msgid "Use Carrier"
@@ -12209,7 +12253,7 @@ msgstr "Використовувати таблицю маршрутизації
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:63
 msgctxt "nft nat flag persistent"
 msgid "Use same source and destination for each connection"
-msgstr "Використовувати те саме джерело та призначення для кожного з’єднання"
+msgstr "Використовувати те саме джерело та призначення для кожного зʼєднання"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1778
 msgid "Use system certificates"
@@ -12228,11 +12272,11 @@ msgid ""
 "standard host-specific lease time, e.g. 12h, 3d or infinite."
 msgstr ""
 "Скористайтеся кнопкою <em>Додати</em>, щоб додати новий запис про оренду. "
-"<em>MAC-адреса</em> визначає хост, <em>IPv4-адреса</em> визначає фіксовану "
-"адресу для використання, а <em>Ім’я хоста</em> призначається як символічне "
-"ім’я хосту, який запитує. Додатковий <em>Час оренди</em> можна "
+"<em>MAC-адреса</em> визначає вузол, <em>IPv4-адреса</em> визначає фіксовану "
+"адресу для використання, а <em>Імʼя вузла</em> призначається як символічне "
+"імʼя вузла, який запитує. Додатковий <em>Час оренди</em> можна "
 "використовувати для встановлення нестандартного часу оренди для конкретного "
-"хоста, напр. 12 годин, 3 дні або нескінченно."
+"вузла, наприклад 12 годин, 3 дні або нескінченно."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:626
 msgid "Use {etc_ethers}"
@@ -12253,7 +12297,7 @@ msgid ""
 "needed with normal WPA(2)-PSK."
 msgstr ""
 "Використовується для двох різних цілей: RADIUS NAS ID і 802.11r <abbr "
-"title=\"ідентифікатор власника ключа R0\">R0KH-ID</abbr>. Не потрібно зі "
+"title=«ідентифікатор власника ключа R0»>R0KH-ID</abbr>. Не потрібно зі "
 "звичайним WPA(2)-PSK."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:799
@@ -12285,7 +12329,7 @@ msgstr "Ключ користувача (PEM-кодований)"
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:56
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:13
 msgid "Username"
-msgstr "Ім'я користувача"
+msgstr "Імʼя користувача"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:132
 msgid "Utilize flow table <strong>%h</strong>"
@@ -12302,7 +12346,7 @@ msgstr "VDSL"
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:557
 msgctxt "MACVLAN mode"
 msgid "VEPA (Virtual Ethernet Port Aggregator)"
-msgstr "VEPA (Virtual Ethernet Port Aggregator)"
+msgstr "VEPA (Агрегатор віртуальних портів Ethernet)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:465
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1542
@@ -12400,7 +12444,7 @@ msgid ""
 "Validate server certificate using built-in system CA bundle,<br />requires "
 "the \"ca-bundle\" package"
 msgstr ""
-"Перевіряти сертифікат сервера з використанням вбудованої в'язки системних CA,"
+"Перевіряти сертифікат сервера з використанням вбудованої вʼязки системних CA,"
 "<br />потребує пакета \"ca-bundle\""
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:73
@@ -12419,7 +12463,7 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:198
 msgid "Verifying the uploaded image file."
-msgstr "Перевірка відвантаженого файлу образу."
+msgstr "Перевірка вивантаженого файлу образу."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1006
 msgid "Very High"
@@ -12465,7 +12509,7 @@ msgstr "Відкрита система WEP"
 msgid "WEP Shared Key"
 msgstr "Спільний ключ WEP"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "WEP passphrase"
 msgstr "Парольна фраза WEP"
 
@@ -12485,7 +12529,7 @@ msgstr "Режим сну WNM"
 msgid "WNM Sleep Mode Fixes"
 msgstr "Виправлення режиму сну WNM"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2272
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2273
 msgid "WPA passphrase"
 msgstr "Парольна фраза WPA"
 
@@ -12503,11 +12547,11 @@ msgstr "Статус WPS"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js:47
 msgid "Waiting for device..."
-msgstr "Очікуємо пристрій..."
+msgstr "Очікування пристрою…"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:344
 msgid "Warn"
-msgstr "Попередити"
+msgstr "Попередження"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:26
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:49
@@ -12519,7 +12563,8 @@ msgstr "Попередження"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js:26
 msgid "Warning: There are unsaved changes that will get lost on reboot!"
 msgstr ""
-"Застереження: Є незбережені зміни, які буде втрачено при перезавантаженні!"
+"Попередження: є незбережені зміни, які буде втрачено під час "
+"перезавантаження!"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js:37
 msgid "Weak"
@@ -12534,8 +12579,8 @@ msgid ""
 "When a host matches an entry then the special tag %s is set. Use %s to match "
 "all known hosts."
 msgstr ""
-"Коли хост відповідає запису, встановлюється спеціальний тег %s. "
-"Використовуйте %s для пошуку всіх відомих хостів."
+"Коли вузол відповідає запису, встановлюється спеціальний тег %s. "
+"Використовуйте %s для пошуку всіх відомих вузлів."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1155
 msgid ""
@@ -12551,7 +12596,7 @@ msgid ""
 "multiple frames into a single frame, thus reducing the needed air time."
 msgstr ""
 "Коли мережеве кодування ввімкнено, пропускна здатність Wi-Fi збільшується "
-"шляхом об’єднання кількох кадрів в один кадр, таким чином зменшуючи "
+"шляхом обʼєднання кількох кадрів в один кадр, таким чином зменшуючи "
 "необхідний час ефіру."
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:76
@@ -12580,7 +12625,7 @@ msgid ""
 msgstr ""
 "Якщо ввімкнено, нові записи таблиці ARP додаються з отриманих безоплатних "
 "запитів або відповідей ARP, інакше оновлюються лише попередні записи "
-"таблиці, але нові хости не вивчаються."
+"таблиці, але нові вузли не вивчаються."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/heartbeat.js:14
 msgid ""
@@ -12588,7 +12633,7 @@ msgid ""
 "off by default and blinking on system activity."
 msgstr ""
 "У перевернутому стані світлодіод горить безперервно та блимає замість того, "
-"щоб бути вимкненим за замовчуванням і блимати під час активності системи."
+"щоб бути вимкненим типово і блимати під час активності системи."
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:66
 msgid ""
@@ -12696,7 +12741,7 @@ msgstr "Бездротову мережу вимкнено"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:185
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:153
 msgid "Wireless is not associated"
-msgstr "Бездротову мережу не пов'язано"
+msgstr "Бездротову мережу не повʼязано"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:984
 msgid "Wireless network is disabled"
@@ -12708,7 +12753,7 @@ msgstr "Бездротову мережу ввімкнено"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1933
 msgid "Workaround mode can only be used when acting as an access point."
-msgstr "Режим обходу можна використовувати лише в якості точки доступу."
+msgstr "Режим обходу можна використовувати лише як точка доступу."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:438
 msgid "Write received DNS queries to syslog."
@@ -12845,7 +12890,7 @@ msgstr "між:"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1755
 msgid "bridged"
-msgstr "з'єд. мостом"
+msgstr "зʼєд. мостом"
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:163
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:427
@@ -12865,7 +12910,7 @@ msgid ""
 "are prefixed with %s)."
 msgstr ""
 "користувацький: використовуйте різні параметри під час встановлення "
-"з’єднання (ці параметри мають префікс %s)."
+"зʼєднання (ці параметри мають префікс %s)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:44
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:46
@@ -12912,8 +12957,8 @@ msgstr "день"
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:164
 msgid "default: Use the configuration options above (APN, IP Type, ...)."
 msgstr ""
-"за замовчуванням: використовуйте наведені вище параметри конфігурації (APN, "
-"тип IP-адреси, ...)."
+"типово: використовуйте наведені вище параметри конфігурації (APN, тип IP-"
+"адреси, …)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1146
 msgid "disable"
@@ -12946,23 +12991,23 @@ msgstr "типово для драйвера"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1226
 msgid "driver default (%s)"
-msgstr "драйвер за замовчуванням (%s)"
+msgstr "драйвер типово (%s)"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:70
 msgid "e.g: --proxy 10.10.10.10"
-msgstr "напр.: --proxy 10.10.10.10"
+msgstr "наприклад: --proxy 10.10.10.10"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:72
 msgid "e.g: dump"
-msgstr "напр.: падіння"
+msgstr "наприклад: дамп"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:157
 msgid "enabled"
-msgstr "включено"
+msgstr "увімкнено"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:748
 msgid "enabled (default)"
-msgstr "увімкнено (за замовчуванням)"
+msgstr "увімкнено (типово)"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:60
 msgctxt "WireGuard keep alive interval"
@@ -12978,7 +13023,7 @@ msgstr "минув"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:211
 msgid "facility:"
-msgstr "об'єкт:"
+msgstr "обʼєкт:"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:19
 msgctxt "DHCPv6 address request mode"
@@ -13009,7 +13054,7 @@ msgstr "напівдуплекс"
 msgid "hexadecimal encoded value"
 msgstr "шістнадцяткове кодоване значення"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2044
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2045
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/channel_analysis.js:374
 msgid "hidden"
 msgstr "приховано"
@@ -13077,11 +13122,15 @@ msgstr "l3miss: промах шару 3"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:826
 msgid "managed config (M)"
-msgstr "managed config (M)"
+msgstr "керована конфігурація (M)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1469
 msgid "medium security"
 msgstr "середній рівень безпеки"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:138
+msgid "milliseconds"
+msgstr "мілісекунди"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:75
 msgctxt "nft unit"
@@ -13094,7 +13143,7 @@ msgstr "хв"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:830
 msgid "mobile home agent (H)"
-msgstr "mobile home agent (H)"
+msgstr "мобільний домашній агент (H)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:47
 msgid "no"
@@ -13104,7 +13153,7 @@ msgstr "ні"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:76
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:236
 msgid "no link"
-msgstr "нема з'єднання"
+msgstr "нема зʼєднання"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1226
 msgid "no override"
@@ -13123,12 +13172,11 @@ msgstr "непусте значення"
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:56
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:60
 msgid "none"
-msgstr "жодного"
+msgstr "немає"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:163
 msgid "none: Do not set an initial EPS bearer (default behaviour)"
-msgstr ""
-"немає: не встановлювати початковий носій EPS (поведінка за замовчуванням)"
+msgstr "немає: не встановлювати початковий носій EPS (типова поведінка)"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:41
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:55
@@ -13157,7 +13205,7 @@ msgstr "відкрита мережа"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:828
 msgid "other config (O)"
-msgstr "other config (O)"
+msgstr "інша конфігурація (O)"
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:85
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:46
@@ -13194,7 +13242,7 @@ msgid ""
 "reduces overhead by collecting and aggregating originator messages in a "
 "single packet rather than many small ones"
 msgstr ""
-"зменшує накладні витрати, збираючи та об’єднуючи повідомлення відправника в "
+"зменшує накладні витрати, збираючи та обʼєднуючи повідомлення відправника в "
 "один пакет, а не в багато маленьких"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:800
@@ -13393,7 +13441,7 @@ msgstr "дійсний діапазон адрес IPv6"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:360
 msgid "valid IPv6 host id"
-msgstr "дійсний IPv6-ідентифікатор хоста"
+msgstr "дійсний IPv6-ідентифікатор вузла"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:375
 msgid "valid IPv6 network"
@@ -13413,7 +13461,7 @@ msgstr "дійсний UCI-ідентифікатор"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:436
 msgid "valid UCI identifier, hostname or IP address range"
-msgstr "дійсний UCI-ідентифікатор, ім'я хоста або IP-адреса"
+msgstr "дійсний UCI-ідентифікатор, імʼя вузла або IP-адреса"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:457
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:460
@@ -13443,7 +13491,7 @@ msgstr "дійсний шістнадцятковий ключ WPA"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:442
 msgid "valid host:port"
-msgstr "дійсне ім'я хоста:порт"
+msgstr "дійсне імʼя вузла:порт"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:429
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:431
@@ -13451,11 +13499,11 @@ msgstr "дійсне ім'я хоста:порт"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:149
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:177
 msgid "valid hostname"
-msgstr "дійсне ім'я хоста"
+msgstr "дійсне імʼя вузла"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:419
 msgid "valid hostname or IP address"
-msgstr "дійсне ім'я хоста або IP-адреса"
+msgstr "дійсне імʼя вузла або IP-адреса"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:264
 msgid "valid integer value"

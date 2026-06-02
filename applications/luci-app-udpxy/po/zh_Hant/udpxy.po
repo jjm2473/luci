@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-28 09:36+0000\n"
-"Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-04-13 14:31+0000\n"
+"Last-Translator: ZW <roc_fe@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsudpxy/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:207
 msgid "-1 is all."
@@ -67,7 +67,7 @@ msgstr "傳入緩衝大小"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:201
 msgid "Log file"
-msgstr "日誌檔案"
+msgstr "紀錄檔案"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:186
 msgid "Multicast subscribe Source Network"
@@ -123,7 +123,7 @@ msgid ""
 "udpxy is an IPTV stream relay, a UDP-to-HTTP multicast traffic relay daemon "
 "which forwards multicast UDP streams to HTTP clients."
 msgstr ""
-"udpxy 是個 IPTV 串流中繼，一個 UDP-to-HTTP 多播流量中繼守護程式，將多播 UDP "
+"udpxy 是個 IPTV 串流中繼，一個 UDP-to-HTTP 多播流量中繼常駐程式，將多播 UDP "
 "串流轉送至 HTTP 用戶端。"
 
 #: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:39
