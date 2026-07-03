@@ -786,6 +786,14 @@ return view.extend({
 		o.optional = true;
 		o.placeholder = '64.94.110.11';
 
+		o = s.taboption('devices', form.DynamicList, 'listen_address',
+			_('Listen addresses'),
+			_('Listen only on specific addresses, is useful when creating multiple DNS servers on the same host.') + '<br />' +
+			_('If this parameter is configured, the loopback address will not be listened to unless explicitly specified.')
+		);
+		o.optional = true;
+		o.placeholder = '127.0.0.53';
+
 		o = s.taboption('devices', form.Value, 'port',
 			_('DNS server port'),
 			_('Listening port for inbound DNS queries.'));
