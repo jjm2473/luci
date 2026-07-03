@@ -6047,6 +6047,16 @@ msgid ""
 "explicitly."
 msgstr "仅监听这些接口和环回接口。"
 
+msgid ""
+"Listen only on specific addresses, is useful when creating multiple DNS "
+"servers on the same host."
+msgstr "只监听特定地址，对于在同一主机上创建多个 DNS 服务时很有用。"
+
+msgid ""
+"If this parameter is configured, the loopback address will not be listened "
+"to unless explicitly specified."
+msgstr "如果配置了此参数则默认不监听环回地址，除非显式指定。"
+
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:292
 msgid "Listen to multicast beacons"
 msgstr "监听组播信标"
