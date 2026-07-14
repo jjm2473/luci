@@ -7169,6 +7169,10 @@ msgstr ""
 msgid "Mount filesystems not specifically configured"
 msgstr ""
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:158
+msgid "Mount filesystems not specifically configured, mount point based on connected port"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:311
 msgid "Mount options"
 msgstr ""
@@ -8737,6 +8741,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:276
 msgid "Port status:"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:158
+msgid "Port-based Anonymous Mount"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:970
@@ -12286,6 +12294,10 @@ msgstr ""
 msgid "Use as root filesystem (/)"
 msgstr ""
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:294
+msgid "Use as sandbox (/overlay)"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:34
 msgid "Use broadcast flag"
 msgstr ""
@@ -13705,4 +13717,16 @@ msgstr ""
 
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:20
 msgid "« Back"
+msgstr ""
+
+msgid "Essential mount point"
+msgstr ""
+
+msgid "Wait for this mount point ready before running other applications (set timeout in \"Global Settings\")"
+msgstr ""
+
+msgid "Essential mount point timeout"
+msgstr ""
+
+msgid "Timeout for all \"Essential mount point\" (in seconds, default 5s)"
 msgstr ""

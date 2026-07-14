@@ -1110,6 +1110,9 @@ msgstr "Mac 地址"
 msgid "Manage and view container configuration"
 msgstr "管理和查看容器配置"
 
+msgid "Max Concurrent Downloads"
+msgstr "最大下载线程数"
+
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container.js:739
 msgid "Mem Stats"
 msgstr "内存数据"
@@ -1703,6 +1706,9 @@ msgstr "设置容器内环境变量"
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/configuration.js:72
 msgid "Set the logging level"
 msgstr "设置日志记录级别"
+
+msgid "Set threads for docker pull, 0 means default"
+msgstr "设置拉取镜像的线程数，0表示默认"
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/configuration.js:95
 msgid ""

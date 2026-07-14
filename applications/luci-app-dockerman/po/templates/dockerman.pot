@@ -2289,3 +2289,9 @@ msgstr ""
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:991
 msgid "with warnings"
 msgstr ""
+
+msgid "Max Concurrent Downloads"
+msgstr ""
+
+msgid "Set threads for docker pull, 0 means default"
+msgstr ""
