@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:41+0200\n"
-"PO-Revision-Date: 2026-05-18 07:48+0000\n"
+"PO-Revision-Date: 2026-07-07 08:46+0000\n"
 "Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/luci/es/"
 ">\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.6.dev0\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1330
 msgid "!known (not known)"
@@ -64,7 +64,7 @@ msgstr ""
 "%s añade las subredes /24 y /96 del solicitante para solicitantes de IPv4 y "
 "IPv6, respectivamente."
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:311
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:314
 msgid ""
 "%s is an independent project that aims to reduce latency of a connection "
 "over Yggdrasil network transparently, utilizing NAT traversal to bypass "
@@ -886,7 +886,7 @@ msgstr ""
 "Añade el sufijo de dominio local a los nombres servidos desde el archivo de "
 "hosts."
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:283
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:285
 msgid "Add multicast rule"
 msgstr "Añadir regla multicast"
 
@@ -953,7 +953,7 @@ msgstr "Añadir una IPv6 a un conjunto IPv4 y viceversa falla silenciosamente."
 msgid "Additional Peers"
 msgstr "Pares adicionales"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:376
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:379
 msgid "Additional configuration settings (in TOML format)."
 msgstr "Ajustes de configuración adicionales (en formato TOML)."
 
@@ -1097,7 +1097,7 @@ msgstr ""
 msgid "Allocate IPs sequentially"
 msgstr "Asignar IPs secuencialmente"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:355
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:358
 msgid "Allocate listen addresses"
 msgstr "Asignar direcciones de escucha"
 
@@ -1112,7 +1112,7 @@ msgid "Allow AP mode to disconnect STAs based on low ACK condition"
 msgstr ""
 "Permitir que el modo AP desconecte a las estaciones con una baja tasa de ACK"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:356
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:359
 msgid ""
 "Allow Yggdrasil Jumper to configure Yggdrasil with proper listen address and "
 "random port automatically."
@@ -1431,7 +1431,7 @@ msgstr "Autoritativo"
 msgid "Authorization Required"
 msgstr "Autorización requerida"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:365
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:368
 msgid "Autofill listen addresses"
 msgstr "Autocompletar direcciones de escucha"
 
@@ -2625,7 +2625,7 @@ msgstr "Datos transmitidos"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:186
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:199
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:159
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:346
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:349
 msgid "Debug"
 msgstr "Depuración"
 
@@ -2849,7 +2849,7 @@ msgid "Device unreachable! Still waiting for device..."
 msgstr "¡Dispositivo inalcanzable! Todavía esperando al dispositivo..."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1378
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:287
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:289
 msgid "Devices"
 msgstr "Dispositivos"
 
@@ -3542,7 +3542,7 @@ msgstr "Activar funcionalidad VLAN"
 msgid "Enable WPS pushbutton, requires WPA(2)-PSK/WPA3-SAE"
 msgstr "Activar botón WPS, requiere WPA(2)-PSK/WPA3-SAE"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:319
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:322
 msgid "Enable Yggdrasil Jumper"
 msgstr "Activar Yggdrasil Jumper"
 
@@ -3787,7 +3787,7 @@ msgstr "Borrando..."
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:48
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:190
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:156
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:343
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:346
 msgid "Error"
 msgstr "Error"
 
@@ -3960,7 +3960,7 @@ msgstr "Registro DHCP adicional"
 msgid "Extra SSH command options"
 msgstr "Opciones de comando SSH adicionales"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:375
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:378
 msgid "Extra config"
 msgstr "Configuración extra"
 
@@ -4570,89 +4570,88 @@ msgstr "Ir a la página de configuración relevante"
 
 #: modules/luci-mod-network/root/usr/share/rpcd/acl.d/luci-mod-network.json:38
 msgid "Grant access to DHCP configuration"
-msgstr "Permitir el acceso a la configuración de DHCP"
+msgstr "Conceder acceso a la configuración de DHCP"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status-index.json:33
 msgid "Grant access to DHCP status display"
-msgstr "Permitir el acceso a la pantalla de estado de DHCP"
+msgstr "Conceder acceso a la pantalla de estado de DHCP"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status-index.json:42
 msgid "Grant access to DSL status display"
-msgstr "Permitir el acceso a la pantalla de estado de DSL"
+msgstr "Conceder acceso a la pantalla de estado de DSL"
 
 #: protocols/luci-proto-openconnect/root/usr/share/rpcd/acl.d/luci-openconnect.json:3
 msgid "Grant access to LuCI OpenConnect procedures"
-msgstr "Permitir el acceso a los procedimientos de OpenConnect de LuCI"
+msgstr "Conceder acceso a los procedimientos de OpenConnect de LuCI"
 
 #: protocols/luci-proto-wireguard/root/usr/share/rpcd/acl.d/luci-wireguard.json:3
 msgid "Grant access to LuCI Wireguard procedures"
-msgstr "Permitir el acceso a los procedimientos de Wireguard de LuCI"
+msgstr "Conceder acceso a los procedimientos Wireguard de LuCI"
 
 #: protocols/luci-proto-yggdrasil/root/usr/share/rpcd/acl.d/luci-proto-yggdrasil.json:3
 msgid "Grant access to LuCI Yggdrasil procedures"
-msgstr "Permitir el acceso a los procedimientos Yggdrasil de LuCI"
+msgstr "Conceder acceso a los procedimientos Yggdrasil de LuCI"
 
 #: protocols/luci-proto-openfortivpn/root/usr/share/rpcd/acl.d/luci-openfortivpn.json:3
 msgid "Grant access to LuCI openfortivpn procedures"
-msgstr "Permitir el acceso a los procedimientos de openfortivpn de LuCI"
+msgstr "Conceder acceso a los procedimientos openfortivpn de LuCI"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:22
 msgid "Grant access to SSH configuration"
-msgstr "Permitir el acceso a la configuración de SSH"
+msgstr "Conceder acceso a la configuración de SSH"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:45
 msgid "Grant access to Software Repository Public Key management"
 msgstr ""
-"Permitir el acceso a la gestión de claves públicas del repositorio de "
-"software"
+"Conceder acceso a la gestión de claves públicas del repositorio de software"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status-index.json:23
 msgid "Grant access to Storage and Mount status display"
-msgstr "Permitir el acceso a la pantalla de estado de Almacenamiento y Montaje"
+msgstr "Conceder acceso a la pantalla de estado de Almacenamiento y Montaje"
 
 #: modules/luci-base/root/usr/share/rpcd/acl.d/luci-base.json:12
 msgid "Grant access to basic LuCI procedures"
-msgstr "Permitir el acceso a los procedimientos básicos de LuCI"
+msgstr "Conceder acceso a los procedimientos básicos de LuCI"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:94
 msgid "Grant access to crontab configuration"
-msgstr "Permitir el acceso a la configuración de crontab"
+msgstr "Conceder acceso a la configuración de crontab"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status.json:67
 msgid "Grant access to firewall status"
-msgstr "Permitir el acceso al estado del cortafuegos"
+msgstr "Conceder acceso al estado del cortafuegos"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:147
 msgid "Grant access to flash operations"
-msgstr "Permitir el acceso a las operaciones de flash"
+msgstr "Conceder acceso a las operaciones de flash"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status-index.json:3
 msgid "Grant access to main status display"
-msgstr "Permitir el acceso a la pantalla de estado principal"
+msgstr "Conceder acceso a la pantalla de estado principal"
 
 #: protocols/luci-proto-modemmanager/root/usr/share/rpcd/acl.d/luci-proto-modemmanager.json:3
 msgid "Grant access to mmcli"
-msgstr "Permitir el acceso a mmcli"
+msgstr "Conceder acceso a mmcli"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:115
 msgid "Grant access to mount configuration"
-msgstr "Permitir el acceso a la configuración de montaje"
+msgstr "Conceder acceso a la configuración de montaje"
 
 #: modules/luci-mod-network/root/usr/share/rpcd/acl.d/luci-mod-network.json:3
 msgid "Grant access to network configuration"
-msgstr "Permitir el acceso a la configuración de red"
+msgstr "Conceder acceso a la configuración de red"
 
 #: modules/luci-mod-network/root/usr/share/rpcd/acl.d/luci-mod-network.json:51
 msgid "Grant access to network diagnostic tools"
-msgstr "Permitir el acceso a las herramientas de diagnóstico de red"
+msgstr "Conceder acceso a las herramientas de diagnóstico de red"
 
 #: modules/luci-base/root/usr/share/rpcd/acl.d/luci-base.json:37
 msgid "Grant access to network status information"
-msgstr "Permitir el acceso a la información del estado de la red"
+msgstr "Conceder acceso a la información del estado de la red"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status-index.json:51
 msgid "Grant access to port status display"
-msgstr "Permitir el acceso a la visualización del estado del puerto"
+msgstr "Conceder acceso a la visualización del estado del puerto"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status.json:13
 msgid "Grant access to process status"
@@ -4664,31 +4663,31 @@ msgstr "Conceder acceso a las estadísticas en tiempo real"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status.json:44
 msgid "Grant access to routing status"
-msgstr "Otorgar acceso al estado de enrutamiento"
+msgstr "Conceder acceso al estado de enrutamiento"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:72
 msgid "Grant access to startup configuration"
-msgstr "Permitir el acceso a la configuración de inicio"
+msgstr "Conceder acceso a la configuración de inicio"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:3
 msgid "Grant access to system configuration"
-msgstr "Permitir el acceso a la configuración del sistema"
+msgstr "Conceder acceso a la configuración del sistema"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status.json:30
 msgid "Grant access to system logs"
-msgstr "Permitir el acceso a los registros del sistema"
+msgstr "Conceder acceso a los registros del sistema"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:61
 msgid "Grant access to uHTTPd configuration"
-msgstr "Permitir el acceso a la configuración de uHTTPd"
+msgstr "Conceder acceso a la configuración de uHTTPd"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status.json:58
 msgid "Grant access to wireless channel status"
-msgstr "Permitir el acceso al estado del canal del Wi-Fi"
+msgstr "Conceder acceso al estado del canal del Wi-Fi"
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status-index.json:60
 msgid "Grant access to wireless status display"
-msgstr "Permitir el acceso a la pantalla de estado del Wi-Fi"
+msgstr "Conceder acceso a la pantalla de estado del Wi-Fi"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:124
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:124
@@ -5506,7 +5505,7 @@ msgstr "Canal seleccionado solo para interiores"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:51
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:187
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:158
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:345
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:348
 msgid "Info"
 msgstr "Informe"
 
@@ -5855,7 +5854,7 @@ msgstr ""
 "Parece que está intentando instalar una imagen que no cabe en la memoria "
 "interna, ¡por favor, verifique el archivo de imagen!"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:312
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:315
 msgid ""
 "It periodically probes for active sessions and automatically establishes "
 "direct peerings over internet with remote nodes running Yggdrasil Jumper "
@@ -5887,7 +5886,7 @@ msgstr "Conectarse a: %q"
 msgid "Jump to rule"
 msgstr "Saltar a la regla"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:303
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:306
 msgid "Jumper"
 msgstr "Jumper"
 
@@ -6273,7 +6272,7 @@ msgstr ""
 "Escucha solo en las interfaces especificadas y en la interfaz de bucle local "
 "(loopback) si no se excluye explícitamente."
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:292
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:295
 msgid "Listen to multicast beacons"
 msgstr "Escuchar las balizas de multidifusión"
 
@@ -6484,7 +6483,7 @@ msgstr "Iniciar sesión"
 msgid "Log in…"
 msgstr "Iniciar sesión…"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:340
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:343
 msgid "Log level"
 msgstr "Nivel de registro"
 
@@ -7090,7 +7089,7 @@ msgstr "Modo de multidifusión"
 msgid "Multicast routing"
 msgstr "Enrutamiento de multidifusión"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:281
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:283
 msgid "Multicast rules"
 msgstr "Reglas de multidifusión"
 
@@ -7689,7 +7688,7 @@ msgstr "Obtener dirección IPv6"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/none.js:19
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:87
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:342
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:345
 msgid "Off"
 msgstr "Apagado"
 
@@ -8342,7 +8341,7 @@ msgstr "Traspasar (Duplicar dispositivo físico a una sola MAC VLAN)"
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:146
 #: protocols/luci-proto-openfortivpn/htdocs/luci-static/resources/protocol/openfortivpn.js:103
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:58
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:298
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:301
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:19
 msgid "Password"
 msgstr "Contraseña"
@@ -8489,7 +8488,7 @@ msgstr "Direcciones del par"
 msgid "Peer device name"
 msgstr "Nombre del dispositivo del par"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:279
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:280
 msgid "Peer interface"
 msgstr "Interfaz del par"
 
@@ -8589,7 +8588,7 @@ msgstr "Política: <strong>%h</strong> (%h)"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:31
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:223
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:223
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:294
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:297
 msgid "Port"
 msgstr "Puerto"
 
@@ -8888,7 +8887,7 @@ msgstr "Tiempo de vida de la clave R0"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1700
 msgid "R1 Key Holder"
-msgstr "Llavero R1"
+msgstr "Titular de la clave R1"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1529
 msgid "RADIUS Access-Request attributes"
@@ -9491,7 +9490,7 @@ msgstr "Restaurar"
 msgid "Restore backup"
 msgstr "Restaurar respaldo"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:366
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:369
 msgid ""
 "Retrieve the listener addresses from the Yggdrasil interface configuration."
 msgstr ""
@@ -9610,7 +9609,7 @@ msgstr "Round robin"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:644
 msgid "Route Allowed IPs"
-msgstr "IPs permitidas en la ruta"
+msgstr "Enrutar las IP permitidas"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:535
 msgid "Route action chain \"%h\""
@@ -9923,7 +9922,7 @@ msgstr ""
 "Enviar peticiones echo LCP cada intervalo de segundos dado, solo efectivo "
 "usado conjuntamente con el umbral de fallo"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:290
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:293
 msgid "Send multicast beacon"
 msgstr "Enviar baliza multicast"
 
@@ -11039,7 +11038,7 @@ msgstr ""
 "ninguna parte pero aún marca la solicitud para que ningún servidor de "
 "nombres ascendente añada información de la dirección del cliente."
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:320
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:323
 msgid ""
 "The checkbox cannot be modified unless the <code>yggdrasil-jumper</code> "
 "package is installed."
@@ -11725,7 +11724,7 @@ msgstr "Tono"
 msgid "Total Available"
 msgstr "Total disponible"
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:347
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:350
 msgid "Trace"
 msgstr "Rastro"
 
@@ -12316,13 +12315,12 @@ msgid ""
 "the requesting host. The optional <em>Lease time</em> can be used to set non-"
 "standard host-specific lease time, e.g. 12h, 3d or infinite."
 msgstr ""
-"Utilice el botón <em>Añadir</em> para agregar una entrada de asignación "
-"nueva. La <em>Dirección MAC</em> identifica el host, la <em>Dirección IPv4</"
-"em> especifica la dirección fija a utilizar y <em>Nombre de host</em> se "
-"asigna como nombre simbólico a el anfitrión solicitante. El parámetro "
-"opcional <em>Tiempo de asignación</em> se puede utilizar para establecer un "
-"tiempo de arrendamiento no estándar específico del host, p.e., 12 h, 3 días "
-"o infinito."
+"Utilice el botón <em>Añadir</em> para agregar una nueva asignación. La "
+"<em>Dirección MAC</em> identifica al host, la <em>Dirección IPv4</em> "
+"especifica la dirección fija que se debe utilizar, y el <em>Nombre de host</"
+"em> se asigna como nombre simbólico al host solicitante. El parámetro "
+"opcional <em>Tiempo de asignación</em> permite establecer un tiempo de "
+"asignación específico para el host, por ejemplo 12 h, 3 d o infinito."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:626
 msgid "Use {etc_ethers}"
@@ -12585,8 +12583,8 @@ msgid ""
 "WPA-Encryption requires wpa_supplicant (for client mode) or hostapd (for AP "
 "and ad-hoc mode) to be installed."
 msgstr ""
-"Para el cifrado WPA se necesita que estén instalados «wpa_supplicant» para "
-"el modo cliente y/o \"hostapd\" para los modos AP y ad-hoc."
+"El cifrado WPA requiere tener instalado «wpa_supplicant» (para el modo "
+"cliente) o «hostapd» (para los modos AP y ad‑hoc)."
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:154
 msgid "WPS status"
@@ -12596,7 +12594,7 @@ msgstr "Estado de WPS"
 msgid "Waiting for device..."
 msgstr "Esperando al dispositivo..."
 
-#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:344
+#: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:347
 msgid "Warn"
 msgstr "Advertir"
 
