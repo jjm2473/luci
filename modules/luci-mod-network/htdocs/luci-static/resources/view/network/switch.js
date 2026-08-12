@@ -117,6 +117,7 @@ const callSwconfigPortState = rpc.declare({
 
 return view.extend({
 	load() {
+		return new Promise(function(resolve) { setTimeout(resolve, 500); }).then(function() {
 		return network.getSwitchTopologies().then(function(topologies) {
 			const tasks = [];
 
@@ -130,6 +131,7 @@ return view.extend({
 			}
 
 			return Promise.all(tasks).then(function() { return topologies });
+		});
 		});
 	},
 
