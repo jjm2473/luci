@@ -397,7 +397,7 @@ const methods = {
 	getSwconfigPortState: {
 		args: { switch: 'switch0' },
 		call: function(request) {
-			const swc = popen(`swconfig dev ${shellquote(request.args.switch)} show 2>/dev/null`);
+			const swc = popen(`swconfig dev ${shellquote(request.args.switch)} ports show 2>/dev/null`);
 
 			if (swc) {
 				let ports = [], port;
