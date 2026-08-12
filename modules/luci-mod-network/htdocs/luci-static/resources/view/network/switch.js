@@ -324,6 +324,9 @@ return view.extend({
 					}
 				}
 
+				if (feat.vlan4k_option)
+					uci.set('network', sid, feat.vlan4k_option, '1');
+
 				uci.set('network', section_id, 'ports', values.join(' '));
 
 				return form.Value.prototype.write.apply(this, [section_id, value]);
