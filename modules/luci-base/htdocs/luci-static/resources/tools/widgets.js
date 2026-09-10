@@ -388,10 +388,12 @@ const CBIIPSelect = form.ListValue.extend({
 		const choices = {};
 		const checked = {};
 
-		for (const val of values)
-			checked[val] = true;
+		if (!this.loopback) {
+			for (const val of values)
+				checked[val] = true;
 
-		values = [];
+			values = [];
+		}
 
 		if (!this.multiple && (this.rmempty || this.optional))
 			choices[''] = E('em', _('unspecified'));
@@ -411,9 +413,19 @@ const CBIIPSelect = form.ListValue.extend({
 
 			for (const ip of [...device.getIPAddrs(), ...device.getIP6Addrs()]) {
 				const iponly = ip.split('/')?.[0]
-				if (checked[iponly])
+				if (!this.loopback && checked[iponly])
 					values.push(iponly);
 				choices[iponly] = this.renderIfaceBadge(device, iponly);
+			}
+		}
+
+		if (this.loopback) {
+			for (const val of values) {
+				if (val == '0.0.0.0' || val == '::1' || val.startsWith('127.')) {
+					if (choices.hasOwnProperty(val))
+						continue;
+					choices[val] = val;
+				}
 			}
 		}
 
@@ -428,7 +440,7 @@ const CBIIPSelect = form.ListValue.extend({
 			dropdown_items: this.dropdown_size || this.size || 5,
 			datatype: this.multiple ? 'list(ipaddr)' : 'ipaddr',
 			validate: L.bind(this.validate, this, section_id),
-			create: false,
+			create: this.loopback,
 		});
 
 		return widget.render();
