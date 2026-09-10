@@ -439,6 +439,7 @@ return view.extend({
 		o = s.taboption('devices', widgets.IPSelect, 'listen_address',
 			_('Listen addresses'),
 			_('Listen only on the specified addresses.'));
+		o.loopback = true;
 		o.multiple = true;
 
 		o = s.taboption('devices', widgets.NetworkSelect, 'notinterface',
