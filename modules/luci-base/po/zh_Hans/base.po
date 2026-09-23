@@ -580,6 +580,46 @@ msgstr "<br/>"
 msgid "<em>Add</em>"
 msgstr "<em>添加</em>"
 
+#: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:43
+msgid ""
+"<em>Automatic</em> uses the client ID configured below, else the default "
+"DUID of this device, else a DUID-LL derived from the MAC address of this "
+"interface."
+msgstr ""
+"<em>自动</em> 使用下方配置的客户端 ID,或者此设备的默认 DUID,或者衍生自该接口 "
+"MAC 地址的 DUID−LL。"
+
+#: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:39
+msgid ""
+"<em>Automatic</em> uses the client ID configured below, else the default "
+"DUID of this device, else the MAC address of this interface."
+msgstr ""
+"<em>自动</em> 使用下方配置的客户端 ID,或者此设备的默认 DUID,或者该接口 MAC 地"
+"址。"
+
+#: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:40
+#: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:44
+msgid ""
+"<em>Default DUID</em> always uses the default DUID of this device, even if a "
+"client ID is configured below."
+msgstr ""
+"即使在下方配置了客户端 ID, <em>默认 DUID</em> 也始终使用该设备的默认 DUID。"
+
+#: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:45
+msgid ""
+"<em>Hardware address</em> always uses a DUID-LL derived from the MAC address "
+"of this interface."
+msgstr "<em>硬件地址</em> 始终使用衍生自该接口 MAC地址的 DUID−LL。"
+
+#: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:41
+msgid ""
+"<em>Hardware address</em> always uses the MAC address of this interface."
+msgstr "<em>硬件地址</em> 始终使用该接口的 MAC 地址。"
+
+#: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:42
+msgid "<em>None</em> sends no client identifier at all."
+msgstr "<em>None</em> 完全不发送客户端标识符。"
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:93
 msgctxt "nft relational \">\" operator expression"
 msgid "<var>%s</var> greater than <strong>%s</strong>"
@@ -4951,6 +4991,11 @@ msgstr "移交"
 msgid "Hang Up"
 msgstr "挂起"
 
+#: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:45
+#: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:48
+msgid "Hardware address"
+msgstr "硬件地址"
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/heartbeat.js:6
 msgid "Heartbeat interval (kernel: heartbeat)"
 msgstr "心跳闪烁（kernel: heartbeat）"
@@ -9043,6 +9088,11 @@ msgstr "首选 LTE"
 msgid "Prefer UMTS"
 msgstr "首选 UMTS"
 
+#: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:37
+#: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:41
+msgid "Preferred client ID"
+msgstr "首选的客户端 ID"
+
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:108
 msgid "Preferred network technology"
 msgstr "首选的网络技术"
@@ -10350,6 +10400,19 @@ msgstr "选择目录…"
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3581
 msgid "Select file…"
 msgstr "选择文件…"
+
+#: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:42
+msgid ""
+"Selects the <abbr title=\"DHCP Unique Identifier\">DUID</abbr> to send when "
+"requesting DHCPv6."
+msgstr ""
+"选择请求 DHCPv6 时要发送的 <abbr title=\"DHCP Unique Identifier\">DUID</"
+"abbr>。"
+
+#: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:38
+msgid ""
+"Selects the client identifier (DHCP option 61) to send when requesting DHCP."
+msgstr "选择请求 DHCP 时要发送的客户端标识符 （DHCP option 61）。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:874
 msgid ""
