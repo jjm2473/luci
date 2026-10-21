@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-04-25 03:12+0000\n"
+"PO-Revision-Date: 2026-08-16 22:03+0000\n"
 "Last-Translator: SnIPeRSnIPeR "
 "<snipersniper@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 2026.9.dev0\n"
 
 #: applications/luci-app-lxc/htdocs/luci-static/resources/view/lxc/overview.js:454
 msgid ""
@@ -137,9 +137,9 @@ msgstr ""
 #: applications/luci-app-lxc/htdocs/luci-static/resources/view/lxc/overview.js:466
 #: applications/luci-app-lxc/htdocs/luci-static/resources/view/lxc/overview.js:485
 msgid "Name"
-msgstr "Название"
+msgstr "Имя"
 
-#: applications/luci-app-lxc/root/usr/share/luci/menu.d/luci-app-lxc.json:16
+#: applications/luci-app-lxc/root/usr/share/luci/menu.d/luci-app-lxc.json:15
 msgid "Overview"
 msgstr "Обзор"
 

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-03-30 17:00+0200\n"
-"PO-Revision-Date: 2026-04-18 17:10+0000\n"
+"PO-Revision-Date: 2026-09-06 03:21+0000\n"
 "Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsfirewall/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 2026.9.1.dev0\n"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:48
 msgid ""
@@ -192,7 +192,7 @@ msgstr ""
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:181
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:113
 msgid "Advanced Settings"
-msgstr "Ajustes avanzados"
+msgstr "Configuración avanzada"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:281
 msgid "Allow \"invalid\" traffic"
@@ -456,7 +456,7 @@ msgstr "Cortafuegos - Reglas de tráfico"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:36
 msgid "Firewall - Zone Settings"
-msgstr "Cortafuegos - Ajustes de zonas"
+msgstr "Cortafuegos - Configuración de zonas"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:692
 msgid "Firewall configuration migration"
@@ -551,11 +551,11 @@ msgstr ""
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:112
 #: applications/luci-app-firewall/root/usr/share/luci/menu.d/luci-app-firewall.json:17
 msgid "General Settings"
-msgstr "Ajustes generales"
+msgstr "Configuración general"
 
 #: applications/luci-app-firewall/root/usr/share/rpcd/acl.d/luci-app-firewall.json:3
 msgid "Grant access to firewall configuration"
-msgstr "Conceder acceso a la configuración del Cortafuegos"
+msgstr "Conceder acceso a la configuración del cortafuegos"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:83
 msgid "Hardware based offloading for routing with/without NAT."
@@ -1171,11 +1171,11 @@ msgid ""
 "<em>not</em> imply a permission to forward from wan to lan as well."
 msgstr ""
 "Las opciones que se muestran a continuación controlan las políticas de "
-"reenvío entre esta zona (%s) y otras zonas. Las <em>Zonas de destino</em> "
-"cubren el tráfico reenviado que se origina en %q</strong>. Las <em>Zonas de "
-"origen</em> coinciden con el tráfico reenviado desde otras zonas "
-"<strong>dirigido a %q</strong>. La regla de reenvío es <em>unidireccionall</"
-"em>; p. ej., un reenvío de LAN a WAN <em>no</em> implica permiso para "
+"reenvío entre esta zona (%s) y otras zonas. Las <em>zonas de destino</em> "
+"cubren el tráfico reenviado <strong>que se origina en %q</strong>. Las "
+"<em>zonas de origen</em> corresponden al tráfico reenviado desde otras zonas "
+"<strong>dirigido a %q</strong>. La regla de reenvío es <em>unidireccional</"
+"em>; por ejemplo, un reenvío de LAN a WAN <em>no</em> implica permiso para "
 "reenviar también de WAN a LAN."
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:124
